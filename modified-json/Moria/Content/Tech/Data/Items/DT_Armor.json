@@ -10139,7 +10139,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Boots.Tier6",
+                      "UI.Armor.Boots.Tier2",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -10635,7 +10635,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Gloves.Tier6",
+                      "UI.Armor.Gloves.Tier2",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -11131,7 +11131,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Torso.Tier6",
+                      "UI.Armor.Torso.Tier2",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -11627,7 +11627,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Helmet.Tier6",
+                      "UI.Armor.Helmet.Tier2",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
