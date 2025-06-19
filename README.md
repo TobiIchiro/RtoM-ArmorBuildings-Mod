@@ -15,8 +15,8 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 | --- | --- | --- |
 | Skinbark Crwon | x2 Entwood<br/>x2 Elven woord | Great Forge of Narvi |
 | Skinbark Gloves | x2 Entwood<br/>x2 Elven woord<br/>x2 Leather | Great Forge of Narvi |
-| Skinbark | | |
-| Skinbark Boots | | |
+| Skinbark | x4 Entwood<br/>x8 Elven woord<br/>x2 Leather | Great Forge of Narvi |
+| Skinbark Boots | x2 Entwood<br/>x4 Elven woord<br/>x2 Leather | Great Forge of Narvi |
 #### Rohan Armor
 | Armor name | Recipe | Crafting Station|
 | --- | --- | --- |
@@ -28,8 +28,8 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 ## TODO
 ### Armor
 - [ ] Add Ent-craft Pack DLC Armor
-    - [ ] Add Helmet Armor
-    - [ ] Add Gloves Armor
+    - [x] Add Helmet Armor
+    - [x] Add Gloves Armor
     - [ ] Add Torso Armor
     - [ ] Add Boots Armor
 - [ ] Add Rohan Pack DLC Armor
