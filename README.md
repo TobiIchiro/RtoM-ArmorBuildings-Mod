@@ -11,33 +11,19 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 ## Recipes
 ### Armor
 #### Skinbar Armor
-| Icon | Armor name | Recipe | Crafting Station|
-| --- | --- | --- | --- |
-| | Skinbark Crwon | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-#### Skinbar Armor
-| Icon | Armor name | Recipe | Crafting Station|
-| --- | --- | --- | --- |
-| | Skinbark Crwon | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-#### Skinbar Armor
-| Icon | Armor name | Recipe | Crafting Station|
-| --- | --- | --- | --- |
-| | Skinbark Crwon | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-#### Skinbar Armor
-| Icon | Armor name | Recipe | Crafting Station|
-| --- | --- | --- | --- |
-| | Skinbark Crwon | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
-| | Skinbark Gloves | | |
+| Armor name | Recipe | Crafting Station|
+| --- | --- | --- |
+| Skinbark Crwon | x2 Entwood<br/>x2 Elven woord | Great Forge of Narvi |
+| Skinbark Gloves | x2 Entwood<br/>x2 Elven woord<br/>x2 Leather | Great Forge of Narvi |
+| Skinbark | | |
+| Skinbark Boots | | |
+#### Rohan Armor
+| Armor name | Recipe | Crafting Station|
+| --- | --- | --- |
+| Rohan Helmet | | |
+| Rohan Gauntlets | | |
+| Rohan Armor | | |
+| Rohan Boots | | |
 
 ## TODO
 ### Armor
