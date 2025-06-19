@@ -10,13 +10,13 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 
 ## Recipes
 ### Armor
-#### Skinbar Armor
+#### Skinbark Armor
 | Armor name | Recipe | Crafting Station|
 | --- | --- | --- |
-| Skinbark Crwon | x2 Entwood<br/>x2 Elven woord | Great Forge of Narvi |
-| Skinbark Gloves | x2 Entwood<br/>x2 Elven woord<br/>x2 Leather | Great Forge of Narvi |
-| Skinbark | x4 Entwood<br/>x8 Elven woord<br/>x2 Leather | Great Forge of Narvi |
-| Skinbark Boots | x2 Entwood<br/>x4 Elven woord<br/>x2 Leather | Great Forge of Narvi |
+| Skinbark Crwon | x2 Entwood<br/>x2 Elven wood | Great Forge of Narvi |
+| Skinbark Gloves | x2 Entwood<br/>x2 Elven wood<br/>x2 Leather | Great Forge of Narvi |
+| Skinbark | x4 Entwood<br/>x8 Elven wood<br/>x2 Leather | Great Forge of Narvi |
+| Skinbark Boots | x2 Entwood<br/>x4 Elven wood<br/>x2 Leather | Great Forge of Narvi |
 #### Rohan Armor
 | Armor name | Recipe | Crafting Station|
 | --- | --- | --- |
@@ -27,11 +27,7 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 
 ## TODO
 ### Armor
-- [ ] Add Ent-craft Pack DLC Armor
-    - [x] Add Helmet Armor
-    - [x] Add Gloves Armor
-    - [ ] Add Torso Armor
-    - [ ] Add Boots Armor
+- [x] Add Ent-craft Pack DLC Armor
 - [ ] Add Rohan Pack DLC Armor
     - [ ] Add Helmet Armor
     - [ ] Add Gloves Armor
