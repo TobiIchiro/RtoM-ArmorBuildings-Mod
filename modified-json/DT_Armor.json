@@ -796,8 +796,7 @@
     "VisibleEffects",
     "VisibleEffectTagMagnitudes",
     "WildcardHandle",
-    "Wonderful_Set_HelmetArmor",
-    "Object"
+    "Wonderful_Set_HelmetArmor"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -1416,11 +1415,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 30
+                "Value": 40
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 5.0,
+                "Value": 15.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -1429,7 +1428,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 25.0,
+                "Value": 20.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -1726,7 +1725,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Helmet.Tier2",
+                      "UI.Armor.Helmet.Tier3",
                       "UI.Premium"
                     ]
                   }
@@ -1911,11 +1910,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 100
+                "Value": 130
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 10.0,
+                "Value": 18.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -1924,7 +1923,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 50.0,
+                "Value": 55.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -2221,7 +2220,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Torso.Tier2",
+                      "UI.Armor.Torso.Tier3",
                       "UI.Premium"
                     ]
                   }
@@ -2406,11 +2405,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 50
+                "Value": 65
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 4.0,
+                "Value": 10.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -2419,7 +2418,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 30.0,
+                "Value": 35.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -2716,7 +2715,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Gloves.Tier2",
+                      "UI.Armor.Gloves.Tier3",
                       "UI.Premium"
                     ]
                   }
@@ -2901,11 +2900,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 70
+                "Value": 90
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 6.0,
+                "Value": 12.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -2914,7 +2913,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 40.0,
+                "Value": 45.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -3211,7 +3210,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Boots.Tier2",
+                      "UI.Armor.Boots.Tier3",
                       "UI.Premium"
                     ]
                   }
@@ -3396,11 +3395,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 30
+                "Value": 65
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 5.0,
+                "Value": 20.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -3409,7 +3408,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 25.0,
+                "Value": 30.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -3706,7 +3705,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Helmet.Tier2",
+                      "UI.Armor.Helmet.Tier4",
                       "UI.Premium"
                     ]
                   }
@@ -3891,11 +3890,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 100
+                "Value": 160
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 10.0,
+                "Value": 23.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -3904,7 +3903,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 50.0,
+                "Value": 60.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -4201,7 +4200,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Torso.Tier2",
+                      "UI.Armor.Torso.Tier4",
                       "UI.Premium"
                     ]
                   }
@@ -4386,11 +4385,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 50
+                "Value": 80
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 4.0,
+                "Value": 12.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -4399,7 +4398,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 30.0,
+                "Value": 40.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -4696,7 +4695,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Gloves.Tier2",
+                      "UI.Armor.Gloves.Tier4",
                       "UI.Premium"
                     ]
                   }
@@ -4881,11 +4880,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 70
+                "Value": 110
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 6.0,
+                "Value": 15.0,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -4894,7 +4893,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 40.0,
+                "Value": 50.0,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -5191,7 +5190,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Boots.Tier2",
+                      "UI.Armor.Boots.Tier4",
                       "UI.Premium"
                     ]
                   }
@@ -10140,7 +10139,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Boots.Tier2",
+                      "UI.Armor.Boots.Tier6",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -10636,7 +10635,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Gloves.Tier2",
+                      "UI.Armor.Gloves.Tier6",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -11132,7 +11131,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Torso.Tier2",
+                      "UI.Armor.Torso.Tier6",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -11628,7 +11627,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Helmet.Tier2",
+                      "UI.Armor.Helmet.Tier6",
                       "UI.Premium",
                       "UI.Cosmetic.Reward"
                     ]
@@ -63817,7 +63816,7 @@
       "TemplateIndex": -10,
       "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
       "SerialSize": 211123,
-      "SerialOffset": 56214,
+      "SerialOffset": 56225,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -63825,26 +63824,19 @@
       "bNotForServer": false,
       "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
       "IsInheritedInstance": false,
-      "PackageFlags": "PKG_None",
+      "PackageFlags": "PKG_FilterEditorOnly",
       "bNotAlwaysLoadedForEditorGame": false,
       "bIsAsset": true,
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -9,
-        -12,
-        -17,
-        -14,
-        -13,
-        -15,
-        -11,
-        -16,
-        -32,
         -8,
         -10
       ],
-      "CreateBeforeCreateDependencies": [],
+      "CreateBeforeCreateDependencies": [
+        -1
+      ],
       "Extras": ""
     }
   ],
@@ -64125,7 +64117,7 @@
       "ObjectName": "GameplayTag",
       "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Object",
+      "ClassName": "Class",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -64134,7 +64126,7 @@
       "ObjectName": "MorArmorDefinition",
       "OuterIndex": -29,
       "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Object",
+      "ClassName": "Class",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -64144,6 +64136,33 @@
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlueprintGeneratedClass",
+      "OuterIndex": -27,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CurveFloat",
+      "OuterIndex": -27,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "StringTable",
+      "OuterIndex": -27,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -64160,7 +64179,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 1,
-      "NameCount": 796
+      "NameCount": 795
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -64183,7 +64202,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Tech/Data/Items/DT_Armor",
+  "FolderName": "None",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
@@ -64191,7 +64210,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 796,
+  "NamesReferencedFromExportDataCount": 795,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,
