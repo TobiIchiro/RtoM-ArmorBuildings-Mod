@@ -20,10 +20,10 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 #### Rohan Armor
 | Armor name | Recipe | Crafting Station|
 | --- | --- | --- |
-| Rohan Helmet | | |
-| Rohan Gauntlets | | |
-| Rohan Armor | | |
-| Rohan Boots | | |
+| Rohan Helmet | x2 Shanôr Ingot<br/>x1 Leather | Great Belegost Forge |
+| Rohan Gauntlets | x3 Shanôr Ingot<br/>x1 Leather<br/>x2 Numenorean Cloth | Great Belegost Forge |
+| Rohan Armor | x4 Shanôr Ingot<br/>x4 Leather<br/>x3 Numenorean Cloth | Great Belegost Forge |
+| Rohan Boots | x2 Shanôr Ingot<br/>x2 Leather<br/>x4 Numenorean Cloth | Great Belegost Forge |
 
 ## TODO
 ### Armor
