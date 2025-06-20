@@ -28,11 +28,7 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 ## TODO
 ### Armor
 - [x] Add Ent-craft Pack DLC Armor
-- [ ] Add Rohan Pack DLC Armor
-    - [x] Add Helmet Armor
-    - [ ] Add Gloves Armor
-    - [ ] Add Torso Armor
-    - [ ] Add Boots Armor
+- [x] Add Rohan Pack DLC Armor
 - [ ] Add Orc Hunter Pack DLC Armor
     - [ ] Add Helmet Armor
     - [ ] Add Gloves Armor
