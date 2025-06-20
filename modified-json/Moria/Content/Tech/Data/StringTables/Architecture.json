@@ -3393,6 +3393,14 @@
           [
             "Beorn_Beam_1m_A.Description",
             "Wooden segment for decoration or stability."
+          ],
+          [
+            "Farming_Keg.Name",
+            "Placeholder Name"
+          ],
+          [
+            "Farming_Keg.Description",
+            "Placeholder Description"
           ]
         ]
       },
