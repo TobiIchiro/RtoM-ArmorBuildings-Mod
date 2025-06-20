@@ -29,7 +29,7 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 ### Armor
 - [x] Add Ent-craft Pack DLC Armor
 - [ ] Add Rohan Pack DLC Armor
-    - [ ] Add Helmet Armor
+    - [x] Add Helmet Armor
     - [ ] Add Gloves Armor
     - [ ] Add Torso Armor
     - [ ] Add Boots Armor
