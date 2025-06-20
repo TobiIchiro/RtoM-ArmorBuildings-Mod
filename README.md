@@ -24,20 +24,19 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 | Rohan Gauntlets | x3 Shanôr Ingot<br/>x1 Leather<br/>x2 Numenorean Cloth | Great Belegost Forge |
 | Rohan Armor | x4 Shanôr Ingot<br/>x4 Leather<br/>x3 Numenorean Cloth | Great Belegost Forge |
 | Rohan Boots | x2 Shanôr Ingot<br/>x2 Leather<br/>x4 Numenorean Cloth | Great Belegost Forge |
+#### Orc Hunter Armor
+| Armor name | Recipe | Crafting Station|
+| --- | --- | --- |
+| Orc Hunter Helmet | x2 Khazâd Steel Ingot<br/>x1 Troll Hide | Great Belegost Forge |
+| Orc Hunter Gauntlets | x3 Khazâd Steel Ingot<br/>x1 Troll Hide<br/>x1 Rukhus Skull | Great Nogrod Forge |
+| Orc Hunter Armor | x4 Khazâd Steel Ingot<br/>x3 Troll Hide<br/>x1 Rukhus Skull | Great Nogrod Forge |
+| Orc Hunter Boots | x2 Khazâd Steel Ingot<br/>x1 Troll Hide<br/>x1 Rukhus Skull | Great Nogrod Forge |
 
 ## TODO
 ### Armor
 - [x] Add Ent-craft Pack DLC Armor
-- [ ] Add Rohan Pack DLC Armor
-    - [x] Add Helmet Armor
-    - [ ] Add Gloves Armor
-    - [ ] Add Torso Armor
-    - [ ] Add Boots Armor
-- [ ] Add Orc Hunter Pack DLC Armor
-    - [ ] Add Helmet Armor
-    - [ ] Add Gloves Armor
-    - [ ] Add Torso Armor
-    - [ ] Add Boots Armor
+- [x] Add Rohan Pack DLC Armor
+- [x] Add Orc Hunter Pack DLC Armor
 - [ ] Add Lord of Moria Armor
     - [ ] Add Helmet Armor
     - [ ] Add Gloves Armor
