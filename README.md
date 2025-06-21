@@ -49,7 +49,8 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
     - [ ] Add Tavern Kegs with Evening Ale
         - [x] Add Name and description
         - [x] Add Construction instance
-        - [ ] Add Construction recipe
+        - [x] Add Construction recipe
+            - [ ] Modify Construction Recipe to be consistent with the object
         - [ ] Add Custom Icon
     - [ ] Add Bird's nest
         - [ ] Add Name and description
