@@ -1,0 +1,32 @@
+{"Deco_SignageTrades_E": {
+        "DisplayName": {
+          "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+          "Key": "Deco_SignageTrades_E.Name",
+          "SourceString": "Wings of Peace",
+          "LocalizedString": "Wings of Peace"
+        },
+        "Description": {
+          "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+          "Key": "Deco_SignageTrades_E.Description",
+          "SourceString": "A trade sign for a group that held peace above war in all affairs.",
+          "LocalizedString": "A trade sign for a group that held peace above war in all affairs."
+        },
+        "Icon": {
+          "ObjectName": "Texture2D'T_UI_BuildIcon_Signage_Trades_E'",
+          "ObjectPath": "/Game/UI/Textures/_Icons/Build/T_UI_BuildIcon_Signage_Trades_E.0"
+        },
+        "Actor": {
+          "AssetPathName": "/Game/LevelDesign/Deco/Urban/Signage/BP_Urban_Signage_Trades_E_Player.BP_Urban_Signage_Trades_E_Player_C",
+          "SubPathString": ""
+        },
+        "BackwardCompatibilityActors": [
+          {
+            "AssetPathName": "/Game/LevelDesign/Deco/Urban/Signage/BP_Urban_Signage_Trades_E_Player.BP_Urban_Signage_Trades_E_Player",
+            "SubPathString": ""
+          }
+        ],
+        "Tags": [
+          "UI.Construction.Category.Deco.Signs"
+        ],
+        "EnabledState": "ERowEnabledState::Live"
+      }}
