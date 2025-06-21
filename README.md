@@ -45,8 +45,17 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
     - [ ] Add Boots Armor
 
 ### Buildings
-- [ ] Add Tavern Kegs with Evening Ale
-- [ ] Add Bird's nest
+- [ ] Create DLC-like Package to include custom Constructions
+    - [ ] Add Tavern Kegs with Evening Ale
+        - [x] Add Name and description
+        - [x] Add Construction instance
+        - [ ] Add Construction recipe
+        - [ ] Add Custom Icon
+    - [ ] Add Bird's nest
+        - [ ] Add Name and description
+        - [ ] Add Construction instance
+        - [ ] Add Construction recipe
+        - [ ] Add Custom Icon
 - [ ] Restore Removed buildings (stabiity)
     - [x] WideArchway (Elder_Archway_A)
     - [x] WoodBracedColumn (Advanced_Column_Wood_A)
