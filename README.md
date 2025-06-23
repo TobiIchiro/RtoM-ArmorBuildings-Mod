@@ -44,11 +44,18 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 - [x] Add Ent-craft Pack DLC Armor
 - [x] Add Rohan Pack DLC Armor
 - [x] Add Orc Hunter Pack DLC Armor
-- [ ] Add Lord of Moria Armor
-    - [ ] Add Helmet Armor
-    - [ ] Add Gloves Armor
-    - [ ] Add Torso Armor
-    - [ ] Add Boots Armor
+- [x] Add Lord of Moria Armor
+- [ ] Add Origins (Outfits) Armor
+    - [ ] Add Blue Mountains Outfit
+    - [ ] Add Coastal Mountains Outfit
+    - [ ] Add Glittering Caves Outfit
+    - [ ] Add Iron Hills Outfit
+    - [ ] Add Lonely Mountains Outfit
+    - [ ] Add Red Mountains Outfit
+-[ ] Make Shayar Armor Craftable Again
+-[ ] Make Masharuz Armor Craftable Again
+-[ ] Make Amzul Armor Craftable Again
+-[ ] Make Sandbox exclusive Armor craftable in Campaign (Maybe third mod with an option to fuse with Armor Recipes)
 
 ### Buildings
 - [ ] Create DLC-like Package to include custom Constructions
