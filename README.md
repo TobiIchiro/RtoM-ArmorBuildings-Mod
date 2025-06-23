@@ -31,6 +31,13 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 | Orc Hunter Gauntlets | x3 Khazâd Steel Ingot<br/>x1 Troll Hide<br/>x1 Rukhus Skull | Great Nogrod Forge |
 | Orc Hunter Armor | x4 Khazâd Steel Ingot<br/>x3 Troll Hide<br/>x1 Rukhus Skull | Great Nogrod Forge |
 | Orc Hunter Boots | x2 Khazâd Steel Ingot<br/>x1 Troll Hide<br/>x1 Rukhus Skull | Great Nogrod Forge |
+#### Lord of Moria Armor
+| Armor name | Recipe | Crafting Station|
+| --- | --- | --- |
+| Lord's Coronet | x2 Mitrhill Ingot<br/>x1 Gold Ingot<br/>x1 Star-metal Ingot<br/>x3 Sapphire<br/>x1 Fine Leather | Great Mithril Forge |
+| Lord's Gloves | x4 Mitrhill Ingot<br/>x2 Gold Ingot<br/>x2 Star-metal Ingot<br/>x2 Sapphire<br/>x4 Fine Leather | Great Mithril Forge |
+| Lord's Armor | x5 Mitrhill Ingot<br/>x3 Gold Ingot<br/>x3 Star-metal Ingot<br/>x4 Sapphire<br/>x3 Fine Leather<br/>x4 Fine Cloth | Great Mithril Forge |
+| Lord's Boots | x3 Mitrhill Ingot<br/>x4 Gold Ingot<br/>x4 Star-metal Ingot<br/>x1 Sapphire<br/>x3 Fine Leather<br/>x3 Fine Cloth | Great Mithril Forge |
 
 ## TODO
 ### Armor
