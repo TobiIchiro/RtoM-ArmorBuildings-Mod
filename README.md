@@ -92,3 +92,15 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
     - [ ] Crude_Floor_Stone_V2 (Crude_Floor_Stone_V2)
     - [ ] Crude_Floor_Wood_V2 (Crude_Floor_Wood_V2)
     - [x] Advanced_Stairs_Railing_1m_V2 (Advanced_Stairs_Railing_1m_V2)
+
+- [ ] Add floors
+    - [ ] Moria/Content/Art/Assets/Kits/Architecture/City/City_Floor_3x3m_A
+    - [ ] Moria/Content/Art/Assets/Kits/Architecture/City/City_Floor_3x3m_B
+    - [ ] Moria/Content/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Floor_3x3m_A
+    - [ ] Moria/Content/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Floor_3x3m_B
+    - [ ] Moria/Content/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Floor_3x3m_C
+    - [ ] Moria/Content/Environments/Models/Architecture/Meshes/SM_AR_Suburbs_Floor_Wood_300x300x010_C
+    - [ ] Moria/Content/Environments/Models/Architecture/Meshes/SM_AR_Suburbs_Floor_Stone_300x300x030_A
+- [ ] Add Decoration
+    - [ ] Moria/Content/Environments/Models/Furnishings/Meshes/SM_Deco_BearSculpt_A
+    - [ ] 
