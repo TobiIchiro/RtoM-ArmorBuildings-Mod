@@ -48,4 +48,4 @@ for item in table_data:
             print(f"[Advertencia] No se pudo reemplazar RequiredRecipe en {raw_name}")
 # Guardar el archivo modificado
 with open("F:/RtoM/modsRepository/modified-json/Moria/Content/Tech/Data/Items/DT_ItemRecipes.json", "w", encoding="utf-8") as f:
-    json.dump(data, f, indent=4)
+    json.dump(data, f, indent=2)
