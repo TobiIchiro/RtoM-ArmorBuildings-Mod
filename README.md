@@ -46,10 +46,10 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 - [x] Add Orc Hunter Pack DLC Armor
 - [x] Add Lord of Moria Armor
 - [x] Add Origins (Outfits) Armor
--[ ] Make Shayar Armor Craftable Again
--[ ] Make Masharuz Armor Craftable Again
--[ ] Make Amzul Armor Craftable Again
--[ ] Make Sandbox exclusive Armor craftable in Campaign (Maybe third mod with an option to fuse with Armor Recipes)
+- [ ] Make Shayar Armor Craftable Again
+- [ ] Make Masharuz Armor Craftable Again
+- [ ] Make Amzul Armor Craftable Again
+- [ ] Make Sandbox exclusive Armor craftable in Campaign (Maybe third mod with an option to fuse with Armor Recipes)
 
 ### Buildings
 - [ ] Create DLC-like Package to include custom Constructions
