@@ -45,13 +45,7 @@ Thanks to EnvoyDan who helped through the unpacking and repacking process
 - [x] Add Rohan Pack DLC Armor
 - [x] Add Orc Hunter Pack DLC Armor
 - [x] Add Lord of Moria Armor
-- [ ] Add Origins (Outfits) Armor
-    - [ ] Add Blue Mountains Outfit
-    - [ ] Add Coastal Mountains Outfit
-    - [ ] Add Glittering Caves Outfit
-    - [ ] Add Iron Hills Outfit
-    - [ ] Add Lonely Mountains Outfit
-    - [ ] Add Red Mountains Outfit
+- [x] Add Origins (Outfits) Armor
 -[ ] Make Shayar Armor Craftable Again
 -[ ] Make Masharuz Armor Craftable Again
 -[ ] Make Amzul Armor Craftable Again
