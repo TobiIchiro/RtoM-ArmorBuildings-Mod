@@ -7,5 +7,3 @@ Used [retoc](https://github.com/trumank/retoc) to unpack assets to legacy and re
 Used [UAssetGUI](https://github.com/atenfyr/UAssetGUI) to export `json` files
 
 Thanks to EnvoyDan who helped through the unpacking and repacking process
-
-
