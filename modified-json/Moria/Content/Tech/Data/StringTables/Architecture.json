@@ -3401,6 +3401,70 @@
           [
             "TobiPack_AleKeg.Description",
             "Tavern Keg full of Evening Ale"
+          ],
+          [
+            "TobiPack_GranitePillar.Name",
+            "Granite Pillar"
+          ],
+          [
+            "TobiPack_GranitePillar.Description",
+            "Granite Pillar"
+          ],
+          [
+            "TobiPack_City_Floor_3x3m_A.Name",
+            "Patterned Adamant Floor"
+          ],
+          [
+            "TobiPack_City_Floor_3x3m_A.Description",
+            "A nicely tiled Adamant Floor"
+          ],
+          [
+            "TobiPack_City_Floor_3x3m_B.Name",
+            "City Placeholder name"
+          ],
+          [
+            "TobiPack_City_Floor_3x3m_B.Description",
+            "City Placeholder Description"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_3x3m_A.Name",
+            "Patterned Granite Floor"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_3x3m_A.Description",
+            "A nicely patterned Granite Floor"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_3x3m_B.Name",
+            "Advanced Granite Floor"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_3x3m_B.Description",
+            "A patterned with advanced technique Granite Floor "
+          ],
+          [
+            "TobiPack_Suburbs_Floor_3x3m_C.Name",
+            "Suburbs Placeholder name"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_3x3m_C.Description",
+            "Suburbs Placeholder Description"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_Stone_3x3_A.Name",
+            "Framed Granite Floor"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_Stone_3x3_A.Description",
+            "A framed Granite Floor"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_Wood_3x3_A.Name",
+            "Decorated Wooden Floor"
+          ],
+          [
+            "TobiPack_Suburbs_Floor_Wood_3x3_A.Description",
+            "A beautiful decorated Wooden Floor"
           ]
         ]
       },
