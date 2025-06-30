@@ -3465,6 +3465,22 @@
           [
             "TobiPack_Floor_Wood_3x3_A.Description",
             "A beautiful decorated Wooden Floor"
+          ],
+          [
+            "TobiPack_Ceiling_Center.Name",
+            "Decorated Wooden Ceiling"
+          ],
+          [
+            "TobiPack_Ceiling_Center.Description",
+            "A Decorated Wooden Ceiling"
+          ],
+          [
+            "TobiPack_Ceiling_Corner.Name",
+            "Ornate Ceiling Corner"
+          ],
+          [
+            "TobiPack_Ceiling_Corner.Description",
+            "Place on a wall to create a ceiling above."
           ]
         ]
       },
