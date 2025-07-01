@@ -3481,6 +3481,14 @@
           [
             "TobiPack_Ceiling_Corner.Description",
             "Place on a wall to create a ceiling above."
+          ],
+          [
+            "TobiPack_LargeBrazier.Name",
+            "Large Brazier"
+          ],
+          [
+            "TobiPack_LargeBrazier.Description",
+            "A Big Brazier"
           ]
         ]
       },
