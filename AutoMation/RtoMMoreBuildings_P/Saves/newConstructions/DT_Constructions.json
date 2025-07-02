@@ -3,8 +3,10 @@
     ],
     "Exports": [
         {
-            "Table": [
-            ]
+            "Table": {
+                "Data": [
+                ]
+            }
         }
     ]
 }
