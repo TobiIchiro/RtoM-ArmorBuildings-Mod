@@ -7,12 +7,18 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt
 import sys
 
+from modUtils import (
+    architectureHandle, DTConstructionsHandle
+)
+
 class ConstructionAdderUI(QWidget):
-    def __init__(self, Items):
+    def __init__(self, scriptDir, Items):
         super().__init__()
         self.setWindowTitle("New Construction Adder")
         self.setMinimumWidth(400)
         self.setMaximumWidth(400)
+
+        self.scriptDir = scriptDir
         
         self.Items = Items
         self.materialsWidgets = []
@@ -142,11 +148,12 @@ class ConstructionAdderUI(QWidget):
                 materials.append((materialName,count))
 
         if self.materialRadioButton.isChecked():
-            unlockType = "RequiredMaterials"
+            unlockType = 0
         elif self.constructionRadioButton.isChecked():
-            unlockType = "RequiredConstructions"
+            unlockType = 1
         
-        name = self.nameInput.text()
+        userName = self.userNameInput.text().strip()
+        name = self.nameInput.text().strip()
         description = self.descriptionInput.text().strip()
         assetPath = self.assetPathInput.text().strip()
         category = self.categoryTagInput.currentText().strip()
@@ -156,12 +163,36 @@ class ConstructionAdderUI(QWidget):
             QMessageBox.warning(self,"Empty Fields","Please fill the empty fields")
             return
 
-        print({
-            "nombre": name,
-            "descripcion": description,
-            "asset_name": assetPath,
-            "categoria": category,
-            "tipo_blueprint": blueprint,
-            "materials": materials
-        })
+        tag = userName + "Pack_" + name.title().replace(" ","")
+
+        #Generate Unique tag and save Architecture.json for generating Mod and mantain for future updates
+        uniqueTag = architectureHandle(tag, name, description, self.scriptDir)
+        
+        DTConstructionsHandle(uniqueTag, assetPath, category, self.scriptDir)
+
+        #DT_Constructions.json
+        #Namemaps append tag, Blueprint, Blueprint_C
+        #Añadir Construction Template
+            #Name: tag
+            #Value[0].Value : tag + ".Name"
+            #Value[1].Value : tag + ".Description"
+            #Value[3].Value.AssetPath.AssetName: assetPath
+            #Value[4].Value[0].Value[0].Value.AssetPath.AssetName: assetPath + "." assetPath.split(/)[-1] + "_C"
+            #Value[5].Value[0].Value.append(category)
+        #Append Construction Template editada en DT_Constructions.json
+
+        #DT_ConstructionRecipes.json
+        #NameMap append tag, check if materials are not in NameMaps if not, append them
+        #Name: tag
+        #Value[0].Value[0].Value : tag
+        #Flags 2,3,4,5,8,9,10,11
+        #Value[16].Value append each material
+            #Value[0].Value[0].Value : material[0]
+            #Value[2].Value : material[1]
+        #checkedItem ? Value[20].Value[3] = selectedItemTemplate, Value[20].Value[4] = ConstructionDumyStruct : 
+        #              Value[20].Value[3] = MateriaDumyStruct,    Value[20].Value[4] = selectedConstructionTemplate
+        
+    
+
+
 
