@@ -12,7 +12,7 @@ from modUtils import (
 )
 
 class ConstructionAdderUI(QWidget):
-    def __init__(self, scriptDir, Items):
+    def __init__(self, scriptDir, Items, categoryTagsData):
         super().__init__()
         self.setWindowTitle("New Construction Adder")
         self.setMinimumWidth(400)
@@ -22,6 +22,8 @@ class ConstructionAdderUI(QWidget):
         
         self.Items = Items
         self.materialsWidgets = []
+
+        self.categoryTags = categoryTagsData.get("Categories",[])
 
         self.setupUi()
 
@@ -38,7 +40,7 @@ class ConstructionAdderUI(QWidget):
         # Category tags
         self.categoryTagInput = QComboBox()
         self.categoryTagInput.setEditable(True)
-        self.categoryTagInput.addItems(["Placeholder"])
+        self.categoryTagInput.addItems(self.categoryTags)
 
         # Construction Category
         self.blueprintTypeInput = QComboBox()
@@ -169,17 +171,6 @@ class ConstructionAdderUI(QWidget):
         uniqueTag = architectureHandle(tag, name, description, self.scriptDir)
         
         DTConstructionsHandle(uniqueTag, assetPath, category, self.scriptDir)
-
-        #DT_Constructions.json
-        #Namemaps append tag, Blueprint, Blueprint_C
-        #Añadir Construction Template
-            #Name: tag
-            #Value[0].Value : tag + ".Name"
-            #Value[1].Value : tag + ".Description"
-            #Value[3].Value.AssetPath.AssetName: assetPath
-            #Value[4].Value[0].Value[0].Value.AssetPath.AssetName: assetPath + "." assetPath.split(/)[-1] + "_C"
-            #Value[5].Value[0].Value.append(category)
-        #Append Construction Template editada en DT_Constructions.json
 
         #DT_ConstructionRecipes.json
         #NameMap append tag, check if materials are not in NameMaps if not, append them

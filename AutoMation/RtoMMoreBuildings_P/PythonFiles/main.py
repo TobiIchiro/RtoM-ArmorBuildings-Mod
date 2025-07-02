@@ -14,7 +14,7 @@ if __name__ == "__main__":
     itemsData = loadJson(os.path.abspath(os.path.join(dataDir, "Items.json")))
     categoryTagsData = loadJson(os.path.abspath(os.path.join(dataDir,"CategoryTags.json")))
 
-    construcionAdder = ConstructionAdderUI(scriptDir, itemsData)
+    construcionAdder = ConstructionAdderUI(scriptDir, itemsData, categoryTagsData)
     construcionAdder.show()
 
     sys.exit(app.exec())
