@@ -1,0 +1,167 @@
+from PySide6.QtWidgets import (
+    QApplication, QWidget, QLabel, QLineEdit, QTextEdit,
+    QComboBox, QPushButton, QVBoxLayout, QHBoxLayout,
+    QListWidget, QListWidgetItem, QSpinBox, QFormLayout, QMessageBox,
+    QGroupBox, QRadioButton, QButtonGroup, QCompleter
+)
+from PySide6.QtCore import Qt
+import sys
+
+class ConstructionAdderUI(QWidget):
+    def __init__(self, Items):
+        super().__init__()
+        self.setWindowTitle("New Construction Adder")
+        self.setMinimumWidth(400)
+        self.setMaximumWidth(400)
+        
+        self.Items = Items
+        self.materialsWidgets = []
+
+        self.setupUi()
+
+    def setupUi(self):
+        layout = QVBoxLayout()
+
+        # Text Fields
+        self.userNameInput = QLineEdit()
+        self.nameInput = QLineEdit(maxLength=30)
+        self.constructionTag = QLabel()
+        self.descriptionInput = QLineEdit(maxLength=60)
+        self.assetPathInput = QLineEdit()
+
+        # Category tags
+        self.categoryTagInput = QComboBox()
+        self.categoryTagInput.setEditable(True)
+        self.categoryTagInput.addItems(["Placeholder"])
+
+        # Construction Category
+        self.blueprintTypeInput = QComboBox()
+        self.blueprintTypeInput.addItems(["Floor","Wall","Column","Deco"])
+
+        # Required Materials
+        self.materialsLayout = QVBoxLayout()
+        self.addMaterialButton = QPushButton("Add Material")
+        self.addMaterialButton.clicked.connect(self.addMaterial)
+
+        # Unlocked conditions
+        self.unlockTConditionsGroupBox = QGroupBox("Unlock Conditions")
+        self.unlockConditionsLayout = QHBoxLayout()
+
+        self.unlockConditionsButtonGroup = QButtonGroup()
+
+        self.constructionRadioButton = QRadioButton("Discover Construction")
+        self.materialRadioButton = QRadioButton("Discover Item")
+        
+        self.materialRadioButton.setChecked(True)
+
+        self.unlockConditionsButtonGroup.addButton(self.materialRadioButton)
+        self.unlockConditionsButtonGroup.addButton(self.constructionRadioButton)
+
+        self.unlockRequiredItem = QComboBox()
+        self.unlockRequiredConstruction = QComboBox()
+
+        # Buttons
+        self.saveButton = QPushButton("Save")
+        self.saveButton.clicked.connect(self.saveConstruction)
+
+        # Form Layout
+        formLayout = QFormLayout()
+        formLayout.addRow("User Name",self.userNameInput)
+        formLayout.addRow("Name", self.nameInput)
+        formLayout.addRow("Name Tag", self.constructionTag)
+        formLayout.addRow("Description", self.descriptionInput)
+        formLayout.addRow("Asset Path", self.assetPathInput)
+        formLayout.addRow("Category", self.categoryTagInput)
+        formLayout.addRow("Blueprint type", self.blueprintTypeInput)
+
+        layout.addLayout(formLayout)
+        layout.addWidget(QLabel("Materials (max 6):"))
+        layout.addLayout(self.materialsLayout)
+        layout.addWidget(self.addMaterialButton)
+
+        self.unlockConditionsLayout.addWidget(self.materialRadioButton)
+        self.unlockConditionsLayout.addWidget(self.constructionRadioButton)
+        self.unlockTConditionsGroupBox.setLayout(self.unlockConditionsLayout)
+
+        layout.addWidget(self.unlockTConditionsGroupBox)
+        layout.addWidget(self.saveButton)
+
+        self.setLayout(layout)
+        self.addMaterial()
+    
+    def addMaterial(self):
+        if len(self.materialsWidgets) >= 6:
+            QMessageBox.warning(self, "Reached Limit", "You can only add up to 6 materials")
+            return
+        
+        materialLayout = QHBoxLayout()
+
+        materialCategoryInput = QComboBox()
+        print(list(self.Items.keys()))
+        materialCategoryInput.addItems(list(self.Items.keys()))
+
+        materialNameInput = QComboBox()
+        materialNameInput.setEditable(True)
+
+        def updateItemList(category):
+            materials = self.Items.get(category, [])
+            materialNameInput.clear()
+            materialNameInput.addItems(materials)
+            completer = QCompleter(materials)
+            completer.setFilterMode(Qt.MatchContains)
+            completer.setCaseSensitivity(Qt.CaseInsensitive)
+            materialNameInput.setCompleter(completer)
+
+        materialCategoryInput.currentTextChanged.connect(updateItemList)
+        updateItemList(materialCategoryInput.currentText())
+        
+
+        countInput = QSpinBox()
+        countInput.setMinimum(1)
+        countInput.setMaximum(999)
+
+        materialLayout.addWidget(materialCategoryInput)
+        materialLayout.addWidget(materialNameInput)
+        materialLayout.addWidget(QLabel("x"))
+        materialLayout.addWidget(countInput)
+
+        self.materialsLayout.addLayout(materialLayout)
+        self.materialsWidgets.append((materialNameInput,countInput))
+    
+    def saveConstruction(self):
+        materials = []
+        for nameWidget, countWidget in self.materialsWidgets:
+            if isinstance(nameWidget,QComboBox):
+                materialName = nameWidget.currentText().strip()
+                count = countWidget.value()
+
+                '''
+                if materialName not in itemlist
+                    QMessageBox.warning(self,"Invalid Material", "f"'{materialName}' is not a valid material)
+                '''
+                materials.append((materialName,count))
+
+        if self.materialRadioButton.isChecked():
+            unlockType = "RequiredMaterials"
+        elif self.constructionRadioButton.isChecked():
+            unlockType = "RequiredConstructions"
+        
+        name = self.nameInput.text()
+        description = self.descriptionInput.text().strip()
+        assetPath = self.assetPathInput.text().strip()
+        category = self.categoryTagInput.currentText().strip()
+        blueprint = self.blueprintTypeInput.currentText().strip()
+
+        if not name or not description or not assetPath:
+            QMessageBox.warning(self,"Empty Fields","Please fill the empty fields")
+            return
+
+        print({
+            "nombre": name,
+            "descripcion": description,
+            "asset_name": assetPath,
+            "categoria": category,
+            "tipo_blueprint": blueprint,
+            "materials": materials
+        })
+
