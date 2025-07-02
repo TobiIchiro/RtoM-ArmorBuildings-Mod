@@ -39,7 +39,6 @@ class ConstructionAdderUI(QWidget):
 
         # Category tags
         self.categoryTagInput = QComboBox()
-        self.categoryTagInput.setEditable(True)
         self.categoryTagInput.addItems(self.categoryTags)
 
         # Construction Category
