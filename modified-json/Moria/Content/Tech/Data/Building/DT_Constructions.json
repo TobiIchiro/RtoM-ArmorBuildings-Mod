@@ -2918,15 +2918,23 @@
     "TobiPack_Floor_Wood_3x3_A",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Floor_Wood_300x300x010_C_Breakable",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Floor_Wood_300x300x010_C_Breakable.BP_Floor_Wood_300x300x010_C_Breakable_C",
+    "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_Floor_Wood",
+    "T_UI_BuildIcon_TobiPack_Floor_Wood",
     "TobiPack_Ceiling_Center",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Ceiling_3x3m_Center_A",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Ceiling_3x3m_Center_A.BP_Suburbs_Ceiling_3x3m_Center_A_C",
+    "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIconTobiPack_Ceiling_Center",
+    "T_UI_BuildIconTobiPack_Ceiling_Center",
     "TobiPack_Ceiling_Corner",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Ceiling_3x3m_Corner_A",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Ceiling_3x3m_Corner_A.BP_Suburbs_Ceiling_3x3m_Corner_A_C",
+    "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_Ceiling_Corner",
+    "T_UI_BuildIcon_TobiPack_Ceiling_Corner",
     "TobiPack_LargeBrazier",
     "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier",
-    "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier.BP_LargeBrazier_C"
+    "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier.BP_LargeBrazier_C",
+    "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_obiPack_LargeBrazier",
+    "T_UI_BuildIcon_obiPack_LargeBrazier"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -89469,7 +89477,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -635
+                "Value": -1009
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -89633,7 +89641,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -635
+                "Value": -1011
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -89797,7 +89805,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -614
+                "Value": -1013
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -89961,7 +89969,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -745
+                "Value": -1015
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -90602,7 +90610,11 @@
         -917,
         -1,
         -2,
-        -1007
+        -1007,
+        -1009,
+        -1011,
+        -1013,
+        -1015
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -99677,6 +99689,78 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_AleKeg",
       "OuterIndex": -1006,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_Floor_Wood",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_TobiPack_Floor_Wood",
+      "OuterIndex": -1008,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIconTobiPack_Ceiling_Center",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIconTobiPack_Ceiling_Center",
+      "OuterIndex": -1010,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_Ceiling_Corner",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_TobiPack_Ceiling_Corner",
+      "OuterIndex": -1012,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_obiPack_LargeBrazier",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_obiPack_LargeBrazier",
+      "OuterIndex": -1014,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
