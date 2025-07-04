@@ -200,7 +200,7 @@ class ConstructionAdderUI(QWidget):
         
         DTConstructionsHandle(uniqueTag, assetPath, categoryTag, self.scriptDir)
 
-        DTConstructionRecipesHandle(uniqueTag, self.scriptDir, categoryKey, materials, self.unlockType, unlockRequirement="Placeholder")
+        DTConstructionRecipesHandle(uniqueTag, self.scriptDir, categoryKey, materials, self.unlockType, self.unlockRequirementInput.currentText())
         
     
 
