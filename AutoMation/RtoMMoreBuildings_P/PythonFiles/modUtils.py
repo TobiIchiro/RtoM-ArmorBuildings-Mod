@@ -1,6 +1,7 @@
 from jsonHandler import (
         loadJson, saveJson
 )
+import copy
 import os
 
 def genUniqueTag(baseTag, exports):
@@ -51,17 +52,19 @@ def architectureHandle(tag, name, description, path):
 
         return uniqueTag
 
-def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path):
+def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path, userName):
         #File paths
         modPath = os.path.abspath(os.path.join(path,"..","Saves","mod","DT_Constructions.json"))
         newPath = os.path.abspath(os.path.join(path,"..","Saves","newConstructions","DT_Constructions.json"))
 
         templatePath = os.path.abspath(os.path.join(path,"..","Data","ConstructionTemplate.json"))
+        importTemplatePath = os.path.abspath(os.path.join(path,"..","Data","constructionsImportTemplates.json"))
 
         DT_ConstructionsModData = loadJson(modPath)
         DT_ConstructionsNewData = loadJson(newPath)
 
         template = loadJson(templatePath)
+        importTemplate = loadJson(importTemplatePath)
 
         #Get blueprint name
         blueprintName = assetPath.split("/")[-1]
@@ -92,6 +95,18 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path):
         DT_ConstructionsModData["Exports"][0]["Table"]["Data"].append(template)
         DT_ConstructionsNewData["Exports"][0]["Table"]["Data"].append(template)
 
+        #imports handler
+        textureName = f"T_UI_BuildIcon_{uniqueTag}"
+        iconPath = f"/Game/Mods/{userName}Pack/Constructions/Icons/{textureName}"
+
+        packageImport = importTemplate["Package"].copy()
+        packageImport["ObjectName"] = iconPath
+
+        textureImport = importTemplate["Texture2D"].copy()
+        textureImport["ObjectName"] = textureName
+
+        
+
         saveJson(modPath, DT_ConstructionsModData)
         saveJson(newPath, DT_ConstructionsNewData)
 
@@ -121,13 +136,16 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
         itemArray = []
 
         for item in requiredItems:
-                newItem = itemTemplate.copy()
+                newItem = copy.deepcopy(itemTemplate)
                 newItem["Value"][0]["Value"][0]["Value"] = item[0]
                 newItem["Value"][2]["Value"] = item[1]
                 itemArray.append(newItem)
                 if item[0] not in DT_ConstructionRecipesModData["NameMap"]:
                         DT_ConstructionRecipesModData["NameMap"].append(item[0])
+                print(newItem)
+                print(itemArray)
 
+        print(itemArray)
         
 
         flags = flagData.get(categoryTag)

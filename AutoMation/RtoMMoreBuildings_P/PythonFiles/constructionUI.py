@@ -198,7 +198,7 @@ class ConstructionAdderUI(QWidget):
         #Generate Unique tag and save Architecture.json for generating Mod and mantain for future updates
         uniqueTag = architectureHandle(tag, name, description, self.scriptDir)
         
-        DTConstructionsHandle(uniqueTag, assetPath, categoryTag, self.scriptDir)
+        DTConstructionsHandle(uniqueTag, assetPath, categoryTag, self.scriptDir, userName)
 
         DTConstructionRecipesHandle(uniqueTag, self.scriptDir, categoryKey, materials, self.unlockType, self.unlockRequirementInput.currentText())
         
