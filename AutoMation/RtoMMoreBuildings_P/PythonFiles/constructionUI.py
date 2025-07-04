@@ -12,11 +12,11 @@ from modUtils import (
 )
 
 class ConstructionAdderUI(QWidget):
-    def __init__(self, scriptDir, Items, categoryTagsData):
+    def __init__(self, scriptDir, Items, categoryTagsData, unlockRequirementsItemsConstructions):
         super().__init__()
         self.setWindowTitle("New Construction Adder")
-        self.setMinimumWidth(400)
-        self.setMaximumWidth(400)
+        self.setMinimumWidth(500)
+        self.setMaximumWidth(500)
 
         self.scriptDir = scriptDir
         
@@ -27,17 +27,31 @@ class ConstructionAdderUI(QWidget):
         self.mainCategories = sorted(set(k.split('.')[0] for k in categoryTagsData.keys()))
         self.subCategories = {}
 
+        self.unlockType = "UnlockRequiredItems"
+
         for key in categoryTagsData.keys():
             main, sub = key.split('.')
             if main not in self.subCategories:
                 self.subCategories[main] = []
             self.subCategories[main].append(sub)
 
+        self.unlockRequirements = unlockRequirementsItemsConstructions
+
         self.setupUi()
 
     def updateSubCategories(self, mainCategory):
         self.categorySubInput.clear()
         self.categorySubInput.addItems(self.subCategories.get(mainCategory, []))
+    
+    def updateUnlockItemsRequirements(self):
+        self.unlockType = "UnlockRequiredItems"
+        self.unlockRequirementInput.clear()
+        self.unlockRequirementInput.addItems(self.unlockRequirements.get(self.unlockType,[]))
+
+    def updateUnlockConstructionRequirements(self):
+        self.unlockType = "UnlockRequiredConstructions"
+        self.unlockRequirementInput.clear()
+        self.unlockRequirementInput.addItems(self.unlockRequirements.get(self.unlockType,[]))
 
     def setupUi(self):
         layout = QVBoxLayout()
@@ -64,20 +78,26 @@ class ConstructionAdderUI(QWidget):
 
         # Unlocked conditions
         self.unlockTConditionsGroupBox = QGroupBox("Unlock Conditions")
-        self.unlockConditionsLayout = QHBoxLayout()
+        self.unlockConditionsLayout = QVBoxLayout()
+        self.unlockButtonsLayout = QHBoxLayout()
 
         self.unlockConditionsButtonGroup = QButtonGroup()
 
         self.constructionRadioButton = QRadioButton("Discover Construction")
+        self.constructionRadioButton.clicked.connect(self.updateUnlockConstructionRequirements)
         self.materialRadioButton = QRadioButton("Discover Item")
+        self.materialRadioButton.clicked.connect(self.updateUnlockItemsRequirements)
         
         self.materialRadioButton.setChecked(True)
 
         self.unlockConditionsButtonGroup.addButton(self.materialRadioButton)
         self.unlockConditionsButtonGroup.addButton(self.constructionRadioButton)
 
-        self.unlockRequiredItem = QComboBox()
-        self.unlockRequiredConstruction = QComboBox()
+        self.unlockRequirementInput = QComboBox()
+        self.unlockRequirementInput.addItems(self.unlockRequirements.get(self.unlockType,[]))
+        #self.unlockRequiredConstruction = QComboBox()
+
+        #self.updateUnlockRequirements()
 
         # Buttons
         self.saveButton = QPushButton("Save")
@@ -98,8 +118,10 @@ class ConstructionAdderUI(QWidget):
         layout.addLayout(self.materialsLayout)
         layout.addWidget(self.addMaterialButton)
 
-        self.unlockConditionsLayout.addWidget(self.materialRadioButton)
-        self.unlockConditionsLayout.addWidget(self.constructionRadioButton)
+        self.unlockButtonsLayout.addWidget(self.materialRadioButton)
+        self.unlockButtonsLayout.addWidget(self.constructionRadioButton)
+        self.unlockConditionsLayout.addLayout(self.unlockButtonsLayout)
+        self.unlockConditionsLayout.addWidget(self.unlockRequirementInput)
         self.unlockTConditionsGroupBox.setLayout(self.unlockConditionsLayout)
 
         layout.addWidget(self.unlockTConditionsGroupBox)
@@ -107,6 +129,7 @@ class ConstructionAdderUI(QWidget):
 
         self.setLayout(layout)
         self.addMaterial()
+        self.updateUnlockItemsRequirements()
   
     def addMaterial(self):
         if len(self.materialsWidgets) >= 6:
@@ -116,7 +139,6 @@ class ConstructionAdderUI(QWidget):
         materialLayout = QHBoxLayout()
 
         materialCategoryInput = QComboBox()
-        print(list(self.Items.keys()))
         materialCategoryInput.addItems(list(self.Items.keys()))
 
         materialNameInput = QComboBox()
@@ -159,11 +181,6 @@ class ConstructionAdderUI(QWidget):
                     QMessageBox.warning(self,"Invalid Material", "f"'{materialName}' is not a valid material)
                 '''
                 materials.append((materialName,count))
-
-        if self.materialRadioButton.isChecked():
-            unlockType = 0
-        elif self.constructionRadioButton.isChecked():
-            unlockType = 1
         
         userName = self.userNameInput.text().strip()
         name = self.nameInput.text().strip()
@@ -183,7 +200,7 @@ class ConstructionAdderUI(QWidget):
         
         DTConstructionsHandle(uniqueTag, assetPath, categoryTag, self.scriptDir)
 
-        DTConstructionRecipesHandle(uniqueTag, self.scriptDir, categoryKey, materials, unlockType, unlockRequirement="Placeholder")
+        DTConstructionRecipesHandle(uniqueTag, self.scriptDir, categoryKey, materials, self.unlockType, unlockRequirement="Placeholder")
         
     
 
