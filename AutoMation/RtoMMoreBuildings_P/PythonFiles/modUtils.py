@@ -142,10 +142,6 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
                 itemArray.append(newItem)
                 if item[0] not in DT_ConstructionRecipesModData["NameMap"]:
                         DT_ConstructionRecipesModData["NameMap"].append(item[0])
-                print(newItem)
-                print(itemArray)
-
-        print(itemArray)
         
 
         flags = flagData.get(categoryTag)
