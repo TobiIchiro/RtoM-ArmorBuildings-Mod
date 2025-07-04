@@ -143,9 +143,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            "UI.Construction.Category.Deco.Furniture"
-          ]
+          "Value": []
         }
       ]
     },
