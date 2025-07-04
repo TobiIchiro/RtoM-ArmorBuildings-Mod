@@ -109,8 +109,8 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
         
         #Loading Needes Files
         recipeTemplate = loadJson(recipeTemplatePath)
-        dummyStructs = loadJson(itemTemplatePath)
-        itemTemplate = loadJson(dummyStructsPath)
+        itemTemplate = loadJson(itemTemplatePath)
+        dummyStructs = loadJson(dummyStructsPath)
         flagData = loadJson(flagsPath)
         unlockRequirementsStructs = loadJson(unlockRequirementsPath)
 
@@ -121,10 +121,14 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
         itemArray = []
 
         for item in requiredItems:
-                newItem = itemTemplate.copy
+                newItem = itemTemplate.copy()
                 newItem["Value"][0]["Value"][0]["Value"] = item[0]
-                newItem["Value"][2]["Value"][0]["Value"] = item[1]
+                newItem["Value"][2]["Value"] = item[1]
                 itemArray.append(newItem)
+                if item[0] not in DT_ConstructionRecipesModData["NameMap"]:
+                        DT_ConstructionRecipesModData["NameMap"].append(item[0])
+
+        
 
         flags = flagData.get(categoryTag)
         if not flags and "." in categoryTag:
@@ -145,7 +149,7 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
         recipeTemplate["Value"][16]["Value"] = itemArray #Edit DefaultRequiredMaterials
 
         #Handle unlock conditions
-        if unlockOption == 0:
+        if unlockOption == "UnlockRequiredItems":
                unlockRequiredItems = unlockRequirementsStructs["UnlockRequiredItems"].copy()
                unlockRequiredItems["Value"][0]["Value"][0]["Value"] = unlockRequirement
                recipeTemplate["Value"][20]["Value"][3] = unlockRequiredItems
@@ -157,8 +161,8 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
                recipeTemplate["Value"][20]["Value"][4] = unlockRequiredConstruction
 
         #Save data
-        DT_ConstructionRecipesModData["Exports"].append(recipeTemplate)
-        DT_ConstructionRecipesNewData["Exports"].append(recipeTemplate)
+        DT_ConstructionRecipesModData["Exports"][0]["Table"]["Data"].append(recipeTemplate)
+        DT_ConstructionRecipesNewData["Exports"][0]["Table"]["Data"].append(recipeTemplate)
         
         
         #Saving Data tables
