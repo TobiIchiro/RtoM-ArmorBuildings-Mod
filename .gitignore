@@ -7,3 +7,5 @@
 *.bak
 *.ubulk
 *.bin
+
+__pycache__/
