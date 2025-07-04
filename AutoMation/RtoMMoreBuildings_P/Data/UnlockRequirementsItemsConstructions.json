@@ -1,0 +1,39 @@
+{
+    "UnlockRequiredItems": [
+        "CraftingStation_AdvancedForge",
+        "CraftingStation_AdvancedFurnace",
+        "CraftingStation_BasicForge",
+        "CraftingStation_BasicFurnace",
+        "CraftingStation_Campfire",
+        "CraftingStation_Campfire_Sandbox",
+        "CraftingStation_DurinForge",
+        "CraftingStation_FabricStation",
+        "CraftingStation_FabricStation_Upgrade",
+        "CraftingStation_ForgeUpgrade_GemCutter",
+        "CraftingStation_FurnaceUpgrade",
+        "CraftingStation_Hearth_Farm",
+        "CraftingStation_Hearth_LargeHearth",
+        "CraftingStation_Hearth_MediumHearth",
+        "CraftingStation_Hearth_MiniHearth",
+        "CraftingStation_Hearth_SmallHearth",
+        "CraftingStation_HearthMiniHearth",
+        "CraftingStation_HearthSmallHearth",
+        "CraftingStation_Kitchen_Oven",
+        "CraftingStation_Kitchen_PitBBQ",
+        "CraftingStation_Kitchen_Stove",
+        "CraftingStation_Mill",
+        "CraftingStation_PurificationStation",
+        "CraftingStation_RepairStation",
+        "CraftingStation_Rune",
+        "CraftingStation_TintingStation",
+        "CraftingStation_Workbench"
+    ],
+    "UnlockRequiredConstructions": [
+        "Ore.Granite",
+        "Ore.Stone",
+        "Tool.Restoration_Hammer_Gunmetal",
+        "Tool.Restoration_Hammer_Starmetal",
+        "Tool.Restoration_Hammer_Steel",
+        "Tool.Restoration_Hammer_Adamant"
+    ]
+}
