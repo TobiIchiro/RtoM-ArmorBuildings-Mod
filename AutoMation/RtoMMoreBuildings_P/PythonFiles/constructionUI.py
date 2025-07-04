@@ -8,7 +8,7 @@ from PySide6.QtCore import Qt
 import sys
 
 from modUtils import (
-    architectureHandle, DTConstructionsHandle
+    architectureHandle, DTConstructionsHandle, DTConstructionRecipesHandle
 )
 
 class ConstructionAdderUI(QWidget):
@@ -23,9 +23,21 @@ class ConstructionAdderUI(QWidget):
         self.Items = Items
         self.materialsWidgets = []
 
-        self.categoryTags = categoryTagsData.get("Categories",[])
+        self.categoryTagsRaw = categoryTagsData
+        self.mainCategories = sorted(set(k.split('.')[0] for k in categoryTagsData.keys()))
+        self.subCategories = {}
+
+        for key in categoryTagsData.keys():
+            main, sub = key.split('.')
+            if main not in self.subCategories:
+                self.subCategories[main] = []
+            self.subCategories[main].append(sub)
 
         self.setupUi()
+
+    def updateSubCategories(self, mainCategory):
+        self.categorySubInput.clear()
+        self.categorySubInput.addItems(self.subCategories.get(mainCategory, []))
 
     def setupUi(self):
         layout = QVBoxLayout()
@@ -38,12 +50,12 @@ class ConstructionAdderUI(QWidget):
         self.assetPathInput = QLineEdit()
 
         # Category tags
-        self.categoryTagInput = QComboBox()
-        self.categoryTagInput.addItems(self.categoryTags)
+        self.categoryMainInput = QComboBox()
+        self.categoryMainInput.addItems(self.mainCategories)
+        self.categoryMainInput.currentTextChanged.connect(self.updateSubCategories)
 
-        # Construction Category
-        self.blueprintTypeInput = QComboBox()
-        self.blueprintTypeInput.addItems(["Floor","Wall","Column","Deco"])
+        self.categorySubInput = QComboBox()
+        self.updateSubCategories(self.categoryMainInput.currentText())
 
         # Required Materials
         self.materialsLayout = QVBoxLayout()
@@ -78,8 +90,8 @@ class ConstructionAdderUI(QWidget):
         formLayout.addRow("Name Tag", self.constructionTag)
         formLayout.addRow("Description", self.descriptionInput)
         formLayout.addRow("Asset Path", self.assetPathInput)
-        formLayout.addRow("Category", self.categoryTagInput)
-        formLayout.addRow("Blueprint type", self.blueprintTypeInput)
+        formLayout.addRow("Main Category", self.categoryMainInput)
+        formLayout.addRow("Sub Category", self.categorySubInput)
 
         layout.addLayout(formLayout)
         layout.addWidget(QLabel("Materials (max 6):"))
@@ -95,7 +107,7 @@ class ConstructionAdderUI(QWidget):
 
         self.setLayout(layout)
         self.addMaterial()
-    
+  
     def addMaterial(self):
         if len(self.materialsWidgets) >= 6:
             QMessageBox.warning(self, "Reached Limit", "You can only add up to 6 materials")
@@ -157,8 +169,8 @@ class ConstructionAdderUI(QWidget):
         name = self.nameInput.text().strip()
         description = self.descriptionInput.text().strip()
         assetPath = self.assetPathInput.text().strip()
-        category = self.categoryTagInput.currentText().strip()
-        blueprint = self.blueprintTypeInput.currentText().strip()
+        categoryKey = f"{self.categoryMainInput.currentText()}.{self.categorySubInput.currentText()}"
+        categoryTag = self.categoryTagsRaw.get(categoryKey,"")
 
         if not name or not description or not assetPath:
             QMessageBox.warning(self,"Empty Fields","Please fill the empty fields")
@@ -169,18 +181,9 @@ class ConstructionAdderUI(QWidget):
         #Generate Unique tag and save Architecture.json for generating Mod and mantain for future updates
         uniqueTag = architectureHandle(tag, name, description, self.scriptDir)
         
-        DTConstructionsHandle(uniqueTag, assetPath, category, self.scriptDir)
+        DTConstructionsHandle(uniqueTag, assetPath, categoryTag, self.scriptDir)
 
-        #DT_ConstructionRecipes.json
-        #NameMap append tag, check if materials are not in NameMaps if not, append them
-        #Name: tag
-        #Value[0].Value[0].Value : tag
-        #Flags 2,3,4,5,8,9,10,11
-        #Value[16].Value append each material
-            #Value[0].Value[0].Value : material[0]
-            #Value[2].Value : material[1]
-        #checkedItem ? Value[20].Value[3] = selectedItemTemplate, Value[20].Value[4] = ConstructionDumyStruct : 
-        #              Value[20].Value[3] = MateriaDumyStruct,    Value[20].Value[4] = selectedConstructionTemplate
+        DTConstructionRecipesHandle(uniqueTag, self.scriptDir, categoryKey, materials, unlockType, unlockRequirement="Placeholder")
         
     
 

@@ -94,10 +94,76 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path):
 
         saveJson(modPath, DT_ConstructionsModData)
         saveJson(newPath, DT_ConstructionsNewData)
+
+def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unlockOption, unlockRequirement):
+        #Needed Files paths
+        recipeTemplatePath = os.path.abspath(os.path.join(path,"..","Data","ConstructionRecipeTemplate.json"))
+        itemTemplatePath = os.path.abspath(os.path.join(path,"..","Data","ItemTemplate.json"))
+        dummyStructsPath = os.path.abspath(os.path.join(path,"..","Data","DumyStructs.json"))
+        flagsPath = os.path.abspath(os.path.join(path,"..","Data","CategoryFlags.json"))
+        unlockRequirementsPath = os.path.abspath(os.path.join(path,"..","Data","UnlockRequirementsStructs.json"))
+
+        #File paths
+        modPath = os.path.abspath(os.path.join(path,"..","Saves","mod","DT_ConstructionRecipes.json"))
+        newPath = os.path.abspath(os.path.join(path,"..","Saves","newConstructions","DT_ConstructionRecipes.json"))
         
+        #Loading Needes Files
+        recipeTemplate = loadJson(recipeTemplatePath)
+        dummyStructs = loadJson(itemTemplatePath)
+        itemTemplate = loadJson(dummyStructsPath)
+        flagData = loadJson(flagsPath)
+        unlockRequirementsStructs = loadJson(unlockRequirementsPath)
+
+        #Loading Data tables
+        DT_ConstructionRecipesModData = loadJson(modPath)
+        DT_ConstructionRecipesNewData = loadJson(newPath)
+
+        itemArray = []
+
+        for item in requiredItems:
+                newItem = itemTemplate.copy
+                newItem["Value"][0]["Value"][0]["Value"] = item[0]
+                newItem["Value"][2]["Value"][0]["Value"] = item[1]
+                itemArray.append(newItem)
+
+        flags = flagData.get(categoryTag)
+        if not flags and "." in categoryTag:
+                _, sub = categoryTag.split(".",1)
+                flags = flagData.get(sub)
 
 
+        #Editing Template
+        recipeTemplate["Name"] = uniqueTag #Edit Recipe Name
+        recipeTemplate["Value"][0]["Value"][0]["Value"] = uniqueTag #Edit Row Name
+        recipeTemplate["Value"][2]["Value"] = flags[0] #Edit LocationRequirement
+        recipeTemplate["Value"][3]["Value"] = flags[1] #Edit PlacementType
+        recipeTemplate["Value"][4]["Value"] = flags[2] #Edit OnWall
+        recipeTemplate["Value"][5]["Value"] = flags[3] #Edit OnFloor
+        recipeTemplate["Value"][9]["Value"] = flags[4] #Edit AutoFoundation
+        recipeTemplate["Value"][10]["Value"] = flags[5] #Edit InheritAutoFoundationStability
+        recipeTemplate["Value"][11]["Value"] = flags[6] #Edit AllowRefunds
+        recipeTemplate["Value"][16]["Value"] = itemArray #Edit DefaultRequiredMaterials
 
+        #Handle unlock conditions
+        if unlockOption == 0:
+               unlockRequiredItems = unlockRequirementsStructs["UnlockRequiredItems"].copy()
+               unlockRequiredItems["Value"][0]["Value"][0]["Value"] = unlockRequirement
+               recipeTemplate["Value"][20]["Value"][3] = unlockRequiredItems
+               recipeTemplate["Value"][20]["Value"][4] = dummyStructs["UnlockRequiredItems"]
+        else:
+               unlockRequiredConstruction = unlockRequirementsStructs["UnlockRequiredConstructions"].copy()
+               unlockRequiredConstruction["Value"][0]["Value"][0]["Value"] = unlockRequirement
+               recipeTemplate["Value"][20]["Value"][3] = dummyStructs["UnlockRequiredConstructions"]
+               recipeTemplate["Value"][20]["Value"][4] = unlockRequiredConstruction
+
+        #Save data
+        DT_ConstructionRecipesModData["Exports"].append(recipeTemplate)
+        DT_ConstructionRecipesNewData["Exports"].append(recipeTemplate)
+        
+        
+        #Saving Data tables
+        saveJson(modPath, DT_ConstructionRecipesModData)
+        saveJson(newPath, DT_ConstructionRecipesNewData)
 
 
 
