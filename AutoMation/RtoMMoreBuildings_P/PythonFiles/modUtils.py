@@ -69,6 +69,10 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path, userName):
         #Get blueprint name
         blueprintName = assetPath.split("/")[-1]
 
+        #Icon infor
+        textureName = f"T_UI_BuildIcon_{uniqueTag}"
+        iconPath = f"/Game/Mods/{userName}Pack/Constructions/Icons/{textureName}"
+
         #Edit template
         #Edite name
         template["Name"] = uniqueTag
@@ -88,20 +92,22 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path, userName):
         DT_ConstructionsModData["NameMap"].extend([
                 uniqueTag,
                 assetPath,
-                f"{assetPath}.{blueprintName}_C"
+                f"{assetPath}.{blueprintName}_C",
+                textureName,
+                iconPath
         ])
         DT_ConstructionsNewData["NameMap"].extend([
                 uniqueTag,
                 assetPath,
-                f"{assetPath}.{blueprintName}_C"
+                f"{assetPath}.{blueprintName}_C",
+                textureName,
+                iconPath
         ])
 
         DT_ConstructionsModData["Exports"][0]["Table"]["Data"].append(template)
         DT_ConstructionsNewData["Exports"][0]["Table"]["Data"].append(template)
 
         #imports handler
-        textureName = f"T_UI_BuildIcon_{uniqueTag}"
-        iconPath = f"/Game/Mods/{userName}Pack/Constructions/Icons/{textureName}"
 
         packageImport = importTemplate["Package"].copy()
         packageImport["ObjectName"] = iconPath
@@ -110,11 +116,13 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path, userName):
         textureImport["ObjectName"] = textureName
         textureImport["OuterIndex"] = packageImportLocation #Needs to references location of package.
 
+
+
         DT_ConstructionsModData["Imports"].append(packageImport)
         DT_ConstructionsModData["Imports"].append(textureImport)
         DT_ConstructionsNewData["Imports"].append(packageImport)
         DT_ConstructionsNewData["Imports"].append(textureImport)
-        
+
         saveJson(modPath, DT_ConstructionsModData)
         saveJson(newPath, DT_ConstructionsNewData)
 
