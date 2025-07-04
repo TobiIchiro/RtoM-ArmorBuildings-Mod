@@ -80,6 +80,10 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path, userName):
         #Edit Backwards Compatibility Actor path
         template["Value"][4]["Value"][0]["Value"][0]["Value"]["AssetPath"]["AssetName"] = f"{assetPath}.{blueprintName}_C"
         template["Value"][5]["Value"][0]["Value"].append(categoryTag)
+        #Edit Icon
+        packageImportLocation = - 1 - len(DT_ConstructionsModData["Imports"]) #Import Data starts in -1 and decreases 1, last entru should be the length of the array but negative
+        #In vanilla file (no edition) of update 1.5.2 length = 1005, so next package should be -1006
+        template["Value"][2]["Value"] = packageImportLocation - 1 #Because it appends first package then texture
 
         DT_ConstructionsModData["NameMap"].extend([
                 uniqueTag,
@@ -104,9 +108,13 @@ def DTConstructionsHandle(uniqueTag, assetPath, categoryTag, path, userName):
 
         textureImport = importTemplate["Texture2D"].copy()
         textureImport["ObjectName"] = textureName
+        textureImport["OuterIndex"] = packageImportLocation #Needs to references location of package.
 
+        DT_ConstructionsModData["Imports"].append(packageImport)
+        DT_ConstructionsModData["Imports"].append(textureImport)
+        DT_ConstructionsNewData["Imports"].append(packageImport)
+        DT_ConstructionsNewData["Imports"].append(textureImport)
         
-
         saveJson(modPath, DT_ConstructionsModData)
         saveJson(newPath, DT_ConstructionsNewData)
 
@@ -142,6 +150,7 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
                 itemArray.append(newItem)
                 if item[0] not in DT_ConstructionRecipesModData["NameMap"]:
                         DT_ConstructionRecipesModData["NameMap"].append(item[0])
+                        DT_ConstructionRecipesNewData["NameMap"].append(item[0])
         
 
         flags = flagData.get(categoryTag)
