@@ -153,11 +153,11 @@ def DTConstructionRecipesHandle(uniqueTag, path, categoryTag, requiredItems, unl
                unlockRequiredItems = unlockRequirementsStructs["UnlockRequiredItems"].copy()
                unlockRequiredItems["Value"][0]["Value"][0]["Value"] = unlockRequirement
                recipeTemplate["Value"][20]["Value"][3] = unlockRequiredItems
-               recipeTemplate["Value"][20]["Value"][4] = dummyStructs["UnlockRequiredItems"]
+               recipeTemplate["Value"][20]["Value"][4] = dummyStructs["UnlockRequiredConstructions"]
         else:
                unlockRequiredConstruction = unlockRequirementsStructs["UnlockRequiredConstructions"].copy()
                unlockRequiredConstruction["Value"][0]["Value"][0]["Value"] = unlockRequirement
-               recipeTemplate["Value"][20]["Value"][3] = dummyStructs["UnlockRequiredConstructions"]
+               recipeTemplate["Value"][20]["Value"][3] = dummyStructs["UnlockRequiredItems"]
                recipeTemplate["Value"][20]["Value"][4] = unlockRequiredConstruction
 
         #Save data
