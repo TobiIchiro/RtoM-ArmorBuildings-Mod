@@ -60,7 +60,7 @@
       "IsZero": false,
       "PropertyTagFlags": "None",
       "PropertyTagExtensions": "NoExtension",
-      "Value": -1007
+      "Value": -1004
     },
     {
       "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
