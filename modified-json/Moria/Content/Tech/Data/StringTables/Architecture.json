@@ -3433,6 +3433,14 @@
                     [
                         "TobiPack_LargeBrazier.Description",
                         "A Big Brazier"
+                    ],
+                    [
+                        "MereakPack_Barrel_A.Name",
+                        "Barrel"
+                    ],
+                    [
+                        "MereakPack_Barrel_A.Description",
+                        "A decorative Barrel"
                     ]
                 ]
             },
