@@ -3441,6 +3441,14 @@
                     [
                         "MereakPack_Barrel_A.Description",
                         "A decorative Barrel"
+                    ],
+                    [
+                        "MereakPack_NarrowGraniteWindow_A.Name",
+                        "Narrow Granite Window"
+                    ],
+                    [
+                        "MereakPack_NarrowGraniteWindow_A.Description",
+                        "A narrow Window"
                     ]
                 ]
             },
