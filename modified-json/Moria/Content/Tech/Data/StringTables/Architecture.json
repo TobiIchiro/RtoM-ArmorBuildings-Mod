@@ -3449,6 +3449,14 @@
                     [
                         "MereakPack_NarrowGraniteWindow_A.Description",
                         "A narrow Window"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteFloor_A.Name",
+                        "White Granite Floor"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteFloor_A.Description",
+                        "A nicely tiled granite floor."
                     ]
                 ]
             },
