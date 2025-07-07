@@ -3457,6 +3457,22 @@
                     [
                         "ZetaPack_WhiteGraniteFloor_A.Description",
                         "A nicely tiled granite floor."
+                    ],
+                    [
+                        "MereakPack_MessyWorkbench_A.Name",
+                        "Messy Workbench"
+                    ],
+                    [
+                        "MereakPack_MessyWorkbench_A.Description",
+                        "A Messy Workbench"
+                    ],
+                    [
+                        "MereakPack_SmallMessyWorkbench_A.Name",
+                        "Small Messy Workbench"
+                    ],
+                    [
+                        "MereakPack_SmallMessyWorkbench_A.Description",
+                        "A small Messy Workbench"
                     ]
                 ]
             },
