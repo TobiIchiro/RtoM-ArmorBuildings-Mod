@@ -3473,6 +3473,22 @@
                     [
                         "MereakPack_SmallMessyWorkbench_A.Description",
                         "A small Messy Workbench"
+                    ],
+                    [
+                        "MereakPack_LongShelves_A.Name",
+                        "Long Shelves"
+                    ],
+                    [
+                        "MereakPack_LongShelves_A.Description",
+                        "A long set of shelves"
+                    ],
+                    [
+                        "MereakPack_MediumShelves_A.Name",
+                        "Medium Shelves"
+                    ],
+                    [
+                        "MereakPack_MediumShelves_A.Description",
+                        "A medium set of shelves"
                     ]
                 ]
             },
