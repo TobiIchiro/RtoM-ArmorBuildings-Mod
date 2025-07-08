@@ -111,7 +111,12 @@
     "StructProperty",
     "Suburbs_Wall_Thin_Window_Small_B",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+    "MI_Suburbs_Wall_Base_Dest_Cavern",
+    "/Game/Art/Assets/Kits/Architecture/Deep/Materials/Deep_Non_Destructible/MI_Deep_Non_Destructible_Light",
+    "MI_Deep_Non_Destructible_Light",
+    "/Game/Mods/ZetaPack/BP_Suburbs_Wall_Thin_Window_Small_B"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -282,7 +287,7 @@
       "ScriptBytecodeRaw": null,
       "Field": {
         "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
-        "Next": null
+        "Next": 0
       },
       "Data": [
         {
@@ -876,7 +881,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -17
+              "Value": -41
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -885,7 +890,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -17
+              "Value": -41
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -894,7 +899,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -17
+              "Value": -41
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -903,7 +908,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -17
+              "Value": -43
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -912,8 +917,9 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -17
-            }
+              "Value": -41
+            },
+            null
           ]
         },
         {
@@ -1933,6 +1939,42 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Deep/Materials/Deep_Non_Destructible/MI_Deep_Non_Destructible_Light",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Deep_Non_Destructible_Light",
+      "OuterIndex": -42,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -1981,7 +2023,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_Window_Small_B",
+  "FolderName": "/Game/Mods/ZetaPack/BP_Suburbs_Wall_Thin_Window_Small_B",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

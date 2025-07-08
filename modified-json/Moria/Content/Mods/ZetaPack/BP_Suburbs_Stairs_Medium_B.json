@@ -118,7 +118,12 @@
     "StructProperty",
     "Suburbs_Stairs_Medium_B2",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+    "MI_Suburbs_Wall_Base_Dest_Cavern",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Stairs/MI_Suburbs_Stairs_elements_Cavern",
+    "MI_Suburbs_Stairs_elements_Cavern",
+    "/Game/Mods/ZetaPack/BP_Suburbs_Stairs_Medium_B"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -331,7 +336,7 @@
       "ScriptBytecodeRaw": null,
       "Field": {
         "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
-        "Next": null
+        "Next": 0
       },
       "Data": [
         {
@@ -363,7 +368,7 @@
       "TemplateIndex": -3,
       "ObjectFlags": "RF_Public, RF_Transactional",
       "SerialSize": 342,
-      "SerialOffset": 6965,
+      "SerialOffset": 7432,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -423,7 +428,7 @@
       "TemplateIndex": -4,
       "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
       "SerialSize": 66,
-      "SerialOffset": 7307,
+      "SerialOffset": 7774,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -609,7 +614,7 @@
       "TemplateIndex": -16,
       "ObjectFlags": "RF_NoFlags",
       "SerialSize": 517,
-      "SerialOffset": 7373,
+      "SerialOffset": 7840,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -716,7 +721,7 @@
       "TemplateIndex": -18,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_InheritableComponentTemplate",
       "SerialSize": 221,
-      "SerialOffset": 7890,
+      "SerialOffset": 8357,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -787,7 +792,16 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -17
+              "Value": -41
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -43
             }
           ]
         },
@@ -812,8 +826,8 @@
       "SuperIndex": 0,
       "TemplateIndex": -20,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
-      "SerialSize": 164,
-      "SerialOffset": 8111,
+      "SerialSize": 168,
+      "SerialOffset": 8578,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -966,7 +980,7 @@
       "TemplateIndex": -21,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 332,
-      "SerialOffset": 8275,
+      "SerialOffset": 8746,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1119,7 +1133,7 @@
       "TemplateIndex": -21,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 332,
-      "SerialOffset": 8607,
+      "SerialOffset": 9078,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1158,7 +1172,7 @@
       "TemplateIndex": -35,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 12,
-      "SerialOffset": 8939,
+      "SerialOffset": 9410,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1197,7 +1211,7 @@
       "TemplateIndex": -32,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
       "SerialSize": 12,
-      "SerialOffset": 8951,
+      "SerialOffset": 9422,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1288,7 +1302,7 @@
       "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 168,
-      "SerialOffset": 8963,
+      "SerialOffset": 9434,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1394,7 +1408,7 @@
       "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9131,
+      "SerialOffset": 9602,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1501,7 +1515,7 @@
       "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9358,
+      "SerialOffset": 9829,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1608,7 +1622,7 @@
       "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9585,
+      "SerialOffset": 10056,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1715,7 +1729,7 @@
       "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9812,
+      "SerialOffset": 10283,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1856,7 +1870,7 @@
       "TemplateIndex": -38,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 147,
-      "SerialOffset": 10039,
+      "SerialOffset": 10510,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -2244,6 +2258,42 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Stairs/MI_Suburbs_Stairs_elements_Cavern",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Stairs_elements_Cavern",
+      "OuterIndex": -42,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2272,7 +2322,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 15,
-      "NameCount": 117
+      "NameCount": 122
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
