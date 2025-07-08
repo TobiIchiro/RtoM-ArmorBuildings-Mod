@@ -113,7 +113,10 @@
     "StructProperty",
     "Suburbs_Wall_Thin_3x3m_A",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+    "MI_Suburbs_Wall_Base_Dest_Cavern",
+    "/Game/Mods/ZetaPack/BP_Suburbs_Wall_Thin_3x3m_A"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -305,7 +308,7 @@
       "ScriptBytecodeRaw": null,
       "Field": {
         "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
-        "Next": null
+        "Next": 0
       },
       "Data": [
         {
@@ -337,7 +340,7 @@
       "TemplateIndex": -3,
       "ObjectFlags": "RF_Public, RF_Transactional",
       "SerialSize": 291,
-      "SerialOffset": 6615,
+      "SerialOffset": 6856,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -397,7 +400,7 @@
       "TemplateIndex": -4,
       "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
       "SerialSize": 66,
-      "SerialOffset": 6906,
+      "SerialOffset": 7147,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -721,7 +724,7 @@
       "TemplateIndex": -17,
       "ObjectFlags": "RF_NoFlags",
       "SerialSize": 936,
-      "SerialOffset": 6972,
+      "SerialOffset": 7213,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -828,7 +831,7 @@
       "TemplateIndex": -19,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_InheritableComponentTemplate",
       "SerialSize": 221,
-      "SerialOffset": 7908,
+      "SerialOffset": 8149,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -899,7 +902,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -18
+              "Value": -42
             }
           ]
         },
@@ -925,7 +928,7 @@
       "TemplateIndex": -21,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 164,
-      "SerialOffset": 8129,
+      "SerialOffset": 8370,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1045,7 +1048,7 @@
       "TemplateIndex": -22,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 216,
-      "SerialOffset": 8293,
+      "SerialOffset": 8534,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1084,7 +1087,7 @@
       "TemplateIndex": -36,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 12,
-      "SerialOffset": 8509,
+      "SerialOffset": 8750,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1123,7 +1126,7 @@
       "TemplateIndex": -33,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
       "SerialSize": 12,
-      "SerialOffset": 8521,
+      "SerialOffset": 8762,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1214,7 +1217,7 @@
       "TemplateIndex": -38,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 168,
-      "SerialOffset": 8533,
+      "SerialOffset": 8774,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1320,7 +1323,7 @@
       "TemplateIndex": -38,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 8701,
+      "SerialOffset": 8942,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1427,7 +1430,7 @@
       "TemplateIndex": -38,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 8928,
+      "SerialOffset": 9169,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1534,7 +1537,7 @@
       "TemplateIndex": -38,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9155,
+      "SerialOffset": 9396,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1657,7 +1660,7 @@
       "TemplateIndex": -39,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 139,
-      "SerialOffset": 9382,
+      "SerialOffset": 9623,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -2054,6 +2057,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2080,7 +2101,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 13,
-      "NameCount": 112
+      "NameCount": 115
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -2103,7 +2124,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_A",
+  "FolderName": "/Game/Mods/ZetaPack/BP_Suburbs_Wall_Thin_3x3m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
