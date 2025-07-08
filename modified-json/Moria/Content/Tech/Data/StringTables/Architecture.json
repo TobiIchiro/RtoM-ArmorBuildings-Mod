@@ -3489,6 +3489,30 @@
                     [
                         "MereakPack_MediumShelves_A.Description",
                         "A medium set of shelves"
+                    ],
+                    [
+                        "MereakPack_ThinWoodCrown_A.Name",
+                        "Thin Wood Crown"
+                    ],
+                    [
+                        "MereakPack_ThinWoodCrown_A.Description",
+                        "A Thin Wood Crown"
+                    ],
+                    [
+                        "MereakPack_ThinWoodDetail_A.Name",
+                        "Thin Wood Detail"
+                    ],
+                    [
+                        "MereakPack_ThinWoodDetail_A.Description",
+                        "Thin Wood Detail"
+                    ],
+                    [
+                        "MereakPack_WoodCrown_A.Name",
+                        "Wood Crown"
+                    ],
+                    [
+                        "MereakPack_WoodCrown_A.Description",
+                        "Wood Crown"
                     ]
                 ]
             },
