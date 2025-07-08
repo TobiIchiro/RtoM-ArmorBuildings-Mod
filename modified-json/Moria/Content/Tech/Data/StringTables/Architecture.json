@@ -3513,6 +3513,30 @@
                     [
                         "MereakPack_WoodCrown_A.Description",
                         "Wood Crown"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWall_A.Name",
+                        "White Granite Wall"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWall_A.Description",
+                        "White Granite Wall"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWindow_A.Name",
+                        "White Granite Window"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWindow_A.Description",
+                        "White Granite Window"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteStairs_A.Name",
+                        "White Granite Stairs"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteStairs_A.Description",
+                        "White Granite Stairs"
                     ]
                 ]
             },
