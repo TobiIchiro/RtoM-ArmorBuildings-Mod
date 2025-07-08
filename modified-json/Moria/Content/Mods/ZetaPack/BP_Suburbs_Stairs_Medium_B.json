@@ -336,7 +336,7 @@
       "ScriptBytecodeRaw": null,
       "Field": {
         "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
-        "Next": 0
+        "Next": null
       },
       "Data": [
         {
@@ -796,7 +796,7 @@
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
+              "Name": "1",
               "ArrayIndex": 0,
               "IsZero": false,
               "PropertyTagFlags": "None",
@@ -1901,7 +1901,11 @@
   "Thumbnails": null,
   "WorldTileInfo": null,
   "AppendedNullBytes": 43,
-  "OtherAssetsFailedToAccess": [],
+  "OtherAssetsFailedToAccess": [
+    "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Stairs_Medium_B2",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest"
+  ],
   "LegacyFileVersion": -7,
   "DataResourceVersion": "Invalid",
   "DataResources": null,
@@ -2353,7 +2357,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 117,
+  "NamesReferencedFromExportDataCount": 122,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,
