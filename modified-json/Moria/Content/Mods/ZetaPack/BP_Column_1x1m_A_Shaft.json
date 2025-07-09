@@ -111,7 +111,8 @@
     "StaticMesh",
     "StructProperty",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/ZetaPack/BP_Column_1x1m_A_Shaft"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
