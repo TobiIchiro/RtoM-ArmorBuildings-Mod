@@ -3553,6 +3553,14 @@
                     [
                         "ZetaPack_WhiteGraniteTrimedBarrier_A.Description",
                         "A short barrier made of granite blocks."
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnBase_A.Name",
+                        "Medium Granite Column Base"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnBase_A.Description",
+                        "A medium granite column base"
                     ]
                 ]
             },
