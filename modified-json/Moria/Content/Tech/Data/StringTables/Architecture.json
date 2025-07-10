@@ -3577,6 +3577,38 @@
                     [
                         "AradrenPack_MediumGraniteColumnCapital_A.Description",
                         "A Medium Granite Column Capital"
+                    ],
+                    [
+                        "MereakPack_NotchedArchway_A.Name",
+                        "Notched Archway"
+                    ],
+                    [
+                        "MereakPack_NotchedArchway_A.Description",
+                        "A Notched Archway"
+                    ],
+                    [
+                        "MereakPack_ThickDarkWoodFloor_A.Name",
+                        "Thick dark wood floor"
+                    ],
+                    [
+                        "MereakPack_ThickDarkWoodFloor_A.Description",
+                        "A Thick dark wood floor"
+                    ],
+                    [
+                        "MereakPack_FigureHead_A.Name",
+                        "Figure Head"
+                    ],
+                    [
+                        "MereakPack_FigureHead_A.Description",
+                        "A two winged Figure Head"
+                    ],
+                    [
+                        "MereakPack_OrnateCeiling_A.Name",
+                        "Ornate Ceiling"
+                    ],
+                    [
+                        "MereakPack_OrnateCeiling_A.Description",
+                        "A ironwood Ornate Ceiling"
                     ]
                 ]
             },
