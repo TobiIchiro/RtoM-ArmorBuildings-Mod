@@ -113,7 +113,7 @@
     "Ruin_Column_Medium_A_1_Base",
     "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Base",
     "MI_City_Ruin_Column_A_Base",
-    "/Game/Mods/Aradren/BP_City_Column_C_Base"
+    "/Game/Mods/AradrenPack/BP_City_Column_C_Base"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -1006,26 +1006,6 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -40
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -42
-            }
-          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -2144,7 +2124,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Aradren/BP_City_Column_C_Base",
+  "FolderName": "/Game/Mods/AradrenPack/BP_City_Column_C_Base",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

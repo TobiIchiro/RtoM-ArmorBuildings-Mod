@@ -108,7 +108,14 @@
     "StaticMeshComponent1_GEN_VARIABLE",
     "StructProperty",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Shaft_Destructible",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Shaft_Destructible.DM_Ruin_Column_Medium_A_1_Shaft_Destructible",
+    "/Game/Art/Assets/Kits/Deco_Architecture/Ruins/Ruin_Column_Medium_A_1_Shaft",
+    "Ruin_Column_Medium_A_1_Shaft",
+    "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Shaft",
+    "MI_City_Ruin_Column_A_Shaft",
+    "/Game/Mods/AradrenPack/BP_City_Column_C_Shaft"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -279,7 +286,7 @@
       "ScriptBytecodeRaw": null,
       "Field": {
         "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
-        "Next": null
+        "Next": 0
       },
       "Data": [
         {
@@ -988,7 +995,7 @@
             "AssetPath": {
               "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
               "PackageName": null,
-              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Shaft_Destructible.DM_City_Column_Large_A_Shaft_Destructible"
+              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Shaft_Destructible.DM_Ruin_Column_Medium_A_1_Shaft_Destructible"
             },
             "SubPathString": null
           }
@@ -1000,27 +1007,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -38
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -18
-            }
-          ]
+          "Value": -40
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -2078,6 +2065,42 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Deco_Architecture/Ruins/Ruin_Column_Medium_A_1_Shaft",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Ruin_Column_Medium_A_1_Shaft",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Shaft",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_City_Ruin_Column_A_Shaft",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2127,7 +2150,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_City_Column_C_Shaft",
+  "FolderName": "/Game/Mods/AradrenPack/BP_City_Column_C_Shaft",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
