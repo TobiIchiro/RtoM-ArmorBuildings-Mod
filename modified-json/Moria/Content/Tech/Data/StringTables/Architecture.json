@@ -3537,6 +3537,46 @@
                     [
                         "ZetaPack_WhiteGraniteStairs_A.Description",
                         "White Granite Stairs"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteBarrier_A.Name",
+                        "White Granite Barrier"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteBarrier_A.Description",
+                        "A short barrier made of granite blocks."
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteTrimedBarrier_A.Name",
+                        "White Granite Trimed Barrier"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteTrimedBarrier_A.Description",
+                        "A short barrier made of granite blocks."
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnBase_A.Name",
+                        "Medium Granite Column Base"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnBase_A.Description",
+                        "A medium granite column base"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnShaft_A.Name",
+                        "Medium Granite Column Shaft"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnShaft_A.Description",
+                        "A Medium Granite Column Shaft"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnCapital_A.Name",
+                        "Medium Granite Column Capital"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnCapital_A.Description",
+                        "A Medium Granite Column Capital"
                     ]
                 ]
             },
