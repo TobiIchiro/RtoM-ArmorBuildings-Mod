@@ -3489,6 +3489,142 @@
                     [
                         "MereakPack_MediumShelves_A.Description",
                         "A medium set of shelves"
+                    ],
+                    [
+                        "MereakPack_ThinWoodCrown_A.Name",
+                        "Thin Wood Crown"
+                    ],
+                    [
+                        "MereakPack_ThinWoodCrown_A.Description",
+                        "A Thin Wood Crown"
+                    ],
+                    [
+                        "MereakPack_ThinWoodDetail_A.Name",
+                        "Thin Wood Detail"
+                    ],
+                    [
+                        "MereakPack_ThinWoodDetail_A.Description",
+                        "Thin Wood Detail"
+                    ],
+                    [
+                        "MereakPack_WoodCrown_A.Name",
+                        "Wood Crown"
+                    ],
+                    [
+                        "MereakPack_WoodCrown_A.Description",
+                        "Wood Crown"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWall_A.Name",
+                        "White Granite Wall"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWall_A.Description",
+                        "White Granite Wall"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWindow_A.Name",
+                        "White Granite Window"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteWindow_A.Description",
+                        "White Granite Window"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteStairs_A.Name",
+                        "White Granite Stairs"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteStairs_A.Description",
+                        "White Granite Stairs"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteBarrier_A.Name",
+                        "White Granite Barrier"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteBarrier_A.Description",
+                        "A short barrier made of granite blocks."
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteTrimedBarrier_A.Name",
+                        "White Granite Trimed Barrier"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteTrimedBarrier_A.Description",
+                        "A short barrier made of granite blocks."
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnBase_A.Name",
+                        "Medium Granite Column Base"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnBase_A.Description",
+                        "A medium granite column base"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnShaft_A.Name",
+                        "Medium Granite Column Shaft"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnShaft_A.Description",
+                        "A Medium Granite Column Shaft"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnCapital_A.Name",
+                        "Medium Granite Column Capital"
+                    ],
+                    [
+                        "AradrenPack_MediumGraniteColumnCapital_A.Description",
+                        "A Medium Granite Column Capital"
+                    ],
+                    [
+                        "MereakPack_NotchedArchway_A.Name",
+                        "Notched Archway"
+                    ],
+                    [
+                        "MereakPack_NotchedArchway_A.Description",
+                        "A Notched Archway"
+                    ],
+                    [
+                        "MereakPack_ThickDarkWoodFloor_A.Name",
+                        "Thick dark wood floor"
+                    ],
+                    [
+                        "MereakPack_ThickDarkWoodFloor_A.Description",
+                        "A Thick dark wood floor"
+                    ],
+                    [
+                        "MereakPack_FigureHead_A.Name",
+                        "Figure Head"
+                    ],
+                    [
+                        "MereakPack_FigureHead_A.Description",
+                        "A two winged Figure Head"
+                    ],
+                    [
+                        "MereakPack_OrnateCeiling_A.Name",
+                        "Ornate Ceiling"
+                    ],
+                    [
+                        "MereakPack_OrnateCeiling_A.Description",
+                        "A ironwood Ornate Ceiling"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_A.Name",
+                        "Decorated Arch"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_A.Description",
+                        "A decorated arch with wood"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_B.Name",
+                        "Decorated Arch"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_B.Description",
+                        "A decorated arch with wood"
                     ]
                 ]
             },
