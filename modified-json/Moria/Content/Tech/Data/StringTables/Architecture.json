@@ -3609,6 +3609,22 @@
                     [
                         "MereakPack_OrnateCeiling_A.Description",
                         "A ironwood Ornate Ceiling"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_A.Name",
+                        "Decorated Arch"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_A.Description",
+                        "A decorated arch with wood"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_B.Name",
+                        "Decorated Arch"
+                    ],
+                    [
+                        "TobiPack_DecoratedArch_B.Description",
+                        "A decorated arch with wood"
                     ]
                 ]
             },
