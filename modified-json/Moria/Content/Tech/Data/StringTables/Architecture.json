@@ -3713,6 +3713,30 @@
                     [
                         "UzbadPack_ChoppingBlock_A.Description",
                         "Chopping block"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_A.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_A.Description",
+                        "An Small Dwelling Cabinet With Two Drawers"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_B.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_B.Description",
+                        "An Small Dwelling Cabinet With Four Drawers"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_C.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_C.Description",
+                        "An Medium Dwelling Cabinet"
                     ]
                 ]
             },
