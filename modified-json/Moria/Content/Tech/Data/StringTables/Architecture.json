@@ -3697,6 +3697,22 @@
                     [
                         "AradrenPack_RopeBarrier_C.Description",
                         "A Rope Barrier Corner"
+                    ],
+                    [
+                        "UzbadPack_KitchenCauldron_A.Name",
+                        "Kitchen Cauldron"
+                    ],
+                    [
+                        "UzbadPack_KitchenCauldron_A.Description",
+                        "Kitchen Cauldron"
+                    ],
+                    [
+                        "UzbadPack_ChoppingBlock_A.Name",
+                        "Chopping block"
+                    ],
+                    [
+                        "UzbadPack_ChoppingBlock_A.Description",
+                        "Chopping block"
                     ]
                 ]
             },
