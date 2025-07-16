@@ -3625,6 +3625,54 @@
                     [
                         "TobiPack_DecoratedArch_B.Description",
                         "A decorated arch with wood"
+                    ],
+                    [
+                        "MereakPack_GraniteWallBaseboard_A.Name",
+                        "Granite Wall Baseboard"
+                    ],
+                    [
+                        "MereakPack_GraniteWallBaseboard_A.Description",
+                        "A Granite Wall Baseboard"
+                    ],
+                    [
+                        "MereakPack_DetailedBaseboard_A.Name",
+                        "Detailed Baseboard"
+                    ],
+                    [
+                        "MereakPack_DetailedBaseboard_A.Description",
+                        "Detailed Baseboard"
+                    ],
+                    [
+                        "MereakPack_NotchedArch_A.Name",
+                        "Notched Arch"
+                    ],
+                    [
+                        "MereakPack_NotchedArch_A.Description",
+                        "Notched Arch"
+                    ],
+                    [
+                        "MereakPack_UnderStairsArch_A.Name",
+                        "Under Stairs Arch"
+                    ],
+                    [
+                        "MereakPack_UnderStairsArch_A.Description",
+                        "Under Stairs Arch"
+                    ],
+                    [
+                        "MereakPack_FigureHead_B.Name",
+                        "Figure Head"
+                    ],
+                    [
+                        "MereakPack_FigureHead_B.Description",
+                        "Figure Head Single Finial"
+                    ],
+                    [
+                        "MereakPack_ColumnTrimBase_A.Name",
+                        "Column Trim Base"
+                    ],
+                    [
+                        "MereakPack_ColumnTrimBase_A.Description",
+                        "Column Trim Base"
                     ]
                 ]
             },
