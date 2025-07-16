@@ -94379,7 +94379,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -1069
+                                "Value": -1067
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -94543,7 +94543,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -1071
+                                "Value": -1069
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -94707,7 +94707,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -1073
+                                "Value": -1071
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -94791,7 +94791,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Advanced.Walls"
+                                            "UI.Construction.Category.Advanced.Ceilings"
                                         ]
                                     }
                                 ]
@@ -94871,7 +94871,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -1075
+                                "Value": -1073
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -94955,7 +94955,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Advanced.Walls"
+                                            "UI.Construction.Category.Advanced.Columns"
                                         ]
                                     }
                                 ]
@@ -95035,7 +95035,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -1077
+                                "Value": -1075
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
