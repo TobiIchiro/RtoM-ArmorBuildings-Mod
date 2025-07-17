@@ -155,7 +155,8 @@
     "UberGraphFunction",
     "VariableGuid",
     "Vector",
-    "Voxel"
+    "Voxel",
+    "/Game/Mods/TobiPack/BP_Flora_Feather_Receptacle"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -3950,7 +3951,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Placeables/Containers/Flora/BP_Flora_Feather_Receptacle",
+  "FolderName": "/Game/Mods/TobiPack/BP_Flora_Feather_Receptacle",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
