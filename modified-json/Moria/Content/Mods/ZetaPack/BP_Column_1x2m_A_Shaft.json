@@ -115,7 +115,8 @@
     "VariableGuid",
     "Vector",
     "/Game/Mods/ZetaPack/BP_Column_1x2m_A_Shaft",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/City_Columns/MI_Suburbs_City_Columns_Dest_Cavern"
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/City_Columns/MI_Suburbs_City_Columns_Dest_Cavern",
+    "MI_Suburbs_City_Columns_Dest_Cavern"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -901,7 +902,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -18
+              "Value": -42
             }
           ]
         },
@@ -2083,6 +2084,24 @@
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/City_Columns/MI_Suburbs_City_Columns_Dest_Cavern",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_City_Columns_Dest_Cavern",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }

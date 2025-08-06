@@ -3753,6 +3753,38 @@
                     [
                         "TobiPack_BirdNest_B.Description",
                         "A Bird Nest that produces Feathers"
+                    ],
+                    [
+                        "SeraniPack_GlassCabinet_A.Name",
+                        "Glass Cabinet"
+                    ],
+                    [
+                        "SeraniPack_GlassCabinet_A.Description",
+                        "A Glass Cabinet used in Shops"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnBase_A.Name",
+                        "White Granite Column Base"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnBase_A.Description",
+                        "A White Granite Column Base"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnShaft_A.Name",
+                        "White Granite Column Shaft"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnShaft_A.Description",
+                        "A White Granite Column Shaft"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnCapital_A.Name",
+                        "White Granite Column Capital"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnCapital_A.Description",
+                        "A White Granite Column Capital"
                     ]
                 ]
             },
