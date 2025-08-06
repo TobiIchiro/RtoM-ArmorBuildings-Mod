@@ -3588,11 +3588,11 @@
                     ],
                     [
                         "MereakPack_ThickDarkWoodFloor_A.Name",
-                        "Thick dark wood floor"
+                        "Thick dark wood Ceiling"
                     ],
                     [
                         "MereakPack_ThickDarkWoodFloor_A.Description",
-                        "A Thick dark wood floor"
+                        "A Thick dark wood Ceiling"
                     ],
                     [
                         "MereakPack_FigureHead_A.Name",
@@ -3625,6 +3625,166 @@
                     [
                         "TobiPack_DecoratedArch_B.Description",
                         "A decorated arch with wood"
+                    ],
+                    [
+                        "MereakPack_GraniteWallBaseboard_A.Name",
+                        "Granite Wall Baseboard"
+                    ],
+                    [
+                        "MereakPack_GraniteWallBaseboard_A.Description",
+                        "Granite Wall Baseboard"
+                    ],
+                    [
+                        "MereakPack_DetailedBaseboard_A.Name",
+                        "Detailed Baseboard"
+                    ],
+                    [
+                        "MereakPack_DetailedBaseboard_A.Description",
+                        "Detailed Baseboard"
+                    ],
+                    [
+                        "MereakPack_NotchedArch_A.Name",
+                        "Notched Arch"
+                    ],
+                    [
+                        "MereakPack_NotchedArch_A.Description",
+                        "Notched Arch"
+                    ],
+                    [
+                        "MereakPack_UnderStairsArch_A.Name",
+                        "Under Stairs Arch"
+                    ],
+                    [
+                        "MereakPack_UnderStairsArch_A.Description",
+                        "Under Stairs Arch"
+                    ],
+                    [
+                        "MereakPack_FigureHead_B.Name",
+                        "Figure Head"
+                    ],
+                    [
+                        "MereakPack_FigureHead_B.Description",
+                        "Single Finial Figure Head"
+                    ],
+                    [
+                        "MereakPack_ColumnTrimBase_A.Name",
+                        "Column Trim Base"
+                    ],
+                    [
+                        "MereakPack_ColumnTrimBase_A.Description",
+                        "Column Trim Base"
+                    ],
+                    [
+                        "AradrenPack_RopeBarrier_A.Name",
+                        "Rope Barrier"
+                    ],
+                    [
+                        "AradrenPack_RopeBarrier_A.Description",
+                        "A Single Segment Rope Barrier"
+                    ],
+                    [
+                        "AradrenPack_RopeBarrier_B.Name",
+                        "Rope Barrier"
+                    ],
+                    [
+                        "AradrenPack_RopeBarrier_B.Description",
+                        "A Two Segment Rope Barrier"
+                    ],
+                    [
+                        "AradrenPack_RopeBarrier_C.Name",
+                        "Rope Barrier"
+                    ],
+                    [
+                        "AradrenPack_RopeBarrier_C.Description",
+                        "A Rope Barrier Corner"
+                    ],
+                    [
+                        "UzbadPack_KitchenCauldron_A.Name",
+                        "Kitchen Cauldron"
+                    ],
+                    [
+                        "UzbadPack_KitchenCauldron_A.Description",
+                        "Kitchen Cauldron"
+                    ],
+                    [
+                        "UzbadPack_ChoppingBlock_A.Name",
+                        "Chopping block"
+                    ],
+                    [
+                        "UzbadPack_ChoppingBlock_A.Description",
+                        "Chopping block"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_A.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_A.Description",
+                        "An Small Dwelling Cabinet With Two Drawers"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_B.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_B.Description",
+                        "An Small Dwelling Cabinet With Four Drawers"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_C.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_C.Description",
+                        "An Medium Dwelling Cabinet"
+                    ],
+                    [
+                        "TobiPack_BirdNest_A.Name",
+                        "Bird Nest"
+                    ],
+                    [
+                        "TobiPack_BirdNest_A.Description",
+                        "A Bird Nest that produces Eggs"
+                    ],
+                    [
+                        "TobiPack_BirdNest_B.Name",
+                        "Bird Nest"
+                    ],
+                    [
+                        "TobiPack_BirdNest_B.Description",
+                        "A Bird Nest that produces Feathers"
+                    ],
+                    [
+                        "SeraniPack_GlassCabinet_A.Name",
+                        "Glass Cabinet"
+                    ],
+                    [
+                        "SeraniPack_GlassCabinet_A.Description",
+                        "A Glass Cabinet used in Shops"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnBase_A.Name",
+                        "White Granite Column Base"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnBase_A.Description",
+                        "A White Granite Column Base"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnShaft_A.Name",
+                        "White Granite Column Shaft"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnShaft_A.Description",
+                        "A White Granite Column Shaft"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnCapital_A.Name",
+                        "White Granite Column Capital"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteColumnCapital_A.Description",
+                        "A White Granite Column Capital"
                     ]
                 ]
             },
