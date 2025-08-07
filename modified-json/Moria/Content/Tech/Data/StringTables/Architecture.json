@@ -3785,6 +3785,14 @@
                     [
                         "ZetaPack_WhiteGraniteColumnCapital_A.Description",
                         "A White Granite Column Capital"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteDoor_A.Name",
+                        "White Granite Door"
+                    ],
+                    [
+                        "ZetaPack_WhiteGraniteDoor_A.Description",
+                        "A door set in a fine white granite wall"
                     ]
                 ]
             },
