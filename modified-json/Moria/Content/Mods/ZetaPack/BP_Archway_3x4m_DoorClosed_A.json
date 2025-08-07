@@ -186,8 +186,12 @@
     "/Game/Mods/ZetaPack/BP_Archway_3x4m_DoorClosed_A",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
     "MI_Suburbs_Wall_Base_Dest_Cavern",
-    "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Wall_Dest",
-    "/Game/Mods/ZetaPack/MI_Suburbs_Trim_Sheet_A_Breakable"
+    "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Wall_Dest_White",
+    "MI_Suburbs_Wall_Dest_White",
+    "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Trim_Sheet_A_Breakable_White",
+    "MI_Suburbs_Trim_Sheet_A_Breakable_White",
+    "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Door_A_Dest_White",
+    "MI_Suburbs_Door_A_Dest_White"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2080,7 +2084,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 0
+              "Value": -78
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2089,7 +2093,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -35
+              "Value": -76
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2098,7 +2102,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -34
+              "Value": -72
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2107,7 +2111,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 0
+              "Value": -78
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2116,7 +2120,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -35
+              "Value": -76
             }
           ]
         },
@@ -4052,6 +4056,60 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MI_Suburbs_Wall_Base_Dest_Cavern",
       "OuterIndex": -71,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Wall_Dest_White",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Wall_Dest_White",
+      "OuterIndex": -73,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Trim_Sheet_A_Breakable_White",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Trim_Sheet_A_Breakable_White",
+      "OuterIndex": -75,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Door_A_Dest_White",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Door_A_Dest_White",
+      "OuterIndex": -77,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
