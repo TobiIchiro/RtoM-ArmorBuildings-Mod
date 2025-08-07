@@ -182,7 +182,12 @@
     "UberGraphFrame",
     "UberGraphFunction",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/ZetaPack/BP_Archway_3x4m_DoorClosed_A",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+    "MI_Suburbs_Wall_Base_Dest_Cavern",
+    "/Game/Mods/ZetaPack/Materials/MI_Suburbs_Wall_Dest",
+    "/Game/Mods/ZetaPack/MI_Suburbs_Trim_Sheet_A_Breakable"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2066,7 +2071,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -33
+              "Value": -72
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2237,7 +2242,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -33
+              "Value": -72
             }
           ]
         },
@@ -4033,6 +4038,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburbs_Wall_Base_Dest_Cavern",
+      "OuterIndex": -71,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -4093,7 +4116,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Archway_3x4m_DoorClosed_A",
+  "FolderName": "/Game/Mods/ZetaPack/BP_Archway_3x4m_DoorClosed_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
