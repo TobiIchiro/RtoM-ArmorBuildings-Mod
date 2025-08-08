@@ -102,18 +102,70 @@
     </div>
 
     <div class="main-content">
-        <h2>Home</h2>
-        <p>This is a set of two mods for the game The Lord of the Rings: Retutn to Moria that can be used simultaneously
-        </p>
-        <h3>Custom Armors</h3>
-        <p>This mod adds every DLC Packs released up-to-date recipes. Also, adds Lord of Moria armor set and Origin Set.
-        </p>
-        <h3>Custom Constructions</h3>
-        <p>This mod restores some buildings that were removed in game verison v1.2 due to the inestability of the
-            constction system. In adition, it adds more than 40 new Constructions to the game.</p>
-    </div>
-    <div>
+        <h2>Needed Software</h2>
+        <ul class="needed-software">
+            <li>
+                <a href="https://github.com/trumank/retoc/releases/latest">Retoc</a>
+            </li>
+            <li>
+                <a href="https://github.com/atenfyr/UAssetGUI/releases/latest">UAssetGUI</a>
+            </li>
+            <li>
+                <a href="https://fmodel.app/">Fmodel</a>
+            </li>
+            <li>
+                <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+            </li>
+            <li>
+                <a>Mod Tool</a>
+            </li>
+        </ul>
+        <h2 id="unpacking">Unpacking</h2>
+        <ol class="list">
+            <li>
+                <p>Download Retoc and extract <code class="heightlight">.zip</code> file on working directory i.e <code
+                        class="heightlight">WorkingDirectory/Retoc</code></p>
+            </li>
+            <li>
+                <p>Open a terminal where <code class="heightlight">Retoc.exe</code> is located</p>
+            </li>
+            <li>
+                <p>Type this command in terminal:</p>
+                <p><code
+                        class="heightlight">.\retoc.exe to-legacy --version UE4_27 [path to Moria-WindowsNoEditor] [path to unpack]</code><br />
+                <p>Example:</p>
+                <code class="heightlight">.\retoc.exe to-legacy --version UE4_27 E:\Juegos\Epic\ReturnToMoria\Moria\Content\Paks
+                    F:\RtoM\retocExports</code></p>
+            </li>
+        </ol>
+        <h2 id="add-custom-recipe">Add Custom Recipe</h2>
+        <ol class="list">
+            <li></li>
+        </ol>
+        <h2 id="repacking">Repacking</h2>
+        <ol  class="list">
+            <li></li>
+        </ol>
+        <h2 id="install-mode">Install mod</h2>
+        <ol class="list">
+            <li>
+                <p>
+                    Copy directory where <code class="heightlight">MyMod_P.utoc</code>was created
+                </p>
+            </li>
+            <li>
+                <p>
+                    Go where your games instalation packs are located and paste the directory inside <code class="heightlight">~mods</code> (if ~mods directory doesn't exist, create it)
+                </p>
+                <p>Example:</p>
+                <p>
+                    <code class="heightlight">
+                        E:\Juegos\Epic\ReturnToMoria\Moria\Content\Paks\~mods
+                    </code>
+                </p>
 
+            </li>
+        </ol>
     </div>
 </body>
 
