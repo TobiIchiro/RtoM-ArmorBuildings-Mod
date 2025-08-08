@@ -122,6 +122,7 @@ body {
 }
 
 .list p {
+    text-align: left;
     padding-bottom: 0px;
     line-height: 24px;
 }
