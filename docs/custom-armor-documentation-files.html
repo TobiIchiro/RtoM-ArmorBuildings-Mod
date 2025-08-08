@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Armor and Constructions documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Custom Armors and Custom Constructions Wiki</h1>
+    </div>
+    <div class="sideBar">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="general-guide.html">General Guide</a>
+                <ul>
+                    <li>
+                        <a href="general-guide.html#installation-guide">Installation Guide</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a>Custom Armor Documentation</a>
+                <ul>
+                    <li>
+                        <a href="custom-armor-documentation-recipes.html">Cosmetic Recipes</a>
+                        <ul>
+                            <li>
+                                <a href="custom-armor-documentation-recipes.html#rohan-armor">Rohan Armor Set</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-recipes.html#skinbark-armor">Skinbark Armor Set</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-recipes.html#orc-hunter-armor">Orc Hunter Armor
+                                    Set</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-recipes.html#beorn-armor">Beorn Armor Set</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-recipes.html#lord-of-moria-armor">Lord of Moria
+                                    Armor Set</a>
+                            </li>
+                            <li><a href="custom-armor-documentation-recipes.html#origin-armor">Origin Set</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="custom-armor-documentation-files.html">Armor Files Documentation</a>
+                        <ul>
+                            <li>
+                                <a href="custom-armor-documentation-files.html#unpacking">Unpacking</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-files.html#add-custom-recipe">Add Custom Recipe</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-files.html#repacking">Repacking</a>
+                            </li>
+                            <li>
+                                <a href="custom-armor-documentation-files.html#install-mod">Install Mod</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="armor-mod-mantaining.html">Mod Mantaining</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Custom Construction Documentation</a>
+                <ul>
+                    <li>
+                        <a href="custom-constructions-documantation-recipes.html#restored-constructions">Restored
+                            Constructions</a>
+                    </li>
+                    <li>
+                        <a href="custom-constructions-documantation-recipes.html#custom-constructions">New
+                            Constructions</a>
+                    </li>
+                    <li>
+                        <a href="custom-armor-documentation-files.html">Construction Files Documentation</a>
+                        <ul>
+                            <li><a href="custom-constructions-documentation-files.html#unpacking">Unpacking</a></li>
+                            <li><a href="custom-constructions-documentation-files.html#add-custom-recipe">Add Custom
+                                    Recipe</a></li>
+                            <li><a href="custom-constructions-documentation-files.html#repacking">Repacking</a></li>
+                            <li><a href="custom-constructions-documentation-files.html#install-mode">Install Mod</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="constructions-mod-mantaining.html">Mod Mantaining</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h2>Needed Software</h2>
+        <ul class="needed-software">
+            <li>
+                <a href="https://github.com/trumank/retoc/releases/latest">Retoc</a>
+            </li>
+            <li>
+                <a href="https://github.com/atenfyr/UAssetGUI/releases/latest">UAssetGUI</a>
+            </li>
+            <li>
+                <a href="https://fmodel.app/">Fmodel</a>
+            </li>
+            <li>
+                <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+            </li>
+            <li>
+                <a>Mod Tool</a>
+            </li>
+        </ul>
+        <h2 id="unpacking">Unpacking</h2>
+        <ol class="list">
+            <li>
+                <p>Download Retoc and extract <code class="heightlight">.zip</code> file on working directory i.e <code
+                        class="heightlight">WorkingDirectory/Retoc</code></p>
+            </li>
+            <li>
+                <p>Open a terminal where <code class="heightlight">Retoc.exe</code> is located</p>
+            </li>
+            <li>
+                <p>Type this command in terminal:</p>
+                <p><code
+                        class="heightlight">.\retoc.exe to-legacy --version UE4_27 [path to Moria-WindowsNoEditor] [path to unpack]</code><br />
+                <p>Example:</p>
+                <code class="heightlight">.\retoc.exe to-legacy --version UE4_27 E:\Juegos\Epic\ReturnToMoria\Moria\Content\Paks
+                    F:\RtoM\retocExports</code></p>
+            </li>
+        </ol>
+        <h2 id="add-custom-recipe">Add Custom Recipe</h2>
+        <ol class="list">
+            <li>
+                <p>Download <code class="heightlight">Mod Tool</code> and extract it in your working directory</p>
+            </li>
+            <li>
+                <p>Download UAssetGUI and Visual Studio Code or other <code class="heightlight">JSON</code> Editor</p>
+            </li>
+            <li>
+                <p>
+                    Open UAssetGUI and look for <code class="heightlight">DT_ItemRecipes.uasset</code>
+                    <p>
+                        You can find it in <code class="heightlight">UnpackedFolder/Moria/Content/Tech/Data/Items</code>
+                    </p>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Save the files as <code class="heightlight">DT_ItemRecipes.json</code> inside where you extracted the <code class="heightlight">Mod Tool</code> inside <code class="heightlight">[ModToolDirectory]/Saves/UpdateMods/MoreArmor</code>
+                </p>
+            </li>
+            <li>
+                <p>Open <code class="heightlight">ModToolTool.exe</code> inside <code class="heightlight">[ModToolDirectory]/Exec</code> and go to tab <code class="heightlight">New Armor Adder</code></p>
+            </li>
+            <li>
+                <p>
+                    Fill the needed information and Press Save Button
+                </p>
+            </li>
+            <li>
+                <p>
+                    Go to <code class="heightlight">Armor Recipes Mantain Mod</code> and press all buttons
+                </p>
+                <p>
+                    The Tool will create the json files
+                </p>
+            </li>
+        </ol>
+        <h2 id="repacking">Repacking</h2>
+        <ol class="list">
+            <li>
+                <p>Create a mod directory i.e <code class="heightlight">[WorkingDirectory]/CustomArmors_P</code> and replicate this Directory structure inide it <code class="heightlight">/Moria/Content/Tech/Data/Items</code></p>
+            </li>
+            <li>
+                <p>Open <code class="heightlight">UAssetGUI</code></p>
+            </li>
+            <li>
+                <p>
+                    Go to <code class="heightlight">[ModToolDirectory]/Saves/UpdatedMods/MoreArmor/moded</code> and open <code class="heightlight">DT_ItemRecipes.json</code>, save it as <code class="heightlight">DT_ItemRecipes.uasset</code> in your created repository form step 1
+                </p>
+            </li>
+            <li>
+                <p>Open a terminal where <code class="heightlight">Retoc.exe</code> is located</p>
+            </li>
+            <li>
+                <p>Type this command in terminal:</p>
+                <p>
+                    <code class="heightlight">
+                        \retoc.exe to-zen --version UE4_27 [path to MyMod_P] [path to save MyMod_P.utoc]
+                    </code>
+                </p>
+                <p>Example</p>
+                <p>
+                    <code class="heightlight">
+                        .\retoc.exe to-zen --version UE4_27 F:\RtoM\modsRepository\RtoMCustomArmors_P F:\RtoM\modsRepository\mod\RtoMCustomArmors_P\RtoMCustomArmors_P.utoc
+                    </code>
+                </p>
+            </li>
+        </ol>
+        <h2 id="install-mode">Install mod</h2>
+        <ol class="list">
+            <li>
+                <p>
+                    Copy directory where <code class="heightlight">MyMod_P.utoc</code>was created
+                </p>
+            </li>
+            <li>
+                <p>
+                    Go where your games instalation packs are located and paste the directory inside <code class="heightlight">~mods</code> (if ~mods directory doesn't exist, create it)
+                </p>
+                <p>Example:</p>
+                <p>
+                    <code class="heightlight">
+                        E:\Juegos\Epic\ReturnToMoria\Moria\Content\Paks\~mods
+                    </code>
+                </p>
+
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
