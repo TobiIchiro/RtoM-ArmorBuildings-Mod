@@ -3857,6 +3857,14 @@
                     [
                         "AradrenPack_ColumnCapital_A.Description",
                         "A Double Height Column Capital"
+                    ],
+                    [
+                        "SeraniPack_WoodPile_A.Name",
+                        "Wood Pile"
+                    ],
+                    [
+                        "SeraniPack_WoodPile_A.Description",
+                        "A Pile of Wood"
                     ]
                 ]
             },
