@@ -3793,6 +3793,70 @@
                     [
                         "ZetaPack_WhiteGraniteDoor_A.Description",
                         "A door set in a fine white granite wall"
+                    ],
+                    [
+                        "MereakPack_FigureHead_C.Name",
+                        "Figure Head"
+                    ],
+                    [
+                        "MereakPack_FigureHead_C.Description",
+                        "A Figure Head"
+                    ],
+                    [
+                        "MereakPack_Sack_A.Name",
+                        "Sack"
+                    ],
+                    [
+                        "MereakPack_Sack_A.Description",
+                        "A Sand Sack"
+                    ],
+                    [
+                        "AradrenPack_Ladder_A.Name",
+                        "Ladder"
+                    ],
+                    [
+                        "AradrenPack_Ladder_A.Description",
+                        "A Short Vertical Wooden Ladder"
+                    ],
+                    [
+                        "AradrenPack_Ladder_B.Name",
+                        "Ladder"
+                    ],
+                    [
+                        "AradrenPack_Ladder_B.Description",
+                        "A Long Vertical Wooden Ladder"
+                    ],
+                    [
+                        "AradrenPack_DecorativeBarrier_A.Name",
+                        "Decorative Barrier"
+                    ],
+                    [
+                        "AradrenPack_DecorativeBarrier_A.Description",
+                        "A granite decorative barrier"
+                    ],
+                    [
+                        "AradrenPack_ColumnBase_A.Name",
+                        "Column Base"
+                    ],
+                    [
+                        "AradrenPack_ColumnBase_A.Description",
+                        "A Double Height Column Base"
+                    ],
+                    [
+                        "AradrenPack_ColumnShaft_A.Name",
+                        "Column Shaft"
+                    ],
+                    [
+                        "AradrenPack_ColumnShaft_A.Description",
+                        "A Double Height Column Shaft"
+                    ],
+                    [
+                        "AradrenPack_ColumnCapital_A.Name",
+                        "Column Capital"
+                    ],
+                    [
+                        "AradrenPack_ColumnCapital_A.Description",
+                        "A Double Height Column Capital"
                     ]
                 ]
             },
