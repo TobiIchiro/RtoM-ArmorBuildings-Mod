@@ -96715,7 +96715,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Furniture"
+                                            "UI.Construction.Category.Base.Farming"
                                         ]
                                     }
                                 ]
@@ -96879,7 +96879,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Furniture"
+                                            "UI.Construction.Category.Base.Farming"
                                         ]
                                     }
                                 ]
