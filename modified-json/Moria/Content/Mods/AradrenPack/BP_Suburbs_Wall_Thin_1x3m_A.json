@@ -1050,7 +1050,7 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": "+0",
+                "X": 150.0,
                 "Y": "+0",
                 "Z": 50.0
               }
