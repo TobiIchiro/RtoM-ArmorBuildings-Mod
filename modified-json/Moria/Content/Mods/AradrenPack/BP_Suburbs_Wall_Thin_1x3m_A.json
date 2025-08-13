@@ -116,7 +116,12 @@
     "StructProperty",
     "Suburbs_Wall_Thin_1x3m_A",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/City/City_Stairs_Trim_3M",
+    "City_Stairs_Trim_3M",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburb_Stairs_Trim/MI_Suburb_Stairs_Trim_3M_Dest",
+    "MI_Suburb_Stairs_Trim_3M_Dest",
+    "/Game/Mods/AradrenPack/BP_Suburbs_Wall_Thin_1x3m_A"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -361,7 +366,9 @@
         -35,
         -33,
         -40,
+        -42,
         -18,
+        -44,
         -7,
         -3
       ],
@@ -884,7 +891,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -40
+          "Value": -42
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -902,7 +909,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -18
+              "Value": -44
             }
           ]
         },
@@ -2081,6 +2088,42 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/City/City_Stairs_Trim_3M",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "City_Stairs_Trim_3M",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburb_Stairs_Trim/MI_Suburb_Stairs_Trim_3M_Dest",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Suburb_Stairs_Trim_3M_Dest",
+      "OuterIndex": -43,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2130,7 +2173,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_1x3m_A",
+  "FolderName": "/Game/Mods/AradrenPack/BP_Suburbs_Wall_Thin_1x3m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
