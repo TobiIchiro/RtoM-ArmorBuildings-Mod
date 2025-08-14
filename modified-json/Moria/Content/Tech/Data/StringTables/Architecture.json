@@ -3865,6 +3865,14 @@
                     [
                         "SeraniPack_WoodPile_A.Description",
                         "A Pile of Wood"
+                    ],
+                    [
+                        "MereakPack_NarrowArchwayPillar_A.Name",
+                        "Narrow Archway Pillar"
+                    ],
+                    [
+                        "MereakPack_NarrowArchwayPillar_A.Description",
+                        "A Narrow Archway Pillar"
                     ]
                 ]
             },
