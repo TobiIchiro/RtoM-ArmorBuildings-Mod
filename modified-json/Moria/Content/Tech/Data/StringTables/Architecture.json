@@ -3873,6 +3873,22 @@
                     [
                         "MereakPack_NarrowArchwayPillar_A.Description",
                         "A Narrow Archway Pillar"
+                    ],
+                    [
+                        "MereakPack_CornerTrim_A.Name",
+                        "Corner Trim"
+                    ],
+                    [
+                        "MereakPack_CornerTrim_A.Description",
+                        "A Left Corner Trim"
+                    ],
+                    [
+                        "MereakPack_CornerTrim_B.Name",
+                        "Corner Trim"
+                    ],
+                    [
+                        "MereakPack_CornerTrim_B.Description",
+                        "A Right Corner Trim"
                     ]
                 ]
             },
