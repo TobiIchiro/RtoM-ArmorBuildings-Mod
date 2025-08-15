@@ -3889,6 +3889,22 @@
                     [
                         "MereakPack_CornerTrim_B.Description",
                         "A Right Corner Trim"
+                    ],
+                    [
+                        "MereakPack_Pedestal_A.Name",
+                        "Pedestal"
+                    ],
+                    [
+                        "MereakPack_Pedestal_A.Description",
+                        "A Pedestal for Statues"
+                    ],
+                    [
+                        "MereakPack_ShortMemorialStatue_A.Name",
+                        "Short Memorial Statue"
+                    ],
+                    [
+                        "MereakPack_ShortMemorialStatue_A.Description",
+                        "A Memorial Statue to honor the fallen"
                     ]
                 ]
             },
