@@ -3905,6 +3905,38 @@
                     [
                         "MereakPack_ShortMemorialStatue_A.Description",
                         "A Memorial Statue to honor the fallen"
+                    ],
+                    [
+                        "UzbadPack_AngledWoodenFloor_A.Name",
+                        "Angled Wooden Floor"
+                    ],
+                    [
+                        "UzbadPack_AngledWoodenFloor_A.Description",
+                        "Angled Wooden Floor"
+                    ],
+                    [
+                        "UzbadPack_ThinWoodFloorTile_A.Name",
+                        "Thin Wood Floor Tile"
+                    ],
+                    [
+                        "UzbadPack_ThinWoodFloorTile_A.Description",
+                        "Thin Wood Floor Tile"
+                    ],
+                    [
+                        "SeraniPack_KegStand_A.Name",
+                        "Keg Stand"
+                    ],
+                    [
+                        "SeraniPack_KegStand_A.Description",
+                        "Keg Stand"
+                    ],
+                    [
+                        "SeraniPack_PotsRack_A.Name",
+                        "Pots Rack"
+                    ],
+                    [
+                        "SeraniPack_PotsRack_A.Description",
+                        "Pots Rack"
                     ]
                 ]
             },
