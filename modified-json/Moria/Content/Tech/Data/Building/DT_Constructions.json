@@ -3170,7 +3170,7 @@
         "/Game/LevelDesign/Deco_Architecture/Mines/BP_DM_Mines_Scaffolding_Ladder_A",
         "/Game/LevelDesign/Deco_Architecture/Mines/BP_DM_Mines_Scaffolding_Ladder_A.BP_DM_Mines_Scaffolding_Ladder_A_C",
         "T_UI_BuildIcon_AradrenPack_Ladder_A",
-        "/Game/Mods/MereakPack/Constructions/Icons/T_UI_BuildIcon_AradrenPack_Ladder_A",
+        "/Game/Mods/AradrenPack/Constructions/Icons/T_UI_BuildIcon_AradrenPack_Ladder_A",
         "AradrenPack_Ladder_B",
         "/Game/LevelDesign/Deco_Architecture/Mines/BP_DM_Mines_Scaffolding_Ladder_B",
         "/Game/LevelDesign/Deco_Architecture/Mines/BP_DM_Mines_Scaffolding_Ladder_B.BP_DM_Mines_Scaffolding_Ladder_B_C",
@@ -100532,7 +100532,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Furniture"
                                         ]
                                     }
                                 ]
@@ -100696,7 +100696,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Furniture"
                                         ]
                                     }
                                 ]
@@ -111252,7 +111252,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/MereakPack/Constructions/Icons/T_UI_BuildIcon_AradrenPack_Ladder_A",
+            "ObjectName": "/Game/Mods/AradrenPack/Constructions/Icons/T_UI_BuildIcon_AradrenPack_Ladder_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
