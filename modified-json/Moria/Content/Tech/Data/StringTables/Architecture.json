@@ -3937,6 +3937,46 @@
                     [
                         "SeraniPack_PotsRack_A.Description",
                         "Pots Rack"
+                    ],
+                    [
+                        "OlfahrPack_Wagon_A.Name",
+                        "Wagon"
+                    ],
+                    [
+                        "OlfahrPack_Wagon_A.Description",
+                        "Wagon used in the Mines"
+                    ],
+                    [
+                        "OlfahrPack_LargeWinch_A.Name",
+                        "Large Winch"
+                    ],
+                    [
+                        "OlfahrPack_LargeWinch_A.Description",
+                        "A Large Winch used in the Mines"
+                    ],
+                    [
+                        "OlfahrPack_Lift_A.Name",
+                        "Lift"
+                    ],
+                    [
+                        "OlfahrPack_Lift_A.Description",
+                        "A Long Lift used in the Mines"
+                    ],
+                    [
+                        "OlfahrPack_Lift_B.Name",
+                        "Lift"
+                    ],
+                    [
+                        "OlfahrPack_Lift_B.Description",
+                        "A Lift used in the Mines"
+                    ],
+                    [
+                        "OlfahrPack_Windlass_A.Name",
+                        "Windlass"
+                    ],
+                    [
+                        "OlfahrPack_Windlass_A.Description",
+                        "A Windlass used in the Mines"
                     ]
                 ]
             },
