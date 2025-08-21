@@ -3977,6 +3977,78 @@
                     [
                         "OlfahrPack_Windlass_A.Description",
                         "A Windlass used in the Mines"
+                    ],
+                    [
+                        "OlfahrPack_Bucket_A.Name",
+                        "Bucket"
+                    ],
+                    [
+                        "OlfahrPack_Bucket_A.Description",
+                        "An Small Wooden Bucket"
+                    ],
+                    [
+                        "OlfahrPack_Basin_A.Name",
+                        "Basin"
+                    ],
+                    [
+                        "OlfahrPack_Basin_A.Description",
+                        "A Metal Basin"
+                    ],
+                    [
+                        "OlfahrPack_Barrel_A.Name",
+                        "Barrel"
+                    ],
+                    [
+                        "OlfahrPack_Barrel_A.Description",
+                        "An Open Barrel"
+                    ],
+                    [
+                        "OlfahrPack_OpenWoodenCrate_A.Name",
+                        "Open Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OpenWoodenCrate_A.Description",
+                        "An Open Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OpenWoodenCrate_B.Name",
+                        "Open Long Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OpenWoodenCrate_B.Description",
+                        "An Open Long Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_WoodenCrate_A.Name",
+                        "Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_WoodenCrate_A.Description",
+                        "A Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_WoodenCrate_B.Name",
+                        "Long Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_WoodenCrate_B.Description",
+                        "A Long Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OrnateWoodenCrate_A.Name",
+                        "Ornate Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OrnateWoodenCrate_A.Description",
+                        "An Ornate Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OrnateWoodenCrate_B.Name",
+                        "Long Ornate Wooden Crate"
+                    ],
+                    [
+                        "OlfahrPack_OrnateWoodenCrate_B.Description",
+                        "A Long Ornate Wooden Crate"
                     ]
                 ]
             },

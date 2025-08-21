@@ -3270,7 +3270,52 @@
         "/Game/LevelDesign/Deco/MinesDressing/BP_DM_Mines_Winch_Breakable",
         "/Game/LevelDesign/Deco/MinesDressing/BP_DM_Mines_Winch_Breakable.BP_DM_Mines_Winch_Breakable_C",
         "T_UI_BuildIcon_OlfahrPack_Windlass_A",
-        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Windlass_A"
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Windlass_A",
+        "OlfahrPack_Bucket_A",
+        "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player",
+        "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player.BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player_C",
+        "T_UI_BuildIcon_OlfahrPack_Bucket_A",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Bucket_A",
+        "OlfahrPack_Basin_A",
+        "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player",
+        "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player.BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player_C",
+        "T_UI_BuildIcon_OlfahrPack_Basin_A",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Basin_A",
+        "OlfahrPack_Barrel_A",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Barrel_Breakable_Player",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Barrel_Breakable_Player.BP_DM_Warehouse_Barrel_Breakable_Player_C",
+        "T_UI_BuildIcon_OlfahrPack_Barrel_A",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Barrel_A",
+        "OlfahrPack_OpenWoodenCrate_A",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_open_Breakable",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_open_Breakable.BP_DM_Warehouse_Crate_A_open_Breakable_C",
+        "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_A",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_A",
+        "OlfahrPack_OpenWoodenCrate_B",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_open_Breakable",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_open_Breakable.BP_DM_Warehouse_Crate_B_open_Breakable_C",
+        "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_B",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_B",
+        "OlfahrPack_WoodenCrate_A",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_Breakable",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_Breakable.BP_DM_Warehouse_Crate_A_Breakable_C",
+        "T_UI_BuildIcon_OlfahrPack_WoodenCrate_A",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_WoodenCrate_A",
+        "OlfahrPack_WoodenCrate_B",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_Breakable",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_Breakable.BP_DM_Warehouse_Crate_B_Breakable_C",
+        "T_UI_BuildIcon_OlfahrPack_WoodenCrate_B",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_WoodenCrate_B",
+        "OlfahrPack_OrnateWoodenCrate_A",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_A_Breakable_Player",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_A_Breakable_Player.BP_DM_Warehouse_Metal_Crate_A_Breakable_Player_C",
+        "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_A",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_A",
+        "OlfahrPack_OrnateWoodenCrate_B",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_B_Breakable_Player",
+        "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_B_Breakable_Player.BP_DM_Warehouse_Metal_Crate_B_Breakable_Player_C",
+        "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_B",
+        "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_B"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -101049,7 +101094,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Furniture"
+                                            "UI.Construction.Category.Crude.Scaffolding"
                                         ]
                                     }
                                 ]
@@ -101213,7 +101258,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Furniture"
+                                            "UI.Construction.Category.Crude.Scaffolding"
                                         ]
                                     }
                                 ]
@@ -101377,7 +101422,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Furniture"
+                                            "UI.Construction.Category.Crude.Scaffolding"
                                         ]
                                     }
                                 ]
@@ -101541,7 +101586,1483 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Furniture"
+                                            "UI.Construction.Category.Crude.Scaffolding"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_Bucket_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_Bucket_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_Bucket_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1153
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player.BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player.BP_DM_Workshop_Scatter_Bucket_Wood_Breakable_Player_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_Basin_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_Basin_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_Basin_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1155
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player.BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Workshop/BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player.BP_DM_Workshop_Scatter_Bucket_Metal_Breakable_Player_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_Barrel_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_Barrel_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_Barrel_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1157
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Barrel_Breakable_Player.BP_DM_Warehouse_Barrel_Breakable_Player_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Barrel_Breakable_Player.BP_DM_Warehouse_Barrel_Breakable_Player_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_OpenWoodenCrate_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OpenWoodenCrate_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OpenWoodenCrate_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1159
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_open_Breakable.BP_DM_Warehouse_Crate_A_open_Breakable_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_open_Breakable.BP_DM_Warehouse_Crate_A_open_Breakable_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_OpenWoodenCrate_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OpenWoodenCrate_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OpenWoodenCrate_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1161
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_open_Breakable.BP_DM_Warehouse_Crate_B_open_Breakable_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_open_Breakable.BP_DM_Warehouse_Crate_B_open_Breakable_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_WoodenCrate_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_WoodenCrate_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_WoodenCrate_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1163
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_Breakable.BP_DM_Warehouse_Crate_A_Breakable_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_A_Breakable.BP_DM_Warehouse_Crate_A_Breakable_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_WoodenCrate_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_WoodenCrate_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_WoodenCrate_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1165
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_Breakable.BP_DM_Warehouse_Crate_B_Breakable_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Crate_B_Breakable.BP_DM_Warehouse_Crate_B_Breakable_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_OrnateWoodenCrate_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OrnateWoodenCrate_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OrnateWoodenCrate_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1167
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_A_Breakable_Player.BP_DM_Warehouse_Metal_Crate_A_Breakable_Player_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_A_Breakable_Player.BP_DM_Warehouse_Metal_Crate_A_Breakable_Player_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "OlfahrPack_OrnateWoodenCrate_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OrnateWoodenCrate_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "OlfahrPack_OrnateWoodenCrate_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1169
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_B_Breakable_Player.BP_DM_Warehouse_Metal_Crate_B_Breakable_Player_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/LevelDesign/Deco/Urban/Warehouse/BP_DM_Warehouse_Metal_Crate_B_Breakable_Player.BP_DM_Warehouse_Metal_Crate_B_Breakable_Player_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
                                         ]
                                     }
                                 ]
@@ -112468,6 +113989,168 @@
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "T_UI_BuildIcon_OlfahrPack_Windlass_A",
             "OuterIndex": -1150,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Bucket_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_Bucket_A",
+            "OuterIndex": -1152,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Basin_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_Basin_A",
+            "OuterIndex": -1154,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Barrel_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_Barrel_A",
+            "OuterIndex": -1156,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_A",
+            "OuterIndex": -1158,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_B",
+            "OuterIndex": -1160,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_WoodenCrate_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_WoodenCrate_A",
+            "OuterIndex": -1162,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_WoodenCrate_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_WoodenCrate_B",
+            "OuterIndex": -1164,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_A",
+            "OuterIndex": -1166,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_B",
+            "OuterIndex": -1168,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
             "PackageName": null,
