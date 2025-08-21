@@ -4049,6 +4049,14 @@
                     [
                         "OlfahrPack_OrnateWoodenCrate_B.Description",
                         "A Long Ornate Wooden Crate"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_D.Name",
+                        "Dwelling Cabinet"
+                    ],
+                    [
+                        "SeraniPack_DwellingCabinet_D.Description",
+                        "A Locked Dwelling Cabinet"
                     ]
                 ]
             },
