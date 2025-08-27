@@ -4057,6 +4057,54 @@
                     [
                         "SeraniPack_DwellingCabinet_D.Description",
                         "A Locked Dwelling Cabinet"
+                    ],
+                    [
+                        "TobiFloorPack_InlaidFloor_A.Name",
+                        "Inlaid Adamant Floor"
+                    ],
+                    [
+                        "TobiFloorPack_InlaidFloor_A.Description",
+                        "A decorated adamant floor"
+                    ],
+                    [
+                        "TobiFloorPack_PatternedFloor_A.Name",
+                        "Patterned Floor"
+                    ],
+                    [
+                        "TobiFloorPack_PatternedFloor_A.Description",
+                        "A decorated floor"
+                    ],
+                    [
+                        "TobiFloorPack_PatternedFloor_B.Name",
+                        "Patterned White Floor"
+                    ],
+                    [
+                        "TobiFloorPack_PatternedFloor_B.Description",
+                        "A decorated white floor"
+                    ],
+                    [
+                        "TobiFloorPack_TiledFloor_A.Name",
+                        "Tiled Mossy Floor"
+                    ],
+                    [
+                        "TobiFloorPack_TiledFloor_A.Description",
+                        "A decorated mossy floor"
+                    ],
+                    [
+                        "TobiFloorPack_TiledFloor_B.Name",
+                        "Tiled Floor"
+                    ],
+                    [
+                        "TobiFloorPack_TiledFloor_B.Description",
+                        "A decorated floor"
+                    ],
+                    [
+                        "TobiFloorPack_TiledFloor_C.Name",
+                        "Tiled White Floor"
+                    ],
+                    [
+                        "TobiFloorPack_TiledFloor_C.Description",
+                        "A decorated white floor"
                     ]
                 ]
             },
