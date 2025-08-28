@@ -120,7 +120,12 @@
     "Suburbs_Wall_Thin_1x3m_A1_GEN_VARIABLE",
     "Suburbs_Wall_Thin_3x3m_A",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
+    "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x1",
+    "Curve_Wall_3x1x1",
+    "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x3",
+    "Curve_Wall_3x1x3"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -772,7 +777,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -41
+          "Value": -45
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -869,7 +874,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -40
+          "Value": -43
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -2234,6 +2239,42 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x1",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Curve_Wall_3x1x1",
+      "OuterIndex": -42,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x3",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Curve_Wall_3x1x3",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2285,7 +2326,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x4m_A",
+  "FolderName": "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

@@ -4100,11 +4100,27 @@
                     ],
                     [
                         "TobiFloorPack_TiledFloor_C.Name",
-                        "Tiled White Floor"
+                        "Tiled Floor"
                     ],
                     [
                         "TobiFloorPack_TiledFloor_C.Description",
                         "A decorated white floor"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedBarrier_A.Name",
+                        "Curved Barrier"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedBarrier_A.Description",
+                        "A curved granite barrier"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedWall_A.Name",
+                        "Curved Wall"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedWall_A.Description",
+                        "A curved granite wall"
                     ]
                 ]
             },
