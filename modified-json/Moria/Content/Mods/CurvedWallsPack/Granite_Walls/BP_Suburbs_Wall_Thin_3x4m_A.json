@@ -122,10 +122,10 @@
     "VariableGuid",
     "Vector",
     "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
-    "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x1",
-    "Curve_Wall_3x1x1",
-    "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x3",
-    "Curve_Wall_3x1x3"
+    "/Game/Mods/CurvedWallsPack/Constructions/Granite_Curve_Wall_3x1x1",
+    "Granite_Curve_Wall_3x1x1",
+    "/Game/Mods/CurvedWallsPack/Constructions/Granite_Curve_Wall_3x1x3",
+    "Granite_Curve_Wall_3x1x3"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -1034,7 +1034,7 @@
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": 150.0,
-                "Y": "+0",
+                "Y": 150.0,
                 "Z": 200.0
               }
             }
@@ -2242,7 +2242,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x1",
+      "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Granite_Curve_Wall_3x1x1",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2251,7 +2251,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Curve_Wall_3x1x1",
+      "ObjectName": "Granite_Curve_Wall_3x1x1",
       "OuterIndex": -42,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2260,7 +2260,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Curve_Wall_3x1x3",
+      "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Granite_Curve_Wall_3x1x3",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2269,7 +2269,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Curve_Wall_3x1x3",
+      "ObjectName": "Granite_Curve_Wall_3x1x3",
       "OuterIndex": -44,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
