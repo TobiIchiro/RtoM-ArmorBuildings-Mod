@@ -4121,6 +4121,22 @@
                     [
                         "CurvedWallsPack_CurvedWall_A.Description",
                         "A curved granite wall"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedBarrier_B.Name",
+                        "Curved barrier"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedBarrier_B.Description",
+                        "A wooden curved wall"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedWall_B.Name",
+                        "Curved wall"
+                    ],
+                    [
+                        "CurvedWallsPack_CurvedWall_B.Description",
+                        "A wooden curved wall"
                     ]
                 ]
             },
