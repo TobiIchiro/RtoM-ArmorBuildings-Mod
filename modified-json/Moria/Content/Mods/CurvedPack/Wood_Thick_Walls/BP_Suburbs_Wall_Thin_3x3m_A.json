@@ -113,7 +113,10 @@
     "StructProperty",
     "Suburbs_Wall_Thin_3x3m_A",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_3x3m_A",
+    "/Game/Mods/CurvedPack/Constructions/Meshes/Wood_Curve_Wall_3x4x050",
+    "Wood_Curve_Wall_3x4x050"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -358,6 +361,7 @@
         -35,
         -33,
         -40,
+        -42,
         -18,
         -7,
         -3
@@ -881,27 +885,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -40
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -18
-            }
-          ]
+          "Value": -42
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -2054,6 +2038,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Wood_Curve_Wall_3x4x050",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Wood_Curve_Wall_3x4x050",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2103,7 +2105,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_A",
+  "FolderName": "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_3x3m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
