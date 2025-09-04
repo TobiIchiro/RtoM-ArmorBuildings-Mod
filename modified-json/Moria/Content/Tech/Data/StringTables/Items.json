@@ -5001,6 +5001,22 @@
           [
             "Beorn.Armor.Boots.Description",
             "Soft boots meant for comfort on cold nights by the hearth."
+          ],
+          [
+            "Tools.Hammer.Tobi.Name",
+            "Tobi Hammer Name"
+          ],
+          [
+            "Tools.Hammer.Tobi.Description",
+            "Tobi Hammer Description"
+          ],
+          [
+            "Tools.Hammer.Tobi.Broken.Name",
+            "Tobi Hammer Broken Name"
+          ],
+          [
+            "Tools.Hammer.Tobi.Broken.Description",
+            "Tobi Hammer Broken Description"
           ]
         ]
       },
