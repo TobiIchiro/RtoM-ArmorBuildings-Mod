@@ -4137,6 +4137,22 @@
                     [
                         "CurvedPack_CurvedWall_B.Description",
                         "A wooden curved wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedBarrier_C.Name",
+                        "Curved Barrier"
+                    ],
+                    [
+                        "CurvedPack_CurvedBarrier_C.Description",
+                        "A Thin Curved Barrier"
+                    ],
+                    [
+                        "CurvedPack_CurvedWall_C.Name",
+                        "Curved Wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedWall_C.Description",
+                        "A Thin Curved Wall"
                     ]
                 ]
             },
