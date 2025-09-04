@@ -3351,16 +3351,26 @@
         "/Game/Mods/TobiFloorPack/TiledFloor_C/BP_Floor_Stone_3x3m_A.BP_Floor_Stone_3x3m_A_C",
         "T_UI_BuildIcon_TobiFloorPack_TiledFloor_C",
         "/Game/Mods/TobiFloorPack/Constructions/Icons/T_UI_BuildIcon_TobiFloorPack_TiledFloor_C",
-        "CurvedWallsPack_CurvedBarrier_A",
-        "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A",
-        "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C",
-        "T_UI_BuildIcon_CurvedWallsPack_CurvedBarrier_A",
-        "/Game/Mods/CurvedWallsPack/Constructions/Icons/T_UI_BuildIcon_CurvedWallsPack_CurvedBarrier_A",
-        "CurvedWallsPack_CurvedWall_A",
-        "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
-        "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A.BP_Suburbs_Wall_Thin_3x4m_A_C",
-        "T_UI_BuildIcon_CurvedWallsPack_CurvedWall_A",
-        "/Game/Mods/CurvedWallsPack/Constructions/Icons/T_UI_BuildIcon_CurvedWallsPack_CurvedWall_A"
+        "CurvedPack_CurvedBarrier_A",
+        "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A",
+        "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C",
+        "T_UI_BuildIcon_CurvedPack_CurvedBarrier_A",
+        "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedBarrier_A",
+        "CurvedPack_CurvedWall_A",
+        "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
+        "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A.BP_Suburbs_Wall_Thin_3x4m_A_C",
+        "T_UI_BuildIcon_CurvedPack_CurvedWall_A",
+        "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedWall_A",
+        "CurvedPack_CurvedBarrier_B",
+        "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_1x3m_A",
+        "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C",
+        "T_UI_BuildIcon_CurvedPack_CurvedBarrier_B",
+        "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedBarrier_B",
+        "CurvedPack_CurvedWall_B",
+        "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_3x3m_A",
+        "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_3x3m_A.BP_Suburbs_Wall_Thin_3x3m_A_C",
+        "T_UI_BuildIcon_CurvedPack_CurvedWall_B",
+        "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedWall_B"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -104280,7 +104290,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "CurvedWallsPack_CurvedBarrier_A",
+                        "Name": "CurvedPack_CurvedBarrier_A",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -104305,7 +104315,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "CurvedWallsPack_CurvedBarrier_A.Name"
+                                "Value": "CurvedPack_CurvedBarrier_A.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -104326,7 +104336,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "CurvedWallsPack_CurvedBarrier_A.Description"
+                                "Value": "CurvedPack_CurvedBarrier_A.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -104349,7 +104359,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C"
+                                        "AssetName": "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -104389,7 +104399,7 @@
                                                     "AssetPath": {
                                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                                         "PackageName": null,
-                                                        "AssetName": "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C"
+                                                        "AssetName": "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C"
                                                     },
                                                     "SubPathString": null
                                                 }
@@ -104444,7 +104454,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "CurvedWallsPack_CurvedWall_A",
+                        "Name": "CurvedPack_CurvedWall_A",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -104469,7 +104479,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "CurvedWallsPack_CurvedWall_A.Name"
+                                "Value": "CurvedPack_CurvedWall_A.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -104490,7 +104500,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "CurvedWallsPack_CurvedWall_A.Description"
+                                "Value": "CurvedPack_CurvedWall_A.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -104513,7 +104523,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A.BP_Suburbs_Wall_Thin_3x4m_A_C"
+                                        "AssetName": "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A.BP_Suburbs_Wall_Thin_3x4m_A_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -104553,7 +104563,7 @@
                                                     "AssetPath": {
                                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                                         "PackageName": null,
-                                                        "AssetName": "/Game/Mods/CurvedWallsPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A.BP_Suburbs_Wall_Thin_3x4m_A_C"
+                                                        "AssetName": "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A.BP_Suburbs_Wall_Thin_3x4m_A_C"
                                                     },
                                                     "SubPathString": null
                                                 }
@@ -104584,6 +104594,334 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Construction.Category.Advanced.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "CurvedPack_CurvedBarrier_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "CurvedPack_CurvedBarrier_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "CurvedPack_CurvedBarrier_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1189
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_1x3m_A.BP_Suburbs_Wall_Thin_1x3m_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Beorn.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "CurvedPack_CurvedWall_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "CurvedPack_CurvedWall_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Tech/Data/StringTables/Architecture.Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "CurvedPack_CurvedWall_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1191
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_3x3m_A.BP_Suburbs_Wall_Thin_3x3m_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_3x3m_A.BP_Suburbs_Wall_Thin_3x3m_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Beorn.Walls"
                                         ]
                                     }
                                 ]
@@ -115805,7 +116143,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Icons/T_UI_BuildIcon_CurvedWallsPack_CurvedBarrier_A",
+            "ObjectName": "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedBarrier_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -115814,7 +116152,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_CurvedWallsPack_CurvedBarrier_A",
+            "ObjectName": "T_UI_BuildIcon_CurvedPack_CurvedBarrier_A",
             "OuterIndex": -1184,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
@@ -115823,7 +116161,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/CurvedWallsPack/Constructions/Icons/T_UI_BuildIcon_CurvedWallsPack_CurvedWall_A",
+            "ObjectName": "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedWall_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -115832,8 +116170,44 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_CurvedWallsPack_CurvedWall_A",
+            "ObjectName": "T_UI_BuildIcon_CurvedPack_CurvedWall_A",
             "OuterIndex": -1186,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedBarrier_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_CurvedPack_CurvedBarrier_B",
+            "OuterIndex": -1188,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/CurvedPack/Constructions/Icons/T_UI_BuildIcon_CurvedPack_CurvedWall_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_CurvedPack_CurvedWall_B",
+            "OuterIndex": -1190,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
             "PackageName": null,
