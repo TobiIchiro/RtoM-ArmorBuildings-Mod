@@ -118,8 +118,8 @@
     "VariableGuid",
     "Vector",
     "/Game/Mods/CurvedPack/Wood_Thick_Walls/BP_Suburbs_Wall_Thin_1x3m_A",
-    "/Game/Mods/CurvedPack/Constructions/Meshes/Wood_Curve_Wall_3x1x025",
-    "Wood_Curve_Wall_3x1x025"
+    "/Game/Mods/CurvedPack/Constructions/Meshes/Wood_Curve_Wall_3x1x050",
+    "Wood_Curve_Wall_3x1x050"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2067,7 +2067,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Wood_Curve_Wall_3x1x025",
+      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Wood_Curve_Wall_3x1x050",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2076,7 +2076,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Wood_Curve_Wall_3x1x025",
+      "ObjectName": "Wood_Curve_Wall_3x1x050",
       "OuterIndex": -41,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
