@@ -4107,20 +4107,36 @@
                         "A decorated white floor"
                     ],
                     [
-                        "CurvedWallsPack_CurvedBarrier_A.Name",
+                        "CurvedPack_CurvedBarrier_A.Name",
                         "Curved Barrier"
                     ],
                     [
-                        "CurvedWallsPack_CurvedBarrier_A.Description",
+                        "CurvedPack_CurvedBarrier_A.Description",
                         "A curved granite barrier"
                     ],
                     [
-                        "CurvedWallsPack_CurvedWall_A.Name",
+                        "CurvedPack_CurvedWall_A.Name",
                         "Curved Wall"
                     ],
                     [
-                        "CurvedWallsPack_CurvedWall_A.Description",
+                        "CurvedPack_CurvedWall_A.Description",
                         "A curved granite wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedBarrier_B.Name",
+                        "Curved barrier"
+                    ],
+                    [
+                        "CurvedPack_CurvedBarrier_B.Description",
+                        "A wooden curved wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedWall_B.Name",
+                        "Curved wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedWall_B.Description",
+                        "A wooden curved wall"
                     ]
                 ]
             },
