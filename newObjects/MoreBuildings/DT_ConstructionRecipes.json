@@ -166,7 +166,8 @@
         "CurvedPack_CurvedStairs_A",
         "Ore.Granite",
         "CurvedPack_CurvedStairs_B",
-        "Ore.Granite"
+        "Ore.Granite",
+        "Tool.Restoration_Hammer_Tobi"
     ],
     "Exports": [
         {
@@ -53263,7 +53264,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Tool.Restoration_Hammer_Starmetal"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -53827,7 +53828,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Tool.Restoration_Hammer_Starmetal"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -54391,7 +54392,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Ore.Granite"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -54955,7 +54956,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Ore.Granite"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -55519,7 +55520,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Ore.Granite"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -56083,7 +56084,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Ore.Granite"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -56647,7 +56648,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Ore.Granite"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
@@ -57211,7 +57212,7 @@
                                                         "IsZero": false,
                                                         "PropertyTagFlags": "None",
                                                         "PropertyTagExtensions": "NoExtension",
-                                                        "Value": "Ore.Granite"
+                                                        "Value": "Tool.Restoration_Hammer_Tobi"
                                                     }
                                                 ]
                                             }
