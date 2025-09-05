@@ -4107,36 +4107,68 @@
                         "A decorated white floor"
                     ],
                     [
-                        "CurvedWallsPack_CurvedBarrier_A.Name",
+                        "CurvedPack_CurvedBarrier_A.Name",
                         "Curved Barrier"
                     ],
                     [
-                        "CurvedWallsPack_CurvedBarrier_A.Description",
+                        "CurvedPack_CurvedBarrier_A.Description",
                         "A curved granite barrier"
                     ],
                     [
-                        "CurvedWallsPack_CurvedWall_A.Name",
+                        "CurvedPack_CurvedWall_A.Name",
                         "Curved Wall"
                     ],
                     [
-                        "CurvedWallsPack_CurvedWall_A.Description",
+                        "CurvedPack_CurvedWall_A.Description",
                         "A curved granite wall"
                     ],
                     [
-                        "CurvedWallsPack_CurvedBarrier_B.Name",
+                        "CurvedPack_CurvedBarrier_B.Name",
                         "Curved barrier"
                     ],
                     [
-                        "CurvedWallsPack_CurvedBarrier_B.Description",
+                        "CurvedPack_CurvedBarrier_B.Description",
                         "A wooden curved wall"
                     ],
                     [
-                        "CurvedWallsPack_CurvedWall_B.Name",
+                        "CurvedPack_CurvedWall_B.Name",
                         "Curved wall"
                     ],
                     [
-                        "CurvedWallsPack_CurvedWall_B.Description",
+                        "CurvedPack_CurvedWall_B.Description",
                         "A wooden curved wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedBarrier_C.Name",
+                        "Curved Barrier"
+                    ],
+                    [
+                        "CurvedPack_CurvedBarrier_C.Description",
+                        "A Thin Curved Barrier"
+                    ],
+                    [
+                        "CurvedPack_CurvedWall_C.Name",
+                        "Curved Wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedWall_C.Description",
+                        "A Thin Curved Wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_A.Name",
+                        "Curved Stairs"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_A.Description",
+                        "Stairs"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_B.Name",
+                        "Curved Stairs"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_B.Description",
+                        "Long Curved Stairs"
                     ]
                 ]
             },
