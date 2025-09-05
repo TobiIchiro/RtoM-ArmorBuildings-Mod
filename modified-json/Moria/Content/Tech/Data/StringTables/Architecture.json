@@ -4153,6 +4153,22 @@
                     [
                         "CurvedPack_CurvedWall_C.Description",
                         "A Thin Curved Wall"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_A.Name",
+                        "Curved Stairs"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_A.Description",
+                        "Stairs"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_B.Name",
+                        "Curved Stairs"
+                    ],
+                    [
+                        "CurvedPack_CurvedStairs_B.Description",
+                        "Long Curved Stairs"
                     ]
                 ]
             },

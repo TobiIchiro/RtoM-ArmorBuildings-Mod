@@ -118,7 +118,10 @@
     "StructProperty",
     "Suburbs_Stairs_Medium_B2",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/CurvedPack/Granite_Stairs_A/BP_Suburbs_Stairs_Medium_B",
+    "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curved_Stairs_3x3x2x12",
+    "Granite_Curved_Stairs_3x3x2x12"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -384,6 +387,7 @@
         -34,
         -32,
         -39,
+        -41,
         -17,
         -7,
         -3
@@ -769,27 +773,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -39
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -17
-            }
-          ]
+          "Value": -41
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -908,7 +892,7 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 100.0,
+                "X": 150.0,
                 "Y": 150.0,
                 "Z": "+0"
               }
@@ -937,7 +921,7 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": "+0",
+                "X": 150.0,
                 "Y": 150.0,
                 "Z": "+0"
               }
@@ -1061,7 +1045,7 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 100.0,
+                "X": 150.0,
                 "Y": "+0",
                 "Z": 100.0
               }
@@ -1090,7 +1074,7 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": "+0",
+                "X": 150.0,
                 "Y": "+0",
                 "Z": 100.0
               }
@@ -2244,6 +2228,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curved_Stairs_3x3x2x12",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Granite_Curved_Stairs_3x3x2x12",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2295,7 +2297,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Stairs_Medium_B",
+  "FolderName": "/Game/Mods/CurvedPack/Granite_Stairs_A/BP_Suburbs_Stairs_Medium_B",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
