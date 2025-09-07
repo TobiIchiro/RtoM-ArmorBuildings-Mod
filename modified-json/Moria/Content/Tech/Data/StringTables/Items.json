@@ -5004,19 +5004,19 @@
           ],
           [
             "Tools.Hammer.Tobi.Name",
-            "Tobi Hammer Name"
+            "Martillo de Tobi"
           ],
           [
             "Tools.Hammer.Tobi.Description",
-            "Tobi Hammer Description"
+            "Una herramienta creada por el autiguo gremio de arquitectos de Moria."
           ],
           [
             "Tools.Hammer.Tobi.Broken.Name",
-            "Tobi Hammer Broken Name"
+            "Martillo de Tobi roto"
           ],
           [
             "Tools.Hammer.Tobi.Broken.Description",
-            "Tobi Hammer Broken Description"
+            "Usa la herrería de reparación para reparar"
           ]
         ]
       },
