@@ -359,6 +359,7 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         -40,
+        -42,
         -35,
         -33,
         -18,
