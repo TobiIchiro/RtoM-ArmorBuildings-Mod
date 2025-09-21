@@ -421,19 +421,19 @@
                     ],
                     [
                         "AradrenPack_Ladder_A.Name",
-                        "Ladder"
+                        "Long Ladder"
                     ],
                     [
                         "AradrenPack_Ladder_A.Description",
-                        "A Short Vertical Wooden Ladder"
+                        "A Long Vertical Wooden Ladder"
                     ],
                     [
                         "AradrenPack_Ladder_B.Name",
-                        "Ladder"
+                        "Short Ladder"
                     ],
                     [
                         "AradrenPack_Ladder_B.Description",
-                        "A Long Vertical Wooden Ladder"
+                        "A Short Vertical Wooden Ladder"
                     ],
                     [
                         "AradrenPack_DecorativeBarrier_A.Name",
@@ -565,11 +565,11 @@
                     ],
                     [
                         "OlfahrPack_Lift_A.Name",
-                        "Lift"
+                        "Tall Lift"
                     ],
                     [
                         "OlfahrPack_Lift_A.Description",
-                        "A Long Lift used in the Mines"
+                        "A Tall Lift used in the Mines"
                     ],
                     [
                         "OlfahrPack_Lift_B.Name",
@@ -717,7 +717,7 @@
                     ],
                     [
                         "CurvedPack_CurvedBarrier_A.Name",
-                        "Curved Barrier"
+                        "Granite Curved Barrier"
                     ],
                     [
                         "CurvedPack_CurvedBarrier_A.Description",
@@ -725,7 +725,7 @@
                     ],
                     [
                         "CurvedPack_CurvedWall_A.Name",
-                        "Curved Wall"
+                        "Granite Curved Wall"
                     ],
                     [
                         "CurvedPack_CurvedWall_A.Description",
@@ -733,7 +733,7 @@
                     ],
                     [
                         "CurvedPack_CurvedBarrier_B.Name",
-                        "Curved barrier"
+                        "Wood Curved barrier"
                     ],
                     [
                         "CurvedPack_CurvedBarrier_B.Description",
@@ -741,7 +741,7 @@
                     ],
                     [
                         "CurvedPack_CurvedWall_B.Name",
-                        "Curved wall"
+                        "Wood Curved wall"
                     ],
                     [
                         "CurvedPack_CurvedWall_B.Description",
@@ -749,7 +749,7 @@
                     ],
                     [
                         "CurvedPack_CurvedBarrier_C.Name",
-                        "Curved Barrier"
+                        "Thin Wood Curved Barrier"
                     ],
                     [
                         "CurvedPack_CurvedBarrier_C.Description",
@@ -757,7 +757,7 @@
                     ],
                     [
                         "CurvedPack_CurvedWall_C.Name",
-                        "Curved Wall"
+                        "Thin Wood Curved Wall"
                     ],
                     [
                         "CurvedPack_CurvedWall_C.Description",
@@ -765,7 +765,7 @@
                     ],
                     [
                         "CurvedPack_CurvedStairs_A.Name",
-                        "Curved Stairs"
+                        "Narrow Spiral Stone Stairs"
                     ],
                     [
                         "CurvedPack_CurvedStairs_A.Description",
@@ -773,11 +773,11 @@
                     ],
                     [
                         "CurvedPack_CurvedStairs_B.Name",
-                        "Curved Stairs"
+                        "Tall Spiral Stone Stairs"
                     ],
                     [
                         "CurvedPack_CurvedStairs_B.Description",
-                        "Long Curved Stairs"
+                        "Tall Spiral Stone Stairs"
                     ]
                 ]
             }
