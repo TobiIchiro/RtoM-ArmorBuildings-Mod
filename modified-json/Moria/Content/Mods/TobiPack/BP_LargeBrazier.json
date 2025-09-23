@@ -191,7 +191,8 @@
     "VariableGuid",
     "Vector",
     "WindDirection",
-    "WindSpeed"
+    "WindSpeed",
+    "/Game/Mods/TobiPack/BP_LargeBrazier"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8415,7 +8416,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier",
+  "FolderName": "/Game/Mods/TobiPack/BP_LargeBrazier",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
