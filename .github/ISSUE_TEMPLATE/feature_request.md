@@ -8,9 +8,9 @@ assignees: ''
 ---
 
 ## Discord Name
-Your Discord name (to credit or contact you if needed):
+Your Dwarf name:
 
-> Example: `YourName#1234`
+> Example: `Your Dwarf Name`
 
 ---
 
@@ -23,6 +23,13 @@ A name that you give to your requested construction
 Attach an image of the construction idea. Drag and drop or paste below:
 
 > _You can also include a link to a hosted image._
+
+---
+
+## Construction Description
+Describe briefly the Construction
+
+> _Example: "A wall built from cut and crafted bricks of granite."_
 
 ---
 
@@ -44,6 +51,13 @@ Describe based on building UI where it would fit
 What ingredients should be required to craft this?
 
 > _Example: 10x Wood, 5x Stone, 1x Torch_
+
+---
+
+## Blueprint Path
+Path to de actor file, you get it by using Debug Menu Mod
+
+> _Example: "/Game/LevelDesign/Placeables/Interactables/BP_Brazier_StatueA"_
 
 ---
 
