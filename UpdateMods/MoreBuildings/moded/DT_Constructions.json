@@ -2927,8 +2927,8 @@
         "T_UI_BuildIcon_TobiPack_Ceiling_Corner",
         "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_Ceiling_Corner",
         "TobiPack_LargeBrazier",
-        "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier",
-        "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier.BP_LargeBrazier_C",
+        "/Game/Mods/TobiPack/BP_LargeBrazier",
+        "/Game/Mods/TobiPack/BP_LargeBrazier.BP_LargeBrazier_C",
         "T_UI_BuildIcon_TobiPack_LargeBrazier",
         "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_LargeBrazier",
         "MereakPack_Barrel_A",
@@ -90439,7 +90439,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier.BP_LargeBrazier_C"
+                                        "AssetName": "/Game/Mods/TobiPack/BP_LargeBrazier.BP_LargeBrazier_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -90479,7 +90479,7 @@
                                                     "AssetPath": {
                                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                                         "PackageName": null,
-                                                        "AssetName": "/Game/LevelDesign/Deco/Elven_Dressing/BP_LargeBrazier.BP_LargeBrazier_C"
+                                                        "AssetName": "/Game/Mods/TobiPack/BP_LargeBrazier.BP_LargeBrazier_C"
                                                     },
                                                     "SubPathString": null
                                                 }
