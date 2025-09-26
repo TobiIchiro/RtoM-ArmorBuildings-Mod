@@ -114,7 +114,9 @@
     "WeaponVFX",
     "WeaponVFX_GEN_VARIABLE",
     "TimelineTemplate",
-    "GlowFade_Template"
+    "GlowFade_Template",
+    "Dain_Warhammer",
+    "/Game/Mods/KingWeaponsPack/Dain_Warhammer/EQ_Hammer_2h_t1"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -357,7 +359,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Hammer_2h_t1"
+              "Value": "Dain_Warhammer"
             }
           ]
         },
@@ -2814,7 +2816,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Holdables/Weapons/EQ_Hammer_2h_t1",
+  "FolderName": "/Game/Mods/KingWeaponsPack/Dain_Warhammer/EQ_Hammer_2h_t1",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
