@@ -5,10 +5,10 @@
     "/Game/Items/BP_Category_Weapon",
     "/Game/Items/Holdables/EQ_2H_Base",
     "/Game/Items/Holdables/EQ_2H_Hammer_Base",
-    "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Hammer_2h_t2_Broken",
-    "/Game/Items/Holdables/Weapons/EQ_Hammer_2h_t2",
-    "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Mithril_WarMattock2h_Broken",
-    "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Mithril_WarMattock_2h",
+    "/Game/Mods/KingsWeaponsPack/Thrain_Warhammer/EQ_Hammer_2h_t2_Broken",
+    "/Game/Mods/KingsWeaponsPack/Thrain_Warhammer/EQ_Hammer_2h_t2",
+    "/Game/Mods/KingsWeaponsPack/Meshes/SM_Thrain_Warhammer_Broken",
+    "/Game/Mods/KingsWeaponsPack/Icons/T_UI_Icon_Thrain_Warhammer",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -28,7 +28,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Weapon_C",
-    "Broken_Hammer_2h_t2",
+    "Broken_Thrain_Warhammer",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
@@ -39,7 +39,7 @@
     "ComponentOverrideRecord",
     "ComponentTemplate",
     "CookedComponentInstancingData",
-    "D_Weapon_Mithril_WarMattock2h_Broken",
+    "SM_Thrain_Warhammer_Broken",
     "DecomposesInto",
     "Default__BlueprintGeneratedClass",
     "Default__EQ_2H_Base_C",
@@ -107,7 +107,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Weapon_Mithril_WarMattock_2h",
+    "T_UI_Icon_Thrain_Warhammer",
     "Texture2D",
     "TransformLocatorComponent",
     "VariableGuid",
@@ -327,7 +327,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Broken_Hammer_2h_t2"
+              "Value": "Broken_Thrain_Warhammer"
             }
           ]
         },
@@ -1571,7 +1571,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__EQ_Hammer_2h_t2_C",
       "OuterIndex": -43,
-      "ClassPackage": "/Game/Items/Holdables/Weapons/EQ_Hammer_2h_t2",
+      "ClassPackage": "/Game/Mods/KingsWeaponsPack/Thrain_Warhammer/EQ_Hammer_2h_t2",
       "ClassName": "EQ_Hammer_2h_t2_C",
       "PackageName": null,
       "bImportOptional": false
@@ -1758,7 +1758,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Holdables/Weapons/EQ_Hammer_2h_t2",
+      "ObjectName": "/Game/Mods/KingsWeaponsPack/Thrain_Warhammer/EQ_Hammer_2h_t2",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1767,7 +1767,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Mithril_WarMattock2h_Broken",
+      "ObjectName": "/Game/Mods/KingsWeaponsPack/Meshes/SM_Thrain_Warhammer_Broken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1776,7 +1776,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Mithril_WarMattock_2h",
+      "ObjectName": "/Game/Mods/KingsWeaponsPack/Icons/T_UI_Icon_Thrain_Warhammer",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1902,7 +1902,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "D_Weapon_Mithril_WarMattock2h_Broken",
+      "ObjectName": "SM_Thrain_Warhammer_Broken",
       "OuterIndex": -44,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1938,7 +1938,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Weapon_Mithril_WarMattock_2h",
+      "ObjectName": "T_UI_Icon_Thrain_Warhammer",
       "OuterIndex": -45,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -2019,7 +2019,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Hammer_2h_t2_Broken",
+  "FolderName": "/Game/Mods/KingsWeaponsPack/Thrain_Warhammer/EQ_Hammer_2h_t2_Broken",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

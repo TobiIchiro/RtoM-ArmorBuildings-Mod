@@ -7,10 +7,10 @@
     "/Game/Items/Holdables/EQ_2H_Axe_Base",
     "/Game/Items/Holdables/EQ_2H_Base",
     "/Game/Items/Holdables/GE_Steel_Battleaxe",
-    "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Battleaxe_2h_t4_Broken",
-    "/Game/Items/Holdables/Weapons/EQ_Battleaxe_2h_t4",
-    "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Mithril_BattleAxe2h_Broken",
-    "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Mithril_BattleAxe_2h",
+    "/Game/Mods/KingsWeaponsPack/Dain_Battleaxe/EQ_Battleaxe_2h_t4_Broken",
+    "/Game/Mods/KingsWeaponsPack/Dain_Battleaxe/EQ_Battleaxe_2h_t4",
+    "/Game/Mods/KingsWeaponsPack/Meshes/SM_Dain_Battleaxe_Broken",
+    "/Game/Mods/KingsWeaponsPack/Icons/T_UI_Icon_Dain_Battleaxe",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -39,7 +39,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Weapon_C",
-    "Broken_Battleaxe_2h_t4",
+    "Broken_Dain_Battleaxe",
     "ByteProperty",
     "Callout Data",
     "CalloutData",
@@ -53,7 +53,7 @@
     "ComponentOverrideRecord",
     "ComponentTemplate",
     "CookedComponentInstancingData",
-    "D_Weapon_Mithril_BattleAxe2h_Broken",
+    "SM_Dain_Battleaxe_Broken",
     "DecomposesInto",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Weapon_C",
@@ -162,7 +162,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Weapon_Mithril_BattleAxe_2h",
+    "T_UI_Icon_Dain_Battleaxe",
     "Texture2D",
     "TransformLocatorComponent",
     "UberGraphFrame",
@@ -1164,7 +1164,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Broken_Battleaxe_2h_t4"
+              "Value": "Broken_Dain_Battleaxe"
             }
           ]
         },
@@ -3116,7 +3116,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__EQ_Battleaxe_2h_t4_C",
       "OuterIndex": -61,
-      "ClassPackage": "/Game/Items/Holdables/Weapons/EQ_Battleaxe_2h_t4",
+      "ClassPackage": "/Game/Mods/KingsWeaponsPack/Dain_Battleaxe/EQ_Battleaxe_2h_t4",
       "ClassName": "EQ_Battleaxe_2h_t4_C",
       "PackageName": null,
       "bImportOptional": false
@@ -3411,7 +3411,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Holdables/Weapons/EQ_Battleaxe_2h_t4",
+      "ObjectName": "/Game/Mods/KingsWeaponsPack/Dain_Battleaxe/EQ_Battleaxe_2h_t4",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3429,7 +3429,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Mithril_BattleAxe2h_Broken",
+      "ObjectName": "/Game/Mods/KingsWeaponsPack/Meshes/SM_Dain_Battleaxe_Broken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3438,7 +3438,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Mithril_BattleAxe_2h",
+      "ObjectName": "/Game/Mods/KingsWeaponsPack/Icons/T_UI_Icon_Dain_Battleaxe",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3627,7 +3627,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "D_Weapon_Mithril_BattleAxe2h_Broken",
+      "ObjectName": "SM_Dain_Battleaxe_Broken",
       "OuterIndex": -63,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3663,7 +3663,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Weapon_Mithril_BattleAxe_2h",
+      "ObjectName": "T_UI_Icon_Dain_Battleaxe",
       "OuterIndex": -64,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -3749,7 +3749,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Battleaxe_2h_t4_Broken",
+  "FolderName": "/Game/Mods/KingsWeaponsPack/Dain_Battleaxe/EQ_Battleaxe_2h_t4_Broken",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
