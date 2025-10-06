@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Items/Clothing/GE_EreborSteel_TBDSet_GlovesArmor",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T3",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayAbilities",
@@ -32,13 +32,13 @@
     "CurveTableRowHandle",
     "CustomCalculationBasedFloat",
     "CustomMagnitude",
-    "DamageReduction",
+    "AttackPowerUnarmed",
     "DataName",
     "DataRegistryType",
     "DataTag",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_EreborSteel_TBDSet_GlovesArmor_C",
+    "Default__GE_UnarmedAttackBoost_T3_C",
     "DurationPolicy",
     "EAttributeBasedFloatCalculationType",
     "EAttributeBasedFloatCalculationType::AttributeMagnitude",
@@ -68,7 +68,7 @@
     "GameplayTag",
     "GameplayTagContainer",
     "GameplayTagRequirements",
-    "GE_EreborSteel_TBDSet_GlovesArmor_C",
+    "GE_UnarmedAttackBoost_T3_C",
     "IgnoreTags",
     "Magnitude",
     "MagnitudeCalculationType",
@@ -231,7 +231,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GE_EreborSteel_TBDSet_GlovesArmor_C",
+      "ObjectName": "GE_UnarmedAttackBoost_T3_C",
       "OuterIndex": 0,
       "ClassIndex": -3,
       "SuperIndex": -4,
@@ -317,7 +317,7 @@
                       "IsZero": false,
                       "PropertyTagFlags": "None",
                       "PropertyTagExtensions": "NoExtension",
-                      "Value": "DamageReduction"
+                      "Value": "AttackPowerUnarmed"
                     },
                     {
                       "$type": "UAssetAPI.PropertyTypes.Objects.FieldPathPropertyData, UAssetAPI",
@@ -329,7 +329,7 @@
                       "Value": {
                         "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
                         "Path": [
-                          "DamageReduction"
+                          "AttackPowerUnarmed"
                         ],
                         "ResolvedOwner": -5
                       }
@@ -1494,7 +1494,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GE_EreborSteel_TBDSet_GlovesArmor_C",
+      "ObjectName": "Default__GE_UnarmedAttackBoost_T3_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1661,7 +1661,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Clothing/GE_EreborSteel_TBDSet_GlovesArmor",
+  "FolderName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T3",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
