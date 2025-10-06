@@ -6,9 +6,9 @@
     "/Game/Items/Holdables/EQ_Shield_Base",
     "/Game/Items/Holdables/GE_IronHills_APSet_Shield",
     "/Game/Items/Holdables/Shields/BrokenVersions/EQ_Wonderful_Shield_Broken",
-    "/Game/Items/Holdables/Shields/EQ_Wonderful_TBDSet_Shield",
-    "/Game/Items/Weapons/Models/Dwarf_Shields/D_Shield_Wonderful",
-    "/Game/UI/Textures/_Icons/ItemRenders/Armor/T_UI_Icon_Armor_Wonderful_Shield",
+    "/Game/Mods/BearGuildPack/BearGuild_Shield/EQ_Wonderful_TBDSet_Shield",
+    "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Shield",
+    "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Shield",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -33,7 +33,7 @@
     "ComponentOverrideRecord",
     "ComponentTemplate",
     "CookedComponentInstancingData",
-    "D_Shield_Wonderful",
+    "SM_BearGuild_Shield",
     "DecomposesInto",
     "Default__BlueprintGeneratedClass",
     "Default__EQ_Shield_Base_C",
@@ -89,14 +89,14 @@
     "StaticMesh_GEN_VARIABLE",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Armor_Wonderful_Shield",
+    "T_UI_Icon_BearGuild_Shield",
     "Texture2D",
     "TransformLocator_GEN_VARIABLE",
     "TransformLocatorComponent",
     "VariableGuid",
     "Vector",
     "WeaponVFX_GEN_VARIABLE",
-    "Wonderful_TBDSet_Shield",
+    "BearGuild_Shield",
     "TimelineTemplate",
     "GlowFade_Template"
   ],
@@ -313,7 +313,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Wonderful_TBDSet_Shield"
+              "Value": "BearGuild_Shield"
             }
           ]
         },
@@ -1377,7 +1377,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Shields/D_Shield_Wonderful",
+      "ObjectName": "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Shield",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1386,7 +1386,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/Armor/T_UI_Icon_Armor_Wonderful_Shield",
+      "ObjectName": "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Shield",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1494,7 +1494,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "D_Shield_Wonderful",
+      "ObjectName": "SM_BearGuild_Shield",
       "OuterIndex": -33,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1521,7 +1521,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Armor_Wonderful_Shield",
+      "ObjectName": "T_UI_Icon_BearGuild_Shield",
       "OuterIndex": -34,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -1601,7 +1601,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Holdables/Shields/EQ_Wonderful_TBDSet_Shield",
+  "FolderName": "/Game/Mods/BearGuildPack/BearGuild_Shield/EQ_Wonderful_TBDSet_Shield",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
