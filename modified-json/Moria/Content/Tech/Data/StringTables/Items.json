@@ -5004,19 +5004,51 @@
           ],
           [
             "Tools.Hammer.Tobi.Name",
-            "Martillo de Tobi"
+            "Tobi’s Hammer"
           ],
           [
             "Tools.Hammer.Tobi.Description",
-            "Una herramienta creada por el autiguo gremio de arquitectos de Moria."
+            "A tool created by the ancient architecs’ guild of Moria"
           ],
           [
             "Tools.Hammer.Tobi.Broken.Name",
-            "Martillo de Tobi roto"
+            "Broken Tobi’s Hammer"
           ],
           [
             "Tools.Hammer.Tobi.Broken.Description",
-            "Usa la herrería de reparación para reparar"
+            "Use the Repair Smithy to mend."
+          ],
+          [
+            "Armor.BearGuild.Gloves_T4.Name",
+            "Blue Mountains Mitts"
+          ],
+          [
+            "Armor.BearGuild.Gloves_T4.Description",
+            "Leather and Brass. Durable and effective."
+          ],
+          [
+            "Armor.BearGuild.Gloves_T5.Name",
+            "Nogrod Hammer-Fists"
+          ],
+          [
+            "Armor.BearGuild.Gloves_T5.Description",
+            "Fists like Hammers."
+          ],
+          [
+            "Armor.BearGuild.Gloves_T6.Name",
+            "Mithril Knuckle Dusters"
+          ],
+          [
+            "Armor.BearGuild.Gloves_T6.Description",
+            "Crush your enemies with this rustic, timeless design."
+          ],
+          [
+            "Armor.BearGuild.Shield.Name",
+            "BearGuild Shield Name"
+          ],
+          [
+            "Armor.BearGuild.Shield.Description",
+            "BearGuild Shield Description"
           ]
         ]
       },
