@@ -2,9 +2,9 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_RedMountains/Dwarf_Armor_RedMountains_MinersGloves",
+    "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Gloves_T4",
     "/Game/Items/BP_Category_Clothing",
-    "/Game/Items/Clothing/Armor/BP_RedMountains_MinerSet_GlovesArmor",
+    "/Game/Mods/BearGuildPack/GlovesTest/BP_RedMountains_MinerSet_GlovesArmor",
     "/Game/Items/Clothing/GE_EreborSteel_TBDSet_GlovesArmor",
     "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_RedMountains_Miner_Gloves",
     "/Script/ClothingSystemRuntimeNv",
@@ -43,7 +43,7 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "Dwarf_Armor_RedMountains_MinersGloves",
+    "SM_BearGuild_Gloves_T4",
     "Effects",
     "EModularCharacterSlot",
     "EModularCharacterSlot::Gloves",
@@ -66,7 +66,7 @@
     "OverrideParameters",
     "Package",
     "ParentComponentOrVariableName",
-    "RedMountains_MinerSet_GlovesArmor",
+    "BearGuild_TestGloves",
     "RibbonTrails",
     "RightHandSocket",
     "Root",
@@ -308,7 +308,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "RedMountains_MinerSet_GlovesArmor"
+              "Value": "BearGuild_TestGloves"
             }
           ]
         },
@@ -1156,7 +1156,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_RedMountains/Dwarf_Armor_RedMountains_MinersGloves",
+      "ObjectName": "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Gloves_T4",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1264,7 +1264,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Dwarf_Armor_RedMountains_MinersGloves",
+      "ObjectName": "SM_BearGuild_Gloves_T4",
       "OuterIndex": -19,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SkeletalMesh",
@@ -1334,7 +1334,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Clothing/Armor/BP_RedMountains_MinerSet_GlovesArmor",
+  "FolderName": "/Game/Mods/BearGuildPack/GlovesTest/BP_RedMountains_MinerSet_GlovesArmor",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
