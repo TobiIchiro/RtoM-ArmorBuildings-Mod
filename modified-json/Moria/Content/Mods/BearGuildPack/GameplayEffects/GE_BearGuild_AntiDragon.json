@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Items/GE_HightSpiritsBrew_Stalker",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
     "/Game/Tech/Data/StringTables/ST_Effects",
     "/Game/Tech/Data/StringTables/ST_Effects.ST_Effects",
     "/Game/UI/Textures/_Icons/BuffIcons/T_UI_Icon_StatusBuff_Stalker",
@@ -15,17 +15,17 @@
     "BlueprintGeneratedClass",
     "Class",
     "CombinedTags",
-    "Damage.Stalker",
+    "Damage.AntiDragon.ShadowKilling",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_HightSpiritsBrew_Stalker_C",
+    "Default__GE_BearGuild_AntiDragon_C",
     "Default__MorGameplayEffectUIData",
     "Description",
     "DisplayName",
     "DurationMagnitude",
     "DurationPolicy",
     "EGameplayEffectDurationType",
-    "EGameplayEffectDurationType::HasDuration",
+    "EGameplayEffectDurationType::Infinite",
     "EGameplayEffectStackingType",
     "EGameplayEffectStackingType::AggregateByTarget",
     "Engine",
@@ -35,7 +35,7 @@
     "GameplayEffectModifierMagnitude",
     "GameplayTag",
     "GameplayTagContainer",
-    "GE_HightSpiritsBrew_Stalker_C",
+    "GE_BearGuild_AntiDragon_C",
     "Icon",
     "InheritableOwnedTagsContainer",
     "InheritedTagContainer",
@@ -192,7 +192,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GE_HightSpiritsBrew_Stalker_C",
+      "ObjectName": "GE_BearGuild_AntiDragon_C",
       "OuterIndex": 0,
       "ClassIndex": -3,
       "SuperIndex": -4,
@@ -236,46 +236,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "EGameplayEffectDurationType::HasDuration"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "GameplayEffectModifierMagnitude",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "DurationMagnitude",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-              "StructType": "ScalableFloat",
-              "SerializeNone": true,
-              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-              "SerializationControl": "NoExtension",
-              "Operation": "None",
-              "Name": "ScalableFloatMagnitude",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": [
-                {
-                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                  "Value": 1200.0,
-                  "Name": "Value",
-                  "ArrayIndex": 0,
-                  "IsZero": false,
-                  "PropertyTagFlags": "None",
-                  "PropertyTagExtensions": "NoExtension"
-                }
-              ]
-            }
-          ]
+          "Value": "EGameplayEffectDurationType::Infinite"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -320,7 +281,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Damage.Stalker"
+                    "Damage.AntiDragon.ShadowKilling"
                   ]
                 }
               ]
@@ -346,7 +307,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Damage.Stalker"
+                    "Damage.AntiDragon.ShadowKilling"
                   ]
                 }
               ]
@@ -377,7 +338,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GE_HightSpiritsBrew_Stalker_C",
+      "ObjectName": "Default__GE_BearGuild_AntiDragon_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -429,7 +390,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Survival.Buff.HightSpiritsBrew.Stalker.Name"
+          "Value": "Survival.Buff.HightSpiritsBrew.DragonHunter.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -450,7 +411,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Survival.Buff.HightSpiritsBrew.Stalker.Description"
+          "Value": "Survival.Buff.HightSpiritsBrew.DragonHunter.Description"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -700,7 +661,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/GE_HightSpiritsBrew_Stalker",
+  "FolderName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

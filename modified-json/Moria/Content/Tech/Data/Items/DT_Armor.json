@@ -806,7 +806,7 @@
     "Armor.BearGuild.Gloves_T4.Name",
     "Armor.BearGuild.Gloves_T4.Description",
     "/Game/Mods/BearGuildPack/BearGuild_Gloves/BP_BearGuild_Gloves_T4.BP_BearGuild_Gloves_T4_C",
-    "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T4",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T4",
     "GE_UnarmedAttackBoost_T4_C",
     "Default__GE_UnarmedAttackBoost_T4_C",
     "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Gloves_T4.T_UI_Icon_BearGuild_Gloves_T4",
@@ -814,7 +814,7 @@
     "Armor.BearGuild.Gloves_T5.Name",
     "Armor.BearGuild.Gloves_T5.Description",
     "/Game/Mods/BearGuildPack/BearGuild_Gloves/BP_BearGuild_Gloves_T5.BP_BearGuild_Gloves_T5_C",
-    "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T5",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T5",
     "GE_UnarmedAttackBoost_T5_C",
     "Default__GE_UnarmedAttackBoost_T5_C",
     "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Gloves_T5.T_UI_Icon_BearGuild_Gloves_T5",
@@ -822,10 +822,13 @@
     "Armor.BearGuild.Gloves_T6.Name",
     "Armor.BearGuild.Gloves_T6.Description",
     "/Game/Mods/BearGuildPack/BearGuild_Gloves/BP_BearGuild_Gloves_T6.BP_BearGuild_Gloves_T6_C",
-    "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T6",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T6",
     "GE_UnarmedAttackBoost_T6_C",
     "Default__GE_UnarmedAttackBoost_T6_C",
-    "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Gloves_T6.T_UI_Icon_BearGuild_Gloves_T6"
+    "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Gloves_T6.T_UI_Icon_BearGuild_Gloves_T6",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
+    "GE_BearGuild_AntiDragon_C",
+    "Default__GE_BearGuild_AntiDragon_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -64702,6 +64705,15 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": -33
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -42
                   }
                 ]
               },
@@ -65136,7 +65148,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Gloves.Tier4"
+                      "UI.Armor.Gloves.Tier5"
                     ]
                   }
                 ]
@@ -65181,7 +65193,16 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": -33
+                    "Value": -36
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -42
                   }
                 ]
               },
@@ -65616,7 +65637,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "UI.Armor.Gloves.Tier4"
+                      "UI.Armor.Gloves.Tier6"
                     ]
                   }
                 ]
@@ -65661,7 +65682,16 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": -33
+                    "Value": -39
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -42
                   }
                 ]
               },
@@ -65817,7 +65847,8 @@
         -10,
         -34,
         -37,
-        -40
+        -40,
+        -43
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -66135,14 +66166,14 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GE_UnarmedAttackBoost_T4_C",
       "OuterIndex": -35,
-      "ClassPackage": "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T4",
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T4",
       "ClassName": "GE_UnarmedAttackBoost_T4_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T4",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T4",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -66162,14 +66193,14 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GE_UnarmedAttackBoost_T5_C",
       "OuterIndex": -38,
-      "ClassPackage": "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T5",
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T5",
       "ClassName": "GE_UnarmedAttackBoost_T5_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T5",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T5",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -66189,14 +66220,41 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GE_UnarmedAttackBoost_T6_C",
       "OuterIndex": -41,
-      "ClassPackage": "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T6",
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T6",
       "ClassName": "GE_UnarmedAttackBoost_T6_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/BearGuildPack/GamplayEffects/GE_UnarmedAttackBoost_T6",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T6",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_AntiDragon_C",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_AntiDragon_C",
+      "OuterIndex": -44,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
+      "ClassName": "GE_BearGuild_AntiDragon_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
