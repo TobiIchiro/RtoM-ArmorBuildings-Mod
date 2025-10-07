@@ -5008,7 +5008,7 @@
           ],
           [
             "Tools.Hammer.Tobi.Description",
-            "A tool created by the ancient architecs’ guild of Moria"
+            "A tool created by the ancient architecs’ guild of Moria."
           ],
           [
             "Tools.Hammer.Tobi.Broken.Name",
@@ -5016,6 +5016,54 @@
           ],
           [
             "Tools.Hammer.Tobi.Broken.Description",
+            "Use the Repair Smithy to mend."
+          ],
+          [
+            "Weapons.Hammer.Dain.Name",
+            "Dain’s Warhammer"
+          ],
+          [
+            "Weapons.Hammer.Dain.Description",
+            "A Warhammer used by Lord of the Iron Hills"
+          ],
+          [
+            "Weapons.Hammer.Dain.Broken.Name",
+            "Broken Dain’s Warhammer"
+          ],
+          [
+            "Weapons.Hammer.Dain.Broken.Description",
+            "Use the Repair Smithy to mend."
+          ],
+          [
+            "Weapons.Hammer.Thrain.Name",
+            "Thrain’s Warhammer"
+          ],
+          [
+            "Weapons.Hammer.Thrain.Description",
+            "A Warhammer used by the King Thrain"
+          ],
+          [
+            "Weapons.Hammer.Thrain.Broken.Name",
+            "Broken Thrain’s Warhammer"
+          ],
+          [
+            "Weapons.Hammer.Thrain.Broken.Description",
+            "Use the Repair Smithy to mend."
+          ],
+          [
+            "Weapons.Battleaxe.Dain.Name",
+            "Dain’s Battleaxe"
+          ],
+          [
+            "Weapons.Battleaxe.Dain.Description",
+            "A Battleaxe used by Lord of the Iron Hills"
+          ],
+          [
+            "Weapons.Battleaxe.Dain.Broken.Name",
+            "Broken Dain’s Battleaxe"
+          ],
+          [
+            "Weapons.Battleaxe.Dain.Broken.Description",
             "Use the Repair Smithy to mend."
           ],
           [
