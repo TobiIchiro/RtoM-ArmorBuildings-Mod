@@ -828,7 +828,28 @@
     "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_BearGuild_Gloves_T6.T_UI_Icon_BearGuild_Gloves_T6",
     "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
     "GE_BearGuild_AntiDragon_C",
-    "Default__GE_BearGuild_AntiDragon_C"
+    "Default__GE_BearGuild_AntiDragon_C",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Thunder",
+    "GE_BearGuild_Thunder_C",
+    "Default__GE_BearGuild_Thunder_C",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Hunter",
+    "GE_BearGuild_Hunter_C",
+    "Default__GE_BearGuild_Hunter_C",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiOrc",
+    "GE_BearGuild_AntiOrc_C",
+    "Default__GE_BearGuild_AntiOrc_C",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Bludgeon",
+    "GE_BearGuild_Bludgeon_C",
+    "Default__GE_BearGuild_Bludgeon_C",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_PiercingBolt",
+    "GE_BearGuild_PiercingBolt_C",
+    "Default__GE_BearGuild_PiercingBolt_C",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_WatcherEye",
+    "GE_BearGuild_WatcherEye_C",
+    "Default__GE_BearGuild_WatcherEye_C",
+    "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsAxe_Equipped",
+    "GE_ShadowResist_DurinsAxe_Equipped_C",
+    "Default__GE_ShadowResist_DurinsAxe_Equipped_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -64713,7 +64734,34 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": -42
+                    "Value": -48
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -51
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -54
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -60
                   }
                 ]
               },
@@ -65202,7 +65250,43 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": -42
+                    "Value": -48
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -51
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -54
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -60
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -45
                   }
                 ]
               },
@@ -65691,7 +65775,52 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
+                    "Value": -48
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -51
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -54
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -60
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
                     "Value": -42
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -63
                   }
                 ]
               },
@@ -65848,7 +65977,14 @@
         -34,
         -37,
         -40,
-        -43
+        -43,
+        -46,
+        -49,
+        -52,
+        -55,
+        -58,
+        -61,
+        -64
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -66255,6 +66391,195 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_Thunder_C",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_Thunder_C",
+      "OuterIndex": -47,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Thunder",
+      "ClassName": "GE_BearGuild_Thunder_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Thunder",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_Hunter_C",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_Hunter_C",
+      "OuterIndex": -50,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Hunter",
+      "ClassName": "GE_BearGuild_Hunter_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Hunter",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_AntiOrc_C",
+      "OuterIndex": -53,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_AntiOrc_C",
+      "OuterIndex": -53,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiOrc",
+      "ClassName": "GE_BearGuild_AntiOrc_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiOrc",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_Bludgeon_C",
+      "OuterIndex": -56,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_Bludgeon_C",
+      "OuterIndex": -56,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Bludgeon",
+      "ClassName": "GE_BearGuild_Bludgeon_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Bludgeon",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_PiercingBolt_C",
+      "OuterIndex": -59,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_PiercingBolt_C",
+      "OuterIndex": -59,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_PiercingBolt",
+      "ClassName": "GE_BearGuild_PiercingBolt_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_PiercingBolt",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_BearGuild_WatcherEye_C",
+      "OuterIndex": -62,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_BearGuild_WatcherEye_C",
+      "OuterIndex": -62,
+      "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_WatcherEye",
+      "ClassName": "GE_BearGuild_WatcherEye_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_WatcherEye",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_ShadowResist_DurinsAxe_Equipped_C",
+      "OuterIndex": -65,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_ShadowResist_DurinsAxe_Equipped_C",
+      "OuterIndex": -65,
+      "ClassPackage": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsAxe_Equipped",
+      "ClassName": "GE_ShadowResist_DurinsAxe_Equipped_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsAxe_Equipped",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
