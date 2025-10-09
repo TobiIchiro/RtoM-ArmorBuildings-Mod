@@ -64349,11 +64349,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 700
+                "Value": 80
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0,
+                "Value": 12,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -64362,7 +64362,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0,
+                "Value": 40,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -64838,11 +64838,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 700
+                "Value": 135
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0,
+                "Value": 15,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -64851,7 +64851,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0,
+                "Value": 45,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -65327,11 +65327,11 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 700
+                "Value": 135
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0,
+                "Value": 15,
                 "Name": "DamageReduction",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -65340,7 +65340,7 @@
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 0,
+                "Value": 45,
                 "Name": "DamageProtection",
                 "ArrayIndex": 0,
                 "IsZero": false,
