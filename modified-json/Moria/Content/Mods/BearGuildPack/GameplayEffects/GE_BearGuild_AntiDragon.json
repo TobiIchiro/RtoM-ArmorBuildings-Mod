@@ -390,7 +390,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Survival.Buff.HightSpiritsBrew.DragonHunter.Name"
+          "Value": "BearGuild.Buff.AntiDragon.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -411,7 +411,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Survival.Buff.HightSpiritsBrew.DragonHunter.Description"
+          "Value": "BearGuild.Buff.AntiDragon.Description"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
