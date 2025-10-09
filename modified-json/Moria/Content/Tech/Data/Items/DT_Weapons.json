@@ -76962,13 +76962,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 500
+                "Value": 1000
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 1,
+                "Value": 3,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
