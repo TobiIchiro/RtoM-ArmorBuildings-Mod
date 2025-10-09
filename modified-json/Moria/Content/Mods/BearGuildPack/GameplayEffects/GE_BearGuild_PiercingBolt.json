@@ -2,10 +2,10 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
+    "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_PiercingBolt",
     "/Game/Tech/Data/StringTables/ST_Effects",
     "/Game/Tech/Data/StringTables/ST_Effects.ST_Effects",
-    "/Game/UI/Textures/_Icons/BuffIcons/T_UI_Icon_StatusBuff_Stalker",
+    "/Game/Mods/BearGuildPack/Icons/T_UI_Piercing_Buff",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayAbilities",
@@ -15,10 +15,10 @@
     "BlueprintGeneratedClass",
     "Class",
     "CombinedTags",
-    "Damage.AntiDragon.ShadowKilling",
+    "Damage.Piercing.Bolt",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_BearGuild_AntiDragon_C",
+    "Default__GE_BearGuild_PiercingBolt_C",
     "Default__MorGameplayEffectUIData",
     "Description",
     "DisplayName",
@@ -35,7 +35,7 @@
     "GameplayEffectModifierMagnitude",
     "GameplayTag",
     "GameplayTagContainer",
-    "GE_BearGuild_AntiDragon_C",
+    "GE_BearGuild_PiercingBolt_C",
     "Icon",
     "InheritableOwnedTagsContainer",
     "InheritedTagContainer",
@@ -54,7 +54,7 @@
     "StackLimitCount",
     "StringTable",
     "StructProperty",
-    "T_UI_Icon_StatusBuff_Stalker",
+    "T_UI_Piercing_Buff",
     "TextProperty",
     "Texture2D",
     "UIData",
@@ -192,7 +192,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GE_BearGuild_AntiDragon_C",
+      "ObjectName": "GE_BearGuild_PiercingBolt_C",
       "OuterIndex": 0,
       "ClassIndex": -3,
       "SuperIndex": -4,
@@ -281,7 +281,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Damage.AntiDragon.ShadowKilling"
+                    "Damage.Piercing.Bolt"
                   ]
                 }
               ]
@@ -307,7 +307,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Damage.AntiDragon.ShadowKilling"
+                    "Damage.Piercing.Bolt"
                   ]
                 }
               ]
@@ -338,7 +338,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GE_BearGuild_AntiDragon_C",
+      "ObjectName": "Default__GE_BearGuild_PiercingBolt_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -390,7 +390,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Survival.Buff.HightSpiritsBrew.DragonHunter.Name"
+          "Value": "BearGuild.Buff.PiercingDamage.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -411,7 +411,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Survival.Buff.HightSpiritsBrew.DragonHunter.Description"
+          "Value": "BearGuild.Buff.PiercingDamage.Description"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -544,7 +544,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/BuffIcons/T_UI_Icon_StatusBuff_Stalker",
+      "ObjectName": "/Game/Mods/BearGuildPack/Icons/T_UI_Piercing_Buff",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -616,7 +616,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_StatusBuff_Stalker",
+      "ObjectName": "T_UI_Piercing_Buff",
       "OuterIndex": -9,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -661,7 +661,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
+  "FolderName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_PiercingBolt",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
