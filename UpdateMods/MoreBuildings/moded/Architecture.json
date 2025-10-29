@@ -4169,6 +4169,38 @@
                     [
                         "CurvedPack_CurvedStairs_B.Description",
                         "Tall Spiral Stone Stairs"
+                    ],
+                    [
+                        "100BuildingsPack_GraniteWall45_A.Name",
+                        "Granite wall 45"
+                    ],
+                    [
+                        "100BuildingsPack_GraniteWall45_A.Description",
+                        "A granite wall rotated 45°"
+                    ],
+                    [
+                        "100BuildingsPack_GraniteBarrier45_A.Name",
+                        "Granite barrier 45"
+                    ],
+                    [
+                        "100BuildingsPack_GraniteBarrier45_A.Description",
+                        "A granite barrier rotated 45°"
+                    ],
+                    [
+                        "100BuildingsPack_TelcharForge_A.Name",
+                        "Telchar Forge"
+                    ],
+                    [
+                        "100BuildingsPack_TelcharForge_A.Description",
+                        "Advanced forge used by Telchar"
+                    ],
+                    [
+                        "100BuildingsPack_GimlisMap_A.Name",
+                        "Gimli’s Map"
+                    ],
+                    [
+                        "100BuildingsPack_GimlisMap_A.Description",
+                        "A map showing where the dwarves that answered Gimli’s call."
                     ]
                 ]
             },
