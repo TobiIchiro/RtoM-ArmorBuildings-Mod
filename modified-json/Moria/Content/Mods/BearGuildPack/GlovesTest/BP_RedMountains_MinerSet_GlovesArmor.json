@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Gloves_T4",
+    "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Gloves_T5",
     "/Game/Items/BP_Category_Clothing",
     "/Game/Mods/BearGuildPack/GlovesTest/BP_RedMountains_MinerSet_GlovesArmor",
     "/Game/Items/Clothing/GE_EreborSteel_TBDSet_GlovesArmor",
@@ -43,7 +43,7 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "SM_BearGuild_Gloves_T4",
+    "SM_BearGuild_Gloves_T5",
     "Effects",
     "EModularCharacterSlot",
     "EModularCharacterSlot::Gloves",
@@ -1156,7 +1156,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Gloves_T4",
+      "ObjectName": "/Game/Mods/BearGuildPack/Meshes/SM_BearGuild_Gloves_T5",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1264,7 +1264,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_BearGuild_Gloves_T4",
+      "ObjectName": "SM_BearGuild_Gloves_T5",
       "OuterIndex": -19,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SkeletalMesh",
