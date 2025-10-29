@@ -117,9 +117,9 @@
     "Suburbs_Wall_Thin_1x3m_A",
     "VariableGuid",
     "Vector",
-    "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A",
-    "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curve_Wall_3x1x050",
-    "Granite_Curve_Wall_3x1x050"
+    "/Game/Mods/100BuildingsPack/BP_Suburbs_Wall_Thin_1x3m_A",
+    "/Game/Mods/100BuildingsPack/Meshes/SM_Barrier_45_deg",
+    "SM_Barrier_45_deg"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2088,7 +2088,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curve_Wall_3x1x050",
+      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_Barrier_45_deg",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2097,7 +2097,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Granite_Curve_Wall_3x1x050",
+      "ObjectName": "SM_Barrier_45_deg",
       "OuterIndex": -41,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2152,7 +2152,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_1x3m_A",
+  "FolderName": "/Game/Mods/100BuildingsPack/BP_Suburbs_Wall_Thin_1x3m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

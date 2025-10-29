@@ -121,11 +121,11 @@
     "Suburbs_Wall_Thin_3x3m_A",
     "VariableGuid",
     "Vector",
-    "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
-    "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curve_Wall_3x1x050",
-    "Granite_Curve_Wall_3x1x050",
-    "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curve_Wall_3x3x050",
-    "Granite_Curve_Wall_3x3x050"
+    "/Game/Mods/100BuildingsPack/BP_Suburbs_Wall_Thin_3x4m_A",
+    "/Game/Mods/100BuildingsPack/Meshes/SM_Barrier_45_deg",
+    "SM_Barrier_45_deg",
+    "/Game/Mods/100BuildingsPack/Meshes/SM_Wall_45_deg",
+    "SM_Wall_45_deg"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -391,7 +391,9 @@
         -35,
         -33,
         -40,
-        -42,
+        -41,
+        -43,
+        -45,
         -17,
         -7,
         -3
@@ -2242,7 +2244,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curve_Wall_3x1x050",
+      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_Barrier_45_deg",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2251,7 +2253,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Granite_Curve_Wall_3x1x050",
+      "ObjectName": "SM_Barrier_45_deg",
       "OuterIndex": -42,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2260,7 +2262,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CurvedPack/Constructions/Meshes/Granite_Curve_Wall_3x3x050",
+      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_Wall_45_deg",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2269,7 +2271,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Granite_Curve_Wall_3x3x050",
+      "ObjectName": "SM_Wall_45_deg",
       "OuterIndex": -44,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2326,7 +2328,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/CurvedPack/Granite_Walls/BP_Suburbs_Wall_Thin_3x4m_A",
+  "FolderName": "/Game/Mods/100BuildingsPack/BP_Suburbs_Wall_Thin_3x4m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
