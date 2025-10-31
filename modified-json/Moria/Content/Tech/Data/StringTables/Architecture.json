@@ -4200,7 +4200,23 @@
                     ],
                     [
                         "100BuildingsPack_GimlisMap_A.Description",
-                        "A map showing where the dwarves that answered Gimli's call."
+                        "A map showing where the dwarves that answered Gimli’s call."
+                    ],
+                    [
+                        "100BuildingsPack_GuardStatue_A.Name",
+                        "Guard Statue"
+                    ],
+                    [
+                        "100BuildingsPack_GuardStatue_A.Description",
+                        "A decorative statue"
+                    ],
+                    [
+                        "100BuildingsPack_HangingIronLantern_A.Name",
+                        "Hanging iron lantern"
+                    ],
+                    [
+                        "100BuildingsPack_HangingIronLantern_A.Description",
+                        "A simple and sturdy lantern"
                     ]
                 ]
             },
