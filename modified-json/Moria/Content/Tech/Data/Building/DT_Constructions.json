@@ -106125,7 +106125,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Base.Metalworking"
                                         ]
                                     }
                                 ]
@@ -106617,7 +106617,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Lighting"
                                         ]
                                     }
                                 ]
