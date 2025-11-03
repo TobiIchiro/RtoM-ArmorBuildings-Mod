@@ -1,6 +1,7 @@
 {
     "NameMap": [
         "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+        "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
         "ST_Mod_Items",
         "Dain_Warhammer",
         "/Game/Mods/KingsWeaponsPack/Dain_Warhammer/EQ_Hammer_2h_t2.EQ_Hammer_2h_t2_C",
