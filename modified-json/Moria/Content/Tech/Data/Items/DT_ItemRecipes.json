@@ -228316,7 +228316,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "CraftingStation_FloodedForge"
+                        "Value": "CraftingStation_BasicForge"
                       }
                     ]
                   }
@@ -228473,7 +228473,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": 2
+                        "Value": 1
                       }
                     ]
                   },
