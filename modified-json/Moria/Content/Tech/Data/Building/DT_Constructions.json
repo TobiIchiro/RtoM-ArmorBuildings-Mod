@@ -3408,8 +3408,8 @@
         "T_UI_BuildIcon_100BuildingsPack_GraniteBarrier45_A",
         "/Game/Mods/100BuildingsPack/Constructions/Icons/T_UI_BuildIcon_100BuildingsPack_GraniteBarrier45_A",
         "100BuildingsPack_TelcharForge_A",
-        "/Game/Mods/100BuildingsPack/BP_ForgeUpgrade_GemCutter",
-        "/Game/Mods/100BuildingsPack/BP_ForgeUpgrade_GemCutter.BP_ForgeUpgrade_GemCutter_C",
+        "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge",
+        "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge.BP_CraftingStation_TelcharForge_C",
         "T_UI_BuildIcon_100BuildingsPack_TelcharForge_A",
         "/Game/Mods/100BuildingsPack/Constructions/Icons/T_UI_BuildIcon_100BuildingsPack_TelcharForge_A",
         "100BuildingsPack_GimlisMap_A",
@@ -106055,7 +106055,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Mods/100BuildingsPack/BP_ForgeUpgrade_GemCutter.BP_ForgeUpgrade_GemCutter_C"
+                                        "AssetName": "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge.BP_CraftingStation_TelcharForge_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -106095,7 +106095,7 @@
                                                     "AssetPath": {
                                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                                         "PackageName": null,
-                                                        "AssetName": "/Game/Mods/100BuildingsPack/BP_ForgeUpgrade_GemCutter.BP_ForgeUpgrade_GemCutter_C"
+                                                        "AssetName": "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge.BP_CraftingStation_TelcharForge_C"
                                                     },
                                                     "SubPathString": null
                                                 }
