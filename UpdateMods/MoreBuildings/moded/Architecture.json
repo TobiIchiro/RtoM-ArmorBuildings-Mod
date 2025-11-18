@@ -4217,6 +4217,54 @@
                     [
                         "100BuildingsPack_HangingIronLantern_A.Description",
                         "A simple and sturdy lantern"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_A.Name",
+                        "Jade Ceiling Lamp"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_A.Description",
+                        "A ceiling lamp that produces a green light."
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_B.Name",
+                        "Citrine Ceiling Lamp"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_B.Description",
+                        "A ceiling lamp that produces a yellow light."
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_C.Name",
+                        "Ceiling Lamp"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_C.Description",
+                        "A ceiling lamp that produces a blue light."
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_D.Name",
+                        "Quartz Ceiling Lamp"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_D.Description",
+                        "A ceiling lamp that produces a white light."
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_E.Name",
+                        "Iolite Ceiling Lamp"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_E.Description",
+                        "A ceiling lamp that produces a purple light."
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_F.Name",
+                        "Amber Ceiling Lamp"
+                    ],
+                    [
+                        "GrumniPack_CeilingLamp_F.Description",
+                        "A ceiling lamp that produces a orange light."
                     ]
                 ]
             },
