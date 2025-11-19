@@ -225,7 +225,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -9
+                                "Value": -10
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -396,6 +396,54 @@
                                 ]
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsRequired",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsRequired",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsGranted",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsGranted",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "ObjectProperty",
                                 "DummyStruct": null,
@@ -435,7 +483,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -33
+                                        "Value": -36
                                     }
                                 ]
                             },
@@ -550,6 +598,15 @@
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
                                 "Value": 1
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 1.0,
+                                "Name": "BaseTradeValue",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -729,7 +786,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -9
+                                "Value": -10
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -900,6 +957,54 @@
                                 ]
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsRequired",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsRequired",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsGranted",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsGranted",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "ObjectProperty",
                                 "DummyStruct": null,
@@ -939,16 +1044,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -33
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -48
+                                        "Value": -36
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -975,7 +1071,16 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -60
+                                        "Value": -57
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -63
                                     }
                                 ]
                             },
@@ -1066,6 +1171,15 @@
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
                                 "Value": 1
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 1.0,
+                                "Name": "BaseTradeValue",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1245,7 +1359,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -9
+                                "Value": -10
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1416,6 +1530,54 @@
                                 ]
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsRequired",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsRequired",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsGranted",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsGranted",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "ObjectProperty",
                                 "DummyStruct": null,
@@ -1455,16 +1617,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -36
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -48
+                                        "Value": -39
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1491,7 +1644,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -60
+                                        "Value": -57
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1500,7 +1653,16 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -45
+                                        "Value": -63
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -48
                                     }
                                 ]
                             },
@@ -1591,6 +1753,15 @@
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
                                 "Value": 1
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 1.0,
+                                "Name": "BaseTradeValue",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1770,7 +1941,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -9
+                                "Value": -10
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1941,6 +2112,54 @@
                                 ]
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsRequired",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsRequired",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsGranted",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsGranted",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "ObjectProperty",
                                 "DummyStruct": null,
@@ -1980,16 +2199,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -39
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -48
+                                        "Value": -42
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2016,16 +2226,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -60
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -42
+                                        "Value": -57
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2035,6 +2236,24 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": -63
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -45
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -66
                                     }
                                 ]
                             },
@@ -2127,6 +2346,15 @@
                                 "Value": 1
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 1.0,
+                                "Name": "BaseTradeValue",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
                                 "EnumType": "ERowEnabledState",
                                 "InnerType": "ERowEnabledState",
@@ -2147,7 +2375,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_UnarmedAttackBoost_T4_C",
-            "OuterIndex": -35,
+            "OuterIndex": -38,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2156,7 +2384,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_UnarmedAttackBoost_T4_C",
-            "OuterIndex": -35,
+            "OuterIndex": -38,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T4",
             "ClassName": "GE_UnarmedAttackBoost_T4_C",
             "PackageName": null,
@@ -2174,7 +2402,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_UnarmedAttackBoost_T5_C",
-            "OuterIndex": -38,
+            "OuterIndex": -41,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2183,7 +2411,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_UnarmedAttackBoost_T5_C",
-            "OuterIndex": -38,
+            "OuterIndex": -41,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T5",
             "ClassName": "GE_UnarmedAttackBoost_T5_C",
             "PackageName": null,
@@ -2201,7 +2429,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_UnarmedAttackBoost_T6_C",
-            "OuterIndex": -41,
+            "OuterIndex": -44,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2210,7 +2438,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_UnarmedAttackBoost_T6_C",
-            "OuterIndex": -41,
+            "OuterIndex": -44,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T6",
             "ClassName": "GE_UnarmedAttackBoost_T6_C",
             "PackageName": null,
@@ -2228,7 +2456,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_AntiDragon_C",
-            "OuterIndex": -44,
+            "OuterIndex": -47,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2237,7 +2465,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_AntiDragon_C",
-            "OuterIndex": -44,
+            "OuterIndex": -47,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiDragon",
             "ClassName": "GE_BearGuild_AntiDragon_C",
             "PackageName": null,
@@ -2255,7 +2483,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_Thunder_C",
-            "OuterIndex": -47,
+            "OuterIndex": -50,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2264,7 +2492,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_Thunder_C",
-            "OuterIndex": -47,
+            "OuterIndex": -50,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Thunder",
             "ClassName": "GE_BearGuild_Thunder_C",
             "PackageName": null,
@@ -2282,7 +2510,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_Hunter_C",
-            "OuterIndex": -50,
+            "OuterIndex": -53,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2291,7 +2519,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_Hunter_C",
-            "OuterIndex": -50,
+            "OuterIndex": -53,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Hunter",
             "ClassName": "GE_BearGuild_Hunter_C",
             "PackageName": null,
@@ -2309,7 +2537,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_AntiOrc_C",
-            "OuterIndex": -53,
+            "OuterIndex": -56,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2318,7 +2546,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_AntiOrc_C",
-            "OuterIndex": -53,
+            "OuterIndex": -56,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_AntiOrc",
             "ClassName": "GE_BearGuild_AntiOrc_C",
             "PackageName": null,
@@ -2336,7 +2564,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_Bludgeon_C",
-            "OuterIndex": -56,
+            "OuterIndex": -59,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2345,7 +2573,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_Bludgeon_C",
-            "OuterIndex": -56,
+            "OuterIndex": -59,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_Bludgeon",
             "ClassName": "GE_BearGuild_Bludgeon_C",
             "PackageName": null,
@@ -2363,7 +2591,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_PiercingBolt_C",
-            "OuterIndex": -59,
+            "OuterIndex": -62,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2372,7 +2600,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_PiercingBolt_C",
-            "OuterIndex": -59,
+            "OuterIndex": -62,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_PiercingBolt",
             "ClassName": "GE_BearGuild_PiercingBolt_C",
             "PackageName": null,
@@ -2390,7 +2618,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_BearGuild_WatcherEye_C",
-            "OuterIndex": -62,
+            "OuterIndex": -65,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2399,7 +2627,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_BearGuild_WatcherEye_C",
-            "OuterIndex": -62,
+            "OuterIndex": -65,
             "ClassPackage": "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_WatcherEye",
             "ClassName": "GE_BearGuild_WatcherEye_C",
             "PackageName": null,
@@ -2417,7 +2645,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "GE_ShadowResist_DurinsAxe_Equipped_C",
-            "OuterIndex": -65,
+            "OuterIndex": -68,
             "ClassPackage": "/Script/Engine",
             "ClassName": "BlueprintGeneratedClass",
             "PackageName": null,
@@ -2426,7 +2654,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "Default__GE_ShadowResist_DurinsAxe_Equipped_C",
-            "OuterIndex": -65,
+            "OuterIndex": -68,
             "ClassPackage": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsAxe_Equipped",
             "ClassName": "GE_ShadowResist_DurinsAxe_Equipped_C",
             "PackageName": null,

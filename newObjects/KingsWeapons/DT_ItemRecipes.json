@@ -8,7 +8,6 @@
         "Weapon.Thrain_Warhammer",
         "Dain_Battleaxe",
         "Weapon.Dain_Battleaxe"
-        
     ],
     "Exports": [
         {
@@ -70,6 +69,15 @@
                                 "PropertyTagExtensions": "NoExtension"
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                                "Name": "bCanBePinned",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": false
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "StructProperty",
                                 "Name": "CraftingStations",
@@ -120,6 +128,15 @@
                                     },
                                     "SubPathString": null
                                 }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                                "Name": "bNpcOnlyRecipe",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": false
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -732,6 +749,15 @@
                                 "PropertyTagExtensions": "NoExtension"
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                                "Name": "bCanBePinned",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": false
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "StructProperty",
                                 "Name": "CraftingStations",
@@ -782,6 +808,15 @@
                                     },
                                     "SubPathString": null
                                 }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                                "Name": "bNpcOnlyRecipe",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": false
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -1394,6 +1429,15 @@
                                 "PropertyTagExtensions": "NoExtension"
                             },
                             {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                                "Name": "bCanBePinned",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": false
+                            },
+                            {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                 "ArrayType": "StructProperty",
                                 "Name": "CraftingStations",
@@ -1444,6 +1488,15 @@
                                     },
                                     "SubPathString": null
                                 }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                                "Name": "bNpcOnlyRecipe",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": false
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
