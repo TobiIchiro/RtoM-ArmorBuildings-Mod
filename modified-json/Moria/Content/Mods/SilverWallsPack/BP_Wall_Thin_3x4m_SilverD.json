@@ -9,7 +9,7 @@
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x4m_A",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x4m_GoldD_Player",
+    "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverD",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -28,7 +28,7 @@
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
     "BP_Suburbs_Wall_Thin_3x4m_A_C",
-    "BP_Suburbs_Wall_Thin_3x4m_GoldD_Player_C",
+    "BP_Wall_Thin_3x4m_SilverD_C",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
     "ChangedPropertyList",
@@ -42,7 +42,7 @@
     "DecorationBlockingComponent",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Suburbs_Wall_Thin_3x4m_A_C",
-    "Default__BP_Suburbs_Wall_Thin_3x4m_GoldD_Player_C",
+    "Default__BP_Wall_Thin_3x4m_SilverD_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__SceneComponent",
@@ -98,7 +98,13 @@
     "VariableGuid",
     "Vector",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_BaseArchitectureBreakable_C"
+    "Default__BP_BaseArchitectureBreakable_C",
+    "OverrideMaterials",
+    "MaterialInstanceConstant",
+    "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Mural_B",
+    "MI_Silver_Mural_B",
+    "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Trim",
+    "MI_Silver_Trim"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -294,7 +300,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Suburbs_Wall_Thin_3x4m_GoldD_Player_C",
+      "ObjectName": "BP_Wall_Thin_3x4m_SilverD_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -3,
@@ -325,7 +331,9 @@
         -32,
         -36,
         -7,
-        -4
+        -4,
+        -43,
+        -45
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -355,7 +363,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Suburbs_Wall_Thin_3x4m_GoldD_Player_C",
+      "ObjectName": "Default__BP_Wall_Thin_3x4m_SilverD_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1069,6 +1077,26 @@
           "Value": -36
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -43
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -1220,6 +1248,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -37
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -45
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -2292,6 +2340,42 @@
       "ClassName": "SceneComponent",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Mural_B",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Silver_Mural_B",
+      "OuterIndex": -42,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Trim",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Silver_Trim",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2342,7 +2426,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x4m_GoldD_Player",
+  "FolderName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverD",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

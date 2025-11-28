@@ -5053,7 +5053,32 @@
         "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_CeilingLamp_F_Player",
         "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_CeilingLamp_F_Player.BP_DM_Lighting_CeilingLamp_F_Player_C",
         "T_UI_BuildIcon_GrumniPack_CeilingLamp_F",
-        "/Game/Mods/GrumniPack/Constructions/Icons/T_UI_BuildIcon_GrumniPack_CeilingLamp_F"
+        "/Game/Mods/GrumniPack/Constructions/Icons/T_UI_BuildIcon_GrumniPack_CeilingLamp_F",
+        "SilverWallsPack_SilverWall_A",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverE",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverE.BP_Wall_Thin_3x4m_SilverE_C",
+        "T_UI_BuildIcon_SilverWallsPack_SilverWall_A",
+        "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_A",
+        "SilverWallsPack_SilverWall_B",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverD",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverD.BP_Wall_Thin_3x4m_SilverD_C",
+        "T_UI_BuildIcon_SilverWallsPack_SilverWall_B",
+        "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_B",
+        "SilverWallsPack_SilverWall_C",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverA",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverA.BP_Wall_Thin_3x4m_SilverA_C",
+        "T_UI_BuildIcon_SilverWallsPack_SilverWall_C",
+        "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_C",
+        "SilverWallsPack_SilverWall_D",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverB",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverB.BP_Wall_Thin_3x4m_SilverB_C",
+        "T_UI_BuildIcon_SilverWallsPack_SilverWall_D",
+        "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_D",
+        "SilverWallsPack_SilverWall_E",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverC",
+        "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverC.BP_Wall_Thin_3x4m_SilverC_C",
+        "T_UI_BuildIcon_SilverWallsPack_SilverWall_E",
+        "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_E"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -153226,6 +153251,826 @@
                                 "Value": "ERowEnabledState::Live"
                             }
                         ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "SilverWallsPack_SilverWall_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1769
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverE.BP_Wall_Thin_3x4m_SilverE_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverE.BP_Wall_Thin_3x4m_SilverE_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Advanced.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "SilverWallsPack_SilverWall_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1771
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverD.BP_Wall_Thin_3x4m_SilverD_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverD.BP_Wall_Thin_3x4m_SilverD_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Advanced.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "SilverWallsPack_SilverWall_C",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_C.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_C.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1773
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverA.BP_Wall_Thin_3x4m_SilverA_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverA.BP_Wall_Thin_3x4m_SilverA_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Advanced.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "SilverWallsPack_SilverWall_D",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_D.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_D.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1775
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverB.BP_Wall_Thin_3x4m_SilverB_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverB.BP_Wall_Thin_3x4m_SilverB_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Advanced.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "SilverWallsPack_SilverWall_E",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_E.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "SilverWallsPack_SilverWall_E.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -1777
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverC.BP_Wall_Thin_3x4m_SilverC_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/SilverWallsPack/BP_Wall_Thin_3x4m_SilverC.BP_Wall_Thin_3x4m_SilverC_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Advanced.Walls"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
                     }
                 ]
             },
@@ -154036,8 +154881,8 @@
                 -924,
                 -1330,
                 -1247,
-                -1767,
-                -1769,
+                -1779,
+                -1781,
                 -1,
                 -2
             ],
@@ -169961,6 +170806,96 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_A",
+            "OuterIndex": -1768,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_B",
+            "OuterIndex": -1770,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_C",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_C",
+            "OuterIndex": -1772,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_D",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_D",
+            "OuterIndex": -1774,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/SilverWallsPack/Constructions/Icons/T_UI_BuildIcon_SilverWallsPack_SilverWall_E",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_E",
+            "OuterIndex": -1776,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
@@ -169971,7 +170906,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "ST_Mod_Architecture",
-            "OuterIndex": -1768,
+            "OuterIndex": -1778,
             "ClassPackage": "/Script/Engine",
             "ClassName": "StringTable",
             "PackageName": null,
@@ -169989,7 +170924,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "ST_Mod_Interactables",
-            "OuterIndex": -1770,
+            "OuterIndex": -1780,
             "ClassPackage": "/Script/Engine",
             "ClassName": "StringTable",
             "PackageName": null,
