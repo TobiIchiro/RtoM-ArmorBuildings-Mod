@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T4",
+    "/Game/Mods/100BuildingsPack/GameplayEffects/GE_TobiHammer",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayAbilities",
@@ -32,13 +32,13 @@
     "CurveTableRowHandle",
     "CustomCalculationBasedFloat",
     "CustomMagnitude",
-    "AttackPowerUnarmed",
+    "FreeRecipeChance",
     "DataName",
     "DataRegistryType",
     "DataTag",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_UnarmedAttackBoost_T4_C",
+    "Default__GE_TobiHammer_C",
     "DurationPolicy",
     "EAttributeBasedFloatCalculationType",
     "EAttributeBasedFloatCalculationType::AttributeMagnitude",
@@ -68,7 +68,7 @@
     "GameplayTag",
     "GameplayTagContainer",
     "GameplayTagRequirements",
-    "GE_UnarmedAttackBoost_T4_C",
+    "GE_TobiHammer_C",
     "IgnoreTags",
     "Magnitude",
     "MagnitudeCalculationType",
@@ -231,7 +231,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GE_UnarmedAttackBoost_T4_C",
+      "ObjectName": "GE_TobiHammer_C",
       "OuterIndex": 0,
       "ClassIndex": -3,
       "SuperIndex": -4,
@@ -317,7 +317,7 @@
                       "IsZero": false,
                       "PropertyTagFlags": "None",
                       "PropertyTagExtensions": "NoExtension",
-                      "Value": "AttackPowerUnarmed"
+                      "Value": "FreeRecipeChance"
                     },
                     {
                       "$type": "UAssetAPI.PropertyTypes.Objects.FieldPathPropertyData, UAssetAPI",
@@ -329,7 +329,7 @@
                       "Value": {
                         "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
                         "Path": [
-                          "AttackPowerUnarmed"
+                          "FreeRecipeChance"
                         ],
                         "ResolvedOwner": -5
                       }
@@ -476,7 +476,7 @@
                       "Value": [
                         {
                           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                          "Value": 10.0,
+                          "Value": 0.5,
                           "Name": "Value",
                           "ArrayIndex": 0,
                           "IsZero": false,
@@ -1494,7 +1494,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GE_UnarmedAttackBoost_T4_C",
+      "ObjectName": "Default__GE_TobiHammer_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1661,7 +1661,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/BearGuildPack/GameplayEffects/GE_UnarmedAttackBoost_T4",
+  "FolderName": "/Game/Mods/100BuildingsPack/GameplayEffects/GE_TobiHammer",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

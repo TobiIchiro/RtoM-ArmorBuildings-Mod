@@ -350,7 +350,10 @@
     "Restoration_Hammer_Tobi_Broken",
     "/Game/Mods/CurvedPack/Hammer/EQ_Restoration_Hammer_Adamant_Broken.EQ_Restoration_Hammer_Adamant_Broken_C",
     "Tools.Hammer.Tobi.Broken.Name",
-    "Tools.Hammer.Tobi.Broken.Description"
+    "Tools.Hammer.Tobi.Broken.Description",
+    "/Game/Mods/100BuildingsPack/GameplayEffects/GE_TobiHammer",
+    "GE_TobiHammer_C",
+    "Default__GE_TobiHammer_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -22705,7 +22708,8 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "UI.Tool",
-                      "Item.Tool.Pickaxe"
+                      "Item.Tool.Pickaxe",
+                      "Item.Tool.RestorationHammer"
                     ]
                   }
                 ]
@@ -22800,6 +22804,15 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": -7
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -35
                   }
                 ]
               },
@@ -23492,7 +23505,8 @@
         -32,
         -34,
         -8,
-        -10
+        -10,
+        -36
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -23812,6 +23826,33 @@
       "OuterIndex": -33,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_TobiHammer_C",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_TobiHammer_C",
+      "OuterIndex": -37,
+      "ClassPackage": "/Game/Mods/100BuildingsPack/GameplayEffects/GE_TobiHammer",
+      "ClassName": "GE_TobiHammer_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/100BuildingsPack/GameplayEffects/GE_TobiHammer",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
       "PackageName": null,
       "bImportOptional": false
     }
