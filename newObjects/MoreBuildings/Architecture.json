@@ -874,6 +874,46 @@
                     [
                         "GrumniPack_CeilingLamp_F.Description",
                         "A ceiling lamp that produces a orange light."
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_A.Name",
+                        "Silver Wall"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_A.Description",
+                        "Silver"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_B.Name",
+                        "Silver Wall"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_B.Description",
+                        "D"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_C.Name",
+                        "Silver Wall"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_C.Description",
+                        "A"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_D.Name",
+                        "Silver Wall"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_D.Description",
+                        "B"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_E.Name",
+                        "Silver Wall"
+                    ],
+                    [
+                        "SilverWallsPack_SilverWall_E.Description",
+                        "C"
                     ]
                 ]
             }
