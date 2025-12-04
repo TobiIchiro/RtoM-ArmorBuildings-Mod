@@ -109,6 +109,8 @@
     "MaterialInstanceConstant",
     "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Mural_A",
     "MI_Silver_Mural_A",
+    "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Mural_B",
+    "MI_Silver_Mural_B",
     "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Trim",
     "MI_Silver_Trim"
   ],
@@ -361,7 +363,8 @@
         -7,
         -4,
         -45,
-        -47
+        -47,
+        -49
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -1120,7 +1123,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -45
+              "Value": -47
             }
           ]
         },
@@ -1467,7 +1470,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -47
+              "Value": -49
             }
           ]
         },
@@ -2706,6 +2709,24 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Mural_B",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Silver_Mural_B",
+      "OuterIndex": -46,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "/Game/Mods/SilverWallsPack/Materials/MI_Silver_Trim",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
@@ -2716,7 +2737,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MI_Silver_Trim",
-      "OuterIndex": -46,
+      "OuterIndex": -48,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
