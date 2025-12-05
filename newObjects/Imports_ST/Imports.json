@@ -20,24 +20,6 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "ST_Mod_Effects",
-            "OuterIndex": -1,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "StringTable",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
@@ -48,6 +30,24 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "ST_Mod_Interactables",
+            "OuterIndex": -1,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "StringTable",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "ST_Mod_Effects",
             "OuterIndex": -1,
             "ClassPackage": "/Script/Engine",
             "ClassName": "StringTable",
