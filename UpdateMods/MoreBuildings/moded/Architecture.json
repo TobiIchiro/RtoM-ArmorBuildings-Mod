@@ -4305,6 +4305,86 @@
                     [
                         "SilverWallsPack_SilverWall_E.Description",
                         "C"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_A.Name",
+                        "Mithril Wall"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_A.Description",
+                        "E"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_B.Name",
+                        "Mithril Wall"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_B.Description",
+                        "D"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_C.Name",
+                        "Mithril Wall"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_C.Description",
+                        "A"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_D.Name",
+                        "Mithril Wall"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_D.Description",
+                        "B"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_E.Name",
+                        "Mithril Wall"
+                    ],
+                    [
+                        "MithrilWallsPack_MithrilWall_E.Description",
+                        "C"
+                    ],
+                    [
+                        "GrunmniPack_ColumnTrimCapital_A.Name",
+                        "Column Trim Capital"
+                    ],
+                    [
+                        "GrunmniPack_ColumnTrimCapital_A.Description",
+                        "Capital"
+                    ],
+                    [
+                        "GrunmniPack_ColumnTrimShaft_A.Name",
+                        "Column Trim Shaft"
+                    ],
+                    [
+                        "GrunmniPack_ColumnTrimShaft_A.Description",
+                        "Shaft 1m"
+                    ],
+                    [
+                        "GrunmniPack_ColumnTrimShaft_B.Name",
+                        "Column Trim Shaft"
+                    ],
+                    [
+                        "GrunmniPack_ColumnTrimShaft_B.Description",
+                        "Shaft 2m"
+                    ],
+                    [
+                        "GrunmniPack_ShortBrazier_A.Name",
+                        "Short brazier"
+                    ],
+                    [
+                        "GrunmniPack_ShortBrazier_A.Description",
+                        "Short brazier No Legs"
+                    ],
+                    [
+                        "GrunmniPack_ShortBrazier_B.Name",
+                        "Short brazier"
+                    ],
+                    [
+                        "GrunmniPack_ShortBrazier_B.Description",
+                        "Short brazier"
                     ]
                 ]
             },
