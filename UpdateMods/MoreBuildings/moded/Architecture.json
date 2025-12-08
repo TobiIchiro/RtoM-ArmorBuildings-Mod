@@ -4385,6 +4385,78 @@
                     [
                         "GrunmniPack_ShortBrazier_B.Description",
                         "Short brazier"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_A.Name",
+                        "Column Base"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_A.Description",
+                        "CB_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_A.Name",
+                        "Column Capital"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_A.Description",
+                        "CC_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_A.Name",
+                        "Column Shaft"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_A.Description",
+                        "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_Redrock_A.Name",
+                        "Column Base_RedRock"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_Redrock_A.Description",
+                        "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_Redrock_A.Name",
+                        "Column Capital_RedRock"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_Redrock_A.Description",
+                        "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_Redrock_A.Name",
+                        "Column Shaft_RedRock"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_Redrock_A.Description",
+                        "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_Whitemarble_A.Name",
+                        "Column Base_WhiteMarble"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_Whitemarble_A.Description",
+                        "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_Whitemarble_A.Name",
+                        "Column Capital_WhiteMarble"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_Whitemarble_A.Description",
+                        "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_Whitemarble_A.Name",
+                        "Column Shaft_WhiteMarble"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_Whitemarble_A.Description",
+                        "CS_A"
                     ]
                 ]
             },
