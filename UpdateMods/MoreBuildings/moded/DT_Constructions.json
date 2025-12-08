@@ -156445,7 +156445,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Columns"
+                                            "UI.Construction.Category.RedSandstone.Columns"
                                         ]
                                     }
                                 ]
@@ -156609,7 +156609,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Columns"
+                                            "UI.Construction.Category.RedSandstone.Columns"
                                         ]
                                     }
                                 ]
@@ -156773,7 +156773,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Columns"
+                                            "UI.Construction.Category.RedSandstone.Columns"
                                         ]
                                     }
                                 ]
@@ -156937,7 +156937,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Columns"
+                                            "UI.Construction.Category.WhiteMarble.Columns"
                                         ]
                                     }
                                 ]
@@ -157101,7 +157101,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Columns"
+                                            "UI.Construction.Category.WhiteMarble.Columns"
                                         ]
                                     }
                                 ]
@@ -157265,7 +157265,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Columns"
+                                            "UI.Construction.Category.WhiteMarble.Columns"
                                         ]
                                     }
                                 ]
