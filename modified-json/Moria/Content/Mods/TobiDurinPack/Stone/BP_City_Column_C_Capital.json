@@ -2,13 +2,13 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/City_Column_Large_A_Capital",
+    "/Game/Mods/TobiDurinPack/Meshes/SM_Tobi_DurinTower_Capitel",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Capital_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Capital_Destructible.DM_City_Column_Large_A_Capital_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/SM_AR_City_Column_C/MI_SM_AR_City_Column_C_Capital_Destruction",
+    "/Game/Mods/TobiDurinPack/Materials/MI_Tobi_DurinTower_Column",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_City_Column_C_Capital",
+    "/Game/Mods/TobiDurinPack/Stone/BP_City_Column_C_Capital",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -31,7 +31,7 @@
     "Breakable_GEN_VARIABLE",
     "ByteProperty",
     "ChangedPropertyList",
-    "City_Column_Large_A_Capital",
+    "SM_Tobi_DurinTower_Capitel",
     "Class",
     "ComponentClass",
     "ComponentKey",
@@ -62,7 +62,7 @@
     "InheritableComponentHandler",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "MI_SM_AR_City_Column_C_Capital_Destruction",
+    "MI_Tobi_DurinTower_Column",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -106,13 +106,8 @@
     "StructProperty",
     "VariableGuid",
     "Vector",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Capital_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Capital_Destructible.DM_Ruin_Column_Medium_A_1_Capital_Destructible",
-    "/Game/Art/Assets/Kits/Deco_Architecture/Ruins/Ruin_Column_Medium_A_1_Capital",
-    "Ruin_Column_Medium_A_1_Capital",
-    "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Capital",
-    "MI_City_Ruin_Column_A_Capital",
-    "/Game/Mods/AradrenPack/BP_City_Column_C_Capital"
+    "/Game/Mods/TobiDurinPack/Materials/MI_Tobi_DurinTower_Head",
+    "MI_Tobi_DurinTower_Head"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -338,7 +333,6 @@
         -17,
         -37,
         -39,
-        -41,
         -7,
         -3
       ],
@@ -805,7 +799,7 @@
             "AssetPath": {
               "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
               "PackageName": null,
-              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Capital_Destructible.DM_Ruin_Column_Medium_A_1_Capital_Destructible"
+              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Capital_Destructible.DM_City_Column_Large_A_Capital_Destructible"
             },
             "SubPathString": null
           }
@@ -817,7 +811,36 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -39
+          "Value": -37
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -17
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -39
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -1656,7 +1679,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_SM_AR_City_Column_C_Capital_Destruction",
+      "ObjectName": "MI_Tobi_DurinTower_Column",
       "OuterIndex": -25,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1728,7 +1751,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/SM_AR_City_Column_C/MI_SM_AR_City_Column_C_Capital_Destruction",
+      "ObjectName": "/Game/Mods/TobiDurinPack/Materials/MI_Tobi_DurinTower_Column",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1737,7 +1760,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/City_Column_Large_A_Capital",
+      "ObjectName": "/Game/Mods/TobiDurinPack/Meshes/SM_Tobi_DurinTower_Capitel",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1836,7 +1859,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "City_Column_Large_A_Capital",
+      "ObjectName": "SM_Tobi_DurinTower_Capitel",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1845,7 +1868,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco_Architecture/Ruins/Ruin_Column_Medium_A_1_Capital",
+      "ObjectName": "/Game/Mods/TobiDurinPack/Materials/MI_Tobi_DurinTower_Head",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1854,26 +1877,8 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Ruin_Column_Medium_A_1_Capital",
+      "ObjectName": "MI_Tobi_DurinTower_Head",
       "OuterIndex": -38,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "StaticMesh",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Capital",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_City_Ruin_Column_A_Capital",
-      "OuterIndex": -40,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
@@ -1926,7 +1931,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/AradrenPack/BP_City_Column_C_Capital",
+  "FolderName": "/Game/Mods/TobiDurinPack/Stone/BP_City_Column_C_Capital",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

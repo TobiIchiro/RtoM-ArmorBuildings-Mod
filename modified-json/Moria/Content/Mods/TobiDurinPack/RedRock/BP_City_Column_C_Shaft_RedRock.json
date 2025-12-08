@@ -2,13 +2,13 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/City_Column_Large_A_Shaft",
+    "/Game/Mods/TobiDurinPack/Meshes/SM_Tobi_DurinTower_Shaft",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Shaft_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Shaft_Destructible.DM_City_Column_Large_A_Shaft_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/SM_AR_City_Column_C/MI_SM_AR_City_Column_C_Shaft_Destruction",
+    "/Game/Mods/TobiDurinPack/Materials/MI_Tobi_DurinTower_Column_RedRock",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_City_Column_C_Shaft",
+    "/Game/Mods/TobiDurinPack/RedRock/BP_City_Column_C_Shaft_RedRock",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -25,14 +25,14 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_City_Column_C_Shaft_C",
+    "BP_City_Column_C_Shaft_RedRock_C",
     "Breakable",
     "Breakable Effects",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
     "ByteProperty",
     "ChangedPropertyList",
-    "City_Column_Large_A_Shaft",
+    "SM_Tobi_DurinTower_Shaft",
     "Class",
     "ComponentClass",
     "ComponentKey",
@@ -42,7 +42,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_City_Column_C_Shaft_C",
+    "Default__BP_City_Column_C_Shaft_RedRock_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -64,7 +64,7 @@
     "InheritableComponentHandler",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "MI_SM_AR_City_Column_C_Shaft_Destruction",
+    "MI_Tobi_DurinTower_Column_RedRock",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -108,14 +108,7 @@
     "StaticMeshComponent1_GEN_VARIABLE",
     "StructProperty",
     "VariableGuid",
-    "Vector",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Shaft_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Shaft_Destructible.DM_Ruin_Column_Medium_A_1_Shaft_Destructible",
-    "/Game/Art/Assets/Kits/Deco_Architecture/Ruins/Ruin_Column_Medium_A_1_Shaft",
-    "Ruin_Column_Medium_A_1_Shaft",
-    "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Shaft",
-    "MI_City_Ruin_Column_A_Shaft",
-    "/Game/Mods/AradrenPack/BP_City_Column_C_Shaft"
+    "Vector"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -311,7 +304,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_City_Column_C_Shaft_C",
+      "ObjectName": "BP_City_Column_C_Shaft_RedRock_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
@@ -339,8 +332,6 @@
         -34,
         -32,
         -38,
-        -40,
-        -42,
         -18,
         -7,
         -3
@@ -373,7 +364,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_City_Column_C_Shaft_C",
+      "ObjectName": "Default__BP_City_Column_C_Shaft_RedRock_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -997,7 +988,7 @@
             "AssetPath": {
               "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
               "PackageName": null,
-              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Ruin_Column_Medium_A_1_Shaft_Destructible.DM_Ruin_Column_Medium_A_1_Shaft_Destructible"
+              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_City_Column_Large_A_Shaft_Destructible.DM_City_Column_Large_A_Shaft_Destructible"
             },
             "SubPathString": null
           }
@@ -1009,7 +1000,27 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -40
+          "Value": -38
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -18
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -1881,7 +1892,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_SM_AR_City_Column_C_Shaft_Destruction",
+      "ObjectName": "MI_Tobi_DurinTower_Column_RedRock",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1953,7 +1964,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/SM_AR_City_Column_C/MI_SM_AR_City_Column_C_Shaft_Destruction",
+      "ObjectName": "/Game/Mods/TobiDurinPack/Materials/MI_Tobi_DurinTower_Column_RedRock",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1962,7 +1973,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/City_Column_Large_A_Shaft",
+      "ObjectName": "/Game/Mods/TobiDurinPack/Meshes/SM_Tobi_DurinTower_Shaft",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2061,46 +2072,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "City_Column_Large_A_Shaft",
+      "ObjectName": "SM_Tobi_DurinTower_Shaft",
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco_Architecture/Ruins/Ruin_Column_Medium_A_1_Shaft",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Ruin_Column_Medium_A_1_Shaft",
-      "OuterIndex": -39,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "StaticMesh",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/City/Materials/City_Ruin_Column_Medium_A/MI_City_Ruin_Column_A_Shaft",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_City_Ruin_Column_A_Shaft",
-      "OuterIndex": -41,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -2152,7 +2127,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/AradrenPack/BP_City_Column_C_Shaft",
+  "FolderName": "/Game/Mods/TobiDurinPack/RedRock/BP_City_Column_C_Shaft_RedRock",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
