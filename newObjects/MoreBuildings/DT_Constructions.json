@@ -322,8 +322,8 @@
         "T_UI_BuildIcon_MereakPack_Pedestal_A",
         "/Game/Mods/MereakPack/Constructions/Icons/T_UI_BuildIcon_MereakPack_Pedestal_A",
         "MereakPack_ShortMemorialStatue_A",
-        "/Game/LevelDesign/GPI/Dwarf_Memorial/BP_DM_Dwarf_Memorial_A_Breakable",
-        "/Game/LevelDesign/GPI/Dwarf_Memorial/BP_DM_Dwarf_Memorial_A_Breakable.BP_DM_Dwarf_Memorial_A_Breakable_C",
+        "/Game/Mods/MereakPack/BP_DM_Dwarf_Memorial_A_Breakable",
+        "/Game/Mods/MereakPack/BP_DM_Dwarf_Memorial_A_Breakable.BP_DM_Dwarf_Memorial_A_Breakable_C",
         "T_UI_BuildIcon_MereakPack_ShortMemorialStatue_A",
         "/Game/Mods/MereakPack/Constructions/Icons/T_UI_BuildIcon_MereakPack_ShortMemorialStatue_A",
         "UzbadPack_AngledWoodenFloor_A",
@@ -11084,7 +11084,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/LevelDesign/GPI/Dwarf_Memorial/BP_DM_Dwarf_Memorial_A_Breakable.BP_DM_Dwarf_Memorial_A_Breakable_C"
+                                        "AssetName": "/Game/Mods/MereakPack/BP_DM_Dwarf_Memorial_A_Breakable.BP_DM_Dwarf_Memorial_A_Breakable_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -11124,7 +11124,7 @@
                                                     "AssetPath": {
                                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                                         "PackageName": null,
-                                                        "AssetName": "/Game/LevelDesign/GPI/Dwarf_Memorial/BP_DM_Dwarf_Memorial_A_Breakable.BP_DM_Dwarf_Memorial_A_Breakable_C"
+                                                        "AssetName": "/Game/Mods/MereakPack/BP_DM_Dwarf_Memorial_A_Breakable.BP_DM_Dwarf_Memorial_A_Breakable_C"
                                                     },
                                                     "SubPathString": null
                                                 }
