@@ -1066,6 +1066,78 @@
                     [
                         "TobiDurinPack_ColumnShaft_Whitemarble_A.Description",
                         "CS_A"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_Moss_A.Name",
+                        "Column Base_Moss"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnBase_Moss_A.Description",
+                        "Moss"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_Moss_A.Name",
+                        "Column Shaft_Moss"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnShaft_Moss_A.Description",
+                        "Moss"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_Moss_A.Name",
+                        "Column Capital_Moss"
+                    ],
+                    [
+                        "TobiDurinPack_ColumnCapital_Moss_A.Description",
+                        "Moss"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_A.Name",
+                        "Street Lamp"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_A.Description",
+                        "Green"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_B.Name",
+                        "Street Lamp"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_B.Description",
+                        "Yellow"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_C.Name",
+                        "Street Lamp"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_C.Description",
+                        "Yellow"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_D.Name",
+                        "Street Lamp"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_D.Description",
+                        "Yellow"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_E.Name",
+                        "Street Lamp"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_E.Description",
+                        "Yellow"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_F.Name",
+                        "Street Lamp"
+                    ],
+                    [
+                        "StreetLampPack_StreetLamp_F.Description",
+                        "Yellow"
                     ]
                 ]
             }
