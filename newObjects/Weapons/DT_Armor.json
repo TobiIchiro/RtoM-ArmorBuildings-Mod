@@ -1044,16 +1044,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -36
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -51
+                                        "Value": -39
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1080,7 +1071,16 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -63
+                                        "Value": -60
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -66
                                     }
                                 ]
                             },
@@ -1617,16 +1617,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -39
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -51
+                                        "Value": -42
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1653,7 +1644,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -63
+                                        "Value": -60
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1662,7 +1653,16 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -48
+                                        "Value": -66
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -51
                                     }
                                 ]
                             },
@@ -2199,16 +2199,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -42
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -51
+                                        "Value": -45
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2235,16 +2226,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": -63
-                                    },
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -45
+                                        "Value": -60
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -2254,6 +2236,24 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": -66
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -48
+                                    },
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -69
                                     }
                                 ]
                             },
