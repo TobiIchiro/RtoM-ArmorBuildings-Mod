@@ -225,7 +225,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -10
+                                "Value": -11
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -786,7 +786,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -10
+                                "Value": -11
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1359,7 +1359,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -10
+                                "Value": -11
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1941,7 +1941,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": -10
+                                "Value": -11
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
