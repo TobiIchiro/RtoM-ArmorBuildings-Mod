@@ -161,7 +161,6 @@
     "AI.Behavior.Skill.Cook",
     "AI.Behavior.Skill.Gatherer",
     "AI.Behavior.Skill.Grocer",
-    "AI.Behavior.Skill.JackOfAllTrades",
     "AI.Behavior.Skill.Mason",
     "AI.Behavior.Skill.Metalworker",
     "AI.Behavior.Skill.Miner",
@@ -16831,8 +16830,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Metalworker",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Metalworker"
                     ]
                   }
                 ]
@@ -17368,8 +17366,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Brewer",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Brewer"
                     ]
                   }
                 ]
@@ -17905,8 +17902,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Artisan",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Artisan"
                     ]
                   }
                 ]
@@ -18442,8 +18438,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Builder",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Builder"
                     ]
                   }
                 ]
@@ -18979,8 +18974,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Blacksmith",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Blacksmith"
                     ]
                   }
                 ]
@@ -19516,8 +19510,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Cook",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Cook"
                     ]
                   }
                 ]
@@ -20053,8 +20046,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Gatherer",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Gatherer"
                     ]
                   }
                 ]
@@ -20590,8 +20582,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Tailor",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Tailor"
                     ]
                   }
                 ]
@@ -21127,8 +21118,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Tinker",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Tinker"
                     ]
                   }
                 ]
@@ -21664,8 +21654,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Behavior.Skill.Grocer",
-                      "AI.Behavior.Skill.JackOfAllTrades"
+                      "AI.Behavior.Skill.Grocer"
                     ]
                   }
                 ]
@@ -22708,7 +22697,6 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "UI.Tool",
-                      "Item.Tool.Pickaxe",
                       "Item.Tool.RestorationHammer"
                     ]
                   }
@@ -23478,8 +23466,8 @@
       "SuperIndex": 0,
       "TemplateIndex": -10,
       "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
-      "SerialSize": 69711,
-      "SerialOffset": 17667,
+      "SerialSize": 69631,
+      "SerialOffset": 17625,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -23869,7 +23857,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 1,
-      "NameCount": 337
+      "NameCount": 336
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -23900,7 +23888,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 337,
+  "NamesReferencedFromExportDataCount": 336,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,
