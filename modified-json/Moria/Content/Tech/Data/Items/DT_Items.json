@@ -619,7 +619,19 @@
     "WargPelt",
     "WhiteBeanSeed",
     "Wood",
-    "Object"
+    "Object",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
+    "ST_Mod_Items",
+    "CrimsonIngot",
+    "/Game/Mods/KingsWeaponsPack/Icons/T_UI_Icon_CrimsonMetal_Ingot.T_UI_Icon_CrimsonMetal_Ingot",
+    "/Game/Mods/KingsWeaponsPack/CrimsonMetalIngot/BP_CrimsonIngot.BP_CrimsonIngot_C",
+    "FungalFoliageCutting_A",
+    "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_A.T_UI_Icon_FungalFoliageCutting_A",
+    "/Game/Mods/FungalPack/BP_FungalFoliageCutting_A.BP_FungalFoliageCutting_A_C",
+    "FungalFoliageCutting_B",
+    "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_B.T_UI_Icon_FungalFoliageCutting_B",
+    "/Game/Mods/FungalPack/BP_FungalFoliageCutting_B.BP_FungalFoliageCutting_B_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -33883,7 +33895,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "IronIngot",
+            "Name": "CrimsonIngot",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -33893,7 +33905,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -33908,13 +33920,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Items.Items.IronIngot.Name"
+                "Value": "Items.CrimsonIngot.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -33929,7 +33941,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Items.IronIngot.Description"
+                "Value": "Items.CrimsonIngot.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -33943,7 +33955,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Unshippable/UI/Textures/T_UI_Icon_Iron_Ingot.T_UI_Icon_Iron_Ingot"
+                    "AssetName": "/Game/Mods/KingsWeaponsPack/Icons/T_UI_Icon_CrimsonMetal_Ingot.T_UI_Icon_CrimsonMetal_Ingot"
                   },
                   "SubPathString": null
                 }
@@ -33960,7 +33972,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Items/BP_IronIngot.BP_IronIngot_C"
+                    "AssetName": "/Game/Mods/KingsWeaponsPack/CrimsonMetalIngot/BP_CrimsonIngot.BP_CrimsonIngot_C"
                   },
                   "SubPathString": null
                 }
@@ -34166,7 +34178,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTreeCutting",
+            "Name": "FungalFoliageCutting_A",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -34176,7 +34188,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -34191,13 +34203,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Items.MushroomTreeCutting.Name"
+                "Value": "Items.FungalFoliageCutting_A.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -34212,7 +34224,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Items.MushroomTreeCutting.Description"
+                "Value": "Items.FungalFoliageCutting_A.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -34226,7 +34238,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_GPI_Cutting_FungalTree.T_UI_Icon_GPI_Cutting_FungalTree"
+                    "AssetName": "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_A.T_UI_Icon_FungalFoliageCutting_A"
                   },
                   "SubPathString": null
                 }
@@ -34243,7 +34255,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Items/BP_FungalTreeCutting.BP_FungalTreeCutting_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_FungalFoliageCutting_A.BP_FungalFoliageCutting_A_C"
                   },
                   "SubPathString": null
                 }
@@ -34449,7 +34461,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTreeCutting",
+            "Name": "FungalFoliageCutting_B",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -34459,7 +34471,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -34474,13 +34486,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Items.MushroomTreeCutting.Name"
+                "Value": "Items.FungalFoliageCutting_B.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -34495,7 +34507,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Items.MushroomTreeCutting.Description"
+                "Value": "Items.FungalFoliageCutting_B.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -34509,7 +34521,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_GPI_Cutting_FungalTree.T_UI_Icon_GPI_Cutting_FungalTree"
+                    "AssetName": "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_B.T_UI_Icon_FungalFoliageCutting_B"
                   },
                   "SubPathString": null
                 }
@@ -34526,7 +34538,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Items/BP_FungalTreeCutting.BP_FungalTreeCutting_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_FungalFoliageCutting_B.BP_FungalFoliageCutting_B_C"
                   },
                   "SubPathString": null
                 }
@@ -34770,7 +34782,8 @@
         -5,
         -19,
         -2,
-        -3
+        -3,
+        -23
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -34971,6 +34984,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_LoreEntry_Items",
       "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_Mod_Items",
+      "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,

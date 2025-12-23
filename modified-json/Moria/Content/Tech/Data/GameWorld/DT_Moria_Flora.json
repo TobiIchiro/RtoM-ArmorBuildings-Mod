@@ -32263,7 +32263,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTree_Large_Plantable",
+            "Name": "FungalFoliage_A_Large_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -32309,7 +32309,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalTreeCutting"
+                    "Value": "Item.FungalFoliageCutting_A"
                   }
                 ]
               },
@@ -32736,7 +32736,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTree_Medium_Plantable",
+            "Name": "FungalFoliage_A_Medium_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -32782,7 +32782,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalTreeCutting"
+                    "Value": "Item.FungalFoliageCutting_A"
                   }
                 ]
               },
@@ -33209,7 +33209,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTree_Small_Plantable",
+            "Name": "FungalFoliage_A_Small_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -33255,7 +33255,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalTreeCutting"
+                    "Value": "Item.FungalFoliageCutting_A"
                   }
                 ]
               },
@@ -33682,7 +33682,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTree_Large_Plantable",
+            "Name": "FungalFoliage_B_Large_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -33728,7 +33728,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalTreeCutting"
+                    "Value": "Item.FungalFoliageCutting_B"
                   }
                 ]
               },
@@ -34155,7 +34155,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTree_Medium_Plantable",
+            "Name": "FungalFoliage_B_Medium_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -34201,7 +34201,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalTreeCutting"
+                    "Value": "Item.FungalFoliageCutting_B"
                   }
                 ]
               },
@@ -34628,7 +34628,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalTree_Small_Plantable",
+            "Name": "FungalFoliage_B_Small_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -34674,7 +34674,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalTreeCutting"
+                    "Value": "Item.FungalFoliageCutting_B"
                   }
                 ]
               },
