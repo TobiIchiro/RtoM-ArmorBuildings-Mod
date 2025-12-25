@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/FungalPack/Meshes/Fungal_Sapling_A",
+    "/Game/Mods/FungalPack/Meshes/Fungal_Cutting_A",
     "/Game/Items/BP_Category_Resource",
     "/Game/Mods/FungalPack/BP_FungalFoliageCutting_A",
     "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_A",
@@ -42,7 +42,7 @@
     "DefaultSceneRootNode",
     "Engine",
     "FungalFoliageCutting_A",
-    "Fungal_Sapling_A",
+    "Fungal_Cutting_A",
     "Guid",
     "IconTextureReference",
     "InternalVariableName",
@@ -1217,7 +1217,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Sapling_A",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Cutting_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1316,7 +1316,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Sapling_A",
+      "ObjectName": "Fungal_Cutting_A",
       "OuterIndex": -17,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
