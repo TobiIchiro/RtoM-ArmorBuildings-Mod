@@ -2,10 +2,10 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/GPI/OrganicMaterials/GPI_Cutting_FungalTree",
+    "/Game/Mods/FungalPack/Meshes/Fungal_Cutting_B",
     "/Game/Items/BP_Category_Resource",
     "/Game/Mods/FungalPack/BP_FungalFoliageCutting_B",
-    "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_GPI_Cutting_FungalTree",
+    "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_B",
     "/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/vx_plr_calloutwood_01_play",
     "/Script/AkAudio",
     "/Script/CoreUObject",
@@ -42,7 +42,7 @@
     "DefaultSceneRootNode",
     "Engine",
     "FungalFoliageCutting_B",
-    "GPI_Cutting_FungalTree",
+    "Fungal_Cutting_B",
     "Guid",
     "IconTextureReference",
     "InternalVariableName",
@@ -78,12 +78,15 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_GPI_Cutting_FungalTree",
+    "T_UI_Icon_FungalFoliageCutting_B",
     "Texture2D",
     "VariableGuid",
     "Vector",
     "VoiceLine",
-    "vx_plr_calloutwood_01_play"
+    "vx_plr_calloutwood_01_play",
+    "MaterialInstanceConstant",
+    "/Game/Mods/FungalPack/Materials/MI_FungalFoliage_BA",
+    "MI_FungalFoliage_BA"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -279,7 +282,8 @@
         -1,
         -30,
         -7,
-        -3
+        -3,
+        -32
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -931,7 +935,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 0
+              "Value": -32
             }
           ]
         },
@@ -959,7 +963,7 @@
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": 1.0352829694747925,
                 "Y": -3.8636929988861084,
-                "Z": 8.000003814697266
+                "Z": 0.000003814697266
               }
             }
           ]
@@ -1217,7 +1221,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/OrganicMaterials/GPI_Cutting_FungalTree",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Cutting_B",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1226,7 +1230,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_GPI_Cutting_FungalTree",
+      "ObjectName": "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_B",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1316,7 +1320,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GPI_Cutting_FungalTree",
+      "ObjectName": "Fungal_Cutting_B",
       "OuterIndex": -17,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1334,10 +1338,28 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_GPI_Cutting_FungalTree",
+      "ObjectName": "T_UI_Icon_FungalFoliageCutting_B",
       "OuterIndex": -18,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/FungalPack/Materials/MI_FungalFoliage_BA",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_FungalFoliage_BA",
+      "OuterIndex": -31,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }

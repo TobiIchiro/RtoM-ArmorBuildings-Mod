@@ -2,14 +2,14 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AA_Destructible",
-    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AA_Destructible.DM_Fungal_Foliage_AA_Destructible",
-    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AD_Destructible",
-    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AD_Destructible.DM_Fungal_Foliage_AD_Destructible",
-    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Elder_A",
-    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Young_A",
-    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Sapling_A",
-    "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Large",
+    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_BC_Destructible",
+    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_BC_Destructible.DM_Fungal_Foliage_BC_Destructible",
+    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_BF_Destructible",
+    "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_BF_Destructible.DM_Fungal_Foliage_BF_Destructible",
+    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Elder_B",
+    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Young_B",
+    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Sapling_B",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Large",
     "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Tree_ReceptacleBase",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -29,7 +29,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BoxComponent",
-    "BP_Fungal_Foliage_A_Receptacle_Large_C",
+    "BP_Fungal_Foliage_B_Receptacle_Large_C",
     "BP_Flora_Tree_ReceptacleBase_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
@@ -42,7 +42,7 @@
     "CookedComponentInstancingData",
     "DataInterfaces",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Fungal_Foliage_A_Receptacle_Large_C",
+    "Default__BP_Fungal_Foliage_B_Receptacle_Large_C",
     "Default__BP_Flora_Tree_ReceptacleBase_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
@@ -59,11 +59,11 @@
     "FGKAkComponent",
     "FGKTargetable_GEN_VARIABLE",
     "FGKTargetableComponent",
-    "Fungal_Foliage_Elder_A",
-    "Fungal_Foliage_Young_A",
-    "Fungal_Foliage_Sapling_A",
+    "Fungal_Foliage_Elder_B",
+    "Fungal_Foliage_Young_B",
+    "Fungal_Foliage_Sapling_B",
     "FSM_GEN_VARIABLE",
-    "FungalFoliage_A_Large_Plantable",
+    "FungalFoliage_B_Large_Plantable",
     "GreenCurve",
     "Growing",
     "Growing_GEN_VARIABLE",
@@ -122,7 +122,10 @@
     "StructProperty",
     "VariableGuid",
     "Vector",
-    "RelativeLocation"
+    "OverrideMaterials",
+    "MaterialInstanceConstant",
+    "/Game/Mods/FungalPack/Materials/MI_FungalFoliage_BA",
+    "MI_FungalFoliage_BA"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -275,7 +278,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Fungal_Foliage_A_Receptacle_Large_C",
+      "ObjectName": "BP_Fungal_Foliage_B_Receptacle_Large_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -1,
@@ -305,7 +308,8 @@
         -50,
         -46,
         -6,
-        -2
+        -2,
+        -57
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -342,7 +346,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "FungalFoliage_A_Large_Plantable"
+              "Value": "FungalFoliage_B_Large_Plantable"
             }
           ]
         },
@@ -386,7 +390,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Fungal_Foliage_A_Receptacle_Large_C",
+      "ObjectName": "Default__BP_Fungal_Foliage_B_Receptacle_Large_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1120,7 +1124,7 @@
             "AssetPath": {
               "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
               "PackageName": null,
-              "AssetName": "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AD_Destructible.DM_Fungal_Foliage_AD_Destructible"
+              "AssetName": "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_BF_Destructible.DM_Fungal_Foliage_BF_Destructible"
             },
             "SubPathString": null
           }
@@ -1133,6 +1137,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -51
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -57
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1215,7 +1239,7 @@
             "AssetPath": {
               "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
               "PackageName": null,
-              "AssetName": "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AA_Destructible.DM_Fungal_Foliage_AA_Destructible"
+              "AssetName": "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_BC_Destructible.DM_Fungal_Foliage_BC_Destructible"
             },
             "SubPathString": null
           }
@@ -1228,6 +1252,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -50
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -57
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1830,6 +1874,26 @@
           "Value": -52
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -57
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -2242,7 +2306,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Elder_A",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Elder_B",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2251,7 +2315,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Young_A",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Young_B",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2260,7 +2324,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Sapling_A",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Sapling_B",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2350,7 +2414,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Foliage_Elder_A",
+      "ObjectName": "Fungal_Foliage_Elder_B",
       "OuterIndex": -38,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2359,7 +2423,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Foliage_Young_A",
+      "ObjectName": "Fungal_Foliage_Young_B",
       "OuterIndex": -39,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2368,7 +2432,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Foliage_Sapling_A",
+      "ObjectName": "Fungal_Foliage_Sapling_B",
       "OuterIndex": -40,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2399,6 +2463,24 @@
       "OuterIndex": -1,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/FungalPack/Materials/MI_FungalFoliage_BA",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_FungalFoliage_BA",
+      "OuterIndex": -56,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -2452,7 +2534,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Large",
+  "FolderName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Large",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
