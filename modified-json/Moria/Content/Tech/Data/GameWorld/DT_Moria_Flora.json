@@ -302,7 +302,21 @@
     "WhiteBeans",
     "WhiteBeans_Planted",
     "WhiteBeenSeed",
-    "Object"
+    "Object",
+    "FungalFoliage_A_Large_Plantable",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Large.BP_Fungal_Foliage_A_Receptacle_Large_C",
+    "FungalFoliage_A_Medium_Plantable",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Medium.BP_Fungal_Foliage_A_Receptacle_Medium_C",
+    "FungalFoliage_A_Small_Plantable",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Small.BP_Fungal_Foliage_A_Receptacle_Small_C",
+    "Item.FungalFoliageCutting_A",
+    "FungalFoliage_B_Large_Plantable",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Large.BP_Fungal_Foliage_B_Receptacle_Large_C",
+    "FungalFoliage_B_Medium_Plantable",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Medium.BP_Fungal_Foliage_B_Receptacle_Medium_C",
+    "FungalFoliage_B_Small_Plantable",
+    "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Small.BP_Fungal_Foliage_B_Receptacle_Small_C",
+    "Item.FungalFoliageCutting_B"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -32602,7 +32616,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Fungal_Tree_Receptacle_Large.BP_Flora_Fungal_Tree_Receptacle_Large_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Large.BP_Fungal_Foliage_A_Receptacle_Large_C"
                   },
                   "SubPathString": null
                 }
@@ -33075,7 +33089,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Fungal_Tree_Receptacle_Med.BP_Flora_Fungal_Tree_Receptacle_Med_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Medium.BP_Fungal_Foliage_A_Receptacle_Medium_C"
                   },
                   "SubPathString": null
                 }
@@ -33548,7 +33562,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Fungal_Tree_Receptacle_Small.BP_Flora_Fungal_Tree_Receptacle_Small_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Small.BP_Fungal_Foliage_A_Receptacle_Small_C"
                   },
                   "SubPathString": null
                 }
@@ -34021,7 +34035,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Fungal_Tree_Receptacle_Large.BP_Flora_Fungal_Tree_Receptacle_Large_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Large.BP_Fungal_Foliage_B_Receptacle_Large_C"
                   },
                   "SubPathString": null
                 }
@@ -34494,7 +34508,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Fungal_Tree_Receptacle_Med.BP_Flora_Fungal_Tree_Receptacle_Med_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Medium.BP_Fungal_Foliage_B_Receptacle_Medium_C"
                   },
                   "SubPathString": null
                 }
@@ -34967,7 +34981,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Fungal_Tree_Receptacle_Small.BP_Flora_Fungal_Tree_Receptacle_Small_C"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Small.BP_Fungal_Foliage_B_Receptacle_Small_C"
                   },
                   "SubPathString": null
                 }
