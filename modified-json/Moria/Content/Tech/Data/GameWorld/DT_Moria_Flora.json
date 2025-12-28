@@ -316,7 +316,12 @@
     "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Medium.BP_Fungal_Foliage_B_Receptacle_Medium_C",
     "FungalFoliage_B_Small_Plantable",
     "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Small.BP_Fungal_Foliage_B_Receptacle_Small_C",
-    "Item.FungalFoliageCutting_B"
+    "Item.FungalFoliageCutting_B",
+    "QuietMoss_Planted",
+    "/Game/Mods/FungalPack/BP_Flora_QuietMossReceptacle_Plantable.BP_Flora_QuietMossReceptacle_Plantable_C",
+    "OilyPeatMoss_Planted",
+    "/Game/Mods/FungalPack/BP_Flora_OilyPeatMossReceptacle_Plantable.BP_Flora_OilyPeatMossReceptacle_Plantable_C",
+    "Flora.Plantable.OilyPeatMoss"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -14938,7 +14943,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 1
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -14956,7 +14961,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -15010,7 +15015,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": false
+                "Value": true
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -15050,7 +15055,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorFarmingFloraGrowthRate::None"
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -15155,6 +15160,419 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "IsFungus",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "ReceptacleActorToSpawn",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/FungalPack/BP_Flora_OilyPeatMossReceptacle_Plantable.BP_Flora_OilyPeatMossReceptacle_Plantable_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorTreeSubGrowthStages",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SubGrowthStages",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "FloatProperty",
+                    "DummyStruct": null,
+                    "Name": "SproutSubStageScales",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "FloatProperty",
+                    "DummyStruct": null,
+                    "Name": "GrowingSubStageScales",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "MinRandomScale",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "MaxRandomScale",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorFloraReceptacleDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "OilyPeatMoss_Planted",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Items.Item.OilyPeatMoss.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.OilyPeatMoss"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OverrideItemDropHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinCount",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxCount",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "NumToGrowPerCycle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "RegrowthSleepCount",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "TimeUntilGrowingStage",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 120
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "TimeUntilReadyStage",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 300
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "TimeUntilSpoiledStage",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 3600
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinVariableGrowthTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxVariableGrowthTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 5
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bPrefersInShade",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 20.0,
+                "Name": "MinimumFarmingLight",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bCanSpoil",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorFarmingFloraType",
+                "InnerType": "EMorFarmingFloraType",
+                "Name": "FloraType",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorFarmingFloraType::Flora"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorFarmingFloraGrowthRate",
+                "InnerType": "EMorFarmingFloraGrowthRate",
+                "Name": "GrowthRate",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SproutExtraDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SproutExtraDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "GrowingExtraDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "GrowingExtraDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ReadyExtraDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "ReadyExtraDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Flora.Plantable.OilyPeatMoss"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SpoiledDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SpoiledDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "IsPlantable",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
                 "Value": false
               },
               {
@@ -15177,7 +15595,7 @@
                   "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
-                    "PackageName": null,
+                    "PackageName": "/Game/Mods/FungalPack/BP_Flora_OilyPeatMossReceptacle_Plantable.BP_Flora_OilyPeatMossReceptacle_Plantable_C",
                     "AssetName": "None"
                   },
                   "SubPathString": null
@@ -16997,7 +17415,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 1
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -17015,7 +17433,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -17069,7 +17487,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": false
+                "Value": true
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -17109,7 +17527,418 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorFarmingFloraGrowthRate::None"
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SproutExtraDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SproutExtraDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "GrowingExtraDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "GrowingExtraDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ReadyExtraDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "ReadyExtraDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SpoiledDropsTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SpoiledDropsTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "IsPlantable",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "IsFungus",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "ReceptacleActorToSpawn",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/FungalPack/BP_Flora_QuietMossReceptacle_Plantable.BP_Flora_QuietMossReceptacle_Plantable_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorTreeSubGrowthStages",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SubGrowthStages",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "FloatProperty",
+                    "DummyStruct": null,
+                    "Name": "SproutSubStageScales",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                    "ArrayType": "FloatProperty",
+                    "DummyStruct": null,
+                    "Name": "GrowingSubStageScales",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "MinRandomScale",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "MaxRandomScale",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorFloraReceptacleDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "QuietMoss_Planted",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Items.Items.QuietMoss.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.QuietMoss"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OverrideItemDropHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinCount",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxCount",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "NumToGrowPerCycle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "RegrowthSleepCount",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "TimeUntilGrowingStage",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 120
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "TimeUntilReadyStage",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 3000
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "TimeUntilSpoiledStage",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 3600
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinVariableGrowthTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxVariableGrowthTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 5
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bPrefersInShade",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 20.0,
+                "Name": "MinimumFarmingLight",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bCanSpoil",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorFarmingFloraType",
+                "InnerType": "EMorFarmingFloraType",
+                "Name": "FloraType",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorFarmingFloraType::Flora"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorFarmingFloraGrowthRate",
+                "InnerType": "EMorFarmingFloraGrowthRate",
+                "Name": "GrowthRate",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -17237,7 +18066,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "None"
+                    "AssetName": "/Game/Mods/FungalPack/BP_Flora_QuietMossReceptacle_Plantable.BP_Flora_QuietMossReceptacle_Plantable_C"
                   },
                   "SubPathString": null
                 }
