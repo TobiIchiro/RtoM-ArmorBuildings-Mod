@@ -2,13 +2,13 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/GPI/Foliage/GrowthStages/SM_PoisonMushroomB_Growth_A",
-    "/Game/Art/Assets/GPI/Foliage/GrowthStages/SM_PoisonMushroomB_Growth_B",
-    "/Game/Art/Assets/GPI/Foliage/GrowthStages/SM_PoisonMushroomB_Growth_C",
-    "/Game/Art/Assets/Kits/Deco/Flora/Materials/Fungal_Foliage/MI_Fungal_Foliage_Poison_Elder",
+    "/Game/Mods/FungalPack/Meshes/SM_OilyMoss_Growth_A",
+    "/Game/Mods/FungalPack/Meshes/SM_OilyMoss_Growth_B",
+    "/Game/Mods/FungalPack/Meshes/SM_OilyMoss_Growth_C",
+    "/Game/Art/Assets/GPI/Foliage/Materials/M_DeepMushrooms",
     "/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Materials/MI_Farm_Dirt_Mound",
     "/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Suburbs_Dirt_Mound_D",
-    "/Game/LevelDesign/Placeables/Containers/Flora/BP_Flora_Poison_MushroomReceptacle_Plantable",
+    "/Game/Mods/FungalPack/BP_Flora_OilyPeatMossReceptacle_Plantable",
     "/Game/LevelDesign/Placeables/Containers/Flora/BP_PlantedFlora_ReceptacleBase",
     "/Game/Tech/Data/StringTables/Items",
     "/Game/Tech/Data/StringTables/Items.Items",
@@ -33,7 +33,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BoxComponent",
-    "BP_Flora_Poison_MushroomReceptacle_Plantable_C",
+    "BP_Flora_OilyPeatMossReceptacle_Plantable_C",
     "BP_PlantedFlora_ReceptacleBase_C",
     "Breakable Effects_GEN_VARIABLE",
     "bStartWithTickEnabled",
@@ -47,7 +47,7 @@
     "CookedComponentInstancingData",
     "DataInterfaces",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Flora_Poison_MushroomReceptacle_Plantable_C",
+    "Default__BP_Flora_OilyPeatMossReceptacle_Plantable_C",
     "Default__BP_PlantedFlora_ReceptacleBase_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
@@ -91,7 +91,7 @@
     "MaterialInstanceConstant",
     "Mesh_GEN_VARIABLE",
     "MI_Farm_Dirt_Mound",
-    "MI_Fungal_Foliage_Poison_Elder",
+    "M_DeepMushrooms",
     "Mobility",
     "MorAIBehaviorPoint_Laze_Warg_Camp_GEN_VARIABLE",
     "MorAIBehaviorPoint_Orc_Camp_GEN_VARIABLE",
@@ -113,7 +113,7 @@
     "OverrideParameters",
     "OwnerClass",
     "Package",
-    "PoisonMushroom_Planted",
+    "OilyPeatMoss_Planted",
     "PrimaryComponentTick",
     "ReadyMeshMain",
     "ReadyMeshMain_GEN_VARIABLE",
@@ -137,9 +137,9 @@
     "SCS_Node",
     "SCSVariableName",
     "SimpleConstructionScript",
-    "SM_PoisonMushroomB_Growth_A",
-    "SM_PoisonMushroomB_Growth_B",
-    "SM_PoisonMushroomB_Growth_C",
+    "SM_OilyMoss_Growth_A",
+    "SM_OilyMoss_Growth_B",
+    "SM_OilyMoss_Growth_C",
     "SpoiledMeshMain_GEN_VARIABLE",
     "SpoiledMeshSub1_GEN_VARIABLE",
     "SpoiledMeshSub2_GEN_VARIABLE",
@@ -309,7 +309,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Flora_Poison_MushroomReceptacle_Plantable_C",
+      "ObjectName": "BP_Flora_OilyPeatMossReceptacle_Plantable_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -1,
@@ -371,7 +371,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "PoisonMushroom_Planted"
+              "Value": "OilyPeatMoss_Planted"
             }
           ]
         },
@@ -445,7 +445,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Flora_Poison_MushroomReceptacle_Plantable_C",
+      "ObjectName": "Default__BP_Flora_OilyPeatMossReceptacle_Plantable_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -2943,6 +2943,26 @@
           "Value": -53
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -20
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -3019,6 +3039,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -51
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -20
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -3300,7 +3340,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Fungal_Foliage_Poison_Elder",
+      "ObjectName": "M_DeepMushrooms",
       "OuterIndex": -35,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -3435,7 +3475,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco/Flora/Materials/Fungal_Foliage/MI_Fungal_Foliage_Poison_Elder",
+      "ObjectName": "/Game/Art/Assets/GPI/Foliage/Materials/M_DeepMushrooms",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3453,7 +3493,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Foliage/GrowthStages/SM_PoisonMushroomB_Growth_A",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/SM_OilyMoss_Growth_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3462,7 +3502,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Foliage/GrowthStages/SM_PoisonMushroomB_Growth_B",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/SM_OilyMoss_Growth_B",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3471,7 +3511,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Foliage/GrowthStages/SM_PoisonMushroomB_Growth_C",
+      "ObjectName": "/Game/Mods/FungalPack/Meshes/SM_OilyMoss_Growth_C",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3579,7 +3619,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_PoisonMushroomB_Growth_A",
+      "ObjectName": "SM_OilyMoss_Growth_A",
       "OuterIndex": -37,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3588,7 +3628,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_PoisonMushroomB_Growth_B",
+      "ObjectName": "SM_OilyMoss_Growth_B",
       "OuterIndex": -38,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3597,7 +3637,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_PoisonMushroomB_Growth_C",
+      "ObjectName": "SM_OilyMoss_Growth_C",
       "OuterIndex": -39,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3837,7 +3877,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Placeables/Containers/Flora/BP_Flora_Poison_MushroomReceptacle_Plantable",
+  "FolderName": "/Game/Mods/FungalPack/BP_Flora_OilyPeatMossReceptacle_Plantable",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
