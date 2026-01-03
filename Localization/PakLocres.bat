@@ -1,0 +1,1 @@
+"F:\Programas\UE_4.27\Engine\Binaries\Win64\UnrealPak.exe" "F:\RtoM\modsRepository\Localization\SecretsOfKhazadDum_Localization_P.pak" -create="F:\RtoM\modsRepository\Localization\ModLocalization\Paklist.txt" -compress

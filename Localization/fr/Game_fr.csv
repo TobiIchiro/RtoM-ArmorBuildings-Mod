@@ -1,0 +1,307 @@
+﻿Context,Source,Translation
+"ST_Mod_Architecture,100BuildingsPack_GimlisMap_A.Description",A map showing where the dwarves that answered Gimli’s call.,Une carte indiquant où se trouvaient les nains qui ont répondu à l'appel de Gimli.
+"ST_Mod_Architecture,100BuildingsPack_GimlisMap_A.Name",Gimli’s Map,Carte de Gimli
+"ST_Mod_Architecture,100BuildingsPack_GraniteBarrier45_A.Description",A granite barrier rotated 45°,Une barrière en granit pivotée à 45°
+"ST_Mod_Architecture,100BuildingsPack_GraniteBarrier45_A.Name",Granite barrier 45,Barrière de granit 45°
+"ST_Mod_Architecture,100BuildingsPack_GraniteWall45_A.Description",A granite wall rotated 45°,Un mur de granit pivoté de 45°.
+"ST_Mod_Architecture,100BuildingsPack_GraniteWall45_A.Name",Granite wall 45,Mur en granit 45°
+"ST_Mod_Architecture,100BuildingsPack_GuardStatue_A.Description",A decorative statue,Une statue décorative.
+"ST_Mod_Architecture,100BuildingsPack_GuardStatue_A.Name",Guard Statue,Statue de garde
+"ST_Mod_Architecture,AradrenPack_ColumnBase_A.Description",A Double Height Column Base,Un socle de colonne à double hauteur.
+"ST_Mod_Architecture,AradrenPack_ColumnBase_A.Name",Column Base,Socle de colonne
+"ST_Mod_Architecture,AradrenPack_ColumnCapital_A.Description",A Double Height Column Capital,Chapiteau de colonne à double hauteur.
+"ST_Mod_Architecture,AradrenPack_ColumnCapital_A.Name",Column Capital,Chapiteau de colonne
+"ST_Mod_Architecture,AradrenPack_ColumnShaft_A.Description",A Double Height Column Shaft,Un fût de colonne à double hauteur.
+"ST_Mod_Architecture,AradrenPack_ColumnShaft_A.Name",Column Shaft,Fût de colonne
+"ST_Mod_Architecture,AradrenPack_DecorativeBarrier_A.Description",A granite decorative barrier,Une barrière décorative en granit.
+"ST_Mod_Architecture,AradrenPack_DecorativeBarrier_A.Name",Decorative Barrier,Barrière décorative
+"ST_Mod_Architecture,AradrenPack_Ladder_A.Description",A Long Vertical Wooden Ladder,Une longue échelle verticale en bois.
+"ST_Mod_Architecture,AradrenPack_Ladder_A.Name",Long Ladder,Échelle longue
+"ST_Mod_Architecture,AradrenPack_Ladder_B.Description",A Short Vertical Wooden Ladder,Une petite échelle verticale en bois.
+"ST_Mod_Architecture,AradrenPack_Ladder_B.Name",Short Ladder,Petite échelle
+"ST_Mod_Architecture,AradrenPack_MediumGraniteColumnBase_A.Description",A medium granite column base,Un socle de colonne en granit de taille moyenne.
+"ST_Mod_Architecture,AradrenPack_MediumGraniteColumnBase_A.Name",Medium Granite Column Base,Socle de colonne en granit
+"ST_Mod_Architecture,AradrenPack_MediumGraniteColumnCapital_A.Description",A Medium Granite Column Capital,Un chapiteau de colonne en granit de taille moyenne.
+"ST_Mod_Architecture,AradrenPack_MediumGraniteColumnCapital_A.Name",Medium Granite Column Capital,Chapiteau de colonne en granit
+"ST_Mod_Architecture,AradrenPack_MediumGraniteColumnShaft_A.Description",A Medium Granite Column Shaft,Un fût de colonne en granit de taille moyenne.
+"ST_Mod_Architecture,AradrenPack_MediumGraniteColumnShaft_A.Name",Medium Granite Column Shaft,Fût de colonne en granit
+"ST_Mod_Architecture,AradrenPack_RopeBarrier_A.Description",A Single Segment Rope Barrier,Barrière de corde à un segment.
+"ST_Mod_Architecture,AradrenPack_RopeBarrier_A.Name",Rope Barrier,Barrière de corde
+"ST_Mod_Architecture,AradrenPack_RopeBarrier_B.Description",A Two Segment Rope Barrier,Barrière de corde à deux segments.
+"ST_Mod_Architecture,AradrenPack_RopeBarrier_B.Name",Rope Barrier,Barrière de corde
+"ST_Mod_Architecture,AradrenPack_RopeBarrier_C.Description",A Rope Barrier Corner,Coin de barrière de corde.
+"ST_Mod_Architecture,AradrenPack_RopeBarrier_C.Name",Rope Barrier,Barrière de corde
+"ST_Mod_Architecture,CurvedPack_CurvedBarrier_A.Description",A curved granite barrier,Une barrière incurvée en granit.
+"ST_Mod_Architecture,CurvedPack_CurvedBarrier_A.Name",Granite Curved Barrier,Barrière incurvée en granit
+"ST_Mod_Architecture,CurvedPack_CurvedBarrier_B.Description",A wooden curved wall,Une barrière incurvé en bois brut.
+"ST_Mod_Architecture,CurvedPack_CurvedBarrier_B.Name",Wood Curved barrier,Barrière incurvé en bois
+"ST_Mod_Architecture,CurvedPack_CurvedBarrier_C.Description",A Thin Curved Barrier,Une barrière finement incurvé en bois brut.
+"ST_Mod_Architecture,CurvedPack_CurvedBarrier_C.Name",Thin Wood Curved Barrier,Barrière finement incurvé en bois
+"ST_Mod_Architecture,CurvedPack_CurvedStairs_A.Description",Stairs,Un escalier étroits en colimaçon à base de pierres.
+"ST_Mod_Architecture,CurvedPack_CurvedStairs_A.Name",Narrow Spiral Stone Stairs,Escaliers étroits en colimaçon
+"ST_Mod_Architecture,CurvedPack_CurvedStairs_B.Description",Tall Spiral Stone Stairs,Un escalier en colimaçon à base de pierres.
+"ST_Mod_Architecture,CurvedPack_CurvedStairs_B.Name",Tall Spiral Stone Stairs,Escalier en colimaçon
+"ST_Mod_Architecture,CurvedPack_CurvedWall_A.Description",A curved granite wall,Un mur incurvé en granit.
+"ST_Mod_Architecture,CurvedPack_CurvedWall_A.Name",Granite Curved Wall,Mur incurvé en granit
+"ST_Mod_Architecture,CurvedPack_CurvedWall_B.Description",A wooden curved wall,Un mur incurvé en bois brut.
+"ST_Mod_Architecture,CurvedPack_CurvedWall_B.Name",Wood Curved wall,Mur incurvé en bois
+"ST_Mod_Architecture,CurvedPack_CurvedWall_C.Description",A Thin Curved Wall,Un mur finement incurvé en bois brut.
+"ST_Mod_Architecture,CurvedPack_CurvedWall_C.Name",Thin Wood Curved Wall,Mur incurvé finement en bois
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_A.Description",A ceiling lamp that produces a green light.,Un plafonnier qui produit une lumière verte.
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_A.Name",Jade Ceiling Lamp,Plafonnier en jade
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_B.Description",A ceiling lamp that produces a yellow light.,Un plafonnier qui produit une lumière jaune.
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_B.Name",Citrine Ceiling Lamp,Plafonnier en citrine
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_C.Description",A ceiling lamp that produces a blue light.,Un plafonnier qui produit une lumière bleu.
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_C.Name",Zelêb Ceiling Lamp,Plafonnier en zelêb
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_D.Description",A ceiling lamp that produces a white light.,Un plafonnier qui produit une lumière blanche.
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_D.Name",Quartz Ceiling Lamp,Plafonnier en quartz
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_E.Description",A ceiling lamp that produces a purple light.,Un plafonnier qui produit une lumière violette.
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_E.Name",Iolite Ceiling Lamp,Plafonnier en iolite
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_F.Description",A ceiling lamp that produces a orange light.,Un plafonnier qui produit une lumière orange.
+"ST_Mod_Architecture,GrumniPack_CeilingLamp_F.Name",Amber Ceiling Lamp,Plafonnier en ambre
+"ST_Mod_Architecture,GrunmniPack_ColumnTrimCapital_A.Description",Column Trim Capital,Un chapiteau de colonne qui ornemente un mur.
+"ST_Mod_Architecture,GrunmniPack_ColumnTrimCapital_A.Name",Column Trim Capital,Chapiteau de colonne d’ornementation
+"ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_A.Description",Short Column Trim Shaft,Un petit fût de colonne qui ornemente un mur.
+"ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_A.Name",Short Column Trim Shaft,Petit fût de colonne d’ornementation
+"ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_B.Description",Column Trim Shaft,Un fût de colonne qui ornemente un mur.
+"ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_B.Name",Column Trim Shaft,Fût de colonne d’ornementation
+"ST_Mod_Architecture,GrunmniPack_ShortBrazier_A.Description",A brazier that produces fire light.,Un petit brasier qui produit de la lumière.
+"ST_Mod_Architecture,GrunmniPack_ShortBrazier_A.Name",Short brazier,Petit brasier
+"ST_Mod_Architecture,GrunmniPack_ShortBrazier_B.Description",A brazier with legs that produces fire light.,Un petit brasier sur pieds qui produit de la lumière.
+"ST_Mod_Architecture,GrunmniPack_ShortBrazier_B.Name",Short brazier II,Petit brasier II
+"ST_Mod_Architecture,MereakPack_Barrel_A.Description",A decorative Barrel,Un tonneau décoratif.
+"ST_Mod_Architecture,MereakPack_Barrel_A.Name",Barrel,Tonneau
+"ST_Mod_Architecture,MereakPack_ColumnTrimBase_A.Description",Column Trim Base,Un socle de colonne qui ornemente un mur.
+"ST_Mod_Architecture,MereakPack_ColumnTrimBase_A.Name",Column Trim Base,Socle de colonne d’ornementation
+"ST_Mod_Architecture,MereakPack_CornerTrim_A.Description",A Left Corner Trim,Un coin pour ornementer sur la gauche.
+"ST_Mod_Architecture,MereakPack_CornerTrim_A.Name",Corner Trim,Coin d’ornementation gauche
+"ST_Mod_Architecture,MereakPack_CornerTrim_B.Description",A Right Corner Trim,Un coin pour ornementer sur la droite.
+"ST_Mod_Architecture,MereakPack_CornerTrim_B.Name",Corner Trim,Coin d’ornementation droite
+"ST_Mod_Architecture,MereakPack_DetailedBaseboard_A.Description",Detailed Baseboard,Une plinthe détaillée.
+"ST_Mod_Architecture,MereakPack_DetailedBaseboard_A.Name",Detailed Baseboard,Plinthe détaillée
+"ST_Mod_Architecture,MereakPack_FigureHead_A.Description",A two winged Figure Head,Une figure de proue à deux ailes.
+"ST_Mod_Architecture,MereakPack_FigureHead_A.Name",Figure Head,Figure de proue
+"ST_Mod_Architecture,MereakPack_FigureHead_B.Description",Single Finial Figure Head,Une figure de proue à une aile.
+"ST_Mod_Architecture,MereakPack_FigureHead_B.Name",Figure Head,Figure de proue
+"ST_Mod_Architecture,MereakPack_FigureHead_C.Description",A Figure Head,Une figure de proue taillée.
+"ST_Mod_Architecture,MereakPack_FigureHead_C.Name",Figure Head,Figure de proue
+"ST_Mod_Architecture,MereakPack_GraniteWallBaseboard_A.Description",Granite Wall Baseboard,Une plinthe murale en granit.
+"ST_Mod_Architecture,MereakPack_GraniteWallBaseboard_A.Name",Granite Wall Baseboard,Plinthe murale en granit
+"ST_Mod_Architecture,MereakPack_LongShelves_A.Description",A long set of shelves,Une longue série d'étagères.
+"ST_Mod_Architecture,MereakPack_LongShelves_A.Name",Long Shelves,Étagères longues
+"ST_Mod_Architecture,MereakPack_MediumShelves_A.Description",A medium set of shelves,Un ensemble d'étagères de taille moyenne.
+"ST_Mod_Architecture,MereakPack_MediumShelves_A.Name",Medium Shelves,Étagères moyennes
+"ST_Mod_Architecture,MereakPack_MessyWorkbench_A.Description",A Messy Workbench,Un établi en désordre.
+"ST_Mod_Architecture,MereakPack_MessyWorkbench_A.Name",Messy Workbench,Établi en désordre
+"ST_Mod_Architecture,MereakPack_NarrowArchwayPillar_A.Description",A Narrow Archway Pillar,Un pilier pour une arche étroite.
+"ST_Mod_Architecture,MereakPack_NarrowArchwayPillar_A.Name",Narrow Archway Pillar,Pilier d'arche étroite
+"ST_Mod_Architecture,MereakPack_NarrowGraniteWindow_A.Description",A narrow Window,Une fenêtre étroite en granit.
+"ST_Mod_Architecture,MereakPack_NarrowGraniteWindow_A.Name",Narrow Granite Window,Fenêtre étroite en granit
+"ST_Mod_Architecture,MereakPack_NotchedArch_A.Description",Notched Arch,Un arc avec une encoche.
+"ST_Mod_Architecture,MereakPack_NotchedArch_A.Name",Notched Arch,Arc à encoches
+"ST_Mod_Architecture,MereakPack_NotchedArchway_A.Description",A Notched Archway,Une arche avec une encoche.
+"ST_Mod_Architecture,MereakPack_NotchedArchway_A.Name",Notched Archway,Arche à encoches
+"ST_Mod_Architecture,MereakPack_OrnateCeiling_A.Description",A ironwood Ornate Ceiling,Un plafond orné en bois de fer.
+"ST_Mod_Architecture,MereakPack_OrnateCeiling_A.Name",Ornate Ceiling,Plafond orné
+"ST_Mod_Architecture,MereakPack_Pedestal_A.Description",A Pedestal for Statues,Un piédestal pour statues.
+"ST_Mod_Architecture,MereakPack_Pedestal_A.Name",Pedestal,Piédestal
+"ST_Mod_Architecture,MereakPack_Sack_A.Description",A Sand Sack,Des sacs de sable.
+"ST_Mod_Architecture,MereakPack_Sack_A.Name",Sack,Sacs
+"ST_Mod_Architecture,MereakPack_ShortMemorialStatue_A.Description",A Memorial Statue to honor the fallen,Une statue commémorative en hommage aux disparus.
+"ST_Mod_Architecture,MereakPack_ShortMemorialStatue_A.Name",Short Memorial Statue,Petite statue commémorative
+"ST_Mod_Architecture,MereakPack_SmallMessyWorkbench_A.Description",A small Messy Workbench,Un petit établi en désordre.
+"ST_Mod_Architecture,MereakPack_SmallMessyWorkbench_A.Name",Small Messy Workbench,Petit établi en désordre
+"ST_Mod_Architecture,MereakPack_ThickDarkWoodFloor_A.Description",A Thick dark wood Ceiling,Un plafond en bois épais et sombre.
+"ST_Mod_Architecture,MereakPack_ThickDarkWoodFloor_A.Name",Thick dark wood Ceiling,Plafond en bois épais et sombre
+"ST_Mod_Architecture,MereakPack_ThinWoodCrown_A.Description",A Thin Wood Crown,Une ornementation en bois mince.
+"ST_Mod_Architecture,MereakPack_ThinWoodCrown_A.Name",Thin Wood Crown,Ornementation en bois
+"ST_Mod_Architecture,MereakPack_ThinWoodDetail_A.Description",Thin Wood Detail,Une ornementation détaillée en bois mince.
+"ST_Mod_Architecture,MereakPack_ThinWoodDetail_A.Name",Thin Wood Detail,Détail en bois mince
+"ST_Mod_Architecture,MereakPack_UnderStairsArch_A.Description",Under Stairs Arch,Un escalier sous l’arche.
+"ST_Mod_Architecture,MereakPack_UnderStairsArch_A.Name",Under Stairs Arch,Arche sous l'escalier
+"ST_Mod_Architecture,MereakPack_WoodCrown_A.Description",Wood Crown,Une ornementation sur la partie supérieur en bois.
+"ST_Mod_Architecture,MereakPack_WoodCrown_A.Name",Wood Crown,Couronne de bois
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_A.Description",A granite wall with mithril plating,Un mur de granit recouvert de mithril
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_A.Name",Mithril Overlayed Wall,Mur recouvert de mithril
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_B.Description",A granite wall with mithril plating and decorative patterns.,Un mur de granit orné de plaques de mithril et de motifs décoratifs.
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_B.Name",Mithril Overlayed Wall II,Mur recouvert de mithril II
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_C.Description",Granite wall with a mithril relief of a Dwarf wearing a helmet.,Mur de granit orné d'un bas-relief en mithril représentant un nain casqué.
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_C.Name",Mithril Overlayed Relief,Relief en mithril
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_D.Description",Granite wall with a silver relief of a Dwarf with braided hair.,Mur de granit orné d'un bas-relief argenté représentant un nain aux cheveux tressés.
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_D.Name",Mithril Overlayed Relief II,Relief en mithril II
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_E.Description",Granite wall with a silver relief of a Dwarf with braided hair flanked by two Dwarves wearing helmets,"Mur de granit orné d'un bas-relief en argent représentant un nain aux cheveux tressés, flanqué de deux nains casqués."
+"ST_Mod_Architecture,MithrilWallsPack_MithrilWall_E.Name",Mithril Overlayed Relief III,Relief en mithril III
+"ST_Mod_Architecture,OlfahrPack_Barrel_A.Description",An Open Barrel,Un tonneau ouvert.
+"ST_Mod_Architecture,OlfahrPack_Barrel_A.Name",Barrel,Tonneau
+"ST_Mod_Architecture,OlfahrPack_Basin_A.Description",A Metal Basin,Une barrique en métal.
+"ST_Mod_Architecture,OlfahrPack_Basin_A.Name",Basin,Barrique
+"ST_Mod_Architecture,OlfahrPack_Bucket_A.Description",An Small Wooden Bucket,Un petit seau en bois.
+"ST_Mod_Architecture,OlfahrPack_Bucket_A.Name",Bucket,Seau
+"ST_Mod_Architecture,OlfahrPack_LargeWinch_A.Description",A Large Winch used in the Mines,Un grand treuil utilisé dans les mines.
+"ST_Mod_Architecture,OlfahrPack_LargeWinch_A.Name",Large Winch,Grand treuil
+"ST_Mod_Architecture,OlfahrPack_Lift_A.Description",A Tall Lift used in the Mines,Un grand ascenseur utilisé dans les mines.
+"ST_Mod_Architecture,OlfahrPack_Lift_A.Name",Tall Lift,Grand ascenseur
+"ST_Mod_Architecture,OlfahrPack_Lift_B.Description",A Lift used in the Mines,Un ascenseur utilisé dans les mines.
+"ST_Mod_Architecture,OlfahrPack_Lift_B.Name",Lift,Ascenseur
+"ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_A.Description",An Open Wooden Crate,Une caisse ouverte en bois.
+"ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_A.Name",Open Wooden Crate,Caisse ouverte en bois
+"ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_B.Description",An Open Long Wooden Crate,Une grande caisse ouverte en bois.
+"ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_B.Name",Open Long Wooden Crate,Grande caisse ouverte en bois
+"ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_A.Description",An Ornate Wooden Crate,Une caisse ornée en bois.
+"ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_A.Name",Ornate Wooden Crate,Caisse ornée en bois
+"ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_B.Description",A Long Ornate Wooden Crate,Une grande caisse ornée en bois.
+"ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_B.Name",Long Ornate Wooden Crate,Grande caisse ornée en bois
+"ST_Mod_Architecture,OlfahrPack_Wagon_A.Description",Wagon used in the Mines,Une charrette utilisée dans les mines.
+"ST_Mod_Architecture,OlfahrPack_Wagon_A.Name",Wagon,Charrette
+"ST_Mod_Architecture,OlfahrPack_Windlass_A.Description",A Windlass used in the Mines,Un treuil utilisé dans les mines.
+"ST_Mod_Architecture,OlfahrPack_Windlass_A.Name",Windlass,Treuil
+"ST_Mod_Architecture,OlfahrPack_WoodenCrate_A.Description",A Wooden Crate,Une caisse en bois.
+"ST_Mod_Architecture,OlfahrPack_WoodenCrate_A.Name",Wooden Crate,Caisse en bois
+"ST_Mod_Architecture,OlfahrPack_WoodenCrate_B.Description",A Long Wooden Crate,Une grande caisse en bois.
+"ST_Mod_Architecture,OlfahrPack_WoodenCrate_B.Name",Long Wooden Crate,Grande caisse en bois
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_A.Description",An Small Dwelling Cabinet With Two Drawers,Une petite commode avec deux tiroirs.
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_A.Name",Dwelling Cabinet,Petite commode
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_B.Description",An Small Dwelling Cabinet With Four Drawers,Une petite commode avec quatre tiroirs.
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_B.Name",Dwelling Cabinet,Petite commode
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_C.Description",An Medium Dwelling Cabinet,Une petite commode moyenne.
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_C.Name",Dwelling Cabinet,Petite commode
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_D.Description",A Locked Dwelling Cabinet,Une petite commode avec un cadenas.
+"ST_Mod_Architecture,SeraniPack_DwellingCabinet_D.Name",Dwelling Cabinet,Petite commode
+"ST_Mod_Architecture,SeraniPack_GlassCabinet_A.Description",A Glass Cabinet used in Shops,Une vitrine utilisée dans les magasins nains.
+"ST_Mod_Architecture,SeraniPack_GlassCabinet_A.Name",Glass Cabinet,Vitrine
+"ST_Mod_Architecture,SeraniPack_KegStand_A.Description",Keg Stand,Un support avec deux fûts de bière.
+"ST_Mod_Architecture,SeraniPack_KegStand_A.Name",Keg Stand,Fûts et choppes de bière
+"ST_Mod_Architecture,SeraniPack_PotsRack_A.Description",Pots Rack,Un support avec des ustensiles de cuisine.
+"ST_Mod_Architecture,SeraniPack_PotsRack_A.Name",Pots Rack,Support à casseroles
+"ST_Mod_Architecture,SeraniPack_WoodPile_A.Description",A Pile of Wood,Une pile de bois.
+"ST_Mod_Architecture,SeraniPack_WoodPile_A.Name",Wood Pile,Pile de bois
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_A.Description",Granite Wall with silver plating.,Mur en granit plaqué argent.
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_A.Name",Silver Overlayed Wall,Mur recouvert d'argent
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_B.Description",A granite wall with silver plating and decorative patterns.,Un mur en granit plaqué argent et orné de motifs décoratifs.
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_B.Name",Silver Overlayed Wall II,Mur recouvert d'argent II
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_C.Description",Granite wall with a silver relief of a Dwarf wearing a helmet.,Mur de granit orné d'un bas-relief en argent représentant un nain casqué.
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_C.Name",Silver Overlayed Relief,Relief argenté
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_D.Description",Granite wall with a silver relief of a Dwarf with braided hair.,Mur de granit orné d'un bas-relief argenté représentant un nain aux cheveux tressés.
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_D.Name",Silver Overlayed Relief II,Relief argenté II
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_E.Description",Granite wall with a silver relief of a Dwarf with braided hair flanked by two Dwarves wearing helmets.,"Mur de granit orné d'un bas-relief argenté représentant un Nain aux cheveux tressés, flanqué de deux Nains casqués."
+"ST_Mod_Architecture,SilverWallsPack_SilverWall_E.Name",Silver Overlayed Relief III,Relief argenté III
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_A.Description",An street lamp that produces a green light.,Un lampadaire qui produit une lumière verte.
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_A.Name",Jade Street Lamp,Lampadaire de jade
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_B.Description",An street lamp that produces a yellow light.,Un lampadaire qui produit une lumière jaune.
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_B.Name",Citrine Street Lamp,Lampadaire de citrine
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_C.Description",An street lamp that produces a blue light.,Un lampadaire qui produit une lumière bleu.
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_C.Name",Zelêb Street Lamp,Lampadaire de zelêb
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_D.Description",An street lamp that produces a white light.,Un lampadaire qui produit une lumière blanche.
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_D.Name",Quartz Street Lamp,Lampadaire de quartz
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_E.Description",An street lamp that produces a purple light.,Un lampadaire qui produit une lumière violette.
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_E.Name",Iolite Street Lamp,Lampadaire de iolite
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_F.Description",An street lamp that produces a orange light.,Un lampadaire qui produit une lumière orange.
+"ST_Mod_Architecture,StreetLampPack_StreetLamp_F.Name",Amber Street Lamp,Lampadaire d’ambre
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_A.Description",An adamant column base with ithildin relief.,Un chapiteau de colonne en diamant pur orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_A.Name",Adamant Column Base,Socle de colonne en diamant pur
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_Moss_A.Description",A mossy column base with ithildin relief,Un socle de colonne moussue orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_Moss_A.Name",Mossy Column Base,Socle de colonne moussue
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_Redrock_A.Description",A red sanstone column base with ithildin relief,Un socle de colonne en grès rouge orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_Redrock_A.Name",Crimson Column Base,Socle de colonne pourpre
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_Whitemarble_A.Description",A white marble column base with ithildin relief.,Un socle de colonne de marbre côtier orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnBase_Whitemarble_A.Name",Fair Column Base,Socle de colonne clair
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_A.Description",An adamant column capital with ithildin relief,Un chapiteau de colonne en diamant pur orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_A.Name",Adamant Column Capital,Chapiteau de colonne en diamant pur
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Moss_A.Description",A mossy column base with ithildin relief,Un chapiteau de colonne moussue orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Moss_A.Name",Mossy Column Capital,Chapiteau de colonne moussue
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Redrock_A.Description",A red sanstone column capital with ithildin relief,Un chapiteau de colonne en grès rouge orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Redrock_A.Name",Crimson Column Capital,Chapiteau de colonne pourpre
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Whitemarble_A.Description",A white marble column capital with ithildin relief.,Un chapiteau de colonne de marbre côtier orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Whitemarble_A.Name",Fair Column Capital,Chapiteau de colonne clair
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_A.Description",An adamant column shaft with ithildin relief,Un fût de colonne en diamant pur orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_A.Name",Adamant Column Shaft,Fût de colonne en diamant pur
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Moss_A.Description",A mossy column base with ithildin relief,Un fût de colonne moussue orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Moss_A.Name",Mossy Column Shaft,Fût de colonne moussue
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Redrock_A.Description",A red sanstone column shaft with ithildin relief,Un fût de colonne en grès rouge orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Redrock_A.Name",Crimson Column Shaft,Fût de colonne pourpre
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Whitemarble_A.Description",A white marble column shaft with ithildin relief,Un fût de colonne en marbre côtier orné de reliefs en ithildin.
+"ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Whitemarble_A.Name",Fair Column Shaft,Fût de colonne claire
+"ST_Mod_Architecture,TobiFloorPack_InlaidFloor_A.Description",A decorated adamant floor,Un sol en diamant pur décoré.
+"ST_Mod_Architecture,TobiFloorPack_InlaidFloor_A.Name",Inlaid Adamant Floor,Plancher en diamant pur incrusté
+"ST_Mod_Architecture,TobiFloorPack_PatternedFloor_A.Description",A decorated floor,Un sol décoré.
+"ST_Mod_Architecture,TobiFloorPack_PatternedFloor_A.Name",Patterned Floor,Sol à motifs
+"ST_Mod_Architecture,TobiFloorPack_PatternedFloor_B.Description",A decorated white floor,Un sol blanc décoré.
+"ST_Mod_Architecture,TobiFloorPack_PatternedFloor_B.Name",Patterned White Floor,Sol blanc à motifs
+"ST_Mod_Architecture,TobiFloorPack_TiledFloor_A.Description",A decorated mossy floor,Un sol recouvert de mousse décoratif.
+"ST_Mod_Architecture,TobiFloorPack_TiledFloor_A.Name",Tiled Mossy Floor,Sol carrelé recouvert de mousse
+"ST_Mod_Architecture,TobiFloorPack_TiledFloor_B.Description",A decorated floor,Un sol décoré.
+"ST_Mod_Architecture,TobiFloorPack_TiledFloor_B.Name",Tiled Floor,Sol carrelé
+"ST_Mod_Architecture,TobiFloorPack_TiledFloor_C.Description",A decorated white floor,Un sol blanc décoré.
+"ST_Mod_Architecture,TobiFloorPack_TiledFloor_C.Name",Tiled Floor,Sol carrelé
+"ST_Mod_Architecture,TobiPack_AleKeg.Description",Tavern Keg full of Evening Ale,Fût de taverne rempli de bière du soir.
+"ST_Mod_Architecture,TobiPack_AleKeg.Name",Ale Keg,Fût de bière
+"ST_Mod_Architecture,TobiPack_BirdNest_A.Description",A Bird Nest that produces Eggs,Un nid d'oiseau qui produit des œufs.
+"ST_Mod_Architecture,TobiPack_BirdNest_A.Name",Bird Nest,Nid d'oiseau
+"ST_Mod_Architecture,TobiPack_BirdNest_B.Description",A Bird Nest that produces Feathers,Un nid d'oiseau qui produit des plumes.
+"ST_Mod_Architecture,TobiPack_BirdNest_B.Name",Bird Nest,Nid d'oiseau
+"ST_Mod_Architecture,TobiPack_Ceiling_Center.Description",A Decorated Wooden Ceiling,Un plafond en bois décoré.
+"ST_Mod_Architecture,TobiPack_Ceiling_Center.Name",Decorated Wooden Ceiling,Plafond en bois décoré
+"ST_Mod_Architecture,TobiPack_Ceiling_Corner.Description",Place on a wall to create a ceiling above.,À placer sur un mur pour créer un plafond au-dessus.
+"ST_Mod_Architecture,TobiPack_Ceiling_Corner.Name",Ornate Ceiling Corner,Plafond voûté orné
+"ST_Mod_Architecture,TobiPack_DecoratedArch_A.Description",A decorated arch with wood,Une arche décorée en bois.
+"ST_Mod_Architecture,TobiPack_DecoratedArch_A.Name",Decorated Arch,Arche décorée
+"ST_Mod_Architecture,TobiPack_DecoratedArch_B.Description",A decorated arch with wood,Une arche décorée en bois.
+"ST_Mod_Architecture,TobiPack_DecoratedArch_B.Name",Decorated Arch,Arche décorée
+"ST_Mod_Architecture,TobiPack_Floor_Wood_3x3_A.Description",A beautiful decorated Wooden Floor,Un parquet magnifiquement décoré.
+"ST_Mod_Architecture,TobiPack_Floor_Wood_3x3_A.Name",Decorated Wooden Floor,Sol en bois décoré
+"ST_Mod_Architecture,TobiPack_LargeBrazier.Description",A Big Brazier,Un grand brasero.
+"ST_Mod_Architecture,TobiPack_LargeBrazier.Name",Large Brazier,Grand brasero
+"ST_Mod_Architecture,UzbadPack_AngledWoodenFloor_A.Description",Angled Wooden Floor,Un plancher de bois en angle.
+"ST_Mod_Architecture,UzbadPack_AngledWoodenFloor_A.Name",Angled Wooden Floor,Sol de bois en angle
+"ST_Mod_Architecture,UzbadPack_ChoppingBlock_A.Description",Chopping block,Un billot de découpe.
+"ST_Mod_Architecture,UzbadPack_ChoppingBlock_A.Name",Chopping block,Billot
+"ST_Mod_Architecture,UzbadPack_KitchenCauldron_A.Description",Kitchen Cauldron,Un chaudron de cuisine.
+"ST_Mod_Architecture,UzbadPack_KitchenCauldron_A.Name",Kitchen Cauldron,Chaudron
+"ST_Mod_Architecture,UzbadPack_ThinWoodFloorTile_A.Description",Thin Wood Floor Tile,Un carrelage de sol en bois mince.
+"ST_Mod_Architecture,UzbadPack_ThinWoodFloorTile_A.Name",Thin Wood Floor Tile,Carreau de sol en bois mince
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteBarrier_A.Description",A short barrier made of granite blocks.,Une petite barrière à base de blocs de granit.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteBarrier_A.Name",White Granite Barrier,Barrière en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnBase_A.Description",A White Granite Column Base,Un socle de colonne en granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnBase_A.Name",White Granite Column Base,Socle de colonne en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnCapital_A.Description",A White Granite Column Capital,Un chapiteau de colonne en granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnCapital_A.Name",White Granite Column Capital,Chapiteau de colonne en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnShaft_A.Description",A White Granite Column Shaft,Un fût de colonne en granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnShaft_A.Name",White Granite Column Shaft,Fût de colonne en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteDoor_A.Description",A door set in a fine white granite wall,Une porte encastrée dans un beau mur de granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteDoor_A.Name",White Granite Door,Porte en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteFloor_A.Description",A nicely tiled granite floor.,Un joli sol en granit carrelé.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteFloor_A.Name",White Granite Floor,Sol en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteStairs_A.Description",White Granite Stairs,Un escaliers à base de granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteStairs_A.Name",White Granite Stairs,Escaliers en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteTrimedBarrier_A.Description",A short barrier made of granite blocks.,Une petite barrière à base de blocs de granit.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteTrimedBarrier_A.Name",White Granite Trimed Barrier,Barrière bordée de granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteWall_A.Description",White Granite Wall,Un mur en granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteWall_A.Name",White Granite Wall,Mur en granit blanc
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteWindow_A.Description",White Granite Window,Une fenêtre en granit blanc.
+"ST_Mod_Architecture,ZetaPack_WhiteGraniteWindow_A.Name",White Granite Window,Fenêtre en granit blanc
+"ST_Mod_Interactables,100BuildingsPack_HangingIronLantern_A.Description",A simple and sturdy lantern,Une lanterne simple et robuste.
+"ST_Mod_Interactables,100BuildingsPack_HangingIronLantern_A.Name",Hanging iron lantern,Lanterne en fer suspendue
+"ST_Mod_Interactables,100BuildingsPack_TelcharForge_A.Description",Advanced forge used by Telchar,Forge avancée utilisée par Telchar.
+"ST_Mod_Interactables,100BuildingsPack_TelcharForge_A.Name",Telchar Forge,Forge de Telchar
+"ST_Mod_Items,Items.CrimsonIngot.Description",Crimson Metal Ingot Description,Un lingot aux reflets cramoisis semblable au soleil couchant.
+"ST_Mod_Items,Items.CrimsonIngot.Name",Crimson Metal Ingot,Lingot de métal cramoisi
+"ST_Mod_Items,Items.FungalFoliageCutting_A.Description",Deep Flowers Cutting Description,Ces fleurs ne poussent que dans les Profondeurs inférieures.
+"ST_Mod_Items,Items.FungalFoliageCutting_A.Name",Deep Flowers Cutting,Coupe de fleurs des profondeurs
+"ST_Mod_Items,Items.FungalFoliageCutting_B.Description",Glowing Mushrooms Description,Ces champignons lumineux ne poussent que dans les Profondeurs inférieures.
+"ST_Mod_Items,Items.FungalFoliageCutting_B.Name",Glowing Mushrooms,Champignons lumineux
+"ST_Mod_Items,Tools.Hammer.Tobi.Broken.Description",Use the Repair Smithy to mend.,Utilisez l’atelier de réparation pour réparer.
+"ST_Mod_Items,Tools.Hammer.Tobi.Broken.Name",Broken Tobi’s Hammer,Marteau de Tobi brisé
+"ST_Mod_Items,Tools.Hammer.Tobi.Description",A tool created by the ancient architecs’ guild of Moria.,Un outil créé par l'ancienne guilde des architectes de la Moria.
+"ST_Mod_Items,Tools.Hammer.Tobi.Name",Tobi’s Hammer,Marteau de Tobi
+"ST_Mod_Items,Weapons.Battleaxe.Dain.Broken.Description",Use the Repair Smithy to mend.,Utilisez l’atelier de réparation pour réparer.
+"ST_Mod_Items,Weapons.Battleaxe.Dain.Broken.Name",Broken Dain’s Battleaxe,Hache d’armes de Dáin brisé
+"ST_Mod_Items,Weapons.Battleaxe.Dain.Description",Battleaxe used by the Lord of the Iron Hills,Hache d’armes utilisé par le Seigneur des Collines de Fer.
+"ST_Mod_Items,Weapons.Battleaxe.Dain.Name",Dain’s Battleaxe,Hache d’armes de Dáin
+"ST_Mod_Items,Weapons.Hammer.Dain.Broken.Description",Use the Repair Smithy to mend.,Utilisez l’atelier de réparation pour réparer.
+"ST_Mod_Items,Weapons.Hammer.Dain.Broken.Name",Broken Dain’s Warhammer,Marteau de guerre de Dáin brisé
+"ST_Mod_Items,Weapons.Hammer.Dain.Description",Warhammer used by Lord of the Iron Hills,Marteau de guerre utilisé par le Seigneur des Collines de Fer.
+"ST_Mod_Items,Weapons.Hammer.Dain.Name",Dain’s Warhammer,Marteau de guerre de Dáin
+"ST_Mod_Items,Weapons.Hammer.Thrain.Broken.Description",Use the Repair Smithy to mend.,Utilisez l’atelier de réparation pour réparer.
+"ST_Mod_Items,Weapons.Hammer.Thrain.Broken.Name",Broken Thrain’s Warhammer,Marteau de guerre de Thráin brisé
+"ST_Mod_Items,Weapons.Hammer.Thrain.Description",Warhammer used by King Thrain,Marteau de guerre utilisé par le Roi Thráin.
+"ST_Mod_Items,Weapons.Hammer.Thrain.Name",Thrain’s Warhammer,Marteau de guerre de Thráin
