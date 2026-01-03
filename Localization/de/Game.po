@@ -1,0 +1,2437 @@
+﻿# Game German translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2025-12-31 15:10\n"
+"PO-Revision-Date: 2025-12-31 15:10\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	100BuildingsPack_GimlisMap_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GimlisMap_A.Description"
+msgid "A map showing where the dwarves that answered Gimli’s call."
+msgstr ""
+
+#. Key:	100BuildingsPack_GimlisMap_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GimlisMap_A.Name"
+msgid "Gimli’s Map"
+msgstr ""
+
+#. Key:	100BuildingsPack_GraniteBarrier45_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GraniteBarrier45_A.Description"
+msgid "A granite barrier rotated 45°."
+msgstr ""
+
+#. Key:	100BuildingsPack_GraniteBarrier45_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GraniteBarrier45_A.Name"
+msgid "Granite barrier 45"
+msgstr ""
+
+#. Key:	100BuildingsPack_GraniteWall45_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GraniteWall45_A.Description"
+msgid "A granite wall rotated 45°."
+msgstr ""
+
+#. Key:	100BuildingsPack_GraniteWall45_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GraniteWall45_A.Name"
+msgid "Granite wall 45"
+msgstr ""
+
+#. Key:	100BuildingsPack_GuardStatue_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GuardStatue_A.Description"
+msgid "A decorative statue."
+msgstr ""
+
+#. Key:	100BuildingsPack_GuardStatue_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,100BuildingsPack_GuardStatue_A.Name"
+msgid "Guard Statue"
+msgstr ""
+
+#. Key:	AradrenPack_ColumnBase_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_ColumnBase_A.Description"
+msgid "A Double Height Column Base."
+msgstr ""
+
+#. Key:	AradrenPack_ColumnBase_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_ColumnBase_A.Name"
+msgid "Column Base"
+msgstr ""
+
+#. Key:	AradrenPack_ColumnCapital_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_ColumnCapital_A.Description"
+msgid "A Double Height Column Crown."
+msgstr ""
+
+#. Key:	AradrenPack_ColumnCapital_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_ColumnCapital_A.Name"
+msgid "Column Crown"
+msgstr ""
+
+#. Key:	AradrenPack_ColumnShaft_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_ColumnShaft_A.Description"
+msgid "A Double Height Column Shaft."
+msgstr ""
+
+#. Key:	AradrenPack_ColumnShaft_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_ColumnShaft_A.Name"
+msgid "Column Shaft"
+msgstr ""
+
+#. Key:	AradrenPack_DecorativeBarrier_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_DecorativeBarrier_A.Description"
+msgid "A granite decorative barrier."
+msgstr ""
+
+#. Key:	AradrenPack_DecorativeBarrier_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_DecorativeBarrier_A.Name"
+msgid "Decorative Barrier"
+msgstr ""
+
+#. Key:	AradrenPack_Ladder_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_Ladder_A.Description"
+msgid "A Long Vertical Wooden Ladder."
+msgstr ""
+
+#. Key:	AradrenPack_Ladder_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_Ladder_A.Name"
+msgid "Long Ladder"
+msgstr ""
+
+#. Key:	AradrenPack_Ladder_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_Ladder_B.Description"
+msgid "A Short Vertical Wooden Ladder."
+msgstr ""
+
+#. Key:	AradrenPack_Ladder_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_Ladder_B.Name"
+msgid "Short Ladder"
+msgstr ""
+
+#. Key:	AradrenPack_MediumGraniteColumnBase_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_MediumGraniteColumnBase_A.Description"
+msgid "A medium granite column base."
+msgstr ""
+
+#. Key:	AradrenPack_MediumGraniteColumnBase_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_MediumGraniteColumnBase_A.Name"
+msgid "Medium Granite Column Base"
+msgstr ""
+
+#. Key:	AradrenPack_MediumGraniteColumnCapital_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_MediumGraniteColumnCapital_A.Description"
+msgid "A Medium Granite Column Crown."
+msgstr ""
+
+#. Key:	AradrenPack_MediumGraniteColumnCapital_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_MediumGraniteColumnCapital_A.Name"
+msgid "Medium Granite Column Crown"
+msgstr ""
+
+#. Key:	AradrenPack_MediumGraniteColumnShaft_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_MediumGraniteColumnShaft_A.Description"
+msgid "A Medium Granite Column Shaft."
+msgstr ""
+
+#. Key:	AradrenPack_MediumGraniteColumnShaft_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_MediumGraniteColumnShaft_A.Name"
+msgid "Medium Granite Column Shaft"
+msgstr ""
+
+#. Key:	AradrenPack_RopeBarrier_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_RopeBarrier_A.Description"
+msgid "A Single Segment Rope Barrier."
+msgstr ""
+
+#. Key:	AradrenPack_RopeBarrier_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_RopeBarrier_A.Name"
+msgid "Rope Barrier"
+msgstr ""
+
+#. Key:	AradrenPack_RopeBarrier_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_RopeBarrier_B.Description"
+msgid "A Two Segment Rope Barrier"
+msgstr ""
+
+#. Key:	AradrenPack_RopeBarrier_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_RopeBarrier_B.Name"
+msgid "Rope Barrier"
+msgstr ""
+
+#. Key:	AradrenPack_RopeBarrier_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_RopeBarrier_C.Description"
+msgid "A Rope Barrier Corner"
+msgstr ""
+
+#. Key:	AradrenPack_RopeBarrier_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,AradrenPack_RopeBarrier_C.Name"
+msgid "Rope Barrier"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedBarrier_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedBarrier_A.Description"
+msgid "A curved granite barrier"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedBarrier_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedBarrier_A.Name"
+msgid "Granite Curved Barrier"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedBarrier_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedBarrier_B.Description"
+msgid "A wooden curved wall"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedBarrier_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedBarrier_B.Name"
+msgid "Wood Curved barrier"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedBarrier_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedBarrier_C.Description"
+msgid "A Thin Curved Barrier"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedBarrier_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedBarrier_C.Name"
+msgid "Thin Wood Curved Barrier"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedStairs_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedStairs_A.Description"
+msgid "Stairs"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedStairs_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedStairs_A.Name"
+msgid "Narrow Spiral Stone Stairs"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedStairs_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedStairs_B.Description"
+msgid "Tall Spiral Stone Stairs"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedStairs_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedStairs_B.Name"
+msgid "Tall Spiral Stone Stairs"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedWall_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedWall_A.Description"
+msgid "A curved granite wall"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedWall_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedWall_A.Name"
+msgid "Granite Curved Wall"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedWall_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedWall_B.Description"
+msgid "A wooden curved wall"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedWall_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedWall_B.Name"
+msgid "Wood Curved wall"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedWall_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedWall_C.Description"
+msgid "A Thin Curved Wall"
+msgstr ""
+
+#. Key:	CurvedPack_CurvedWall_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,CurvedPack_CurvedWall_C.Name"
+msgid "Thin Wood Curved Wall"
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_A.Description"
+msgid "A ceiling lamp that produces a green light."
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_A.Name"
+msgid "Jade Ceiling Lamp"
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_B.Description"
+msgid "A ceiling lamp that produces a yellow light."
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_B.Name"
+msgid "Citrine Ceiling Lamp"
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_C.Description"
+msgid "A ceiling lamp that produces a blue light."
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_C.Name"
+msgid "Zelêb Ceiling Lamp"
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_D.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_D.Description"
+msgid "A ceiling lamp that produces a white light."
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_D.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_D.Name"
+msgid "Quartz Ceiling Lamp"
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_E.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_E.Description"
+msgid "A ceiling lamp that produces a purple light."
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_E.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_E.Name"
+msgid "Iolite Ceiling Lamp"
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_F.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_F.Description"
+msgid "A ceiling lamp that produces a orange light."
+msgstr ""
+
+#. Key:	GrumniPack_CeilingLamp_F.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrumniPack_CeilingLamp_F.Name"
+msgid "Amber Ceiling Lamp"
+msgstr ""
+
+#. Key:	GrunmniPack_ColumnTrimCapital_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ColumnTrimCapital_A.Description"
+msgid "Column Trim Crown"
+msgstr ""
+
+#. Key:	GrunmniPack_ColumnTrimCapital_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ColumnTrimCapital_A.Name"
+msgid "Column Trim Crown"
+msgstr ""
+
+#. Key:	GrunmniPack_ColumnTrimShaft_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_A.Description"
+msgid "Short Column Trim Shaft"
+msgstr ""
+
+#. Key:	GrunmniPack_ColumnTrimShaft_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_A.Name"
+msgid "Short Column Trim Shaft"
+msgstr ""
+
+#. Key:	GrunmniPack_ColumnTrimShaft_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_B.Description"
+msgid "Column Trim Shaft"
+msgstr ""
+
+#. Key:	GrunmniPack_ColumnTrimShaft_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ColumnTrimShaft_B.Name"
+msgid "Column Trim Shaft"
+msgstr ""
+
+#. Key:	GrunmniPack_ShortBrazier_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ShortBrazier_A.Description"
+msgid "A brazier that produces fire light."
+msgstr ""
+
+#. Key:	GrunmniPack_ShortBrazier_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ShortBrazier_A.Name"
+msgid "Short brazier"
+msgstr ""
+
+#. Key:	GrunmniPack_ShortBrazier_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ShortBrazier_B.Description"
+msgid "A brazier with legs that produces fire light."
+msgstr ""
+
+#. Key:	GrunmniPack_ShortBrazier_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,GrunmniPack_ShortBrazier_B.Name"
+msgid "Short brazier II"
+msgstr ""
+
+#. Key:	MereakPack_Barrel_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_Barrel_A.Description"
+msgid "A decorative Barrel"
+msgstr ""
+
+#. Key:	MereakPack_Barrel_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_Barrel_A.Name"
+msgid "Barrel"
+msgstr ""
+
+#. Key:	MereakPack_ColumnTrimBase_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ColumnTrimBase_A.Description"
+msgid "Column Trim Base"
+msgstr ""
+
+#. Key:	MereakPack_ColumnTrimBase_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ColumnTrimBase_A.Name"
+msgid "Column Trim Base"
+msgstr ""
+
+#. Key:	MereakPack_CornerTrim_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_CornerTrim_A.Description"
+msgid "A Left Corner Trim"
+msgstr ""
+
+#. Key:	MereakPack_CornerTrim_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_CornerTrim_A.Name"
+msgid "Corner Trim"
+msgstr ""
+
+#. Key:	MereakPack_CornerTrim_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_CornerTrim_B.Description"
+msgid "A Right Corner Trim"
+msgstr ""
+
+#. Key:	MereakPack_CornerTrim_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_CornerTrim_B.Name"
+msgid "Corner Trim"
+msgstr ""
+
+#. Key:	MereakPack_DetailedBaseboard_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_DetailedBaseboard_A.Description"
+msgid "Detailed Baseboard"
+msgstr ""
+
+#. Key:	MereakPack_DetailedBaseboard_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_DetailedBaseboard_A.Name"
+msgid "Detailed Baseboard"
+msgstr ""
+
+#. Key:	MereakPack_FigureHead_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_FigureHead_A.Description"
+msgid "A two winged Figure Head"
+msgstr ""
+
+#. Key:	MereakPack_FigureHead_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_FigureHead_A.Name"
+msgid "Figure Head"
+msgstr ""
+
+#. Key:	MereakPack_FigureHead_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_FigureHead_B.Description"
+msgid "Single Finial Figure Head"
+msgstr ""
+
+#. Key:	MereakPack_FigureHead_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_FigureHead_B.Name"
+msgid "Figure Head"
+msgstr ""
+
+#. Key:	MereakPack_FigureHead_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_FigureHead_C.Description"
+msgid "A Figure Head"
+msgstr ""
+
+#. Key:	MereakPack_FigureHead_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_FigureHead_C.Name"
+msgid "Figure Head"
+msgstr ""
+
+#. Key:	MereakPack_GraniteWallBaseboard_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_GraniteWallBaseboard_A.Description"
+msgid "Granite Wall Baseboard"
+msgstr ""
+
+#. Key:	MereakPack_GraniteWallBaseboard_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_GraniteWallBaseboard_A.Name"
+msgid "Granite Wall Baseboard"
+msgstr ""
+
+#. Key:	MereakPack_LongShelves_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_LongShelves_A.Description"
+msgid "A long set of shelves"
+msgstr ""
+
+#. Key:	MereakPack_LongShelves_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_LongShelves_A.Name"
+msgid "Long Shelves"
+msgstr ""
+
+#. Key:	MereakPack_MediumShelves_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_MediumShelves_A.Description"
+msgid "A medium set of shelves"
+msgstr ""
+
+#. Key:	MereakPack_MediumShelves_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_MediumShelves_A.Name"
+msgid "Medium Shelves"
+msgstr ""
+
+#. Key:	MereakPack_MessyWorkbench_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_MessyWorkbench_A.Description"
+msgid "A Messy Workbench"
+msgstr ""
+
+#. Key:	MereakPack_MessyWorkbench_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_MessyWorkbench_A.Name"
+msgid "Messy Workbench"
+msgstr ""
+
+#. Key:	MereakPack_NarrowArchwayPillar_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NarrowArchwayPillar_A.Description"
+msgid "A Narrow Archway Pillar"
+msgstr ""
+
+#. Key:	MereakPack_NarrowArchwayPillar_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NarrowArchwayPillar_A.Name"
+msgid "Narrow Archway Pillar"
+msgstr ""
+
+#. Key:	MereakPack_NarrowGraniteWindow_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NarrowGraniteWindow_A.Description"
+msgid "A narrow Window"
+msgstr ""
+
+#. Key:	MereakPack_NarrowGraniteWindow_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NarrowGraniteWindow_A.Name"
+msgid "Narrow Granite Window"
+msgstr ""
+
+#. Key:	MereakPack_NotchedArch_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NotchedArch_A.Description"
+msgid "Notched Arch"
+msgstr ""
+
+#. Key:	MereakPack_NotchedArch_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NotchedArch_A.Name"
+msgid "Notched Arch"
+msgstr ""
+
+#. Key:	MereakPack_NotchedArchway_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NotchedArchway_A.Description"
+msgid "A Notched Archway"
+msgstr ""
+
+#. Key:	MereakPack_NotchedArchway_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_NotchedArchway_A.Name"
+msgid "Notched Archway"
+msgstr ""
+
+#. Key:	MereakPack_OrnateCeiling_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_OrnateCeiling_A.Description"
+msgid "A ironwood Ornate Ceiling"
+msgstr ""
+
+#. Key:	MereakPack_OrnateCeiling_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_OrnateCeiling_A.Name"
+msgid "Ornate Ceiling"
+msgstr ""
+
+#. Key:	MereakPack_Pedestal_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_Pedestal_A.Description"
+msgid "A Pedestal for Statues"
+msgstr ""
+
+#. Key:	MereakPack_Pedestal_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_Pedestal_A.Name"
+msgid "Pedestal"
+msgstr ""
+
+#. Key:	MereakPack_Sack_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_Sack_A.Description"
+msgid "A Sand Sack"
+msgstr ""
+
+#. Key:	MereakPack_Sack_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_Sack_A.Name"
+msgid "Sack"
+msgstr ""
+
+#. Key:	MereakPack_ShortMemorialStatue_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ShortMemorialStatue_A.Description"
+msgid "A Memorial Statue to honor the fallen"
+msgstr ""
+
+#. Key:	MereakPack_ShortMemorialStatue_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ShortMemorialStatue_A.Name"
+msgid "Short Memorial Statue"
+msgstr ""
+
+#. Key:	MereakPack_SmallMessyWorkbench_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_SmallMessyWorkbench_A.Description"
+msgid "A small Messy Workbench"
+msgstr ""
+
+#. Key:	MereakPack_SmallMessyWorkbench_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_SmallMessyWorkbench_A.Name"
+msgid "Small Messy Workbench"
+msgstr ""
+
+#. Key:	MereakPack_ThickDarkWoodFloor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ThickDarkWoodFloor_A.Description"
+msgid "A Thick dark wood Ceiling"
+msgstr ""
+
+#. Key:	MereakPack_ThickDarkWoodFloor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ThickDarkWoodFloor_A.Name"
+msgid "Thick dark wood Ceiling"
+msgstr ""
+
+#. Key:	MereakPack_ThinWoodCrown_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ThinWoodCrown_A.Description"
+msgid "A Thin Wood Crown"
+msgstr ""
+
+#. Key:	MereakPack_ThinWoodCrown_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ThinWoodCrown_A.Name"
+msgid "Thin Wood Crown"
+msgstr ""
+
+#. Key:	MereakPack_ThinWoodDetail_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ThinWoodDetail_A.Description"
+msgid "Thin Wood Detail"
+msgstr ""
+
+#. Key:	MereakPack_ThinWoodDetail_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_ThinWoodDetail_A.Name"
+msgid "Thin Wood Detail"
+msgstr ""
+
+#. Key:	MereakPack_UnderStairsArch_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_UnderStairsArch_A.Description"
+msgid "Under Stairs Arch"
+msgstr ""
+
+#. Key:	MereakPack_UnderStairsArch_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_UnderStairsArch_A.Name"
+msgid "Under Stairs Arch"
+msgstr ""
+
+#. Key:	MereakPack_WoodCrown_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_WoodCrown_A.Description"
+msgid "Wood Crown"
+msgstr ""
+
+#. Key:	MereakPack_WoodCrown_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MereakPack_WoodCrown_A.Name"
+msgid "Wood Crown"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_A.Description"
+msgid "A granite wall with mithril plating"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_A.Name"
+msgid "Mithril Overlayed Wall"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_B.Description"
+msgid "A granite wall with mithril plating and decorative patterns."
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_B.Name"
+msgid "Mithril Overlayed Wall II"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_C.Description"
+msgid "Granite wall with a mithril relief of a Dwarf wearing a helmet."
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_C.Name"
+msgid "Mithril Overlayed Relief"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_D.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_D.Description"
+msgid "Granite wall with a silver relief of a Dwarf with braided hair."
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_D.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_D.Name"
+msgid "Mithril Overlayed Relief II"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_E.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_E.Description"
+msgid "Granite wall with a silver relief of a Dwarf with braided hair flanked by two Dwarves wearing helmets"
+msgstr ""
+
+#. Key:	MithrilWallsPack_MithrilWall_E.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,MithrilWallsPack_MithrilWall_E.Name"
+msgid "Mithril Overlayed Relief III"
+msgstr ""
+
+#. Key:	OlfahrPack_Barrel_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Barrel_A.Description"
+msgid "An Open Barrel"
+msgstr ""
+
+#. Key:	OlfahrPack_Barrel_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Barrel_A.Name"
+msgid "Barrel"
+msgstr ""
+
+#. Key:	OlfahrPack_Basin_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Basin_A.Description"
+msgid "A Metal Basin"
+msgstr ""
+
+#. Key:	OlfahrPack_Basin_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Basin_A.Name"
+msgid "Basin"
+msgstr ""
+
+#. Key:	OlfahrPack_Bucket_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Bucket_A.Description"
+msgid "An Small Wooden Bucket"
+msgstr ""
+
+#. Key:	OlfahrPack_Bucket_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Bucket_A.Name"
+msgid "Bucket"
+msgstr ""
+
+#. Key:	OlfahrPack_LargeWinch_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_LargeWinch_A.Description"
+msgid "A Large Winch used in the Mines"
+msgstr ""
+
+#. Key:	OlfahrPack_LargeWinch_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_LargeWinch_A.Name"
+msgid "Large Winch"
+msgstr ""
+
+#. Key:	OlfahrPack_Lift_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Lift_A.Description"
+msgid "A Tall Lift used in the Mines"
+msgstr ""
+
+#. Key:	OlfahrPack_Lift_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Lift_A.Name"
+msgid "Tall Lift"
+msgstr ""
+
+#. Key:	OlfahrPack_Lift_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Lift_B.Description"
+msgid "A Lift used in the Mines"
+msgstr ""
+
+#. Key:	OlfahrPack_Lift_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Lift_B.Name"
+msgid "Lift"
+msgstr ""
+
+#. Key:	OlfahrPack_OpenWoodenCrate_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_A.Description"
+msgid "An Open Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OpenWoodenCrate_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_A.Name"
+msgid "Open Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OpenWoodenCrate_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_B.Description"
+msgid "An Open Long Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OpenWoodenCrate_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OpenWoodenCrate_B.Name"
+msgid "Open Long Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OrnateWoodenCrate_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_A.Description"
+msgid "An Ornate Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OrnateWoodenCrate_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_A.Name"
+msgid "Ornate Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OrnateWoodenCrate_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_B.Description"
+msgid "A Long Ornate Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_OrnateWoodenCrate_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_OrnateWoodenCrate_B.Name"
+msgid "Long Ornate Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_Wagon_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Wagon_A.Description"
+msgid "Wagon used in the Mines"
+msgstr ""
+
+#. Key:	OlfahrPack_Wagon_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Wagon_A.Name"
+msgid "Wagon"
+msgstr ""
+
+#. Key:	OlfahrPack_Windlass_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Windlass_A.Description"
+msgid "A Windlass used in the Mines"
+msgstr ""
+
+#. Key:	OlfahrPack_Windlass_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_Windlass_A.Name"
+msgid "Windlass"
+msgstr ""
+
+#. Key:	OlfahrPack_WoodenCrate_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_WoodenCrate_A.Description"
+msgid "A Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_WoodenCrate_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_WoodenCrate_A.Name"
+msgid "Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_WoodenCrate_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_WoodenCrate_B.Description"
+msgid "A Long Wooden Crate"
+msgstr ""
+
+#. Key:	OlfahrPack_WoodenCrate_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,OlfahrPack_WoodenCrate_B.Name"
+msgid "Long Wooden Crate"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_A.Description"
+msgid "An Small Dwelling Cabinet With Two Drawers"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_A.Name"
+msgid "Dwelling Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_B.Description"
+msgid "An Small Dwelling Cabinet With Four Drawers"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_B.Name"
+msgid "Dwelling Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_C.Description"
+msgid "An Medium Dwelling Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_C.Name"
+msgid "Dwelling Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_D.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_D.Description"
+msgid "A Locked Dwelling Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_DwellingCabinet_D.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_DwellingCabinet_D.Name"
+msgid "Dwelling Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_GlassCabinet_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_GlassCabinet_A.Description"
+msgid "A Glass Cabinet used in Shops"
+msgstr ""
+
+#. Key:	SeraniPack_GlassCabinet_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_GlassCabinet_A.Name"
+msgid "Glass Cabinet"
+msgstr ""
+
+#. Key:	SeraniPack_KegStand_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_KegStand_A.Description"
+msgid "Keg Stand"
+msgstr ""
+
+#. Key:	SeraniPack_KegStand_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_KegStand_A.Name"
+msgid "Keg Stand"
+msgstr ""
+
+#. Key:	SeraniPack_PotsRack_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_PotsRack_A.Description"
+msgid "Pots Rack"
+msgstr ""
+
+#. Key:	SeraniPack_PotsRack_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_PotsRack_A.Name"
+msgid "Pots Rack"
+msgstr ""
+
+#. Key:	SeraniPack_WoodPile_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_WoodPile_A.Description"
+msgid "A Pile of Wood"
+msgstr ""
+
+#. Key:	SeraniPack_WoodPile_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SeraniPack_WoodPile_A.Name"
+msgid "Wood Pile"
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_A.Description"
+msgid "Granite Wall with silver plating."
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_A.Name"
+msgid "Silver Overlayed Wall"
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_B.Description"
+msgid "A granite wall with silver plating and decorative patterns."
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_B.Name"
+msgid "Silver Overlayed Wall II"
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_C.Description"
+msgid "Granite wall with a silver relief of a Dwarf wearing a helmet."
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_C.Name"
+msgid "Silver Overlayed Relief"
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_D.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_D.Description"
+msgid "Granite wall with a silver relief of a Dwarf with braided hair."
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_D.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_D.Name"
+msgid "Silver Overlayed Relief II"
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_E.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_E.Description"
+msgid "Granite wall with a silver relief of a Dwarf with braided hair flanked by two Dwarves wearing helmets."
+msgstr ""
+
+#. Key:	SilverWallsPack_SilverWall_E.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,SilverWallsPack_SilverWall_E.Name"
+msgid "Silver Overlayed Relief III"
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_A.Description"
+msgid "An street lamp that produces a green light."
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_A.Name"
+msgid "Jade Street Lamp"
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_B.Description"
+msgid "An street lamp that produces a yellow light."
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_B.Name"
+msgid "Citrine Street Lamp"
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_C.Description"
+msgid "An street lamp that produces a blue light."
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_C.Name"
+msgid "Zelêb Street Lamp"
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_D.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_D.Description"
+msgid "An street lamp that produces a white light."
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_D.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_D.Name"
+msgid "Quartz Street Lamp"
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_E.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_E.Description"
+msgid "An street lamp that produces a purple light."
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_E.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_E.Name"
+msgid "Iolite Street Lamp"
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_F.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_F.Description"
+msgid "An street lamp that produces a orange light."
+msgstr ""
+
+#. Key:	StreetLampPack_StreetLamp_F.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,StreetLampPack_StreetLamp_F.Name"
+msgid "Amber Street Lamp"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_A.Description"
+msgid "An adamant column base with ithildin relief."
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_A.Name"
+msgid "Adamant Column Base"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_Moss_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_Moss_A.Description"
+msgid "A mossy column base with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_Moss_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_Moss_A.Name"
+msgid "Mossy Column Base"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_Redrock_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_Redrock_A.Description"
+msgid "A red sanstone column base with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_Redrock_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_Redrock_A.Name"
+msgid "Crimson Column Base"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_Whitemarble_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_Whitemarble_A.Description"
+msgid "A white marble column base with ithildin relief."
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnBase_Whitemarble_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnBase_Whitemarble_A.Name"
+msgid "Fair Column Base"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_A.Description"
+msgid "An adamant column crown with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_A.Name"
+msgid "Adamant Column Crown"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_Moss_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Moss_A.Description"
+msgid "A mossy column crown with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_Moss_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Moss_A.Name"
+msgid "Mossy Column Crown"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_Redrock_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Redrock_A.Description"
+msgid "A red sanstone column crown with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_Redrock_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Redrock_A.Name"
+msgid "Crimson Column Crown"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_Whitemarble_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Whitemarble_A.Description"
+msgid "A white marble column capital with ithildin relief."
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnCapital_Whitemarble_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnCapital_Whitemarble_A.Name"
+msgid "Fair Column Crown"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_A.Description"
+msgid "An adamant column shaft with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_A.Name"
+msgid "Adamant Column Shaft"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_Moss_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Moss_A.Description"
+msgid "A mossy column shaft with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_Moss_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Moss_A.Name"
+msgid "Mossy Column Shaft"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_Redrock_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Redrock_A.Description"
+msgid "A red sanstone column shaft with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_Redrock_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Redrock_A.Name"
+msgid "Crimson Column Shaft"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_Whitemarble_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Whitemarble_A.Description"
+msgid "A white marble column shaft with ithildin relief"
+msgstr ""
+
+#. Key:	TobiDurinPack_ColumnShaft_Whitemarble_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiDurinPack_ColumnShaft_Whitemarble_A.Name"
+msgid "Fair Column Shaft"
+msgstr ""
+
+#. Key:	TobiFloorPack_InlaidFloor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_InlaidFloor_A.Description"
+msgid "A decorated adamant floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_InlaidFloor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_InlaidFloor_A.Name"
+msgid "Inlaid Adamant Floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_PatternedFloor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_PatternedFloor_A.Description"
+msgid "A decorated floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_PatternedFloor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_PatternedFloor_A.Name"
+msgid "Patterned Floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_PatternedFloor_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_PatternedFloor_B.Description"
+msgid "A decorated white floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_PatternedFloor_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_PatternedFloor_B.Name"
+msgid "Patterned White Floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_TiledFloor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_TiledFloor_A.Description"
+msgid "A decorated mossy floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_TiledFloor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_TiledFloor_A.Name"
+msgid "Tiled Mossy Floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_TiledFloor_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_TiledFloor_B.Description"
+msgid "A decorated floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_TiledFloor_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_TiledFloor_B.Name"
+msgid "Tiled Floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_TiledFloor_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_TiledFloor_C.Description"
+msgid "A decorated white floor"
+msgstr ""
+
+#. Key:	TobiFloorPack_TiledFloor_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiFloorPack_TiledFloor_C.Name"
+msgid "Tiled Floor"
+msgstr ""
+
+#. Key:	TobiPack_AleKeg.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_AleKeg.Description"
+msgid "Tavern Keg full of Evening Ale"
+msgstr ""
+
+#. Key:	TobiPack_AleKeg.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_AleKeg.Name"
+msgid "Ale Keg"
+msgstr ""
+
+#. Key:	TobiPack_BirdNest_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_BirdNest_A.Description"
+msgid "A Bird Nest that produces Eggs"
+msgstr ""
+
+#. Key:	TobiPack_BirdNest_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_BirdNest_A.Name"
+msgid "Bird Nest"
+msgstr ""
+
+#. Key:	TobiPack_BirdNest_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_BirdNest_B.Description"
+msgid "A Bird Nest that produces Feathers"
+msgstr ""
+
+#. Key:	TobiPack_BirdNest_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_BirdNest_B.Name"
+msgid "Bird Nest"
+msgstr ""
+
+#. Key:	TobiPack_Ceiling_Center.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_Ceiling_Center.Description"
+msgid "A Decorated Wooden Ceiling"
+msgstr ""
+
+#. Key:	TobiPack_Ceiling_Center.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_Ceiling_Center.Name"
+msgid "Decorated Wooden Ceiling"
+msgstr ""
+
+#. Key:	TobiPack_Ceiling_Corner.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_Ceiling_Corner.Description"
+msgid "Place on a wall to create a ceiling above."
+msgstr ""
+
+#. Key:	TobiPack_Ceiling_Corner.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_Ceiling_Corner.Name"
+msgid "Ornate Ceiling Corner"
+msgstr ""
+
+#. Key:	TobiPack_DecoratedArch_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_DecoratedArch_A.Description"
+msgid "A decorated arch with wood"
+msgstr ""
+
+#. Key:	TobiPack_DecoratedArch_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_DecoratedArch_A.Name"
+msgid "Decorated Arch"
+msgstr ""
+
+#. Key:	TobiPack_DecoratedArch_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_DecoratedArch_B.Description"
+msgid "A decorated arch with wood"
+msgstr ""
+
+#. Key:	TobiPack_DecoratedArch_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_DecoratedArch_B.Name"
+msgid "Decorated Arch"
+msgstr ""
+
+#. Key:	TobiPack_Floor_Wood_3x3_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_Floor_Wood_3x3_A.Description"
+msgid "A beautiful decorated Wooden Floor"
+msgstr ""
+
+#. Key:	TobiPack_Floor_Wood_3x3_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_Floor_Wood_3x3_A.Name"
+msgid "Decorated Wooden Floor"
+msgstr ""
+
+#. Key:	TobiPack_LargeBrazier.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_LargeBrazier.Description"
+msgid "A Big Brazier."
+msgstr ""
+
+#. Key:	TobiPack_LargeBrazier.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,TobiPack_LargeBrazier.Name"
+msgid "Large Brazier"
+msgstr ""
+
+#. Key:	UzbadPack_AngledWoodenFloor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_AngledWoodenFloor_A.Description"
+msgid "Angled Wooden Floor."
+msgstr ""
+
+#. Key:	UzbadPack_AngledWoodenFloor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_AngledWoodenFloor_A.Name"
+msgid "Angled Wooden Floor"
+msgstr ""
+
+#. Key:	UzbadPack_ChoppingBlock_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_ChoppingBlock_A.Description"
+msgid "Chopping block."
+msgstr ""
+
+#. Key:	UzbadPack_ChoppingBlock_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_ChoppingBlock_A.Name"
+msgid "Chopping block"
+msgstr ""
+
+#. Key:	UzbadPack_KitchenCauldron_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_KitchenCauldron_A.Description"
+msgid "Kitchen Cauldron."
+msgstr ""
+
+#. Key:	UzbadPack_KitchenCauldron_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_KitchenCauldron_A.Name"
+msgid "Kitchen Cauldron"
+msgstr ""
+
+#. Key:	UzbadPack_ThinWoodFloorTile_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_ThinWoodFloorTile_A.Description"
+msgid "Thin Wood Floor Tile."
+msgstr ""
+
+#. Key:	UzbadPack_ThinWoodFloorTile_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,UzbadPack_ThinWoodFloorTile_A.Name"
+msgid "Thin Wood Floor Tile"
+msgstr ""
+
+#. Key:	VasePack_Vase_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_A.Description"
+msgid "A white and gold vase."
+msgstr ""
+
+#. Key:	VasePack_Vase_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_A.Name"
+msgid "Large Ornate Vase"
+msgstr ""
+
+#. Key:	VasePack_Vase_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_B.Description"
+msgid "A black and blue vase."
+msgstr ""
+
+#. Key:	VasePack_Vase_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_B.Name"
+msgid "Large Ornate Vase II"
+msgstr ""
+
+#. Key:	VasePack_Vase_C.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_C.Description"
+msgid "A blue vase."
+msgstr ""
+
+#. Key:	VasePack_Vase_C.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_C.Name"
+msgid "Large Ornate Base III"
+msgstr ""
+
+#. Key:	VasePack_Vase_D.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_D.Description"
+msgid "A white vase with golden details."
+msgstr ""
+
+#. Key:	VasePack_Vase_D.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_D.Name"
+msgid "Medium Ornate Vase"
+msgstr ""
+
+#. Key:	VasePack_Vase_E.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_E.Description"
+msgid "A black and blue vase."
+msgstr ""
+
+#. Key:	VasePack_Vase_E.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_E.Name"
+msgid "Medium Ornate Vase II"
+msgstr ""
+
+#. Key:	VasePack_Vase_F.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_F.Description"
+msgid "A black vese with golden details"
+msgstr ""
+
+#. Key:	VasePack_Vase_F.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_F.Name"
+msgid "Medium Ornate Vase III"
+msgstr ""
+
+#. Key:	VasePack_Vase_G.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_G.Description"
+msgid "A black vese with blue and golden details."
+msgstr ""
+
+#. Key:	VasePack_Vase_G.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_G.Name"
+msgid "Small Ornate Vase"
+msgstr ""
+
+#. Key:	VasePack_Vase_H.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_H.Description"
+msgid "A white vese with golden details"
+msgstr ""
+
+#. Key:	VasePack_Vase_H.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,VasePack_Vase_H.Name"
+msgid "Small Ornate Vase II"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteBarrier_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteBarrier_A.Description"
+msgid "A short barrier made of granite blocks."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteBarrier_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteBarrier_A.Name"
+msgid "White Granite Barrier"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteColumnBase_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnBase_A.Description"
+msgid "A White Granite Column Base."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteColumnBase_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnBase_A.Name"
+msgid "White Granite Column Base"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteColumnCapital_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnCapital_A.Description"
+msgid "A White Granite Column Crown."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteColumnCapital_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnCapital_A.Name"
+msgid "White Granite Column Crown"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteColumnShaft_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnShaft_A.Description"
+msgid "A White Granite Column Shaft."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteColumnShaft_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteColumnShaft_A.Name"
+msgid "White Granite Column Shaft"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteDoor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteDoor_A.Description"
+msgid "A door set in a fine white granite wall."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteDoor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteDoor_A.Name"
+msgid "White Granite Door"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteFloor_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteFloor_A.Description"
+msgid "A nicely tiled granite floor."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteFloor_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteFloor_A.Name"
+msgid "White Granite Floor"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteStairs_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteStairs_A.Description"
+msgid "White Granite Stairs."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteStairs_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteStairs_A.Name"
+msgid "White Granite Stairs"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteTrimedBarrier_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteTrimedBarrier_A.Description"
+msgid "A short barrier made of granite blocks."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteTrimedBarrier_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteTrimedBarrier_A.Name"
+msgid "White Granite Trimed Barrier"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteWall_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteWall_A.Description"
+msgid "White Granite Wall."
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteWall_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteWall_A.Name"
+msgid "White Granite Wall"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteWindow_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteWindow_A.Description"
+msgid "White Granite Window"
+msgstr ""
+
+#. Key:	ZetaPack_WhiteGraniteWindow_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture
+msgctxt "ST_Mod_Architecture,ZetaPack_WhiteGraniteWindow_A.Name"
+msgid "White Granite Window"
+msgstr ""
+
+#. Key:	BearGuild.Buff.AntiDragon.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.AntiDragon.Description"
+msgid "Buff for crushing Dragons"
+msgstr ""
+
+#. Key:	BearGuild.Buff.AntiDragon.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.AntiDragon.Name"
+msgid "Dragon-Crusher"
+msgstr ""
+
+#. Key:	BearGuild.Buff.AntiOrc.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.AntiOrc.Description"
+msgid "Buff for smashing Orcs"
+msgstr ""
+
+#. Key:	BearGuild.Buff.AntiOrc.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.AntiOrc.Name"
+msgid "Orc-Smasher"
+msgstr ""
+
+#. Key:	BearGuild.Buff.Bludgeon.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.Bludgeon.Description"
+msgid "Crush your opponents decisively"
+msgstr ""
+
+#. Key:	BearGuild.Buff.Bludgeon.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.Bludgeon.Name"
+msgid "Bludgeon-Smasher"
+msgstr ""
+
+#. Key:	BearGuild.Buff.Hunter.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.Hunter.Description"
+msgid "Buff for punching Monsters"
+msgstr ""
+
+#. Key:	BearGuild.Buff.Hunter.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.Hunter.Name"
+msgid "Hunter-Fists"
+msgstr ""
+
+#. Key:	BearGuild.Buff.PiercingDamage.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.PiercingDamage.Description"
+msgid "Piercing-Fist to damage the Watcher"
+msgstr ""
+
+#. Key:	BearGuild.Buff.PiercingDamage.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.PiercingDamage.Name"
+msgid "Piercing-Fists"
+msgstr ""
+
+#. Key:	BearGuild.Buff.Thunder.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.Thunder.Description"
+msgid "Buff to crush your enemies with the power of the thunder"
+msgstr ""
+
+#. Key:	BearGuild.Buff.Thunder.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.Thunder.Name"
+msgid "Thunder-Fists"
+msgstr ""
+
+#. Key:	BearGuild.Buff.WatcherEye.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.WatcherEye.Description"
+msgid "Butt to damage Watcher"
+msgstr ""
+
+#. Key:	BearGuild.Buff.WatcherEye.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects
+msgctxt "ST_Mod_Effects,BearGuild.Buff.WatcherEye.Name"
+msgid "Watcher-Hunter"
+msgstr ""
+
+#. Key:	100BuildingsPack_HangingIronLantern_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+msgctxt "ST_Mod_Interactables,100BuildingsPack_HangingIronLantern_A.Description"
+msgid "A simple and sturdy lantern"
+msgstr ""
+
+#. Key:	100BuildingsPack_HangingIronLantern_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+msgctxt "ST_Mod_Interactables,100BuildingsPack_HangingIronLantern_A.Name"
+msgid "Hanging iron lantern"
+msgstr ""
+
+#. Key:	100BuildingsPack_TelcharForge_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+msgctxt "ST_Mod_Interactables,100BuildingsPack_TelcharForge_A.Description"
+msgid "Advanced forge used by Telchar"
+msgstr ""
+
+#. Key:	100BuildingsPack_TelcharForge_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables
+msgctxt "ST_Mod_Interactables,100BuildingsPack_TelcharForge_A.Name"
+msgid "Telchar Forge"
+msgstr ""
+
+#. Key:	Armor.BearGuild.Gloves_T4.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Gloves_T4.Description"
+msgid "A weapon from the days of ol' Belegost. Leather and Brass. Durable, effective and handy in a pinch."
+msgstr ""
+
+#. Key:	Armor.BearGuild.Gloves_T4.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Gloves_T4.Name"
+msgid "Blue Mountains Mitts"
+msgstr ""
+
+#. Key:	Armor.BearGuild.Gloves_T5.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Gloves_T5.Description"
+msgid "Fists like Hammers."
+msgstr ""
+
+#. Key:	Armor.BearGuild.Gloves_T5.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Gloves_T5.Name"
+msgid "Nogrod Hammer-Fists"
+msgstr ""
+
+#. Key:	Armor.BearGuild.Gloves_T6.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Gloves_T6.Description"
+msgid "Crush your enemies with this rustic, timeless design."
+msgstr ""
+
+#. Key:	Armor.BearGuild.Gloves_T6.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Gloves_T6.Name"
+msgid "Mithril Knuckle Dusters"
+msgstr ""
+
+#. Key:	Armor.BearGuild.Shield.Broken.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Shield.Broken.Description"
+msgid "Use the Repair Smithy to mend."
+msgstr ""
+
+#. Key:	Armor.BearGuild.Shield.Broken.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Shield.Broken.Name"
+msgid "Broken Brawler’s Shield"
+msgstr ""
+
+#. Key:	Armor.BearGuild.Shield.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Shield.Description"
+msgid "A CaveBear is a worthy opponent. BearKnuckle Brawlers honor their first CaveBear by taking the beast with them in to future battles, in the form of this fearsome shield"
+msgstr ""
+
+#. Key:	Armor.BearGuild.Shield.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Armor.BearGuild.Shield.Name"
+msgid "Brawler’s Shield"
+msgstr ""
+
+#. Key:	Items.CrimsonIngot.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Items.CrimsonIngot.Description"
+msgid "A bar of crimson metal, red as the sunset."
+msgstr ""
+
+#. Key:	Items.CrimsonIngot.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Items.CrimsonIngot.Name"
+msgid "Crimson Metal Ingot"
+msgstr ""
+
+#. Key:	Items.FungalFoliageCutting_A.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Items.FungalFoliageCutting_A.Description"
+msgid "Plant to grow deep flowers."
+msgstr ""
+
+#. Key:	Items.FungalFoliageCutting_A.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Items.FungalFoliageCutting_A.Name"
+msgid "Deep Flowers Cutting"
+msgstr ""
+
+#. Key:	Items.FungalFoliageCutting_B.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Items.FungalFoliageCutting_B.Description"
+msgid "Plant to grow glowing mushrooms."
+msgstr ""
+
+#. Key:	Items.FungalFoliageCutting_B.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Items.FungalFoliageCutting_B.Name"
+msgid "Glowing Mushrooms Cutting"
+msgstr ""
+
+#. Key:	Tools.Hammer.Tobi.Broken.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Tools.Hammer.Tobi.Broken.Description"
+msgid "Use the Repair Smithy to mend."
+msgstr ""
+
+#. Key:	Tools.Hammer.Tobi.Broken.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Tools.Hammer.Tobi.Broken.Name"
+msgid "Broken Tobi’s Hammer"
+msgstr ""
+
+#. Key:	Tools.Hammer.Tobi.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Tools.Hammer.Tobi.Description"
+msgid "A tool created by the ancient architecs’ guild of Moria."
+msgstr ""
+
+#. Key:	Tools.Hammer.Tobi.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Tools.Hammer.Tobi.Name"
+msgid "Tobi’s Hammer"
+msgstr ""
+
+#. Key:	Weapons.Battleaxe.Dain.Broken.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Battleaxe.Dain.Broken.Description"
+msgid "Use the Repair Smithy to mend."
+msgstr ""
+
+#. Key:	Weapons.Battleaxe.Dain.Broken.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Battleaxe.Dain.Broken.Name"
+msgid "Broken Dain’s Battleaxe"
+msgstr ""
+
+#. Key:	Weapons.Battleaxe.Dain.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Battleaxe.Dain.Description"
+msgid "Battleaxe used by the Lord of the Iron Hills"
+msgstr ""
+
+#. Key:	Weapons.Battleaxe.Dain.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Battleaxe.Dain.Name"
+msgid "Dain’s Battleaxe"
+msgstr ""
+
+#. Key:	Weapons.Hammer.Dain.Broken.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Dain.Broken.Description"
+msgid "Use the Repair Smithy to mend."
+msgstr ""
+
+#. Key:	Weapons.Hammer.Dain.Broken.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Dain.Broken.Name"
+msgid "Broken Dain’s Warhammer"
+msgstr ""
+
+#. Key:	Weapons.Hammer.Dain.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Dain.Description"
+msgid "Warhammer used by Lord of the Iron Hills"
+msgstr ""
+
+#. Key:	Weapons.Hammer.Dain.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Dain.Name"
+msgid "Dain’s Warhammer"
+msgstr ""
+
+#. Key:	Weapons.Hammer.Thrain.Broken.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Thrain.Broken.Description"
+msgid "Use the Repair Smithy to mend."
+msgstr ""
+
+#. Key:	Weapons.Hammer.Thrain.Broken.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Thrain.Broken.Name"
+msgid "Broken Thrain’s Warhammer"
+msgstr ""
+
+#. Key:	Weapons.Hammer.Thrain.Description
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Thrain.Description"
+msgid "Warhammer used by King Thrain"
+msgstr ""
+
+#. Key:	Weapons.Hammer.Thrain.Name
+#. SourceLocation:	/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+#: /Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items
+msgctxt "ST_Mod_Items,Weapons.Hammer.Thrain.Name"
+msgid "Thrain’s Warhammer"
+msgstr ""
+
