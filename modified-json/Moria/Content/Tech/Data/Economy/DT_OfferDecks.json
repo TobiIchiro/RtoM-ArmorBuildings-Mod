@@ -105,7 +105,7 @@
     "ShireOffers_Default",
     "ShopkeeperOutfitRecipe_Offer_Default",
     "Silk_Offer_Default",
-    "Spiices_Offer_Default",
+    "Spices_Offer_Default",
     "StructProperty",
     "SunkenMoss_Offer_Default",
     "SweetrootSeeds_Offer_Default",
@@ -271,7 +271,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Spiices_Offer_Default"
+                        "Value": "Spices_Offer_Default"
                       }
                     ]
                   },
