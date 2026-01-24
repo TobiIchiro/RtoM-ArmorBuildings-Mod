@@ -2,18 +2,18 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Items/Effects/TintEffects/IE_TintEffect_RedBeryl",
+    "/Game/Items/Effects/TintEffects/IE_TintEffect_MoonStone",
     "/Script/CoreUObject",
     "/Script/Moria",
     "Class",
     "Default__MorItemTintEffect",
-    "IE_TintEffect_RedBeryl",
+    "IE_TintEffect_MoonStone",
     "MorItemTintEffect",
     "MorItemTintRowHandle",
     "NameProperty",
     "None",
     "Package",
-    "RedBeryl",
+    "Cyan",
     "RowHandle",
     "RowName",
     "StructProperty"
@@ -148,7 +148,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "RedBeryl"
+              "Value": "Cyan"
             }
           ]
         }
@@ -156,7 +156,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "IE_TintEffect_RedBeryl",
+      "ObjectName": "IE_TintEffect_MoonStone",
       "OuterIndex": 0,
       "ClassIndex": -1,
       "SuperIndex": 0,
@@ -259,7 +259,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Effects/TintEffects/IE_TintEffect_RedBeryl",
+  "FolderName": "/Game/Items/Effects/TintEffects/IE_TintEffect_MoonStone",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

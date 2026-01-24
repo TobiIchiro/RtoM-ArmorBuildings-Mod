@@ -249,7 +249,9 @@
     "Voxel",
     "WorldDynamic",
     "WorldStatic",
-    "Root"
+    "Root",
+    "/Game/Items/Effects/TintEffects/IE_TintEffect_MoonStone",
+    "IE_TintEffect_MoonStone"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2307,7 +2309,8 @@
         -58,
         -61,
         -13,
-        -5
+        -5,
+        -102
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -2444,6 +2447,15 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -65
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "9",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -102
             }
           ]
         },
@@ -6187,6 +6199,24 @@
       "OuterIndex": -84,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/Effects/TintEffects/IE_TintEffect_MoonStone",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "IE_TintEffect_MoonStone",
+      "OuterIndex": -101,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorItemTintEffect",
       "PackageName": null,
       "bImportOptional": false
     }
