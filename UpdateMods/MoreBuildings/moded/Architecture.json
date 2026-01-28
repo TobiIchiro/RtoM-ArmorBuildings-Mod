@@ -4529,6 +4529,86 @@
                     [
                         "StreetLampPack_StreetLamp_F.Description",
                         "Yellow"
+                    ],
+                    [
+                        "VasePack_Vase_A.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_A.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_B.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_B.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_C.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_C.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_D.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_D.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_E.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_E.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_F.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_F.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_G.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_G.Description",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_H.Name",
+                        "Vase"
+                    ],
+                    [
+                        "VasePack_Vase_H.Description",
+                        "Vase"
+                    ],
+                    [
+                        "JuboPack_JuboBanner_A.Name",
+                        "Jubo Banner"
+                    ],
+                    [
+                        "JuboPack_JuboBanner_A.Description",
+                        "The banner of Jubo_1071, otherwise know as Jubo Johnson, off"
+                    ],
+                    [
+                        "JuboPack_JuboFlag_A.Name",
+                        "Jubo Flag"
+                    ],
+                    [
+                        "JuboPack_JuboFlag_A.Description",
+                        "The flag of Jubo_1071, otherwise know as Jubo Johnson, off"
                     ]
                 ]
             },

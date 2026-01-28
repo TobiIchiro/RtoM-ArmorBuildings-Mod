@@ -715,7 +715,57 @@
         "/Game/Mods/StreetLampPack/BP_DM_Lighting_StreetLamp_F_Player",
         "/Game/Mods/StreetLampPack/BP_DM_Lighting_StreetLamp_F_Player.BP_DM_Lighting_StreetLamp_F_Player_C",
         "T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
-        "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_F"
+        "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
+        "VasePack_Vase_A",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_A",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_A.BP_VasePack_Vase_A_C",
+        "T_UI_BuildIcon_VasePack_Vase_A",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_A",
+        "VasePack_Vase_B",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_B",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_B.BP_VasePack_Vase_B_C",
+        "T_UI_BuildIcon_VasePack_Vase_B",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_B",
+        "VasePack_Vase_C",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_C",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_C.BP_VasePack_Vase_C_C",
+        "T_UI_BuildIcon_VasePack_Vase_C",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_C",
+        "VasePack_Vase_D",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_D",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_D.BP_VasePack_Vase_D_C",
+        "T_UI_BuildIcon_VasePack_Vase_D",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_D",
+        "VasePack_Vase_E",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_E",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_E.BP_VasePack_Vase_E_C",
+        "T_UI_BuildIcon_VasePack_Vase_E",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_E",
+        "VasePack_Vase_F",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_F",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_F.BP_VasePack_Vase_F_C",
+        "T_UI_BuildIcon_VasePack_Vase_F",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_F",
+        "VasePack_Vase_G",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_G",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_G.BP_VasePack_Vase_G_C",
+        "T_UI_BuildIcon_VasePack_Vase_G",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_G",
+        "VasePack_Vase_H",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_H",
+        "/Game/Mods/VasePack/BP_VasePack_Vase_H.BP_VasePack_Vase_H_C",
+        "T_UI_BuildIcon_VasePack_Vase_H",
+        "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_H",
+        "JuboPack_JuboBanner_A",
+        "/Game/Mods/JuboPack/BP_Jubo_Banner_A",
+        "/Game/Mods/JuboPack/BP_Jubo_Banner_A.BP_Jubo_Banner_A_C",
+        "T_UI_BuildIcon_JuboPack_JuboBanner_A",
+        "/Game/Mods/JuboPack/Constructions/Icons/T_UI_BuildIcon_JuboPack_JuboBanner_A",
+        "JuboPack_JuboFlag_A",
+        "/Game/Mods/JuboPack/BP_Jubo_Flag_A",
+        "/Game/Mods/JuboPack/BP_Jubo_Flag_A.BP_Jubo_Flag_A_C",
+        "T_UI_BuildIcon_JuboPack_JuboFlag_A",
+        "/Game/Mods/JuboPack/Constructions/Icons/T_UI_BuildIcon_JuboPack_JuboFlag_A"
     ],
     "Exports": [
         {
@@ -23171,7 +23221,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Lighting"
                                         ]
                                     }
                                 ]
@@ -23335,7 +23385,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Lighting"
                                         ]
                                     }
                                 ]
@@ -23499,7 +23549,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Lighting"
                                         ]
                                     }
                                 ]
@@ -23663,7 +23713,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Lighting"
                                         ]
                                     }
                                 ]
@@ -23827,7 +23877,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Deco.Jars"
+                                            "UI.Construction.Category.Deco.Lighting"
                                         ]
                                     }
                                 ]
@@ -23991,7 +24041,1647 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
+                                            "UI.Construction.Category.Deco.Lighting"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -286
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_A.BP_VasePack_Vase_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_A.BP_VasePack_Vase_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
                                             "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_B",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_B.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_B.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -288
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_B.BP_VasePack_Vase_B_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_B.BP_VasePack_Vase_B_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_C",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_C.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_C.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -290
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_C.BP_VasePack_Vase_C_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_C.BP_VasePack_Vase_C_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_D",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_D.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_D.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -292
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_D.BP_VasePack_Vase_D_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_D.BP_VasePack_Vase_D_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_E",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_E.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_E.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -294
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_E.BP_VasePack_Vase_E_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_E.BP_VasePack_Vase_E_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_F",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_F.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_F.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -296
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_F.BP_VasePack_Vase_F_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_F.BP_VasePack_Vase_F_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_G",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_G.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_G.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -298
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_G.BP_VasePack_Vase_G_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_G.BP_VasePack_Vase_G_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "VasePack_Vase_H",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_H.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "VasePack_Vase_H.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -300
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_H.BP_VasePack_Vase_H_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/VasePack/BP_VasePack_Vase_H.BP_VasePack_Vase_H_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Jars"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "JuboPack_JuboBanner_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "JuboPack_JuboBanner_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "JuboPack_JuboBanner_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -302
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/JuboPack/BP_Jubo_Banner_A.BP_Jubo_Banner_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/JuboPack/BP_Jubo_Banner_A.BP_Jubo_Banner_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Banners"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "JuboPack_JuboFlag_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "JuboPack_JuboFlag_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "JuboPack_JuboFlag_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -304
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/JuboPack/BP_Jubo_Flag_A.BP_Jubo_Flag_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/JuboPack/BP_Jubo_Flag_A.BP_Jubo_Flag_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Banners"
                                         ]
                                     }
                                 ]
@@ -26565,6 +28255,186 @@
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
             "OuterIndex": -283,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_A",
+            "OuterIndex": -285,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_B",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_B",
+            "OuterIndex": -287,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_C",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_C",
+            "OuterIndex": -289,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_D",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_D",
+            "OuterIndex": -291,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_E",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_E",
+            "OuterIndex": -293,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_F",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_F",
+            "OuterIndex": -295,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_G",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_G",
+            "OuterIndex": -297,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/VasePack/Constructions/Icons/T_UI_BuildIcon_VasePack_Vase_H",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_VasePack_Vase_H",
+            "OuterIndex": -299,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/JuboPack/Constructions/Icons/T_UI_BuildIcon_JuboPack_JuboBanner_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_JuboPack_JuboBanner_A",
+            "OuterIndex": -301,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/JuboPack/Constructions/Icons/T_UI_BuildIcon_JuboPack_JuboFlag_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_JuboPack_JuboFlag_A",
+            "OuterIndex": -303,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
             "PackageName": null,
