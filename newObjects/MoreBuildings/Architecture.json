@@ -1218,6 +1218,110 @@
                     [
                         "JuboPack_JuboFlag_A.Description",
                         "The flag of Jubo_1071, otherwise know as Jubo Johnson, off"
+                    ],
+                    [
+                        "Mereak_UpdatePack_ThinGraniteArch_A.Name",
+                        "Thin Granite Arch"
+                    ],
+                    [
+                        "Mereak_UpdatePack_ThinGraniteArch_A.Description",
+                        "A thin arch of granite"
+                    ],
+                    [
+                        "Mereak_UpdatePack_HorizontalBeam_A.Name",
+                        "Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_HorizontalBeam_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_RoundBaseTrim_A.Name",
+                        "round base trim"
+                    ],
+                    [
+                        "Mereak_UpdatePack_RoundBaseTrim_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_Archway_A.Name",
+                        "archway"
+                    ],
+                    [
+                        "Mereak_UpdatePack_Archway_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_ThickRoof_A.Name",
+                        "Thick Roof"
+                    ],
+                    [
+                        "Mereak_UpdatePack_ThickRoof_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_WoodShopToolRack_A.Name",
+                        "wood shop tool rack"
+                    ],
+                    [
+                        "Mereak_UpdatePack_WoodShopToolRack_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_NiceWoodFloor_A.Name",
+                        "Nice wood floor"
+                    ],
+                    [
+                        "Mereak_UpdatePack_NiceWoodFloor_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_FoundationBlock_A.Name",
+                        "Foundation block"
+                    ],
+                    [
+                        "Mereak_UpdatePack_FoundationBlock_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_RoofCornerShort_A.Name",
+                        "roof corner short"
+                    ],
+                    [
+                        "Mereak_UpdatePack_RoofCornerShort_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_RoofShort_A.Name",
+                        "roof short"
+                    ],
+                    [
+                        "Mereak_UpdatePack_RoofShort_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_OrnateDarkWoodFloor_A.Name",
+                        "ornate dark wood floor"
+                    ],
+                    [
+                        "Mereak_UpdatePack_OrnateDarkWoodFloor_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_GardenFence_A.Name",
+                        "Garden Fence"
+                    ],
+                    [
+                        "Mereak_UpdatePack_GardenFence_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Mereak_UpdatePack_Fence_A.Name",
+                        "Fence"
+                    ],
+                    [
+                        "Mereak_UpdatePack_Fence_A.Description",
+                        "An Horizontal Beam"
                     ]
                 ]
             }
