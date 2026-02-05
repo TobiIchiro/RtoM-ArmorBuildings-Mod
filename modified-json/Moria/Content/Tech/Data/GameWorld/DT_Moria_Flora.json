@@ -321,7 +321,13 @@
     "/Game/Mods/FungalPack/BP_Flora_QuietMossReceptacle_Plantable.BP_Flora_QuietMossReceptacle_Plantable_C",
     "OilyPeatMoss_Planted",
     "/Game/Mods/FungalPack/BP_Flora_OilyPeatMossReceptacle_Plantable.BP_Flora_OilyPeatMossReceptacle_Plantable_C",
-    "Flora.Plantable.OilyPeatMoss"
+    "Flora.Plantable.OilyPeatMoss",
+    "Flora.Tree.FungalFoliageALarge",
+    "Flora.Tree.FungalFoliageAMed",
+    "Flora.Tree.FungalFoliageASmall",
+    "Flora.Tree.FungalFoliageBLarge",
+    "Flora.Tree.FungalFoliageBMed",
+    "Flora.Tree.FungalFoliageBSmall"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -33332,7 +33338,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalTreeLarge"
+                      "Flora.Tree.FungalFoliageALarge"
                     ]
                   }
                 ]
@@ -33359,7 +33365,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalTreeLarge"
+                      "Flora.Tree.FungalFoliageALarge"
                     ]
                   }
                 ]
@@ -33385,7 +33391,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Flora.Tree.FungalTreeLarge",
+                      "Flora.Tree.FungalFoliageALarge",
                       "Flora.GrowthStage.Ready"
                     ]
                   }
@@ -33805,7 +33811,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalTreeMed"
+                      "Flora.Tree.FungalFoliageAMed"
                     ]
                   }
                 ]
@@ -33832,7 +33838,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalTreeMed"
+                      "Flora.Tree.FungalFoliageAMed"
                     ]
                   }
                 ]
@@ -33859,7 +33865,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalTreeMed"
+                      "Flora.Tree.FungalFoliageAMed"
                     ]
                   }
                 ]
@@ -34278,7 +34284,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalTreeSmall"
+                      "Flora.Tree.FungalFoliageASmall"
                     ]
                   }
                 ]
@@ -34305,7 +34311,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalTreeSmall"
+                      "Flora.Tree.FungalFoliageASmall"
                     ]
                   }
                 ]
@@ -34332,7 +34338,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalTreeSmall"
+                      "Flora.Tree.FungalFoliageASmall"
                     ]
                   }
                 ]
@@ -34751,7 +34757,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalTreeLarge"
+                      "Flora.Tree.FungalFoliageBLarge"
                     ]
                   }
                 ]
@@ -34778,7 +34784,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalTreeLarge"
+                      "Flora.Tree.FungalFoliageBLarge"
                     ]
                   }
                 ]
@@ -34804,7 +34810,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Flora.Tree.FungalTreeLarge",
+                      "Flora.Tree.FungalFoliageBLarge",
                       "Flora.GrowthStage.Ready"
                     ]
                   }
@@ -35224,7 +35230,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalTreeMed"
+                      "Flora.Tree.FungalFoliageBMed"
                     ]
                   }
                 ]
@@ -35251,7 +35257,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalTreeMed"
+                      "Flora.Tree.FungalFoliageBMed"
                     ]
                   }
                 ]
@@ -35278,7 +35284,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalTreeMed"
+                      "Flora.Tree.FungalFoliageBMed"
                     ]
                   }
                 ]
@@ -35697,7 +35703,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalTreeSmall"
+                      "Flora.Tree.FungalFoliageBSmall"
                     ]
                   }
                 ]
@@ -35724,7 +35730,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalTreeSmall"
+                      "Flora.Tree.FungalFoliageBSmall"
                     ]
                   }
                 ]
@@ -35751,7 +35757,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalTreeSmall"
+                      "Flora.Tree.FungalFoliageBSmall"
                     ]
                   }
                 ]
