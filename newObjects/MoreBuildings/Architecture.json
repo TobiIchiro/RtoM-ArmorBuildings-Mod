@@ -1322,6 +1322,38 @@
                     [
                         "Mereak_UpdatePack_Fence_A.Description",
                         "An Horizontal Beam"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_SmallStoutArchway_A.Name",
+                        "Small Stout Archway"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_SmallStoutArchway_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_SmallNotchedArchway_A.Name",
+                        "Small Notched Archway"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_SmallNotchedArchway_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_StoutPrisonArchway_A.Name",
+                        "Stout Prison Archway"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_StoutPrisonArchway_A.Description",
+                        "An Horizontal Beam"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_StoutDoorArchway_A.Name",
+                        "Stout Door Archway"
+                    ],
+                    [
+                        "Grumni_ArchwaysPack_StoutDoorArchway_A.Description",
+                        "An Horizontal Beam"
                     ]
                 ]
             }
