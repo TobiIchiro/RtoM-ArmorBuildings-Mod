@@ -1354,6 +1354,22 @@
                     [
                         "Grumni_ArchwaysPack_StoutDoorArchway_A.Description",
                         "An Horizontal Beam"
+                    ],
+                    [
+                        "JuboPack_JuboBanner_B.Name",
+                        "Jubo Banner"
+                    ],
+                    [
+                        "JuboPack_JuboBanner_B.Description",
+                        "Banner XL"
+                    ],
+                    [
+                        "JuboPack_JuboGuardPoint_A.Name",
+                        "Jubo Guard Point"
+                    ],
+                    [
+                        "JuboPack_JuboGuardPoint_A.Description",
+                        "Banner XL"
                     ]
                 ]
             }
