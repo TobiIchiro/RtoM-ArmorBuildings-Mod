@@ -8,7 +8,7 @@
     "/Game/Mods/BannersPack/Meshes/SM_ModBanner_B",
     "/Game/Environments/Models/NaturalDeco/Meshes/SM_BannerPole_B",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/Mods/JuboPack/BP_Jubo_Banner_A",
+    "/Game/Mods/JuboPack/BP_Jubo_Banner_A_XL",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -17,7 +17,7 @@
     "bIsParentComponentNative",
     "BlueprintGeneratedClass",
     "BoolProperty",
-    "BP_Jubo_Banner_A_C",
+    "BP_Jubo_Banner_A_XL_C",
     "BP_BaseBreakable_C",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
@@ -26,7 +26,7 @@
     "ComponentClass",
     "ComponentTemplate",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Jubo_Banner_A_C",
+    "Default__BP_Jubo_Banner_A_XL_C",
     "Default__BP_BaseBreakable_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
@@ -269,7 +269,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Jubo_Banner_A_C",
+      "ObjectName": "BP_Jubo_Banner_A_XL_C",
       "OuterIndex": 0,
       "ClassIndex": -5,
       "SuperIndex": -1,
@@ -329,7 +329,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Jubo_Banner_A_C",
+      "ObjectName": "Default__BP_Jubo_Banner_A_XL_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -446,9 +446,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 1.0,
-                "Y": 1.3125,
-                "Z": 1.0
+                "X": 2.0,
+                "Y": 2.625,
+                "Z": 2.0
               }
             }
           ]
@@ -1445,7 +1445,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/JuboPack/BP_Jubo_Banner_A",
+  "FolderName": "/Game/Mods/JuboPack/BP_Jubo_Banner_A_XL",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

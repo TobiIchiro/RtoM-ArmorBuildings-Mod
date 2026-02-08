@@ -5,10 +5,10 @@
     "/Game/Animations/Dwarf/NPC/Dwa_NPC_UA_N_Breathe_Montage",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Guard_Post_B_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Guard_Post_B_Destructible.DM_Guard_Post_B_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/SM_Guard_Post_B",
+    "/Game/Mods/BannersPack/Meshes/SM_Mod_Post_Guard_A",
     "/Game/Character/NpcDwarf/Bst_NPCGuardPoint",
     "/Game/Character/Shared/Effects/Survival/GE_Warm",
-    "/Game/LevelDesign/Placeables/Interactables/BP_GuardPoint",
+    "/Game/Mods/JuboPack/BP_Jubo_GuardPoint",
     "/Game/Tech/Data/StringTables/Interactables",
     "/Game/Tech/Data/StringTables/Interactables.Interactables",
     "/Script/AkAudio",
@@ -35,7 +35,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BoxComponent",
-    "BP_GuardPoint_C",
+    "BP_Jubo_GuardPoint_C",
     "Bst_NPCGuardPoint_C",
     "bUseStandardInteractState",
     "ByteProperty",
@@ -52,7 +52,7 @@
     "Default__AkComponent",
     "Default__ApplyEffectRadiusComponent",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_GuardPoint_C",
+    "Default__BP_Jubo_GuardPoint_C",
     "Default__Bst_NPCGuardPoint_C",
     "Default__GE_Warm_C",
     "Default__MorAIBehaviorPointComponent",
@@ -122,7 +122,7 @@
     "ScriptStruct",
     "SCS_Node",
     "SimpleConstructionScript",
-    "SM_Guard_Post_B",
+    "SM_Mod_Post_Guard_A",
     "SoftObjectProperty",
     "StaticMesh",
     "StringTable",
@@ -132,7 +132,17 @@
     "TextProperty",
     "VariableGuid",
     "Vector",
-    "Root"
+    "Root",
+    "OverrideMaterials",
+    "MaterialInstanceConstant",
+    "/Game/Art/Assets/Kits/Deco_Architecture/Mines/Materials/Mines_Scaffolding/MI_Mines_Scaffolding_B_Mat",
+    "MI_Mines_Scaffolding_B_Mat",
+    "/Game/Art/Assets/Kits/Deco_Architecture/Mines/Materials/Mines_Scaffolding/MI_Mines_Scaffolding_C_Mat",
+    "MI_Mines_Scaffolding_C_Mat",
+    "/Game/Environments/Models/NaturalDeco/Materials/MI_ArchSimple_BannerPole_Metal",
+    "MI_ArchSimple_BannerPole_Metal",
+    "/Game/Mods/JuboPack/Materials/MI_Jubo_Banner_A",
+    "MI_Jubo_Banner_A"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -403,7 +413,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_GuardPoint_C",
+      "ObjectName": "BP_Jubo_GuardPoint_C",
       "OuterIndex": 0,
       "ClassIndex": -11,
       "SuperIndex": -22,
@@ -434,7 +444,11 @@
         -27,
         -2,
         -11,
-        -6
+        -6,
+        -51,
+        -53,
+        -55,
+        -57
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -503,7 +517,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_GuardPoint_C",
+      "ObjectName": "Default__BP_Jubo_GuardPoint_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1035,6 +1049,53 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -48
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -51
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -53
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -55
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -57
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -2412,7 +2473,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/SM_Guard_Post_B",
+      "ObjectName": "/Game/Mods/BannersPack/Meshes/SM_Mod_Post_Guard_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2520,7 +2581,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_Guard_Post_B",
+      "ObjectName": "SM_Mod_Post_Guard_A",
       "OuterIndex": -36,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2533,6 +2594,78 @@
       "OuterIndex": -37,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Deco_Architecture/Mines/Materials/Mines_Scaffolding/MI_Mines_Scaffolding_B_Mat",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Mines_Scaffolding_B_Mat",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Deco_Architecture/Mines/Materials/Mines_Scaffolding/MI_Mines_Scaffolding_C_Mat",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Mines_Scaffolding_C_Mat",
+      "OuterIndex": -52,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Environments/Models/NaturalDeco/Materials/MI_ArchSimple_BannerPole_Metal",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_ArchSimple_BannerPole_Metal",
+      "OuterIndex": -54,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/JuboPack/Materials/MI_Jubo_Banner_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Jubo_Banner_A",
+      "OuterIndex": -56,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -2590,7 +2723,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Placeables/Interactables/BP_GuardPoint",
+  "FolderName": "/Game/Mods/JuboPack/BP_Jubo_GuardPoint",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
