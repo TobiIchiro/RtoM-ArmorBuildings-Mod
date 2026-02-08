@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Mod_Interactables",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Mod_Interactables",
+      "KeysToEntries": {
+        "100BuildingsPack_TelcharForge_A.Name": "Telchar Forge",
+        "100BuildingsPack_TelcharForge_A.Description": "Advanced forge used by Telchar",
+        "100BuildingsPack_HangingIronLantern_A.Name": "Hanging iron lantern",
+        "100BuildingsPack_HangingIronLantern_A.Description": "A simple and sturdy lantern"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

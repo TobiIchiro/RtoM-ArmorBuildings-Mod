@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Mod_Items",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Mod_Items",
+      "KeysToEntries": {
+        "Tools.Hammer.Tobi.Name": "Tobi’s Hammer",
+        "Tools.Hammer.Tobi.Description": "A tool created by the ancient architecs’ guild of Moria.",
+        "Tools.Hammer.Tobi.Broken.Name": "Broken Tobi’s Hammer",
+        "Tools.Hammer.Tobi.Broken.Description": "Use the Repair Smithy to mend.",
+        "Weapons.Hammer.Dain.Name": "Dain’s Warhammer",
+        "Weapons.Hammer.Dain.Description": "Warhammer used by Lord of the Iron Hills",
+        "Weapons.Hammer.Dain.Broken.Name": "Broken Dain’s Warhammer",
+        "Weapons.Hammer.Dain.Broken.Description": "Use the Repair Smithy to mend.",
+        "Weapons.Hammer.Thrain.Name": "Thrain’s Warhammer",
+        "Weapons.Hammer.Thrain.Description": "Warhammer used by King Thrain",
+        "Weapons.Hammer.Thrain.Broken.Name": "Broken Thrain’s Warhammer",
+        "Weapons.Hammer.Thrain.Broken.Description": "Use the Repair Smithy to mend.",
+        "Weapons.Battleaxe.Dain.Name": "Dain’s Battleaxe",
+        "Weapons.Battleaxe.Dain.Broken.Name": "Broken Dain’s Battleaxe",
+        "Weapons.Battleaxe.Dain.Broken.Description": "Use the Repair Smithy to mend.",
+        "Armor.BearGuild.Gloves_T4.Name": "Blue Mountains Mitts",
+        "Armor.BearGuild.Gloves_T4.Description": "A weapon from the days of ol' Belegost. Leather and Brass. Durable, effective and handy in a pinch.",
+        "Armor.BearGuild.Gloves_T5.Name": "Nogrod Hammer-Fists",
+        "Armor.BearGuild.Gloves_T5.Description": "Fists like Hammers.",
+        "Armor.BearGuild.Gloves_T6.Name": "Mithril Knuckle Dusters",
+        "Armor.BearGuild.Gloves_T6.Description": "Crush your enemies with this rustic, timeless design.",
+        "Armor.BearGuild.Shield.Name": "Brawler’s Shield",
+        "Armor.BearGuild.Shield.Description": "A CaveBear is a worthy opponent. BearKnuckle Brawlers honor their first CaveBear by taking the beast with them in to future battles, in the form of this fearsome shield",
+        "Armor.BearGuild.Shield.Broken.Name": "Broken Brawler’s Shield",
+        "Armor.BearGuild.Shield.Broken.Description": "Use the Repair Smithy to mend.",
+        "Items.CrimsonIngot.Name": "Crimson Metal Ingot",
+        "Items.CrimsonIngot.Description": "A bar of crimson metal, red as the sunset.",
+        "Items.FungalFoliageCutting_A.Name": "Deep Flowers Cutting",
+        "Items.FungalFoliageCutting_A.Description": "Plant to grow deep flowers.",
+        "Items.FungalFoliageCutting_B.Name": "Glowing Mushrooms Cutting",
+        "Items.FungalFoliageCutting_B.Description": "Plant to grow glowing mushrooms.",
+        "Weapons.Battleaxe.Dain.Description": "Battleaxe used by the Lord of the Iron Hills",
+        "Weapons.Battleaxe.Mereak.Name": "Firmaxe’s Clan Battleaxe",
+        "Weapons.Battleaxe.Mereak.Description": "An ancient Battleaxe that belonged to the ancient Firmaxe clan.",
+        "Weapons.Battleaxe.Mereak.Broken.Name": "Broken Firmaxe’s Clan Battleaxe",
+        "Weapons.Battleaxe.Mereak.Broken.Description": "Use the Repair Smithy to mend."
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]
