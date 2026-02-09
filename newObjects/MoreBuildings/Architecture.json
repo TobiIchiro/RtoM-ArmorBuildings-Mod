@@ -1370,6 +1370,30 @@
                     [
                         "JuboPack_JuboGuardPoint_A.Description",
                         "Banner XL"
+                    ],
+                    [
+                        "RailingsPack_RailingCorner_A.Name",
+                        "Railing Corner"
+                    ],
+                    [
+                        "RailingsPack_RailingCorner_A.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingsPack_Railing_A.Name",
+                        "Railing"
+                    ],
+                    [
+                        "RailingsPack_Railing_A.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingsPack_Railing_B.Name",
+                        "Railing"
+                    ],
+                    [
+                        "RailingsPack_Railing_B.Description",
+                        "z"
                     ]
                 ]
             }
