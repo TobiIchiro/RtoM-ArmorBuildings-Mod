@@ -1394,6 +1394,54 @@
                     [
                         "RailingsPack_Railing_B.Description",
                         "z"
+                    ],
+                    [
+                        "RailingPack_RailingCorner_WhiteMarble_A.Name",
+                        "Railing Corner_White Marble"
+                    ],
+                    [
+                        "RailingPack_RailingCorner_WhiteMarble_A.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingPack_Railing_WhiteMarble_A.Name",
+                        "Railing_White Marble"
+                    ],
+                    [
+                        "RailingPack_Railing_WhiteMarble_A.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingPack_Railing_WhiteMarble_B.Name",
+                        "Railing_White Marble"
+                    ],
+                    [
+                        "RailingPack_Railing_WhiteMarble_B.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingPack_RailingCorner_RedRock_A.Name",
+                        "Railing Corner_Red Rock"
+                    ],
+                    [
+                        "RailingPack_RailingCorner_RedRock_A.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingPack_Railing_RedRock_A.Name",
+                        "Railing_Red Rock"
+                    ],
+                    [
+                        "RailingPack_Railing_RedRock_A.Description",
+                        "z"
+                    ],
+                    [
+                        "RailingPack_Railing_RedRock_B.Name",
+                        "Railing_Red Rock"
+                    ],
+                    [
+                        "RailingPack_Railing_RedRock_B.Description",
+                        "z"
                     ]
                 ]
             }
