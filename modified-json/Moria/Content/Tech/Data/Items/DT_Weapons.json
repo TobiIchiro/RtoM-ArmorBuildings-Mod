@@ -90425,13 +90425,13 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 700
+                                "Value": 1100
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                                 "ByteType": "Byte",
                                 "EnumType": "None",
-                                "Value": 4,
+                                "Value": 6,
                                 "Name": "Tier",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90445,11 +90445,11 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 32
+                                "Value": 52
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 1.0,
+                                "Value": 0.9,
                                 "Name": "Speed",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90458,7 +90458,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 0.800000011920929,
+                                "Value": 0.0,
                                 "Name": "ArmorPenetration",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90476,7 +90476,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 0.20000000298023224,
+                                "Value": 0.2,
                                 "Name": "EnergyCost",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90485,7 +90485,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 50.0,
+                                "Value": 30.0,
                                 "Name": "BlockDamageReduction",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
