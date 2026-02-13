@@ -664,6 +664,7 @@
         "IronHills_APSet_Shield",
         "Item.Ammo.Arrow",
         "Item.Ammo.Bolt",
+        "Item.BasicGather",
         "Item.EpicItem",
         "Item.Scrap",
         "Item.Untintable",
