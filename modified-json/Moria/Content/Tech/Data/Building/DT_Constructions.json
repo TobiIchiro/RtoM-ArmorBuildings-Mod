@@ -5668,36 +5668,36 @@
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Small_B2_Railing.BP_Suburbs_Stairs_Small_B2_Railing_C",
         "T_UI_BuildIcon_RailingsPack_Railing_B",
         "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_B",
-        "RailingPack_RailingCorner_WhiteMarble_A",
+        "RailingsPack_RailingCorner_WhiteMarble_A",
         "/Game/Mods/RailingsPack/BP_Suburbs_Balustrade_Corner_1m_Mod_WhiteMarble",
         "/Game/Mods/RailingsPack/BP_Suburbs_Balustrade_Corner_1m_Mod_WhiteMarble.BP_Suburbs_Balustrade_Corner_1m_Mod_WhiteMarble_C",
-        "T_UI_BuildIcon_RailingPack_RailingCorner_WhiteMarble_A",
-        "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_RailingCorner_WhiteMarble_A",
-        "RailingPack_Railing_WhiteMarble_A",
+        "T_UI_BuildIcon_RailingsPack_RailingCorner_WhiteMarble_A",
+        "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_RailingCorner_WhiteMarble_A",
+        "RailingsPack_Railing_WhiteMarble_A",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Medium_B2_Railing_WhiteMarble",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Medium_B2_Railing_WhiteMarble.BP_Suburbs_Stairs_Medium_B2_Railing_WhiteMarble_C",
-        "T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_A",
-        "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_A",
-        "RailingPack_Railing_WhiteMarble_B",
+        "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_A",
+        "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_A",
+        "RailingsPack_Railing_WhiteMarble_B",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Small_B2_Railing_WhiteMarble",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Small_B2_Railing_WhiteMarble.BP_Suburbs_Stairs_Small_B2_Railing_WhiteMarble_C",
-        "T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_B",
-        "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_B",
-        "RailingPack_RailingCorner_RedRock_A",
+        "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_B",
+        "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_B",
+        "RailingsPack_RailingCorner_RedRock_A",
         "/Game/Mods/RailingsPack/BP_Suburbs_Balustrade_Corner_1m_Mod_RedRock",
         "/Game/Mods/RailingsPack/BP_Suburbs_Balustrade_Corner_1m_Mod_RedRock.BP_Suburbs_Balustrade_Corner_1m_Mod_RedRock_C",
-        "T_UI_BuildIcon_RailingPack_RailingCorner_RedRock_A",
-        "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_RailingCorner_RedRock_A",
-        "RailingPack_Railing_RedRock_A",
+        "T_UI_BuildIcon_RailingsPack_RailingCorner_RedRock_A",
+        "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_RailingCorner_RedRock_A",
+        "RailingsPack_Railing_RedRock_A",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Medium_B2_Railing_RedRock",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Medium_B2_Railing_RedRock.BP_Suburbs_Stairs_Medium_B2_Railing_RedRock_C",
-        "T_UI_BuildIcon_RailingPack_Railing_RedRock_A",
-        "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_RedRock_A",
-        "RailingPack_Railing_RedRock_B",
+        "T_UI_BuildIcon_RailingsPack_Railing_RedRock_A",
+        "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_RedRock_A",
+        "RailingsPack_Railing_RedRock_B",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Small_B2_Railing_RedRock",
         "/Game/Mods/RailingsPack/BP_Suburbs_Stairs_Small_B2_Railing_RedRock.BP_Suburbs_Stairs_Small_B2_Railing_RedRock_C",
-        "T_UI_BuildIcon_RailingPack_Railing_RedRock_B",
-        "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_RedRock_B"
+        "T_UI_BuildIcon_RailingsPack_Railing_RedRock_B",
+        "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_RedRock_B"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -172350,7 +172350,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "RailingPack_RailingCorner_WhiteMarble_A",
+                        "Name": "RailingsPack_RailingCorner_WhiteMarble_A",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -172375,7 +172375,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_RailingCorner_WhiteMarble_A.Name"
+                                "Value": "RailingsPack_RailingCorner_WhiteMarble_A.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -172396,7 +172396,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_RailingCorner_WhiteMarble_A.Description"
+                                "Value": "RailingsPack_RailingCorner_WhiteMarble_A.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -172514,7 +172514,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "RailingPack_Railing_WhiteMarble_A",
+                        "Name": "RailingsPack_Railing_WhiteMarble_A",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -172539,7 +172539,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_WhiteMarble_A.Name"
+                                "Value": "RailingsPack_Railing_WhiteMarble_A.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -172560,7 +172560,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_WhiteMarble_A.Description"
+                                "Value": "RailingsPack_Railing_WhiteMarble_A.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -172678,7 +172678,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "RailingPack_Railing_WhiteMarble_B",
+                        "Name": "RailingsPack_Railing_WhiteMarble_B",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -172703,7 +172703,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_WhiteMarble_B.Name"
+                                "Value": "RailingsPack_Railing_WhiteMarble_B.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -172724,7 +172724,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_WhiteMarble_B.Description"
+                                "Value": "RailingsPack_Railing_WhiteMarble_B.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -172842,7 +172842,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "RailingPack_RailingCorner_RedRock_A",
+                        "Name": "RailingsPack_RailingCorner_RedRock_A",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -172867,7 +172867,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_RailingCorner_RedRock_A.Name"
+                                "Value": "RailingsPack_RailingCorner_RedRock_A.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -172888,7 +172888,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_RailingCorner_RedRock_A.Description"
+                                "Value": "RailingsPack_RailingCorner_RedRock_A.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -173006,7 +173006,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "RailingPack_Railing_RedRock_A",
+                        "Name": "RailingsPack_Railing_RedRock_A",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -173031,7 +173031,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_RedRock_A.Name"
+                                "Value": "RailingsPack_Railing_RedRock_A.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -173052,7 +173052,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_RedRock_A.Description"
+                                "Value": "RailingsPack_Railing_RedRock_A.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -173170,7 +173170,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "RailingPack_Railing_RedRock_B",
+                        "Name": "RailingsPack_Railing_RedRock_B",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -173195,7 +173195,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_RedRock_B.Name"
+                                "Value": "RailingsPack_Railing_RedRock_B.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -173216,7 +173216,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "RailingPack_Railing_RedRock_B.Description"
+                                "Value": "RailingsPack_Railing_RedRock_B.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -192323,7 +192323,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_RailingCorner_WhiteMarble_A",
+            "ObjectName": "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_RailingCorner_WhiteMarble_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -192332,7 +192332,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_RailingPack_RailingCorner_WhiteMarble_A",
+            "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_WhiteMarble_A",
             "OuterIndex": -1994,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
@@ -192341,7 +192341,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_A",
+            "ObjectName": "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -192350,7 +192350,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_A",
+            "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_A",
             "OuterIndex": -1996,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
@@ -192359,7 +192359,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_B",
+            "ObjectName": "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_B",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -192368,7 +192368,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_RailingPack_Railing_WhiteMarble_B",
+            "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_B",
             "OuterIndex": -1998,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
@@ -192377,7 +192377,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_RailingCorner_RedRock_A",
+            "ObjectName": "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_RailingCorner_RedRock_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -192386,7 +192386,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_RailingPack_RailingCorner_RedRock_A",
+            "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_RedRock_A",
             "OuterIndex": -2000,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
@@ -192395,7 +192395,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_RedRock_A",
+            "ObjectName": "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_RedRock_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -192404,7 +192404,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_RailingPack_Railing_RedRock_A",
+            "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_RedRock_A",
             "OuterIndex": -2002,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
@@ -192413,7 +192413,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/RailingPack/Constructions/Icons/T_UI_BuildIcon_RailingPack_Railing_RedRock_B",
+            "ObjectName": "/Game/Mods/RailingsPack/Constructions/Icons/T_UI_BuildIcon_RailingsPack_Railing_RedRock_B",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -192422,7 +192422,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_RailingPack_Railing_RedRock_B",
+            "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_RedRock_B",
             "OuterIndex": -2004,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",

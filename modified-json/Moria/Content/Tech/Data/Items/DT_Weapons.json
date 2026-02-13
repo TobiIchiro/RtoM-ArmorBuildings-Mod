@@ -74436,7 +74436,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Weapon.Ammo",
-                                            "Item.Ammo.Arrow"
+                                            "Item.Ammo.Arrow",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -74931,7 +74932,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Weapon.Ammo",
-                                            "Item.Ammo.Arrow"
+                                            "Item.Ammo.Arrow",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -75426,7 +75428,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Weapon.Ammo",
-                                            "Item.Ammo.Arrow"
+                                            "Item.Ammo.Arrow",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -75921,7 +75924,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Weapon.Ammo",
-                                            "Item.Ammo.Bolt"
+                                            "Item.Ammo.Bolt",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -76416,7 +76420,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Weapon.Ammo",
-                                            "Item.Ammo.Bolt"
+                                            "Item.Ammo.Bolt",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -76911,7 +76916,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Weapon.Ammo",
-                                            "Item.Ammo.Bolt"
+                                            "Item.Ammo.Bolt",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -90425,13 +90431,13 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 700
+                                "Value": 1100
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                                 "ByteType": "Byte",
                                 "EnumType": "None",
-                                "Value": 4,
+                                "Value": 6,
                                 "Name": "Tier",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90445,11 +90451,11 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 32
+                                "Value": 52
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 1.0,
+                                "Value": 0.9,
                                 "Name": "Speed",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90458,7 +90464,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 0.800000011920929,
+                                "Value": 0.0,
                                 "Name": "ArmorPenetration",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90476,7 +90482,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 0.20000000298023224,
+                                "Value": 0.2,
                                 "Name": "EnergyCost",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -90485,7 +90491,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 50.0,
+                                "Value": 30.0,
                                 "Name": "BlockDamageReduction",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -91491,380 +91497,380 @@
                                 "Value": "ERowEnabledState::Live"
                             }
                         ]
-                    }
-                ]
-            },
-            "Data": [
-                {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                    "Name": "RowStruct",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": -31
-                }
-            ],
-            "ObjectGuid": null,
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "ObjectName": "DT_Weapons",
-            "OuterIndex": 0,
-            "ClassIndex": -5,
-            "SuperIndex": 0,
-            "TemplateIndex": -10,
-            "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
-            "SerialSize": 276830,
-            "SerialOffset": 51240,
-            "ScriptSerializationStartOffset": 0,
-            "ScriptSerializationEndOffset": 0,
-            "bForcedExport": false,
-            "bNotForClient": false,
-            "bNotForServer": false,
-            "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
-            "IsInheritedInstance": false,
-            "PackageFlags": "PKG_None",
-            "bNotAlwaysLoadedForEditorGame": false,
-            "bIsAsset": true,
-            "GeneratePublicHash": false,
-            "SerializationBeforeSerializationDependencies": [],
-            "CreateBeforeSerializationDependencies": [],
-            "SerializationBeforeCreateDependencies": [
-                -33,
-                -14,
-                -6,
-                -12,
-                -7,
-                -13,
-                -32,
-                -15,
-                -8,
-                -9,
-                -34,
-                -36,
-                -5,
-                -10
-            ],
-            "CreateBeforeCreateDependencies": [],
-            "Extras": ""
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -31
         }
-    ],
-    "SearchableNames": null,
-    "Thumbnails": null,
-    "WorldTileInfo": null,
-    "AppendedNullBytes": 0,
-    "OtherAssetsFailedToAccess": [],
-    "LegacyFileVersion": -7,
-    "DataResourceVersion": "Invalid",
-    "DataResources": null,
-    "UsesEventDrivenLoader": true,
-    "WillSerializeNameHashes": true,
-    "Imports": [
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "GE_ShadowResist_DurinsArmor_C",
-            "OuterIndex": -16,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "BlueprintGeneratedClass",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "GE_Poisoned_C",
-            "OuterIndex": -17,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "BlueprintGeneratedClass",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "GE_Shield_Illuminate_C",
-            "OuterIndex": -18,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "BlueprintGeneratedClass",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "GE_Shield_Taunt_C",
-            "OuterIndex": -19,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "BlueprintGeneratedClass",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "DataTable",
-            "OuterIndex": -27,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Class",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Curve_RepairCost_Constant",
-            "OuterIndex": -20,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "CurveFloat",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Curve_RepairCost_Exponential",
-            "OuterIndex": -21,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "CurveFloat",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Curve_RepairCost_Linear",
-            "OuterIndex": -22,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "CurveFloat",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Curve_RepairCost_Logarithmic",
-            "OuterIndex": -23,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "CurveFloat",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Default__DataTable",
-            "OuterIndex": -27,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "DataTable",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Default__GE_Poisoned_C",
-            "OuterIndex": -17,
-            "ClassPackage": "/Game/Character/Shared/Effects/Survival/GE_Poisoned",
-            "ClassName": "GE_Poisoned_C",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Default__GE_ShadowResist_DurinsArmor_C",
-            "OuterIndex": -16,
-            "ClassPackage": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsArmor",
-            "ClassName": "GE_ShadowResist_DurinsArmor_C",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Default__GE_Shield_Illuminate_C",
-            "OuterIndex": -18,
-            "ClassPackage": "/Game/Items/Effects/ArmorEffects/GE_Shield_Illuminate",
-            "ClassName": "GE_Shield_Illuminate_C",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Default__GE_Shield_Taunt_C",
-            "OuterIndex": -19,
-            "ClassPackage": "/Game/Items/Effects/ArmorEffects/GE_Shield_Taunt",
-            "ClassName": "GE_Shield_Taunt_C",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "MoriaGameplayEffectUIData_0",
-            "OuterIndex": -11,
-            "ClassPackage": "/Script/Moria",
-            "ClassName": "MorGameplayEffectUIData",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsArmor",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Character/Shared/Effects/Survival/GE_Poisoned",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Items/Effects/ArmorEffects/GE_Shield_Illuminate",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Items/Effects/ArmorEffects/GE_Shield_Taunt",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Constant",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Exponential",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Linear",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Logarithmic",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Shields/Shield_Taunting/SM_Shield_Taunting_Static",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Weapons/SM_Crossbow_2H/SK_SM_Crossbow_2H",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Tech/Data/StringTables/Items",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Script/Engine",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Script/GameplayTags",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Script/Moria",
-            "OuterIndex": 0,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Package",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "GameplayTag",
-            "OuterIndex": -28,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Object",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "MorWeaponDefinition",
-            "OuterIndex": -29,
-            "ClassPackage": "/Script/CoreUObject",
-            "ClassName": "Object",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "SM_Shield_Taunting_Static",
-            "OuterIndex": -24,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "StaticMesh",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "SK_SM_Crossbow_2H",
-            "OuterIndex": -25,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "StaticMesh",
-            "PackageName": null,
-            "bImportOptional": false
-        },
-        {
-            "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "Items",
-            "OuterIndex": -26,
-            "ClassPackage": "/Script/Engine",
-            "ClassName": "StringTable",
-            "PackageName": null,
-            "bImportOptional": false
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DT_Weapons",
+      "OuterIndex": 0,
+      "ClassIndex": -5,
+      "SuperIndex": 0,
+      "TemplateIndex": -10,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 276878,
+      "SerialOffset": 51265,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -33,
+        -14,
+        -6,
+        -12,
+        -7,
+        -13,
+        -32,
+        -15,
+        -8,
+        -9,
+        -34,
+        -36,
+        -5,
+        -10
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_ShadowResist_DurinsArmor_C",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Poisoned_C",
+      "OuterIndex": -17,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Shield_Illuminate_C",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Shield_Taunt_C",
+      "OuterIndex": -19,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DataTable",
+      "OuterIndex": -27,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Curve_RepairCost_Constant",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CurveFloat",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Curve_RepairCost_Exponential",
+      "OuterIndex": -21,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CurveFloat",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Curve_RepairCost_Linear",
+      "OuterIndex": -22,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CurveFloat",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Curve_RepairCost_Logarithmic",
+      "OuterIndex": -23,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CurveFloat",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -27,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Poisoned_C",
+      "OuterIndex": -17,
+      "ClassPackage": "/Game/Character/Shared/Effects/Survival/GE_Poisoned",
+      "ClassName": "GE_Poisoned_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_ShadowResist_DurinsArmor_C",
+      "OuterIndex": -16,
+      "ClassPackage": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsArmor",
+      "ClassName": "GE_ShadowResist_DurinsArmor_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Shield_Illuminate_C",
+      "OuterIndex": -18,
+      "ClassPackage": "/Game/Items/Effects/ArmorEffects/GE_Shield_Illuminate",
+      "ClassName": "GE_Shield_Illuminate_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Shield_Taunt_C",
+      "OuterIndex": -19,
+      "ClassPackage": "/Game/Items/Effects/ArmorEffects/GE_Shield_Taunt",
+      "ClassName": "GE_Shield_Taunt_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MoriaGameplayEffectUIData_0",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorGameplayEffectUIData",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Shared/Effects/GE_ShadowResist_DurinsArmor",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Shared/Effects/Survival/GE_Poisoned",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/Effects/ArmorEffects/GE_Shield_Illuminate",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/Effects/ArmorEffects/GE_Shield_Taunt",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Constant",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Exponential",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Linear",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/Items/Curves/Curve_RepairCost_Logarithmic",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Shields/Shield_Taunting/SM_Shield_Taunting_Static",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Weapons/SM_Crossbow_2H/SK_SM_Crossbow_2H",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/StringTables/Items",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/GameplayTags",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Moria",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameplayTag",
+      "OuterIndex": -28,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorWeaponDefinition",
+      "OuterIndex": -29,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SM_Shield_Taunting_Static",
+      "OuterIndex": -24,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_SM_Crossbow_2H",
+      "OuterIndex": -25,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Items",
+      "OuterIndex": -26,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
@@ -91883,57 +91889,57 @@
             "ClassName": "StringTable",
             "PackageName": null,
             "bImportOptional": false
-        }
-    ],
-    "DependsMap": [
-        []
-    ],
-    "SoftPackageReferenceList": null,
-    "AssetRegistryData": "AAAAAA==",
-    "BulkData": "wYMqng==",
-    "ValorantGarbageData": null,
-    "SeaOfThievesGarbageData": null,
-    "Generations": [
-        {
-            "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
-            "ExportCount": 1,
-            "NameCount": 797
-        }
-    ],
-    "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
-    "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
-    "RecordedEngineVersion": {
-        "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
-        "Major": 0,
-        "Minor": 0,
-        "Patch": 0,
-        "Changelist": 0,
-        "Branch": null
-    },
-    "RecordedCompatibleWithEngineVersion": {
-        "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
-        "Major": 0,
-        "Minor": 0,
-        "Patch": 0,
-        "Changelist": 0,
-        "Branch": null
-    },
-    "ChunkIDs": [],
-    "PackageSource": 0,
-    "FolderName": "/Game/Tech/Data/Items/DT_Weapons",
-    "LocalizationId": null,
-    "SoftObjectPathsCount": 0,
-    "SoftObjectPathsOffset": 0,
-    "SearchableNamesOffset": 0,
-    "ThumbnailTableOffset": 0,
-    "CompressionFlags": 0,
-    "AdditionalPackagesToCook": [],
-    "NamesReferencedFromExportDataCount": 797,
-    "PayloadTocOffset": -1,
-    "DataResourceOffset": -1,
-    "doWeHaveAssetRegistryData": true,
-    "doWeHaveWorldTileInfo": false,
-    "PackageFlags": "PKG_RequiresLocalizationGather, PKG_FilterEditorOnly",
-    "HasUnversionedProperties": false,
-    "IsFilterEditorOnly": true
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 798
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Tech/Data/Items/DT_Weapons",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 798,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_RequiresLocalizationGather, PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
 }

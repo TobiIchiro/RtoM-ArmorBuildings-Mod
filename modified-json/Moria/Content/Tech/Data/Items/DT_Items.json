@@ -1628,7 +1628,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Wood",
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2650,7 +2651,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2990,7 +2992,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3330,7 +3333,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3670,7 +3674,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4350,7 +4355,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4690,7 +4696,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5030,7 +5037,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5370,7 +5378,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5710,7 +5719,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6050,7 +6060,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6390,7 +6401,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6730,7 +6742,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7070,7 +7083,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7410,7 +7424,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Purified"
+                                            "UI.Purified",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -8091,7 +8106,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -8771,7 +8787,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9112,7 +9129,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9452,7 +9470,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Fabric"
+                                            "UI.Fabric",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9792,7 +9811,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Fabric"
+                                            "UI.Fabric",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10132,7 +10152,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10812,7 +10833,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -11152,7 +11174,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -11493,7 +11516,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Treasure",
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -11833,7 +11857,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -12173,7 +12198,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -12513,7 +12539,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -12853,7 +12880,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -13193,7 +13221,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -13533,7 +13562,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -13873,7 +13903,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Figurine"
+                                            "UI.Figurine",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -14893,7 +14924,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -15233,7 +15265,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -15573,7 +15606,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -15913,7 +15947,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -16253,7 +16288,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -17275,7 +17311,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -17616,7 +17653,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -17957,7 +17995,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -18298,7 +18337,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -21367,7 +21407,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Spice"
+                                            "Item.Food.Spice",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -21707,7 +21748,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Mushroom"
+                                            "Item.Food.Veg.Mushroom",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -23077,7 +23119,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Wood",
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -24100,7 +24143,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.MemorialItem",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -29582,7 +29626,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -29922,7 +29967,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -30603,7 +30649,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -30944,7 +30991,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Wood",
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -31285,7 +31333,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -35006,7 +35055,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -35347,7 +35397,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Book",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -35690,7 +35741,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Book",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -36033,7 +36085,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Book",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -36376,7 +36429,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Book",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -36719,7 +36773,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Scroll",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -37062,7 +37117,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Scroll",
-                                            "UI.Items"
+                                            "UI.Items",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -37404,7 +37460,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Scroll"
+                                            "Item.Scroll",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -37746,7 +37803,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Scroll"
+                                            "Item.Scroll",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -38088,7 +38146,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -38428,7 +38487,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -38768,7 +38828,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -39110,7 +39171,8 @@
                                         "Value": [
                                             "Item.Wood",
                                             "UI.Materials",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -39450,7 +39512,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -39790,7 +39853,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -40130,7 +40194,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -40470,7 +40535,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -40810,7 +40876,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -41490,7 +41557,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -41830,7 +41898,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -42171,7 +42240,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -42512,7 +42582,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -42853,7 +42924,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -43194,7 +43266,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Seed",
-                                            "UI.Seed"
+                                            "UI.Seed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -43534,7 +43607,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -43874,7 +43948,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Fabric"
+                                            "UI.Fabric",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -44214,7 +44289,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -44895,7 +44971,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -45235,7 +45312,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -45575,7 +45653,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Metals"
+                                            "UI.Metals",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -45915,7 +45994,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -46255,7 +46335,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Materials"
+                                            "UI.Materials",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -46498,7 +46579,7 @@
             "SuperIndex": 0,
             "TemplateIndex": -3,
             "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
-            "SerialSize": 137050,
+            "SerialSize": 137674,
             "SerialOffset": 40451,
             "ScriptSerializationStartOffset": 0,
             "ScriptSerializationEndOffset": 0,
