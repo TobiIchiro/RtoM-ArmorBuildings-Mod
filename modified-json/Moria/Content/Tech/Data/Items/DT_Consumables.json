@@ -708,6 +708,7 @@
         "IceCabbage",
         "Icon",
         "IntProperty",
+        "Item.BasicGather",
         "Item.BrewIngredient",
         "Item.Food",
         "Item.Food.Cheese",
@@ -1654,7 +1655,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Mushroom"
+                                            "Item.Food.Veg.Mushroom",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2087,7 +2089,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2529,7 +2532,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg.Mushroom",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2961,7 +2965,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg"
+                                            "Item.Food.Veg",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3393,7 +3398,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Herb"
+                                            "Item.Food.Veg.Herb",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3826,7 +3832,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4258,7 +4265,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Herb"
+                                            "Item.Food.Veg.Herb",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4690,7 +4698,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Herb"
+                                            "Item.Food.Veg.Herb",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5132,7 +5141,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Meat",
-                                            "UI.Lore.Consumables"
+                                            "UI.Lore.Consumables",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5565,7 +5575,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Fruit",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5997,7 +6008,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Eggs"
+                                            "Item.Food.Eggs",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6430,7 +6442,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6863,7 +6876,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "Item.Food.Veg.Herb"
+                                            "Item.Food.Veg.Herb",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7296,7 +7310,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Fruit",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7729,7 +7744,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg.Herb",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -8162,7 +8178,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg.Herb",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -8595,7 +8612,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg.Herb",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9028,7 +9046,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Spice",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9461,7 +9480,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "Item.Food.Veg.Grain"
+                                            "Item.Food.Veg.Grain",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9893,7 +9913,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg"
+                                            "Item.Food.Veg",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10327,7 +10348,8 @@
                                         "Value": [
                                             "Item.Food.Honey",
                                             "Item.BrewIngredient",
-                                            "UI.Lore.Consumables"
+                                            "UI.Lore.Consumables",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10759,7 +10781,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Mushroom"
+                                            "Item.Food.Veg.Mushroom",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -11191,7 +11214,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Food.Veg.Mushroom"
+                                            "Item.Food.Veg.Mushroom",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -36719,7 +36743,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Cheese",
-                                            "UI.Ration.Reasonable"
+                                            "UI.Ration.Reasonable",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -37160,7 +37185,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Complex"
+                                            "UI.Ration.Complex",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -37592,7 +37618,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Reasonable"
+                                            "UI.Ration.Reasonable",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -38025,7 +38052,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Ration.Simple",
-                                            "Item.Food"
+                                            "Item.Food",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -38457,7 +38485,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Reasonable"
+                                            "UI.Ration.Reasonable",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -38889,7 +38918,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Reasonable"
+                                            "UI.Ration.Reasonable",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -39321,7 +39351,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Complex"
+                                            "UI.Ration.Complex",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -39753,7 +39784,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Complex"
+                                            "UI.Ration.Complex",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -40185,7 +40217,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Complex"
+                                            "UI.Ration.Complex",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -40617,7 +40650,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Complex"
+                                            "UI.Ration.Complex",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -41050,7 +41084,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Processed",
-                                            "Item.Food"
+                                            "Item.Food",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -41484,7 +41519,8 @@
                                         "Value": [
                                             "UI.Processed",
                                             "Item.BrewIngredient",
-                                            "Item.Food"
+                                            "Item.Food",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -41917,7 +41953,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Processed",
-                                            "Item.Food"
+                                            "Item.Food",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -42358,7 +42395,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -42799,7 +42837,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -43240,7 +43279,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -43681,7 +43721,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -44122,7 +44163,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -44563,7 +44605,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -45004,7 +45047,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -45445,7 +45489,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Abahk"
+                                            "UI.Abahk",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -45877,7 +45922,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -47189,7 +47235,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Ration.Reasonable",
-                                            "UI.Premium"
+                                            "UI.Premium",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -48506,7 +48553,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "Item.Food.Veg.Grain"
+                                            "Item.Food.Veg.Grain",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -48939,7 +48987,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "UI.Lore.Consumables"
+                                            "UI.Lore.Consumables",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -49372,7 +49421,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "Item.Food.Veg.Herb"
+                                            "Item.Food.Veg.Herb",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -49805,7 +49855,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -50238,7 +50289,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -50671,7 +50723,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "Item.Food.Veg.Flower"
+                                            "Item.Food.Veg.Flower",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -51104,7 +51157,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Food.Veg",
-                                            "Item.BrewIngredient"
+                                            "Item.BrewIngredient",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -51536,7 +51590,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Ration.Simple"
+                                            "UI.Ration.Simple",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -51969,7 +52024,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.BrewIngredient",
-                                            "UI.Lore.Consumables"
+                                            "UI.Lore.Consumables",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -53544,8 +53600,8 @@
             "SuperIndex": 0,
             "TemplateIndex": -43,
             "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
-            "SerialSize": 165605,
-            "SerialOffset": 52833,
+            "SerialSize": 166045,
+            "SerialOffset": 52858,
             "ScriptSerializationStartOffset": 0,
             "ScriptSerializationEndOffset": 0,
             "bForcedExport": false,
@@ -56123,7 +56179,7 @@
         {
             "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
             "ExportCount": 1,
-            "NameCount": 896
+            "NameCount": 897
         }
     ],
     "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -56154,7 +56210,7 @@
     "ThumbnailTableOffset": 0,
     "CompressionFlags": 0,
     "AdditionalPackagesToCook": [],
-    "NamesReferencedFromExportDataCount": 896,
+    "NamesReferencedFromExportDataCount": 897,
     "PayloadTocOffset": -1,
     "DataResourceOffset": -1,
     "doWeHaveAssetRegistryData": true,

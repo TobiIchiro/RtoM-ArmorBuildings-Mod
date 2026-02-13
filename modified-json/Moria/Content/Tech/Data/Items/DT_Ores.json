@@ -968,7 +968,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.Mineral.Stone"
+                                            "Item.Mineral.Stone",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -1326,7 +1327,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.Mineral.Stone"
+                                            "Item.Mineral.Stone",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -1684,7 +1686,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Mineral.Ore",
-                                            "UI.Processed"
+                                            "UI.Processed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2041,7 +2044,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2399,7 +2403,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Mineral.Ore",
-                                            "UI.Processed"
+                                            "UI.Processed",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -2756,7 +2761,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3113,7 +3119,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3470,7 +3477,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -3827,7 +3835,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4184,7 +4193,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4541,7 +4551,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -4898,7 +4909,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5255,7 +5267,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5613,7 +5626,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "Item.Mineral.Ore",
-                                            "Item.Food"
+                                            "Item.Food",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -5970,7 +5984,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6327,7 +6342,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -6684,7 +6700,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7041,7 +7058,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7398,7 +7416,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -7755,7 +7774,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9183,7 +9203,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9540,7 +9561,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -9897,7 +9919,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10254,7 +10277,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10611,7 +10635,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -10968,7 +10993,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -11325,7 +11351,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -11682,7 +11709,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -12039,7 +12067,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.PreciousGem"
+                                            "Item.Mineral.PreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -12396,7 +12425,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -12753,7 +12783,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -13110,7 +13141,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -13467,7 +13499,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -13824,7 +13857,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.Ore"
+                                            "Item.Mineral.Ore",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -14182,7 +14216,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.Mineral.Stone"
+                                            "Item.Mineral.Stone",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -14383,7 +14418,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 0.2525250017642975,
+                                "Value": 0.10101000219583511,
                                 "Name": "BaseTradeValue",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -14540,7 +14575,8 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Materials",
-                                            "Item.Mineral.Stone"
+                                            "Item.Mineral.Stone",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -14741,7 +14777,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 0.2525250017642975,
+                                "Value": 0.10101000219583511,
                                 "Name": "BaseTradeValue",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -14897,7 +14933,8 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "Item.Mineral.SemiPreciousGem"
+                                            "Item.Mineral.SemiPreciousGem",
+                                            "Item.BasicGather"
                                         ]
                                     }
                                 ]
@@ -15140,7 +15177,7 @@
             "SuperIndex": 0,
             "TemplateIndex": -2,
             "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
-            "SerialSize": 44289,
+            "SerialSize": 44585,
             "SerialOffset": 20001,
             "ScriptSerializationStartOffset": 0,
             "ScriptSerializationEndOffset": 0,
