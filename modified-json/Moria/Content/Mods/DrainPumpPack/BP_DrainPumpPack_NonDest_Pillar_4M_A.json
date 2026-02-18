@@ -4,14 +4,11 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Gate_A_Pillar_Base_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Gate_A_Pillar_Base_Destructible.DM_Suburbs_Gate_A_Pillar_Base_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Gate_A_Pillar_Capitol_Desteructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Gate_A_Pillar_Capitol_Desteructible.DM_Suburbs_Gate_A_Pillar_Capitol_Desteructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_A_Breakable",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Gate_A_Pillar_Base",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Gate_A_Pillar_Capitol",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_Drainworks",
+    "/Game/Art/Assets/Kits/Architecture/Non_D/NonDest_Pillar_4M_A",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Gate_A_Pillar_4m",
+    "/Game/Mods/DrainPumpPack/BP_DrainPumpPack_NonDest_Pillar_4M_A",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayTags",
@@ -31,7 +28,7 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Suburbs_Gate_A_Pillar_4m_C",
+    "BP_DrainPumpPack_NonDest_Pillar_4M_A_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable.Small.Stone",
@@ -47,7 +44,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Suburbs_Gate_A_Pillar_4m_C",
+    "Default__BP_DrainPumpPack_NonDest_Pillar_4M_A_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -74,7 +71,7 @@
     "LootDropMasterTag",
     "MaterialInstanceConstant",
     "MaxHealth",
-    "MI_Suburbs_Trim_Sheet_A_Breakable",
+    "MI_Suburbs_Trim_Sheet_Drainworks",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -115,10 +112,7 @@
     "StabilityHandle",
     "StaticMesh",
     "StructProperty",
-    "Suburbs_Gate_A_Pillar_Base",
-    "Suburbs_Gate_A_Pillar_Capitol",
-    "Suburbs_Gate_A_Pillar_Capitol1",
-    "Suburbs_Gate_A_Pillar_Capitol1_GEN_VARIABLE",
+    "NonDest_Pillar_4M_A",
     "VariableGuid",
     "Vector"
   ],
@@ -245,27 +239,6 @@
       "LoadedProperties": [
         {
           "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
-          "PropertyClass": -13,
-          "ArrayDim": "TArray",
-          "ElementSize": 8,
-          "PropertyFlags": "CPF_BlueprintVisible, CPF_InstancedReference, CPF_NonTransactional",
-          "RepIndex": 0,
-          "RepNotifyFunc": "None",
-          "BlueprintReplicationCondition": "COND_None",
-          "RawValue": null,
-          "UsmapPropertyTypeOverrides": {
-            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
-            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
-            "ClassProperty": "ObjectProperty",
-            "SoftClassProperty": "SoftObjectProperty"
-          },
-          "SerializedType": "ObjectProperty",
-          "Name": "Suburbs_Gate_A_Pillar_Capitol1",
-          "Flags": "RF_Public, RF_LoadCompleted",
-          "MetaDataMap": null
-        },
-        {
-          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
           "PropertyClass": -14,
           "ArrayDim": "TArray",
           "ElementSize": 8,
@@ -322,7 +295,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 14
+          "Value": 12
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -337,14 +310,14 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Suburbs_Gate_A_Pillar_4m_C",
+      "ObjectName": "BP_DrainPumpPack_NonDest_Pillar_4M_A_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
       "TemplateIndex": -3,
       "ObjectFlags": "RF_Public, RF_Transactional",
-      "SerialSize": 291,
-      "SerialOffset": 7328,
+      "SerialSize": 240,
+      "SerialOffset": 6527,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -357,16 +330,15 @@
       "bIsAsset": false,
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [
-        14,
+        12,
         -1
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -41,
-        -35,
-        -33,
+        -34,
+        -32,
         -17,
-        -40,
+        -39,
         -7,
         -3
       ],
@@ -383,7 +355,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 9
+          "Value": 8
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -392,20 +364,20 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 9
+          "Value": 8
         }
       ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Suburbs_Gate_A_Pillar_4m_C",
+      "ObjectName": "Default__BP_DrainPumpPack_NonDest_Pillar_4M_A_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
       "TemplateIndex": -4,
       "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
       "SerialSize": 66,
-      "SerialOffset": 7619,
+      "SerialOffset": 6767,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -419,7 +391,7 @@
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [],
       "CreateBeforeSerializationDependencies": [
-        9
+        8
       ],
       "SerializationBeforeCreateDependencies": [
         1,
@@ -729,7 +701,7 @@
       "TemplateIndex": -16,
       "ObjectFlags": "RF_NoFlags",
       "SerialSize": 936,
-      "SerialOffset": 7685,
+      "SerialOffset": 6833,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -836,7 +808,7 @@
       "TemplateIndex": -18,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_InheritableComponentTemplate",
       "SerialSize": 221,
-      "SerialOffset": 8621,
+      "SerialOffset": 7769,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -889,7 +861,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -40
+          "Value": -39
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -933,7 +905,7 @@
       "TemplateIndex": -20,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 164,
-      "SerialOffset": 8842,
+      "SerialOffset": 7990,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -955,121 +927,6 @@
         -20
       ],
       "CreateBeforeCreateDependencies": [
-        1
-      ],
-      "Extras": "AAAAAA=="
-    },
-    {
-      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
-          "Name": "DestructibleAsset",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": {
-            "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
-            "AssetPath": {
-              "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
-              "PackageName": null,
-              "AssetName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Gate_A_Pillar_Capitol_Desteructible.DM_Suburbs_Gate_A_Pillar_Capitol_Desteructible"
-            },
-            "SubPathString": null
-          }
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "StaticMesh",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": -41
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -17
-            }
-          ]
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "Vector",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "RelativeLocation",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
-              "Name": "RelativeLocation",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": {
-                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": "+0",
-                "Y": "+0",
-                "Z": 400.0
-              }
-            }
-          ]
-        }
-      ],
-      "ObjectGuid": null,
-      "SerializationControl": "NoExtension",
-      "Operation": "None",
-      "ObjectName": "Suburbs_Gate_A_Pillar_Capitol1_GEN_VARIABLE",
-      "OuterIndex": 1,
-      "ClassIndex": -13,
-      "SuperIndex": 0,
-      "TemplateIndex": -20,
-      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
-      "SerialSize": 184,
-      "SerialOffset": 9006,
-      "ScriptSerializationStartOffset": 0,
-      "ScriptSerializationEndOffset": 0,
-      "bForcedExport": false,
-      "bNotForClient": false,
-      "bNotForServer": false,
-      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
-      "IsInheritedInstance": false,
-      "PackageFlags": "PKG_None",
-      "bNotAlwaysLoadedForEditorGame": false,
-      "bIsAsset": false,
-      "GeneratePublicHash": false,
-      "SerializationBeforeSerializationDependencies": [
-        5
-      ],
-      "CreateBeforeSerializationDependencies": [],
-      "SerializationBeforeCreateDependencies": [
-        -13,
-        -20
-      ],
-      "CreateBeforeCreateDependencies": [
-        5,
         1
       ],
       "Extras": "AAAAAA=="
@@ -1134,9 +991,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 50.0,
-                "Y": 50.0,
-                "Z": 200.0
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 150.0
               }
             }
           ]
@@ -1165,7 +1022,7 @@
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": "+0",
                 "Y": "+0",
-                "Z": 200.0
+                "Z": 100.0
               }
             }
           ]
@@ -1192,7 +1049,46 @@
       "TemplateIndex": -21,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 306,
-      "SerialOffset": 9190,
+      "SerialOffset": 8154,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -21
+      ],
+      "CreateBeforeCreateDependencies": [
+        5,
+        1
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": 1,
+      "ClassIndex": -9,
+      "SuperIndex": 0,
+      "TemplateIndex": -35,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 8460,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1209,50 +1105,11 @@
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -14,
-        -21
+        -9,
+        -35
       ],
       "CreateBeforeCreateDependencies": [
         6,
-        1
-      ],
-      "Extras": ""
-    },
-    {
-      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [],
-      "ObjectGuid": null,
-      "SerializationControl": "NoExtension",
-      "Operation": "None",
-      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
-      "OuterIndex": 1,
-      "ClassIndex": -9,
-      "SuperIndex": 0,
-      "TemplateIndex": -36,
-      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
-      "SerialSize": 12,
-      "SerialOffset": 9496,
-      "ScriptSerializationStartOffset": 0,
-      "ScriptSerializationEndOffset": 0,
-      "bForcedExport": false,
-      "bNotForClient": false,
-      "bNotForServer": false,
-      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
-      "IsInheritedInstance": false,
-      "PackageFlags": "PKG_None",
-      "bNotAlwaysLoadedForEditorGame": false,
-      "bIsAsset": false,
-      "GeneratePublicHash": false,
-      "SerializationBeforeSerializationDependencies": [
-        7
-      ],
-      "CreateBeforeSerializationDependencies": [],
-      "SerializationBeforeCreateDependencies": [
-        -9,
-        -36
-      ],
-      "CreateBeforeCreateDependencies": [
-        7,
         1
       ],
       "Extras": ""
@@ -1267,10 +1124,10 @@
       "OuterIndex": 2,
       "ClassIndex": -9,
       "SuperIndex": 0,
-      "TemplateIndex": -33,
+      "TemplateIndex": -32,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
       "SerialSize": 12,
-      "SerialOffset": 9508,
+      "SerialOffset": 8472,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1287,9 +1144,9 @@
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        8,
+        7,
         -9,
-        -33
+        -32
       ],
       "CreateBeforeCreateDependencies": [
         2
@@ -1315,7 +1172,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 8
+          "Value": 7
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1355,13 +1212,13 @@
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "SCS_Node_0",
-      "OuterIndex": 14,
+      "OuterIndex": 12,
       "ClassIndex": -10,
       "SuperIndex": 0,
-      "TemplateIndex": -38,
+      "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 168,
-      "SerialOffset": 9520,
+      "SerialOffset": 8484,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1377,10 +1234,10 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         -10,
-        -38
+        -37
       ],
       "CreateBeforeCreateDependencies": [
-        14
+        12
       ],
       "Extras": ""
     },
@@ -1403,7 +1260,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 7
+          "Value": 6
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
@@ -1461,13 +1318,13 @@
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "SCS_Node_1",
-      "OuterIndex": 14,
+      "OuterIndex": 12,
       "ClassIndex": -10,
       "SuperIndex": 0,
-      "TemplateIndex": -38,
+      "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9688,
+      "SerialOffset": 8652,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1482,12 +1339,12 @@
       "SerializationBeforeSerializationDependencies": [],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        10,
+        9,
         -10,
-        -38
+        -37
       ],
       "CreateBeforeCreateDependencies": [
-        14
+        12
       ],
       "Extras": ""
     },
@@ -1568,13 +1425,13 @@
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "SCS_Node_2",
-      "OuterIndex": 14,
+      "OuterIndex": 12,
       "ClassIndex": -10,
       "SuperIndex": 0,
-      "TemplateIndex": -38,
+      "TemplateIndex": -37,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 9915,
+      "SerialOffset": 8879,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1589,119 +1446,12 @@
       "SerializationBeforeSerializationDependencies": [],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        11,
+        10,
         -10,
-        -38
+        -37
       ],
       "CreateBeforeCreateDependencies": [
-        14
-      ],
-      "Extras": ""
-    },
-    {
-      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "ComponentClass",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": -13
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "ComponentTemplate",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": 6
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-          "Name": "ParentComponentOrVariableName",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": "ROOT"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
-          "Name": "bIsParentComponentNative",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": true
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "Guid",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "VariableGuid",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
-              "Name": "VariableGuid",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": "{63C685CA-4998-3BFF-C870-E08BB05A4C75}"
-            }
-          ]
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-          "Name": "InternalVariableName",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": "Suburbs_Gate_A_Pillar_Capitol1"
-        }
-      ],
-      "ObjectGuid": null,
-      "SerializationControl": "NoExtension",
-      "Operation": "None",
-      "ObjectName": "SCS_Node_4",
-      "OuterIndex": 14,
-      "ClassIndex": -10,
-      "SuperIndex": 0,
-      "TemplateIndex": -38,
-      "ObjectFlags": "RF_Transactional",
-      "SerialSize": 227,
-      "SerialOffset": 10142,
-      "ScriptSerializationStartOffset": 0,
-      "ScriptSerializationEndOffset": 0,
-      "bForcedExport": false,
-      "bNotForClient": false,
-      "bNotForServer": false,
-      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
-      "IsInheritedInstance": false,
-      "PackageFlags": "PKG_None",
-      "bNotAlwaysLoadedForEditorGame": false,
-      "bIsAsset": false,
-      "GeneratePublicHash": false,
-      "SerializationBeforeSerializationDependencies": [],
-      "CreateBeforeSerializationDependencies": [],
-      "SerializationBeforeCreateDependencies": [
-        12,
-        -10,
-        -38
-      ],
-      "CreateBeforeCreateDependencies": [
-        14
+        12
       ],
       "Extras": ""
     },
@@ -1724,7 +1474,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 12
+              "Value": 11
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1733,16 +1483,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 11
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "2",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": 13
+              "Value": 10
             }
           ]
         },
@@ -1762,7 +1503,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 12
+              "Value": 11
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -1771,16 +1512,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 11
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "2",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": 13
+              "Value": 10
             }
           ]
         },
@@ -1791,7 +1523,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 10
+          "Value": 9
         }
       ],
       "ObjectGuid": null,
@@ -1801,10 +1533,10 @@
       "OuterIndex": 1,
       "ClassIndex": -11,
       "SuperIndex": 0,
-      "TemplateIndex": -39,
+      "TemplateIndex": -38,
       "ObjectFlags": "RF_Transactional",
-      "SerialSize": 139,
-      "SerialOffset": 10369,
+      "SerialSize": 131,
+      "SerialOffset": 9106,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -1817,15 +1549,15 @@
       "bIsAsset": false,
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [
-        13
+        11
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         -11,
-        -39
+        -38
       ],
       "CreateBeforeCreateDependencies": [
-        8,
+        7,
         1
       ],
       "Extras": ""
@@ -1834,7 +1566,7 @@
   "SearchableNames": null,
   "Thumbnails": null,
   "WorldTileInfo": null,
-  "AppendedNullBytes": 42,
+  "AppendedNullBytes": 24,
   "OtherAssetsFailedToAccess": [],
   "LegacyFileVersion": -7,
   "DataResourceVersion": "Invalid",
@@ -1863,7 +1595,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__BlueprintGeneratedClass",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
       "PackageName": null,
@@ -1890,7 +1622,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Object",
-      "OuterIndex": -28,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1899,7 +1631,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "BlueprintGeneratedClass",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1908,7 +1640,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "InheritableComponentHandler",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1917,7 +1649,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SceneComponent",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1926,7 +1658,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SCS_Node",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1935,7 +1667,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SimpleConstructionScript",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1944,7 +1676,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MorBreakableComponent",
-      "OuterIndex": -31,
+      "OuterIndex": -30,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1953,7 +1685,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MorBreakableMeshPiece",
-      "OuterIndex": -31,
+      "OuterIndex": -30,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1962,7 +1694,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MorConstructionSnapComponent",
-      "OuterIndex": -31,
+      "OuterIndex": -30,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1971,7 +1703,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MorPrefabStabilityComponent",
-      "OuterIndex": -31,
+      "OuterIndex": -30,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1980,7 +1712,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__InheritableComponentHandler",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "InheritableComponentHandler",
       "PackageName": null,
@@ -1988,7 +1720,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Suburbs_Trim_Sheet_A_Breakable",
+      "ObjectName": "MI_Suburbs_Trim_Sheet_Drainworks",
       "OuterIndex": -25,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -2016,7 +1748,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__MorBreakableMeshPiece",
-      "OuterIndex": -31,
+      "OuterIndex": -30,
       "ClassPackage": "/Script/Moria",
       "ClassName": "MorBreakableMeshPiece",
       "PackageName": null,
@@ -2025,7 +1757,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__MorConstructionSnapComponent",
-      "OuterIndex": -31,
+      "OuterIndex": -30,
       "ClassPackage": "/Script/Moria",
       "ClassName": "MorConstructionSnapComponent",
       "PackageName": null,
@@ -2060,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_A_Breakable",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_Drainworks",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2069,16 +1801,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Gate_A_Pillar_Base",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Gate_A_Pillar_Capitol",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Non_D/NonDest_Pillar_4M_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2160,7 +1883,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__SceneComponent",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SceneComponent",
       "PackageName": null,
@@ -2169,7 +1892,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "GameplayTag",
-      "OuterIndex": -30,
+      "OuterIndex": -29,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Object",
       "PackageName": null,
@@ -2178,7 +1901,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__SCS_Node",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SCS_Node",
       "PackageName": null,
@@ -2187,7 +1910,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__SimpleConstructionScript",
-      "OuterIndex": -29,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SimpleConstructionScript",
       "PackageName": null,
@@ -2195,17 +1918,8 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Suburbs_Gate_A_Pillar_Base",
+      "ObjectName": "NonDest_Pillar_4M_A",
       "OuterIndex": -26,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "StaticMesh",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Suburbs_Gate_A_Pillar_Capitol",
-      "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
       "PackageName": null,
@@ -2213,8 +1927,6 @@
     }
   ],
   "DependsMap": [
-    [],
-    [],
     [],
     [],
     [],
@@ -2236,8 +1948,8 @@
   "Generations": [
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
-      "ExportCount": 14,
-      "NameCount": 119
+      "ExportCount": 12,
+      "NameCount": 113
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -2260,7 +1972,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Gate_A_Pillar_4m",
+  "FolderName": "/Game/Mods/DrainPumpPack/BP_DrainPumpPack_NonDest_Pillar_4M_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
@@ -2268,7 +1980,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 119,
+  "NamesReferencedFromExportDataCount": 113,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,

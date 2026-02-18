@@ -4,11 +4,11 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Wall_Thin_Window_Small_A_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Wall_Thin_Window_Small_A_Destructible.DM_Wall_Thin_Window_Small_A_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
+    "/Game/Art/Assets/Kits/Architecture/Deep/Materials/MI_Deep_Non_Destructible1",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_Window_Small_A",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_Window_Small_A",
+    "/Game/Mods/DrainPumpPack/BP_DrainPumpPack_Wall_Thin_Window_Small_A",
     "/Game/Unshippable/WhiteboxMaterials/PhysMat_Stone",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -31,7 +31,7 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Suburbs_Wall_Thin_Window_Small_A_C",
+    "BP_DrainPumpPack_Wall_Thin_Window_Small_A_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable.Medium.Stone",
@@ -49,7 +49,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Suburbs_Wall_Thin_Window_Small_A_C",
+    "Default__BP_DrainPumpPack_Wall_Thin_Window_Small_A_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -76,7 +76,7 @@
     "LootDropMasterTag",
     "MaterialInstanceConstant",
     "MaxHealth",
-    "MI_Suburbs_Wall_Base_Dest",
+    "MI_Deep_Non_Destructible1",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -119,7 +119,9 @@
     "StructProperty",
     "Suburbs_Wall_Thin_Window_Small_A",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/MI_Suburbs_Single_Window_A/MI_Cavern_Single_Window_A",
+    "MI_Cavern_Single_Window_A"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -336,7 +338,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Suburbs_Wall_Thin_Window_Small_A_C",
+      "ObjectName": "BP_DrainPumpPack_Wall_Thin_Window_Small_A_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
@@ -366,6 +368,7 @@
         -42,
         -33,
         -18,
+        -44,
         -7,
         -3
       ],
@@ -397,7 +400,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Suburbs_Wall_Thin_Window_Small_A_C",
+      "ObjectName": "Default__BP_DrainPumpPack_Wall_Thin_Window_Small_A_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -907,6 +910,15 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -18
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -44
             }
           ]
         },
@@ -1881,7 +1893,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Suburbs_Wall_Base_Dest",
+      "ObjectName": "MI_Deep_Non_Destructible1",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1953,7 +1965,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Deep/Materials/MI_Deep_Non_Destructible1",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2103,6 +2115,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/MI_Suburbs_Single_Window_A/MI_Cavern_Single_Window_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Cavern_Single_Window_A",
+      "OuterIndex": -43,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2152,7 +2182,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_Window_Small_A",
+  "FolderName": "/Game/Mods/DrainPumpPack/BP_DrainPumpPack_Wall_Thin_Window_Small_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

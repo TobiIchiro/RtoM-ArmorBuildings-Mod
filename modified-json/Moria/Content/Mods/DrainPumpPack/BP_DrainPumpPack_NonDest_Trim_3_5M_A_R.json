@@ -4,11 +4,11 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible.DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_3x3m_A",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_Drainworks",
+    "/Game/Art/Assets/Kits/Architecture/Non_D/NonDest_Trim_3_5M_A_R",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_A",
+    "/Game/Mods/DrainPumpPack/BP_DrainPumpPack_NonDest_Trim_3_5M_A_R",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayTags",
@@ -28,7 +28,7 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Suburbs_Wall_Thin_3x3m_A_C",
+    "BP_DrainPumpPack_NonDest_Trim_3_5M_A_R_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable.Small.Stone",
@@ -46,7 +46,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Suburbs_Wall_Thin_3x3m_A_C",
+    "Default__BP_DrainPumpPack_NonDest_Trim_3_5M_A_R_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -73,7 +73,7 @@
     "LootDropMasterTag",
     "MaterialInstanceConstant",
     "MaxHealth",
-    "MI_Suburbs_Wall_Base_Dest",
+    "MI_Suburbs_Trim_Sheet_Drainworks",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -111,9 +111,11 @@
     "SoftObjectProperty",
     "StaticMesh",
     "StructProperty",
-    "Suburbs_Wall_Thin_3x3m_A",
+    "NonDest_Trim_3_5M_A_R",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Art/Assets/Kits/Architecture/Deep/Materials/MI_Deep_Non_Destructible1",
+    "MI_Deep_Non_Destructible1"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -330,7 +332,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Suburbs_Wall_Thin_3x3m_A_C",
+      "ObjectName": "BP_DrainPumpPack_NonDest_Trim_3_5M_A_R_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
@@ -359,6 +361,7 @@
         -33,
         -40,
         -18,
+        -42,
         -7,
         -3
       ],
@@ -390,7 +393,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Suburbs_Wall_Thin_3x3m_A_C",
+      "ObjectName": "Default__BP_DrainPumpPack_NonDest_Trim_3_5M_A_R_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -900,6 +903,15 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -18
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -42
             }
           ]
         },
@@ -1850,7 +1862,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Suburbs_Wall_Base_Dest",
+      "ObjectName": "MI_Suburbs_Trim_Sheet_Drainworks",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1922,7 +1934,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_Drainworks",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1931,7 +1943,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_3x3m_A",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Non_D/NonDest_Trim_3_5M_A_R",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2048,10 +2060,28 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Suburbs_Wall_Thin_3x3m_A",
+      "ObjectName": "NonDest_Trim_3_5M_A_R",
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Deep/Materials/MI_Deep_Non_Destructible1",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Deep_Non_Destructible1",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -2103,7 +2133,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_A",
+  "FolderName": "/Game/Mods/DrainPumpPack/BP_DrainPumpPack_NonDest_Trim_3_5M_A_R",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
