@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Environments/Models/ArchitectureDeco/Materials/MI_ResourceBundle_B",
+    "/Game/Mods/CeibaPack/Items/Materials/MI_CeibaWood",
     "/Game/Environments/Models/ArchitectureDeco/Meshes/SM_WoodBundle_A",
     "/Game/Items/BP_Category_Resource",
     "/Game/Mods/CeibaPack/Items/BP_CeibaWood",
@@ -43,7 +43,7 @@
     "Log",
     "Log_GEN_VARIABLE",
     "MaterialInstanceConstant",
-    "MI_ResourceBundle_B",
+    "MI_CeibaWood",
     "MorItemRowHandle",
     "NameProperty",
     "NiagaraComponent",
@@ -1125,7 +1125,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_ResourceBundle_B",
+      "ObjectName": "MI_CeibaWood",
       "OuterIndex": -16,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1152,7 +1152,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Environments/Models/ArchitectureDeco/Materials/MI_ResourceBundle_B",
+      "ObjectName": "/Game/Mods/CeibaPack/Items/Materials/MI_CeibaWood",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",

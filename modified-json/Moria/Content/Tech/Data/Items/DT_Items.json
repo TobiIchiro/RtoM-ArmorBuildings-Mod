@@ -710,7 +710,14 @@
         "/Game/Mods/FungalPack/BP_FungalFoliageCutting_A.BP_FungalFoliageCutting_A_C",
         "FungalFoliageCutting_B",
         "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_B.T_UI_Icon_FungalFoliageCutting_B",
-        "/Game/Mods/FungalPack/BP_FungalFoliageCutting_B.BP_FungalFoliageCutting_B_C"
+        "/Game/Mods/FungalPack/BP_FungalFoliageCutting_B.BP_FungalFoliageCutting_B_C",
+        "CeibaCutting",
+        "/Game/Mods/CeibaPack/Items/Icons/T_UI_Icon_CeibaCutting.T_UI_Icon_CeibaCutting",
+        "/Game/Mods/CeibaPack/Items/BP_CeibaCutting.BP_CeibaCutting_C",
+        "CeibaWood",
+        "/Game/Mods/CeibaPack/Items/Icons/T_UI_Icon_CeibaWood.T_UI_Icon_CeibaWood",
+        "/Game/Mods/CeibaPack/Items/BP_CeibaWood.BP_CeibaWood_C"
+
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -46564,7 +46571,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "FungalFoliageCutting_B",
+                        "Name": "CeibaCutting",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -46589,7 +46596,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "Items.FungalFoliageCutting_B.Name"
+                                "Value": "Items.CeibaCutting.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -46610,7 +46617,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "Items.FungalFoliageCutting_B.Description"
+                                "Value": "Items.CeibaCutting.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -46624,7 +46631,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Mods/FungalPack/Icons/T_UI_Icon_FungalFoliageCutting_B.T_UI_Icon_FungalFoliageCutting_B"
+                                        "AssetName": "/Game/Mods/CeibaPack/Items/Icons/T_UI_Icon_CeibaCutting.T_UI_Icon_CeibaCutting"
                                     },
                                     "SubPathString": null
                                 }
@@ -46641,7 +46648,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Mods/FungalPack/BP_FungalFoliageCutting_B.BP_FungalFoliageCutting_B_C"
+                                        "AssetName": "/Game/Mods/CeibaPack/Items/BP_CeibaCutting.BP_CeibaCutting_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -46905,7 +46912,7 @@
                         "StructGUID": "{00000000-0000-0000-0000-000000000000}",
                         "SerializationControl": "NoExtension",
                         "Operation": "None",
-                        "Name": "QualityWood",
+                        "Name": "CeibaWood",
                         "ArrayIndex": 0,
                         "IsZero": false,
                         "PropertyTagFlags": "None",
@@ -46915,7 +46922,7 @@
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                                 "Flags": 0,
                                 "HistoryType": "StringTableEntry",
-                                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                                 "Namespace": null,
                                 "CultureInvariantString": null,
                                 "SourceFmt": null,
@@ -46930,13 +46937,13 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "Items.Items.QualityWood.Name"
+                                "Value": "Items.CeibaWood.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                                 "Flags": 0,
                                 "HistoryType": "StringTableEntry",
-                                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                                 "Namespace": null,
                                 "CultureInvariantString": null,
                                 "SourceFmt": null,
@@ -46951,7 +46958,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "Items.QualityWood.Description"
+                                "Value": "Items.CeibaWood.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -46965,7 +46972,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_Items_QualityWood.T_UI_Icon_Items_QualityWood"
+                                        "AssetName": "/Game/Mods/CeibaPack/Items/Icons/T_UI_Icon_CeibaWood.T_UI_Icon_CeibaWood"
                                     },
                                     "SubPathString": null
                                 }
@@ -46982,7 +46989,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Items/BP_QualityWood.BP_QualityWood_C"
+                                        "AssetName": "/Game/Mods/CeibaPack/Items/BP_CeibaWood.BP_CeibaWood_C"
                                     },
                                     "SubPathString": null
                                 }
