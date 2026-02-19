@@ -4,11 +4,11 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Destructible/SunStone_Ceiling_Lamp_DM",
     "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Destructible/SunStone_Ceiling_Lamp_DM.SunStone_Ceiling_Lamp_DM",
-    "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Materials/SunStone_Lamp/MI_SunStone_Lamp_F_Player",
+    "/Game/Mods/GlitteringCavesLampsPack/Constructions/Materials/MI_Red_Lamp",
     "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/SunStone_Ceiling_Lamp",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Wood_Medium_Parent_Breakable",
-    "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_CeilingLamp_F_Player",
+    "/Game/Mods/GlitteringCavesLampsPack/Constructions/BP_Red_CeilingLamp",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -21,7 +21,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_BaseBreakable_C",
-    "BP_DM_Lighting_CeilingLamp_F_Player_C",
+    "BP_Red_CeilingLamp_C",
     "BP_DM_Wood_Medium_Parent_Breakable_C",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
@@ -32,7 +32,7 @@
     "ComponentClass",
     "ComponentTemplate",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_DM_Lighting_CeilingLamp_F_Player_C",
+    "Default__BP_Red_CeilingLamp_C",
     "Default__BP_DM_Wood_Medium_Parent_Breakable_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
@@ -53,7 +53,7 @@
     "LightColor",
     "LightFalloffExponent",
     "MaterialInstanceConstant",
-    "MI_SunStone_Lamp_F_Player",
+    "MI_Red_Lamp",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
     "MorBreakableMeshPiece",
@@ -290,7 +290,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_DM_Lighting_CeilingLamp_F_Player_C",
+      "ObjectName": "BP_Red_CeilingLamp_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -2,
@@ -350,7 +350,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_DM_Lighting_CeilingLamp_F_Player_C",
+      "ObjectName": "Default__BP_Red_CeilingLamp_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -742,7 +742,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "255, 212, 152"
+              "Value": "255, 18, 10"
             }
           ]
         },
@@ -868,7 +868,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "255, 212, 152"
+              "Value": "255, 18, 10"
             }
           ]
         },
@@ -1542,7 +1542,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_SunStone_Lamp_F_Player",
+      "ObjectName": "MI_Red_Lamp",
       "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1605,7 +1605,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Materials/SunStone_Lamp/MI_SunStone_Lamp_F_Player",
+      "ObjectName": "/Game/Mods/GlitteringCavesLampsPack/Constructions/Materials/MI_Red_Lamp",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1795,7 +1795,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_CeilingLamp_F_Player",
+  "FolderName": "/Game/Mods/GlitteringCavesLampsPack/Constructions/BP_Red_CeilingLamp",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

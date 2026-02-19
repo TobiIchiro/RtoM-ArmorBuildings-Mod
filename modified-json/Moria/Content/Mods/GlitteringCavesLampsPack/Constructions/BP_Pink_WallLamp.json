@@ -2,11 +2,11 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Materials/SunStone_Lamp/MI_SunStone_Lamp_F_Player",
+    "/Game/Mods/GlitteringCavesLampsPack/Constructions/Materials/MI_Pink_Lamp",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Wood_Medium_Parent_Breakable",
     "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_WallLamp_A_Player",
-    "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_WallLamp_F_Player",
+    "/Game/Mods/GlitteringCavesLampsPack/Constructions/BP_Pink_WallLamp",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -21,7 +21,7 @@
     "BoolProperty",
     "BP_BaseBreakable_C",
     "BP_DM_Lighting_WallLamp_A_Player_C",
-    "BP_DM_Lighting_WallLamp_F_Player_C",
+    "BP_Pink_WallLamp_C",
     "BP_DM_Wood_Medium_Parent_Breakable_C",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
@@ -36,7 +36,7 @@
     "CookedComponentInstancingData",
     "Default__BlueprintGeneratedClass",
     "Default__BP_DM_Lighting_WallLamp_A_Player_C",
-    "Default__BP_DM_Lighting_WallLamp_F_Player_C",
+    "Default__BP_Pink_WallLamp_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
     "Default__SCS_Node",
@@ -50,7 +50,7 @@
     "InternalVariableName",
     "LightColor",
     "MaterialInstanceConstant",
-    "MI_SunStone_Lamp_F_Player",
+    "MI_Pink_Lamp",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
     "MorBreakableMeshPiece",
@@ -237,7 +237,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_DM_Lighting_WallLamp_F_Player_C",
+      "ObjectName": "BP_Pink_WallLamp_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -3,
@@ -297,7 +297,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_DM_Lighting_WallLamp_F_Player_C",
+      "ObjectName": "Default__BP_Pink_WallLamp_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -803,7 +803,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "255, 219, 176"
+              "Value": "255, 184, 255"
             }
           ]
         },
@@ -876,7 +876,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "255, 219, 176"
+              "Value": "255, 184, 255"
             }
           ]
         },
@@ -1290,7 +1290,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_SunStone_Lamp_F_Player",
+      "ObjectName": "MI_Pink_Lamp",
       "OuterIndex": -25,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1371,7 +1371,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Materials/SunStone_Lamp/MI_SunStone_Lamp_F_Player",
+      "ObjectName": "/Game/Mods/GlitteringCavesLampsPack/Constructions/Materials/MI_Pink_Lamp",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1559,7 +1559,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Deco/LightFixtures/BP_DM_Lighting_WallLamp_F_Player",
+  "FolderName": "/Game/Mods/GlitteringCavesLampsPack/Constructions/BP_Pink_WallLamp",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

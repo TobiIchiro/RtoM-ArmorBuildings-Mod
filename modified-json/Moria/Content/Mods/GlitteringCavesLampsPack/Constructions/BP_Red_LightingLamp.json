@@ -2,11 +2,11 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Materials/Lighting_Lamp_A/MI_Lighting_Lamp_F",
+    "/Game/Mods/GlitteringCavesLampsPack/Constructions/Materials/MI_Red_Lighting_Lamp",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Small_Parent_Breakable",
     "/Game/LevelDesign/Deco/LightFixtures/BP_LightingLamp_A_Player",
-    "/Game/LevelDesign/Deco/LightFixtures/BP_LightingLamp_F_Player",
+    "/Game/Mods/GlitteringCavesLampsPack/Constructions/BP_Red_LightingLamp",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -22,7 +22,7 @@
     "BP_BaseBreakable_C",
     "BP_DM_Scrap_Small_Parent_Breakable_C",
     "BP_LightingLamp_A_Player_C",
-    "BP_LightingLamp_F_Player_C",
+    "BP_Red_LightingLamp_C",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
     "ChangedPropertyList",
@@ -36,7 +36,7 @@
     "CookedComponentInstancingData",
     "Default__BlueprintGeneratedClass",
     "Default__BP_LightingLamp_A_Player_C",
-    "Default__BP_LightingLamp_F_Player_C",
+    "Default__BP_Red_LightingLamp_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
     "Default__SCS_Node",
@@ -50,7 +50,7 @@
     "InternalVariableName",
     "LightColor",
     "MaterialInstanceConstant",
-    "MI_Lighting_Lamp_F",
+    "MI_Red_Lighting_Lamp",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
     "MorBreakableMeshPiece",
@@ -239,7 +239,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_LightingLamp_F_Player_C",
+      "ObjectName": "BP_Red_LightingLamp_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -3,
@@ -299,7 +299,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_LightingLamp_F_Player_C",
+      "ObjectName": "Default__BP_Red_LightingLamp_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -805,7 +805,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "255, 207, 181"
+              "Value": "255, 18, 10"
             }
           ]
         },
@@ -878,7 +878,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "255, 207, 181"
+              "Value": "255, 18, 10"
             }
           ]
         },
@@ -1292,7 +1292,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Lighting_Lamp_F",
+      "ObjectName": "MI_Red_Lighting_Lamp",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1382,7 +1382,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Materials/Lighting_Lamp_A/MI_Lighting_Lamp_F",
+      "ObjectName": "/Game/Mods/GlitteringCavesLampsPack/Constructions/Materials/MI_Red_Lighting_Lamp",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1570,7 +1570,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Deco/LightFixtures/BP_LightingLamp_F_Player",
+  "FolderName": "/Game/Mods/GlitteringCavesLampsPack/Constructions/BP_Red_LightingLamp",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
