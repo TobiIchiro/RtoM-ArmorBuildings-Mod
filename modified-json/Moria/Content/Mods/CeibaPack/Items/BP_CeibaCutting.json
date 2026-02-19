@@ -41,7 +41,7 @@
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
     "Engine",
-    "Ceiba_Cutting",
+    "CeibaCutting",
     "SM_Ceiba_01_Cutting",
     "Guid",
     "IconTextureReference",
@@ -307,7 +307,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Ceiba_Cutting"
+              "Value": "CeibaCutting"
             }
           ]
         },
