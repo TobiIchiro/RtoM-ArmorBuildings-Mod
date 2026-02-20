@@ -46885,7 +46885,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 1.0,
+                                "Value": 0.5,
                                 "Name": "BaseTradeValue",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
