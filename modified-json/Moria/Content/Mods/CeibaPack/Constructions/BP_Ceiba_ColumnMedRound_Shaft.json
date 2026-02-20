@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_ColumnMedRound_Shaft_Player",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_ColumnMedRound_Shaft",
     "/Game/DLC/BeornPack/Construction/Materials/MI_Beorn_Medium_Cylindrical_B",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Column_MediumCylindrical_Shaft",
     "/Game/DLC/BeornPack/Destructible/DM_Beorn_Column_MediumCylindrical_Shaft_Destructible",
@@ -25,7 +25,7 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Beorn_ColumnMedRound_Shaft_Player_C",
+    "BP_Ceiba_ColumnMedRound_Shaft_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
@@ -41,7 +41,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Beorn_ColumnMedRound_Shaft_Player_C",
+    "Default__BP_Ceiba_ColumnMedRound_Shaft_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -105,7 +105,9 @@
     "StaticMeshComponent1_GEN_VARIABLE",
     "StructProperty",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Medium_Cylindrical_A",
+    "MI_Ceiba_Medium_Cylindrical_A"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -301,7 +303,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Beorn_ColumnMedRound_Shaft_Player_C",
+      "ObjectName": "BP_Ceiba_ColumnMedRound_Shaft_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
@@ -330,6 +332,7 @@
         -33,
         -31,
         -37,
+        -39,
         -7,
         -3
       ],
@@ -361,7 +364,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Beorn_ColumnMedRound_Shaft_Player_C",
+      "ObjectName": "Default__BP_Ceiba_ColumnMedRound_Shaft_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -827,6 +830,15 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -17
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -39
             }
           ]
         }
@@ -1842,6 +1854,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Medium_Cylindrical_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Medium_Cylindrical_A",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -1890,7 +1920,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/DLC/BeornPack/Construction/BP_Beorn_ColumnMedRound_Shaft_Player",
+  "FolderName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_ColumnMedRound_Shaft",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

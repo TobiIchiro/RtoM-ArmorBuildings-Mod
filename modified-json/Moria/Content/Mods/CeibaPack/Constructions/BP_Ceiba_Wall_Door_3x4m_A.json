@@ -4,8 +4,8 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/Destructible/DM_Crude_Wall_3x1_Destructible",
     "/Game/Art/Assets/GPI/Destructible/DM_Crude_Wall_3x1_Destructible.DM_Crude_Wall_3x1_Destructible",
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_Door_A",
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_Door_3x4m_A_Player",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Door_A",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_Door_3x4m_A",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Trim_1m_Base",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Trim_1m_Base_Crown",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Trim_3m_Capital",
@@ -44,8 +44,8 @@
     "BoxComponent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Beorn_Door_A_C",
-    "BP_Beorn_Wall_Door_3x4m_A_Player_C",
+    "BP_Ceiba_Door_A_C",
+    "BP_Ceiba_Wall_Door_3x4m_A_C",
     "BP_Crude_Wall_Door_3x4_A_C",
     "bPreRuined",
     "Break Self",
@@ -96,8 +96,8 @@
     "DamageType",
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Beorn_Door_A_C",
-    "Default__BP_Beorn_Wall_Door_3x4m_A_Player_C",
+    "Default__BP_Ceiba_Door_A_C",
+    "Default__BP_Ceiba_Wall_Door_3x4m_A_C",
     "Default__BP_Crude_Wall_Door_3x4_A_C",
     "Default__ChildActorComponent",
     "Default__ComponentDelegateBinding",
@@ -115,13 +115,13 @@
     "Direction",
     "DoorChildActor",
     "DoorChildActor_GEN_VARIABLE",
-    "DoorChildActor_GEN_VARIABLE_BP_Beorn_Door_A_C_CAT",
+    "DoorChildActor_GEN_VARIABLE_BP_Ceiba_Door_A_C_CAT",
     "DynamicBindingObjects",
     "EComponentMobility",
     "EComponentMobility::Stationary",
     "Engine",
     "EntryPoint",
-    "ExecuteUbergraph_BP_Beorn_Wall_Door_3x4m_A_Player",
+    "ExecuteUbergraph_BP_Ceiba_Wall_Door_3x4m_A",
     "Force",
     "Function",
     "FunctionNameToBind",
@@ -189,7 +189,15 @@
     "UberGraphFunction",
     "VariableGuid",
     "Vector",
-    "Default__BP_BaseArchitectureBreakable_C"
+    "Default__BP_BaseArchitectureBreakable_C",
+    "OverrideMaterials",
+    "MaterialInstanceConstant",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Trim",
+    "MI_Ceiba_Trim",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Wall",
+    "MI_Ceiba_Wall",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+    "MI_Ceiba_Beams_SmallColumn"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -745,7 +753,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "ExecuteUbergraph_BP_Beorn_Wall_Door_3x4m_A_Player",
+      "ObjectName": "ExecuteUbergraph_BP_Ceiba_Wall_Door_3x4m_A",
       "OuterIndex": 5,
       "ClassIndex": -11,
       "SuperIndex": 0,
@@ -1316,7 +1324,7 @@
       "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
       "FuncMap": [
         [
-          "ExecuteUbergraph_BP_Beorn_Wall_Door_3x4m_A_Player",
+          "ExecuteUbergraph_BP_Ceiba_Wall_Door_3x4m_A",
           1
         ],
         [
@@ -1639,7 +1647,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Beorn_Wall_Door_3x4m_A_Player_C",
+      "ObjectName": "BP_Ceiba_Wall_Door_3x4m_A_C",
       "OuterIndex": 0,
       "ClassIndex": -14,
       "SuperIndex": -4,
@@ -1673,7 +1681,10 @@
         -71,
         -73,
         -14,
-        -5
+        -5,
+        -77,
+        -79,
+        -81
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -1726,7 +1737,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Beorn_Wall_Door_3x4m_A_Player_C",
+      "ObjectName": "Default__BP_Ceiba_Wall_Door_3x4m_A_C",
       "OuterIndex": 0,
       "ClassIndex": 5,
       "SuperIndex": 0,
@@ -1838,7 +1849,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "DoorChildActor_GEN_VARIABLE_BP_Beorn_Door_A_C_CAT",
+      "ObjectName": "DoorChildActor_GEN_VARIABLE_BP_Ceiba_Door_A_C_CAT",
       "OuterIndex": 9,
       "ClassIndex": -1,
       "SuperIndex": 0,
@@ -2774,6 +2785,26 @@
           "Value": -71
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -2936,6 +2967,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -71
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -3102,6 +3153,26 @@
           "Value": -72
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -3195,6 +3266,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -72
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -3330,6 +3421,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -70
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -3496,6 +3607,26 @@
           "Value": -70
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -3658,6 +3789,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -70
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -3824,6 +3975,26 @@
           "Value": -70
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -3986,6 +4157,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -71
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -4152,6 +4343,26 @@
           "Value": -71
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -4314,6 +4525,44 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -73
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -77
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -79
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "2",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -81
+            }
+          ]
         }
       ],
       "ObjectGuid": null,
@@ -5961,7 +6210,7 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_Beorn_Door_A_C",
+      "ObjectName": "BP_Ceiba_Door_A_C",
       "OuterIndex": -45,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -6024,10 +6273,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__BP_Beorn_Door_A_C",
+      "ObjectName": "Default__BP_Ceiba_Door_A_C",
       "OuterIndex": -45,
-      "ClassPackage": "/Game/DLC/BeornPack/Construction/BP_Beorn_Door_A",
-      "ClassName": "BP_Beorn_Door_A_C",
+      "ClassPackage": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Door_A",
+      "ClassName": "BP_Ceiba_Door_A_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -6357,7 +6606,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/BeornPack/Construction/BP_Beorn_Door_A",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Door_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -6633,6 +6882,60 @@
       "ClassName": "SceneComponent",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Trim",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Trim",
+      "OuterIndex": -76,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": -78,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Wall",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Wall",
+      "OuterIndex": -80,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -6708,7 +7011,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_Door_3x4m_A_Player",
+  "FolderName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_Door_3x4m_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

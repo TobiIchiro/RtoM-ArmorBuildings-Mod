@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_ColumnSmall_Capital_Player",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_ColumnSmall_Capital",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Column_Small_Capital",
     "/Game/DLC/BeornPack/Destructible/DM_Beorn_Column_Small_Capital_Destructible",
     "/Game/DLC/BeornPack/Destructible/DM_Beorn_Column_Small_Capital_Destructible.DM_Beorn_Column_Small_Capital_Destructible",
@@ -25,7 +25,7 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Beorn_ColumnSmall_Capital_Player_C",
+    "BP_Ceiba_ColumnSmall_Capital_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable.Small.Stone",
@@ -46,7 +46,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Beorn_ColumnSmall_Capital_Player_C",
+    "Default__BP_Ceiba_ColumnSmall_Capital_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -110,7 +110,11 @@
     "StaticMesh",
     "StructProperty",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "OverrideMaterials",
+    "MaterialInstanceConstant",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+    "MI_Ceiba_Beams_SmallColumn"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -327,7 +331,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Beorn_ColumnSmall_Capital_Player_C",
+      "ObjectName": "BP_Ceiba_ColumnSmall_Capital_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
@@ -386,7 +390,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Beorn_ColumnSmall_Capital_Player_C",
+      "ObjectName": "Default__BP_Ceiba_ColumnSmall_Capital_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -740,6 +744,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -37
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -39
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
@@ -1889,6 +1913,24 @@
       "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -1938,7 +1980,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/DLC/BeornPack/Construction/BP_Beorn_ColumnSmall_Capital_Player",
+  "FolderName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_ColumnSmall_Capital",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

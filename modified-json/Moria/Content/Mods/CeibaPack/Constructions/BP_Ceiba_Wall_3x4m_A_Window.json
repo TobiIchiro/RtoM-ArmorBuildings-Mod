@@ -6,8 +6,8 @@
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Wall_Thin_1x3m_A_Destructible.DM_Wall_Thin_1x3m_A_Destructible",
     "/Game/Art/Assets/Kits/Deco_Architecture/Suburbs/Building_Trellis_1M_A",
     "/Game/Art/Assets/Kits/Deco_Architecture/Suburbs/Materials/Building_Wood_Interior/MI_Building_Wood_Interior_C_Mat",
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_3x4m_A_Player",
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_3x4m_A_Window",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_3x4m_A",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_3x4m_A_Window",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Wall_3x4m_Windows",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
@@ -29,8 +29,8 @@
     "BoolProperty",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Beorn_Wall_3x4m_A_Player_C",
-    "BP_Beorn_Wall_3x4m_A_Window_C",
+    "BP_Ceiba_Wall_3x4m_A_C",
+    "BP_Ceiba_Wall_3x4m_A_Window_C",
     "BP_Suburbs_Wall_Thin_3x4m_A_C",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable_GEN_VARIABLE",
@@ -44,8 +44,8 @@
     "ComponentTemplate",
     "CookedComponentInstancingData",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Beorn_Wall_3x4m_A_Player_C",
-    "Default__BP_Beorn_Wall_3x4m_A_Window_C",
+    "Default__BP_Ceiba_Wall_3x4m_A_C",
+    "Default__BP_Ceiba_Wall_3x4m_A_Window_C",
     "Default__BP_Suburbs_Wall_Thin_3x4m_A_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
@@ -103,7 +103,13 @@
     "VariableGuid",
     "Vector",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_BaseArchitectureBreakable_C"
+    "Default__BP_BaseArchitectureBreakable_C",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Wall",
+    "MI_Ceiba_Wall",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Trim",
+    "MI_Ceiba_Trim",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+    "MI_Ceiba_Beams_SmallColumn"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -278,7 +284,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Beorn_Wall_3x4m_A_Window_C",
+      "ObjectName": "BP_Ceiba_Wall_3x4m_A_Window_C",
       "OuterIndex": 0,
       "ClassIndex": -9,
       "SuperIndex": -1,
@@ -307,6 +313,9 @@
         -50,
         -41,
         -46,
+        -52,
+        -54,
+        -56,
         -39,
         -45,
         -16,
@@ -341,7 +350,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Beorn_Wall_3x4m_A_Window_C",
+      "ObjectName": "Default__BP_Ceiba_Wall_3x4m_A_Window_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -708,6 +717,44 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -46
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -52
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -54
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "2",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -56
+            }
+          ]
         }
       ],
       "ObjectGuid": null,
@@ -1404,7 +1451,7 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_Beorn_Wall_3x4m_A_Player_C",
+      "ObjectName": "BP_Ceiba_Wall_3x4m_A_C",
       "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -1449,10 +1496,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__BP_Beorn_Wall_3x4m_A_Player_C",
+      "ObjectName": "Default__BP_Ceiba_Wall_3x4m_A_C",
       "OuterIndex": -28,
-      "ClassPackage": "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_3x4m_A_Player",
-      "ClassName": "BP_Beorn_Wall_3x4m_A_Player_C",
+      "ClassPackage": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_3x4m_A",
+      "ClassName": "BP_Ceiba_Wall_3x4m_A_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -1647,7 +1694,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_3x4m_A_Player",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_3x4m_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1851,6 +1898,60 @@
       "ClassName": "SceneComponent",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Wall",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Wall",
+      "OuterIndex": -51,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Trim",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Trim",
+      "OuterIndex": -53,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": -55,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -1898,7 +1999,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/DLC/BeornPack/Construction/BP_Beorn_Wall_3x4m_A_Window",
+  "FolderName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_3x4m_A_Window",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

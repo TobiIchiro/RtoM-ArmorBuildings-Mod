@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/DLC/BeornPack/Construction/BP_Beorn_Door_A",
+    "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Door_A",
     "/Game/DLC/BeornPack/Construction/Meshes/Beorn_Doors",
     "/Game/DLC/BeornPack/Destructible/DM_Beorn_Doors_Destructible",
     "/Game/DLC/BeornPack/Destructible/DM_Beorn_Doors_Destructible.DM_Beorn_Doors_Destructible",
@@ -27,7 +27,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BoxComponent",
-    "BP_Beorn_Door_A_C",
+    "BP_Ceiba_Door_A_C",
     "BP_Door__Base_C",
     "ChangedPropertyList",
     "Class",
@@ -41,7 +41,7 @@
     "Crude_Doors2",
     "Crude_Doors2_GEN_VARIABLE",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Beorn_Door_A_C",
+    "Default__BP_Ceiba_Door_A_C",
     "Default__BP_Door__Base_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
@@ -101,7 +101,11 @@
     "VariableGuid",
     "Vector",
     "TimelineTemplate",
-    "open Out_Template"
+    "open Out_Template",
+    "OverrideMaterials",
+    "MaterialInstanceConstant",
+    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+    "MI_Ceiba_Beams_SmallColumn"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -297,7 +301,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Beorn_Door_A_C",
+      "ObjectName": "BP_Ceiba_Door_A_C",
       "OuterIndex": 0,
       "ClassIndex": -9,
       "SuperIndex": -1,
@@ -323,6 +327,7 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         -35,
+        -38,
         -37,
         -36,
         -9,
@@ -365,7 +370,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Beorn_Door_A_C",
+      "ObjectName": "Default__BP_Ceiba_Door_A_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -861,6 +866,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -35
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -39
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -1981,6 +2006,24 @@
       "ClassName": "TimelineTemplate",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Ceiba_Beams_SmallColumn",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -2031,7 +2074,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/DLC/BeornPack/Construction/BP_Beorn_Door_A",
+  "FolderName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Door_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
