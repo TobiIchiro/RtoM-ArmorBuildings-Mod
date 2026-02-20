@@ -11516,7 +11516,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Beam_1M_B"
                       }
                     ]
                   },
@@ -11540,7 +11540,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Beam_3M_A"
                       }
                     ]
                   },
@@ -11564,7 +11564,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Beam_3M_B"
                       }
                     ]
                   },
@@ -11588,7 +11588,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Beam_6M_A"
                       }
                     ]
                   },
@@ -11612,7 +11612,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Beam_6M_B"
                       }
                     ]
                   },
@@ -11636,7 +11636,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Columnmed_Base_A"
                       }
                     ]
                   },
@@ -11660,7 +11660,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnMed_Shaft_A"
                       }
                     ]
                   },
@@ -11684,7 +11684,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnMed_Capital_A"
                       }
                     ]
                   },
@@ -11708,7 +11708,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnLarge_Base_A"
                       }
                     ]
                   },
@@ -11732,7 +11732,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnLarge_Shaft_A"
                       }
                     ]
                   },
@@ -11756,7 +11756,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnLarge_Capital_A"
                       }
                     ]
                   },
@@ -11780,7 +11780,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnSmall_Base_A"
                       }
                     ]
                   },
@@ -11804,7 +11804,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnSmall_Shaft_A"
                       }
                     ]
                   },
@@ -11828,7 +11828,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnSmall_Capital_A"
                       }
                     ]
                   },
@@ -11852,7 +11852,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnMedRound_Base_A"
                       }
                     ]
                   },
@@ -11876,7 +11876,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnMedRound_Shaft_A"
                       }
                     ]
                   },
@@ -11900,7 +11900,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_ColumnMedRound_Capital_A"
                       }
                     ]
                   },
@@ -11924,7 +11924,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_3X4M_A"
                       }
                     ]
                   },
@@ -11948,7 +11948,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_3X4M_B"
                       }
                     ]
                   },
@@ -11972,7 +11972,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_3X4M_C"
                       }
                     ]
                   },
@@ -11996,7 +11996,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_Arch_3X4_A"
                       }
                     ]
                   },
@@ -12020,7 +12020,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_Door_3X4M_A"
                       }
                     ]
                   },
@@ -12044,7 +12044,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_3X4M_Window_A"
                       }
                     ]
                   },
@@ -12068,7 +12068,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_3X4M_Window_B"
                       }
                     ]
                   },
@@ -12092,7 +12092,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_3X4M_Window_C"
                       }
                     ]
                   },
@@ -12116,7 +12116,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_1X4M_A"
                       }
                     ]
                   },
@@ -12140,79 +12140,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                    "StructType": "MorAnyRecipeRowHandle",
-                    "SerializeNone": true,
-                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                    "SerializationControl": "NoExtension",
-                    "Operation": "None",
-                    "Name": "Recipes",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      {
-                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                        "Name": "RowName",
-                        "ArrayIndex": 0,
-                        "IsZero": false,
-                        "PropertyTagFlags": "None",
-                        "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                    "StructType": "MorAnyRecipeRowHandle",
-                    "SerializeNone": true,
-                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                    "SerializationControl": "NoExtension",
-                    "Operation": "None",
-                    "Name": "Recipes",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      {
-                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                        "Name": "RowName",
-                        "ArrayIndex": 0,
-                        "IsZero": false,
-                        "PropertyTagFlags": "None",
-                        "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                    "StructType": "MorAnyRecipeRowHandle",
-                    "SerializeNone": true,
-                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                    "SerializationControl": "NoExtension",
-                    "Operation": "None",
-                    "Name": "Recipes",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      {
-                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                        "Name": "RowName",
-                        "ArrayIndex": 0,
-                        "IsZero": false,
-                        "PropertyTagFlags": "None",
-                        "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.CeibaPack_Beam_1M_A"
+                        "Value": "Building.CeibaPack_Wall_1X4M_B"
                       }
                     ]
                   },
@@ -12380,7 +12308,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "Building.Building.CeibaPack_Wall_1X1M_C"
+                        "Value": "Building.CeibaPack_Wall_1X1M_C"
                       }
                     ]
                   }
