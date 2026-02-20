@@ -176933,7 +176933,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Beam_6m_B.BP_Ceiba_Beam_6m_B"
+                                        "AssetName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Beam_6m_B.BP_Ceiba_Beam_6m_B_C"
                                     },
                                     "SubPathString": null
                                 }
@@ -176973,7 +176973,7 @@
                                                     "AssetPath": {
                                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                                         "PackageName": null,
-                                                        "AssetName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Beam_6m_B.BP_Ceiba_Beam_6m_B"
+                                                        "AssetName": "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Beam_6m_B.BP_Ceiba_Beam_6m_B_C"
                                                     },
                                                     "SubPathString": null
                                                 }
