@@ -6,10 +6,10 @@
     "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AC_Destructible.DM_Fungal_Foliage_AC_Destructible",
     "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AD_Destructible",
     "/Game/Art/Assets/Kits/Deco/Flora/Destructible/DM_Fungal_Foliage_AD_Destructible.DM_Fungal_Foliage_AD_Destructible",
-    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Middle_A",
-    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Young_A",
-    "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Sapling_A",
-    "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Small",
+    "/Game/Mods/CeibaPack/Flora/Meshes/SM_Ceiba_04_Middle",
+    "/Game/Mods/CeibaPack/Flora/Meshes/SM_Ceiba_03_Young",
+    "/Game/Mods/CeibaPack/Flora/Meshes/SM_Ceiba_02_Sappling",
+    "/Game/Mods/CeibaPack/Flora/BP_Ceiba_Receptacle_Small",
     "/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Tree_ReceptacleBase",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -29,7 +29,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BoxComponent",
-    "BP_Fungal_Foliage_A_Receptacle_Small_C",
+    "BP_Ceiba_Receptacle_Small_C",
     "BP_Flora_Tree_ReceptacleBase_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
@@ -42,7 +42,7 @@
     "CookedComponentInstancingData",
     "DataInterfaces",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Fungal_Foliage_A_Receptacle_Small_C",
+    "Default__BP_Ceiba_Receptacle_Small_C",
     "Default__BP_Flora_Tree_ReceptacleBase_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
@@ -59,10 +59,10 @@
     "FGKAkComponent",
     "FGKTargetable_GEN_VARIABLE",
     "FGKTargetableComponent",
-    "Fungal_Foliage_Middle_A",
-    "Fungal_Foliage_Young_A",
-    "Fungal_Foliage_Sapling_A",
-    "FungalFoliage_A_Small_Plantable",
+    "SM_Ceiba_04_Middle",
+    "SM_Ceiba_03_Young",
+    "SM_Ceiba_02_Sappling",
+    "Ceiba_Small_Plantable",
     "FSM_GEN_VARIABLE",
     "FungalTree_Small_Plantable",
     "GreenCurve",
@@ -275,7 +275,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Fungal_Foliage_A_Receptacle_Small_C",
+      "ObjectName": "BP_Ceiba_Receptacle_Small_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -1,
@@ -342,7 +342,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "FungalFoliage_A_Small_Plantable"
+              "Value": "Ceiba_Small_Plantable"
             }
           ]
         },
@@ -386,7 +386,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Fungal_Foliage_A_Receptacle_Small_C",
+      "ObjectName": "Default__BP_Ceiba_Receptacle_Small_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1156,9 +1156,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 1.5,
-                "Y": 1.5,
-                "Z": 1.5
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
               }
             }
           ]
@@ -1251,9 +1251,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 2.0,
-                "Y": 2.0,
-                "Z": 2.0
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
               }
             }
           ]
@@ -1851,9 +1851,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 2.0,
-                "Y": 2.0,
-                "Z": 2.0
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
               }
             }
           ]
@@ -2242,7 +2242,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Middle_A",
+      "ObjectName": "/Game/Mods/CeibaPack/Flora/Meshes/SM_Ceiba_04_Middle",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2251,7 +2251,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Sapling_A",
+      "ObjectName": "/Game/Mods/CeibaPack/Flora/Meshes/SM_Ceiba_02_Sappling",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2341,7 +2341,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Foliage_Middle_A",
+      "ObjectName": "SM_Ceiba_04_Middle",
       "OuterIndex": -38,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2350,7 +2350,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Foliage_Sapling_A",
+      "ObjectName": "SM_Ceiba_02_Sappling",
       "OuterIndex": -39,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2386,7 +2386,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FungalPack/Meshes/Fungal_Foliage_Young_A",
+      "ObjectName": "/Game/Mods/CeibaPack/Flora/Meshes/SM_Ceiba_03_Young",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2395,7 +2395,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Fungal_Foliage_Young_A",
+      "ObjectName": "SM_Ceiba_03_Young",
       "OuterIndex": -54,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2452,7 +2452,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_A_Receptacle_Small",
+  "FolderName": "/Game/Mods/CeibaPack/Flora/BP_Ceiba_Receptacle_Small",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

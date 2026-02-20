@@ -718,7 +718,32 @@
     "FungalFoliage_B_Small_Plantable_Ready_WoodScraps",
     "Flora.Tree.FungalFoliageBLarge",
     "Flora.Tree.FungalFoliageBMed",
-    "Flora.Tree.FungalFoliageBSmall"
+    "Flora.Tree.FungalFoliageBSmall",
+    "Item.CeibaCutting",
+    "Ceiba_Large_Plantable_Sprout_Extra",
+    "Ceiba_Large_Plantable_Growing_Extra",
+    "Ceiba_Large_Plantable_Ready_Extra",
+    "Ceiba_Medium_Plantable_Sprout_Extra",
+    "Ceiba_Medium_Plantable_Growing_Extra",
+    "Ceiba_Medium_Plantable_Ready_Extra",
+    "Ceiba_Small_Plantable_Sprout_Extra",
+    "Ceiba_Small_Plantable_Growing_Extra",
+    "Ceiba_Small_Plantable_Ready_Extra",
+    "Ceiba_Large_Plantable_Growing_Ironwood",
+    "Ceiba_Large_Plantable_Ready_Ironwood",
+    "Ceiba_Medium_Plantable_Growing_Ironwood",
+    "Ceiba_Medium_Plantable_Ready_Ironwood",
+    "Ceiba_Small_Plantable_Growing_Ironwood",
+    "Ceiba_Small_Plantable_Ready_Ironwood",
+    "Ceiba_Large_Plantable_Growing_WoodScraps",
+    "Ceiba_Large_Plantable_Ready_WoodScraps",
+    "Ceiba_Medium_Plantable_Growing_WoodScraps",
+    "Ceiba_Medium_Plantable_Ready_WoodScraps",
+    "Ceiba_Small_Plantable_Growing_WoodScraps",
+    "Ceiba_Small_Plantable_Ready_WoodScraps",
+    "Flora.Tree.CeibaLarge",
+    "Flora.Tree.CeibaMed",
+    "Flora.Tree.CeibaSmall"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -53415,7 +53440,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Sprout_Extra",
+            "Name": "Ceiba_Large_Plantable_Sprout_Extra",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -53443,7 +53468,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -53468,7 +53493,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -53543,7 +53568,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Growing_Extra",
+            "Name": "Ceiba_Large_Plantable_Growing_Extra",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -53572,7 +53597,7 @@
                     "Value": [
                       "Flora.GrowthStage.Growing",
                       "Breakable.Rune.Whisperwood",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -53597,136 +53622,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
-                "Name": "DropChance",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 2
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorDifficultySettingRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "DropChanceModifyingDifficultySetting",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "None"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": "ERowEnabledState",
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorLootRowDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Ready_Extra",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "GameplayTagContainer",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "RequiredTags",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
-                    "Name": "RequiredTags",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      "Flora.GrowthStage.Ready",
-                      "Breakable.Rune.Whisperwood",
-                      "Flora.Tree.FungalFoliageBLarge"
-                    ]
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorAnyItemRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "ItemHandle",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -53801,264 +53697,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Sprout_Extra",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "GameplayTagContainer",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "RequiredTags",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
-                    "Name": "RequiredTags",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalFoliageBMed"
-                    ]
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorAnyItemRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "ItemHandle",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
-                "Name": "DropChance",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorDifficultySettingRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "DropChanceModifyingDifficultySetting",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "None"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": "ERowEnabledState",
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorLootRowDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Growing_Extra",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "GameplayTagContainer",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "RequiredTags",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
-                    "Name": "RequiredTags",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      "Flora.GrowthStage.Growing",
-                      "Breakable.Rune.Whisperwood",
-                      "Flora.Tree.FungalFoliageBMed"
-                    ]
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorAnyItemRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "ItemHandle",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
-                "Name": "DropChance",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorDifficultySettingRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "DropChanceModifyingDifficultySetting",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "None"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": "ERowEnabledState",
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorLootRowDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Ready_Extra",
+            "Name": "Ceiba_Large_Plantable_Ready_Extra",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -54087,7 +53726,7 @@
                     "Value": [
                       "Flora.GrowthStage.Ready",
                       "Breakable.Rune.Whisperwood",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -54112,7 +53751,264 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 6
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Ceiba_Medium_Plantable_Sprout_Extra",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Flora.GrowthStage.Sprout",
+                      "Flora.Tree.CeibaMed"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.CeibaCutting"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Ceiba_Medium_Plantable_Growing_Extra",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Flora.GrowthStage.Growing",
+                      "Breakable.Rune.Whisperwood",
+                      "Flora.Tree.CeibaMed"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -54187,264 +54083,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Sprout_Extra",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "GameplayTagContainer",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "RequiredTags",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
-                    "Name": "RequiredTags",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalFoliageBSmall"
-                    ]
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorAnyItemRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "ItemHandle",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
-                "Name": "DropChance",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorDifficultySettingRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "DropChanceModifyingDifficultySetting",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "None"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": "ERowEnabledState",
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorLootRowDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Growing_Extra",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "GameplayTagContainer",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "RequiredTags",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
-                    "Name": "RequiredTags",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": [
-                      "Flora.GrowthStage.Growing",
-                      "Breakable.Rune.Whisperwood",
-                      "Flora.Tree.FungalFoliageBSmall"
-                    ]
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorAnyItemRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "ItemHandle",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                "Value": 1.0,
-                "Name": "DropChance",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxQuantity",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 1
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                "StructType": "MorDifficultySettingRowHandle",
-                "SerializeNone": true,
-                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                "SerializationControl": "NoExtension",
-                "Operation": "None",
-                "Name": "DropChanceModifyingDifficultySetting",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": [
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "RowName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "None"
-                  }
-                ]
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": "ERowEnabledState",
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorLootRowDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Ready_Extra",
+            "Name": "Ceiba_Medium_Plantable_Ready_Extra",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -54473,7 +54112,7 @@
                     "Value": [
                       "Flora.GrowthStage.Ready",
                       "Breakable.Rune.Whisperwood",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -54498,7 +54137,135 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 3
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Ceiba_Small_Plantable_Sprout_Extra",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Flora.GrowthStage.Sprout",
+                      "Flora.Tree.CeibaSmall"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -54573,7 +54340,265 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Growing_Ironwood",
+            "Name": "Ceiba_Small_Plantable_Growing_Extra",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Flora.GrowthStage.Growing",
+                      "Breakable.Rune.Whisperwood",
+                      "Flora.Tree.CeibaSmall"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.CeibaCutting"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Ceiba_Small_Plantable_Ready_Extra",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Flora.GrowthStage.Ready",
+                      "Breakable.Rune.Whisperwood",
+                      "Flora.Tree.CeibaSmall"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.CeibaCutting"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 3
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Ceiba_Large_Plantable_Growing_Ironwood",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -54602,7 +54627,7 @@
                     "Value": [
                       "Flora.GrowthStage.Growing",
                       "Breakable.Rune.Ironwood",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -54702,7 +54727,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Ready_Ironwood",
+            "Name": "Ceiba_Large_Plantable_Ready_Ironwood",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -54731,7 +54756,7 @@
                     "Value": [
                       "Flora.GrowthStage.Ready",
                       "Breakable.Rune.Ironwood",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -54831,7 +54856,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Growing_Ironwood",
+            "Name": "Ceiba_Medium_Plantable_Growing_Ironwood",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -54860,7 +54885,7 @@
                     "Value": [
                       "Flora.GrowthStage.Growing",
                       "Breakable.Rune.Ironwood",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -54960,7 +54985,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Ready_Ironwood",
+            "Name": "Ceiba_Medium_Plantable_Ready_Ironwood",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -54989,7 +55014,7 @@
                     "Value": [
                       "Flora.GrowthStage.Ready",
                       "Breakable.Rune.Ironwood",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -55089,7 +55114,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Growing_Ironwood",
+            "Name": "Ceiba_Small_Plantable_Growing_Ironwood",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55118,7 +55143,7 @@
                     "Value": [
                       "Flora.GrowthStage.Growing",
                       "Breakable.Rune.Ironwood",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]
@@ -55218,7 +55243,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Ready_Ironwood",
+            "Name": "Ceiba_Small_Plantable_Ready_Ironwood",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55247,7 +55272,7 @@
                     "Value": [
                       "Flora.GrowthStage.Ready",
                       "Breakable.Rune.Ironwood",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]
@@ -55347,7 +55372,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Growing_WoodScraps",
+            "Name": "Ceiba_Large_Plantable_Growing_WoodScraps",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55375,7 +55400,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -55475,7 +55500,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable_Ready_WoodScraps",
+            "Name": "Ceiba_Large_Plantable_Ready_WoodScraps",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55503,7 +55528,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -55603,7 +55628,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Growing_WoodScraps",
+            "Name": "Ceiba_Medium_Plantable_Growing_WoodScraps",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55631,7 +55656,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -55731,7 +55756,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable_Ready_WoodScraps",
+            "Name": "Ceiba_Medium_Plantable_Ready_WoodScraps",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55759,7 +55784,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -55859,7 +55884,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Growing_WoodScraps",
+            "Name": "Ceiba_Small_Plantable_Growing_WoodScraps",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55887,7 +55912,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]
@@ -55987,7 +56012,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable_Ready_WoodScraps",
+            "Name": "Ceiba_Small_Plantable_Ready_WoodScraps",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -56015,7 +56040,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]

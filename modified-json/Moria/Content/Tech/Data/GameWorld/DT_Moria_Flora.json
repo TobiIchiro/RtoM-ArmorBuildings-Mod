@@ -335,9 +335,10 @@
     "Ceiba_Small_Plantable",
     "/Game/Mods/CeibaPack/Flora/BP_Ceiba_Receptacle_Small.BP_Ceiba_Receptacle_Small_C",
     "Item.CeibaCutting",
+    "Item.CeibaWood",
     "Flora.Tree.CeibaLarge",
-    "Flora.Tree.CeibaAMed",
-    "Flora.Tree.CeibaASmall"
+    "Flora.Tree.CeibaMed",
+    "Flora.Tree.CeibaSmall"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -35960,7 +35961,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Large_Plantable",
+            "Name": "Ceiba_Large_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -36006,7 +36007,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -36030,7 +36031,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.AncientWood"
+                    "Value": "Item.CeibaWood"
                   }
                 ]
               },
@@ -36041,7 +36042,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 1
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -36050,7 +36051,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 5
+                "Value": 15
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -36122,7 +36123,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -36162,7 +36163,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorFarmingFloraGrowthRate::Slow"
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -36186,7 +36187,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -36213,7 +36214,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalFoliageBLarge"
+                      "Flora.Tree.CeibaLarge"
                     ]
                   }
                 ]
@@ -36239,7 +36240,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Flora.Tree.FungalFoliageBLarge",
+                      "Flora.Tree.CeibaLarge",
                       "Flora.GrowthStage.Ready"
                     ]
                   }
@@ -36285,7 +36286,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -36299,7 +36300,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Large.BP_Fungal_Foliage_B_Receptacle_Large_C"
+                    "AssetName": "/Game/Mods/CeibaPack/Flora/BP_Ceiba_Receptacle_Large.BP_Ceiba_Receptacle_Large_C"
                   },
                   "SubPathString": null
                 }
@@ -36433,7 +36434,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Medium_Plantable",
+            "Name": "Ceiba_Medium_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -36479,7 +36480,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -36503,7 +36504,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.AncientWood"
+                    "Value": "Item.CeibaWood"
                   }
                 ]
               },
@@ -36514,7 +36515,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 1
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -36523,7 +36524,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 9
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -36595,7 +36596,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -36635,7 +36636,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorFarmingFloraGrowthRate::Slow"
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -36659,7 +36660,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -36686,7 +36687,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -36713,7 +36714,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalFoliageBMed"
+                      "Flora.Tree.CeibaMed"
                     ]
                   }
                 ]
@@ -36758,7 +36759,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -36772,7 +36773,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Medium.BP_Fungal_Foliage_B_Receptacle_Medium_C"
+                    "AssetName": "/Game/Mods/CeibaPack/Flora/BP_Ceiba_Receptacle_Medium.BP_Ceiba_Receptacle_Medium_C"
                   },
                   "SubPathString": null
                 }
@@ -36906,7 +36907,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "FungalFoliage_B_Small_Plantable",
+            "Name": "Ceiba_Small_Plantable",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -36952,7 +36953,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.FungalFoliageCutting_B"
+                    "Value": "Item.CeibaCutting"
                   }
                 ]
               },
@@ -36976,7 +36977,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.AncientWood"
+                    "Value": "Item.CeibaWood"
                   }
                 ]
               },
@@ -36987,7 +36988,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 1
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -36996,7 +36997,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 2
+                "Value": 6
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -37068,7 +37069,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -37108,7 +37109,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorFarmingFloraGrowthRate::Slow"
+                "Value": "EMorFarmingFloraGrowthRate::Moderate"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -37132,7 +37133,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Sprout",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]
@@ -37159,7 +37160,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Growing",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]
@@ -37186,7 +37187,7 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "Flora.GrowthStage.Ready",
-                      "Flora.Tree.FungalFoliageBSmall"
+                      "Flora.Tree.CeibaSmall"
                     ]
                   }
                 ]
@@ -37231,7 +37232,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -37245,7 +37246,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FungalPack/BP_Fungal_Foliage_B_Receptacle_Small.BP_Fungal_Foliage_B_Receptacle_Small_C"
+                    "AssetName": "/Game/Mods/CeibaPack/Flora/BP_Ceiba_Receptacle_Small.BP_Ceiba_Receptacle_Small_C"
                   },
                   "SubPathString": null
                 }
