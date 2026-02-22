@@ -5947,7 +5947,12 @@
         "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_1x1m_C",
         "/Game/Mods/CeibaPack/Constructions/BP_Ceiba_Wall_1x1m_C.BP_Ceiba_Wall_1x1m_C_C",
         "T_UI_BuildIcon_CeibaPack_Wall_1X1M_C",
-        "/Game/Mods/CeibaPack/Constructions/Icons/T_UI_BuildIcon_CeibaPack_Wall_1X1M_C"
+        "/Game/Mods/CeibaPack/Constructions/Icons/T_UI_BuildIcon_CeibaPack_Wall_1X1M_C",
+        "UI.Construction.Category.Ceiba",
+        "UI.Construction.Category.Ceiba.Beams",
+        "UI.Construction.Category.Ceiba.Columns",
+        "UI.Construction.Category.Ceiba.DecorativeWalls",
+        "UI.Construction.Category.Ceiba.Walls"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -176183,7 +176188,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Beams"
                                         ]
                                     }
                                 ]
@@ -176347,7 +176352,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Beams"
                                         ]
                                     }
                                 ]
@@ -176511,7 +176516,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Beams"
                                         ]
                                     }
                                 ]
@@ -176675,7 +176680,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Beams"
                                         ]
                                     }
                                 ]
@@ -176839,7 +176844,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Beams"
                                         ]
                                     }
                                 ]
@@ -177003,7 +177008,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Beams"
                                         ]
                                     }
                                 ]
@@ -177167,7 +177172,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -177331,7 +177336,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -177495,7 +177500,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -177659,7 +177664,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -177823,7 +177828,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -177987,7 +177992,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -178151,7 +178156,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -178315,7 +178320,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -178479,7 +178484,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -178643,7 +178648,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -178807,7 +178812,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -178971,7 +178976,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Columns"
                                         ]
                                     }
                                 ]
@@ -179135,7 +179140,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Walls"
                                         ]
                                     }
                                 ]
@@ -179299,7 +179304,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -179463,7 +179468,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -179627,7 +179632,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -179791,7 +179796,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -179955,7 +179960,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Walls"
                                         ]
                                     }
                                 ]
@@ -180119,7 +180124,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -180283,7 +180288,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -180447,7 +180452,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Walls"
                                         ]
                                     }
                                 ]
@@ -180611,7 +180616,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -180775,7 +180780,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -180939,7 +180944,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Walls"
                                         ]
                                     }
                                 ]
@@ -181103,7 +181108,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -181267,7 +181272,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -181431,7 +181436,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.Walls"
                                         ]
                                     }
                                 ]
@@ -181595,7 +181600,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
@@ -181759,7 +181764,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Construction.Category.Elder.Walls"
+                                            "UI.Construction.Category.Ceiba.DecorativeWalls"
                                         ]
                                     }
                                 ]
