@@ -107,13 +107,7 @@
     "StaticMeshComponent1_GEN_VARIABLE",
     "StructProperty",
     "VariableGuid",
-    "Vector",
-    "OverrideMaterials",
-    "MaterialInstanceConstant",
-    "/Game/DLC/BeornPack/Construction/Materials/MI_Beorn_Medium_Cylindrical_B",
-    "MI_Beorn_Medium_Cylindrical_B",
-    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Medium_Cylindrical_A",
-    "MI_Ceiba_Medium_Cylindrical_A"
+    "Vector"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,

@@ -105,11 +105,7 @@
     "StaticMeshComponent1_GEN_VARIABLE",
     "StructProperty",
     "VariableGuid",
-    "Vector",
-    "OverrideMaterials",
-    "MaterialInstanceConstant",
-    "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_MediumColumn",
-    "MI_Ceiba_MediumColumn"
+    "Vector"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -334,7 +330,6 @@
         -31,
         -17,
         -37,
-        -39,
         -7,
         -3
       ],
@@ -814,26 +809,6 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -37
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -40
-            }
-          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -1865,24 +1840,6 @@
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_MediumColumn",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Ceiba_MediumColumn",
-      "OuterIndex": -38,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
