@@ -5233,6 +5233,38 @@
                     [
                         "CeibaPack_Wall_1X1M_C.Description",
                         "z"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielBanner_A.Name",
+                        "Kelaeriel Banner"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielBanner_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielFlag_A.Name",
+                        "Kelaeriel Flag"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielFlag_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielBanner_B.Name",
+                        "Kelaeriel Banner"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielBanner_B.Description",
+                        "z"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielPostGuard_A.Name",
+                        "Kelaeriel Post Guard"
+                    ],
+                    [
+                        "KelaerielPack_KelaerielPostGuard_A.Description",
+                        "z"
                     ]
                 ]
             },
