@@ -5972,7 +5972,37 @@
         "/Game/Mods/KelaerielPack/BP_Kelaeriel_GuardPoint",
         "/Game/Mods/KelaerielPack/BP_Kelaeriel_GuardPoint.BP_Kelaeriel_GuardPoint_C",
         "T_UI_BuildIcon_KelaerielPack_KelaerielGuardPoint_A",
-        "/Game/Mods/KelaerielPack/Constructions/Icons/T_UI_BuildIcon_KelaerielPack_KelaerielGuardPoint_A"
+        "/Game/Mods/KelaerielPack/Constructions/Icons/T_UI_BuildIcon_KelaerielPack_KelaerielGuardPoint_A",
+        "KingdomBannersPack_GondorBanner_A",
+        "/Game/Mods/KingdomBannersPack/BP_Gondor_Banner_A",
+        "/Game/Mods/KingdomBannersPack/BP_Gondor_Banner_A.BP_Gondor_Banner_A_C",
+        "T_UI_BuildIcon_KingdomBannersPack_GondorBanner_A",
+        "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_GondorBanner_A",
+        "KingdomBannersPack_GondorFlag_A",
+        "/Game/Mods/KingdomBannersPack/BP_Gondor_Flag_A",
+        "/Game/Mods/KingdomBannersPack/BP_Gondor_Flag_A.BP_Gondor_Flag_A_C",
+        "T_UI_BuildIcon_KingdomBannersPack_GondorFlag_A",
+        "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_GondorFlag_A",
+        "KingdomBannersPack_GondorGuardPoint_A",
+        "/Game/Mods/KingdomBannersPack/BP_Gondor_GuardPoint",
+        "/Game/Mods/KingdomBannersPack/BP_Gondor_GuardPoint.BP_Gondor_GuardPoint_C",
+        "T_UI_BuildIcon_KingdomBannersPack_GondorGuardPoint_A",
+        "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_GondorGuardPoint_A",
+        "KingdomBannersPack_RivendellBanner_A",
+        "/Game/Mods/KingdomBannersPack/BP_Rivendell_Banner_A",
+        "/Game/Mods/KingdomBannersPack/BP_Rivendell_Banner_A.BP_Rivendell_Banner_A_C",
+        "T_UI_BuildIcon_KingdomBannersPack_RivendellBanner_A",
+        "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_RivendellBanner_A",
+        "KingdomBannersPack_RivendellFlag_A",
+        "/Game/Mods/KingdomBannersPack/BP_Rivendell_Flag_A",
+        "/Game/Mods/KingdomBannersPack/BP_Rivendell_Flag_A.BP_Rivendell_Flag_A_C",
+        "T_UI_BuildIcon_KingdomBannersPack_RivendellFlag_A",
+        "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_RivendellFlag_A",
+        "KingdomBannersPack_RivendellGuardPoint_A",
+        "/Game/Mods/KingdomBannersPack/BP_Rivendell_GuardPoint",
+        "/Game/Mods/KingdomBannersPack/BP_Rivendell_GuardPoint.BP_Rivendell_GuardPoint_C",
+        "T_UI_BuildIcon_KingdomBannersPack_RivendellGuardPoint_A",
+        "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_RivendellGuardPoint_A"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -182457,6 +182487,990 @@
                                 "Value": "ERowEnabledState::Live"
                             }
                         ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "KingdomBannersPack_GondorBanner_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_GondorBanner_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_GondorBanner_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -2115
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Gondor_Banner_A.BP_Gondor_Banner_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Gondor_Banner_A.BP_Gondor_Banner_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Banners"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "KingdomBannersPack_GondorFlag_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_GondorFlag_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_GondorFlag_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -2117
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Gondor_Flag_A.BP_Gondor_Flag_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Gondor_Flag_A.BP_Gondor_Flag_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Banners"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "KingdomBannersPack_GondorGuardPoint_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_GondorGuardPoint_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_GondorGuardPoint_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -2119
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Gondor_GuardPoint.BP_Gondor_GuardPoint_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Gondor_GuardPoint.BP_Gondor_GuardPoint_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Base.Delving"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "KingdomBannersPack_RivendellBanner_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_RivendellBanner_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_RivendellBanner_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -2121
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Rivendell_Banner_A.BP_Rivendell_Banner_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Rivendell_Banner_A.BP_Rivendell_Banner_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Banners"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "KingdomBannersPack_RivendellFlag_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_RivendellFlag_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_RivendellFlag_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -2123
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Rivendell_Flag_A.BP_Rivendell_Flag_A_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Rivendell_Flag_A.BP_Rivendell_Flag_A_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Deco.Banners"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorConstructionDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "KingdomBannersPack_RivendellGuardPoint_A",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_RivendellGuardPoint_A.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "KingdomBannersPack_RivendellGuardPoint_A.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -2125
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Rivendell_GuardPoint.BP_Rivendell_GuardPoint_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "BackwardCompatibilityActors",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "SoftObjectPath",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "BackwardCompatibilityActors",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                                                "Path": null,
+                                                "Name": "BackwardCompatibilityActors",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": {
+                                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                                    "AssetPath": {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                                        "PackageName": null,
+                                                        "AssetName": "/Game/Mods/KingdomBannersPack/BP_Rivendell_GuardPoint.BP_Rivendell_GuardPoint_C"
+                                                    },
+                                                    "SubPathString": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Construction.Category.Base.Delving"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Live"
+                            }
+                        ]
                     }
                 ]
             },
@@ -183552,7 +184566,13 @@
                 -2111,
                 -2113,
                 -2115,
-                -2117
+                -2117,
+                -2119,
+                -2121,
+                -2123,
+                -2125,
+                -2127,
+                -2129
             ],
             "CreateBeforeCreateDependencies": [],
             "Extras": ""
@@ -202588,6 +203608,114 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_GondorBanner_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_GondorBanner_A",
+            "OuterIndex": -2114,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_GondorFlag_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_GondorFlag_A",
+            "OuterIndex": -2116,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_GondorGuardPoint_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_GondorGuardPoint_A",
+            "OuterIndex": -2118,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_RivendellBanner_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_RivendellBanner_A",
+            "OuterIndex": -2120,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_RivendellFlag_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_RivendellFlag_A",
+            "OuterIndex": -2122,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/KingdomBannersPack/Constructions/Icons/T_UI_BuildIcon_KingdomBannersPack_RivendellGuardPoint_A",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_RivendellGuardPoint_A",
+            "OuterIndex": -2124,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "Texture2D",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
@@ -202598,7 +203726,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "ST_Mod_Architecture",
-            "OuterIndex": -2114,
+            "OuterIndex": -2126,
             "ClassPackage": "/Script/Engine",
             "ClassName": "StringTable",
             "PackageName": null,
@@ -202616,7 +203744,7 @@
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
             "ObjectName": "ST_Mod_Interactables",
-            "OuterIndex": -2116,
+            "OuterIndex": -2128,
             "ClassPackage": "/Script/Engine",
             "ClassName": "StringTable",
             "PackageName": null,
