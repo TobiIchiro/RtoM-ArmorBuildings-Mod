@@ -63212,7 +63212,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": "EMorRecipeUnlockType::Manual"
+                                        "Value": "EMorRecipeUnlockType::DiscoverDependencies"
                                     },
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -63274,26 +63274,37 @@
                                     {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                                         "ArrayType": "StructProperty",
-                                        "DummyStruct": {
-                                            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                                            "StructType": "MorConstructionRowHandle",
-                                            "SerializeNone": true,
-                                            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                                            "SerializationControl": "NoExtension",
-                                            "Operation": "None",
-                                            "Name": "UnlockRequiredConstructions",
-                                            "ArrayIndex": 0,
-                                            "IsZero": false,
-                                            "PropertyTagFlags": "None",
-                                            "PropertyTagExtensions": "NoExtension",
-                                            "Value": []
-                                        },
                                         "Name": "UnlockRequiredConstructions",
                                         "ArrayIndex": 0,
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": []
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                                "StructType": "MorConstructionRowHandle",
+                                                "SerializeNone": true,
+                                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                                "SerializationControl": "NoExtension",
+                                                "Operation": "None",
+                                                "Name": "UnlockRequiredConstructions",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": [
+                                                    {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                                                        "Name": "RowName",
+                                                        "ArrayIndex": 0,
+                                                        "IsZero": false,
+                                                        "PropertyTagFlags": "None",
+                                                        "PropertyTagExtensions": "NoExtension",
+                                                        "Value": "CraftingStation_LegendayElvishForge"
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             },
