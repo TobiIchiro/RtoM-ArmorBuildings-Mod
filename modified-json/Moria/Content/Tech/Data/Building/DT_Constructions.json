@@ -204610,7 +204610,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/KelaerielPack/Constructions/Icons/T_UI_BuildIcon_KelaerielPack_KelaerielPostGuard_A",
+            "ObjectName": "/Game/Mods/KelaerielPack/Constructions/Icons/T_UI_BuildIcon_KelaerielPack_KelaerielGuardPoint_A",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -204619,7 +204619,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIcon_KelaerielPack_KelaerielPostGuard_A",
+            "ObjectName": "T_UI_BuildIcon_KelaerielPack_KelaerielGuardPoint_A",
             "OuterIndex": -2112,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
