@@ -45508,7 +45508,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 1
+                                "Value": 99
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -46872,7 +46872,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 9999
+                                "Value": 99
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -47214,7 +47214,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 9999
+                                "Value": 50
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
