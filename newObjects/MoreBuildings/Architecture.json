@@ -1874,6 +1874,102 @@
                     [
                         "KelaerielPack_KelaerielPostGuard_A.Description",
                         "z"
+                    ],
+                    [
+                        "KingdomBannersPack_GondorBanner_A.Name",
+                        "Gondor Banner"
+                    ],
+                    [
+                        "KingdomBannersPack_GondorBanner_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_GondorFlag_A.Name",
+                        "Gondor Flag"
+                    ],
+                    [
+                        "KingdomBannersPack_GondorFlag_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_GondorGuardPoint_A.Name",
+                        "Gondor Guard Point"
+                    ],
+                    [
+                        "KingdomBannersPack_GondorGuardPoint_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_RivendellBanner_A.Name",
+                        "Rivendell Banner"
+                    ],
+                    [
+                        "KingdomBannersPack_RivendellBanner_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_RivendellFlag_A.Name",
+                        "Rivendell Flag"
+                    ],
+                    [
+                        "KingdomBannersPack_RivendellFlag_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_RivendellGuardPoint_A.Name",
+                        "Rivendell Guard Point"
+                    ],
+                    [
+                        "KingdomBannersPack_RivendellGuardPoint_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_EreborBanner_A.Name",
+                        "Erebor Banner"
+                    ],
+                    [
+                        "KingdomBannersPack_EreborBanner_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_EreborFlag_A.Name",
+                        "Erebor Flag"
+                    ],
+                    [
+                        "KingdomBannersPack_EreborFlag_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_EreborGuardPoint_A.Name",
+                        "Erebor Guard Point"
+                    ],
+                    [
+                        "KingdomBannersPack_EreborGuardPoint_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_LothlorienBanner_A.Name",
+                        "Lothlorien Banner"
+                    ],
+                    [
+                        "KingdomBannersPack_LothlorienBanner_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_LothlorienFlag_A.Name",
+                        "Lothlorien Flag"
+                    ],
+                    [
+                        "KingdomBannersPack_LothlorienFlag_A.Description",
+                        "z"
+                    ],
+                    [
+                        "KingdomBannersPack_LothlorienGuardPoint_A.Name",
+                        "Lothlorien Guard Point"
+                    ],
+                    [
+                        "KingdomBannersPack_LothlorienGuardPoint_A.Description",
+                        "z"
                     ]
                 ]
             }
