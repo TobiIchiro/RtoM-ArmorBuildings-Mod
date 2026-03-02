@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Mod_Effects",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Mod_Effects",
+      "KeysToEntries": {
+        "BearGuild.Buff.AntiDragon.Name": "Dragon-Crusher",
+        "BearGuild.Buff.AntiDragon.Description": "Buff for crushing Dragons",
+        "BearGuild.Buff.AntiOrc.Name": "Orc-Smasher",
+        "BearGuild.Buff.AntiOrc.Description": "Buff for smashing Orcs",
+        "BearGuild.Buff.Bludgeon.Name": "Bludgeon-Smasher",
+        "BearGuild.Buff.Bludgeon.Description": "Crush your opponents decisively",
+        "BearGuild.Buff.Hunter.Name": "Hunter-Fists",
+        "BearGuild.Buff.Hunter.Description": "Buff for punching Monsters",
+        "BearGuild.Buff.PiercingDamage.Name": "Piercing-Fists",
+        "BearGuild.Buff.PiercingDamage.Description": "Piercing-Fist to damage the Watcher",
+        "BearGuild.Buff.Thunder.Name": "Thunder-Fists",
+        "BearGuild.Buff.Thunder.Description": "Buff to crush your enemies with the power of the thunder",
+        "BearGuild.Buff.WatcherEye.Name": "Watcher-Hunter",
+        "BearGuild.Buff.WatcherEye.Description": "Butt to damage Watcher"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

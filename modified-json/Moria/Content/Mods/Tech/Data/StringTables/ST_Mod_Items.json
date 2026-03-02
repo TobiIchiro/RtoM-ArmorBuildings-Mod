@@ -42,7 +42,15 @@
         "Weapons.Battleaxe.Mereak.Name": "Firmaxe’s Clan Battleaxe",
         "Weapons.Battleaxe.Mereak.Description": "An ancient Battleaxe that belonged to the ancient Firmaxe clan.",
         "Weapons.Battleaxe.Mereak.Broken.Name": "Broken Firmaxe’s Clan Battleaxe",
-        "Weapons.Battleaxe.Mereak.Broken.Description": "Use the Repair Smithy to mend."
+        "Weapons.Battleaxe.Mereak.Broken.Description": "Use the Repair Smithy to mend.",
+        "Economy.Recipe.Bundle.GlitterinCavesLampSet.Name": "Glittering Caves Lamps Plans",
+        "Economy.Recipe.Bundle.GlitterinCavesLampSet.Description": "Building plans for a set of lamps from the glittering caves that produces pink and red light.",
+        "Items.CeibaCutting.Name": "Ceiba Cutting",
+        "Items.CeibaCutting.Description": "Plant to grow a ceiba tree.",
+        "Items.CeibaWood.Name": "Ceiba Wood",
+        "Items.CeibaWood.Description": "The fast-growing wood of Ceiba forests.",
+        "Economy.Recipe.Bundle.CeibaBuildingSet.Name": "Ceiba Wood Building Set",
+        "Economy.Recipe.Bundle.CeibaBuildingSet.Description": "\"A set of building plans that use Ceiba Wood."
       },
       "KeysToMetaData": {}
     }
